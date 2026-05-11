@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Intel Dashboard · Cam Extension</title>
+<style>
+  :root {
+    --bg: #f5f5f7;
+    --surface: #ffffff;
+    --surface2: #f9f9fb;
+    --border: #e5e5ea;
+    --border2: #d1d1d6;
+    --text-primary: #1d1d1f;
+    --text-secondary: #6e6e73;
+    --text-tertiary: #aeaeb2;
+    --accent: #0071e3;
+    --accent-hover: #0077ed;
+    --radius: 12px;
+    --radius-sm: 8px;
+    --shadow: 0 1px 3px rgba(0,0,0,0.06), 0 4px 16px rgba(0,0,0,0.04);
+    --shadow-hover: 0 2px 8px rgba(0,0,0,0.08), 0 8px 24px rgba(0,0,0,0.06);
+    --cat-positive: #34c759;
+    --cat-negative: #ff9500;
+    --cat-bug: #ff3b30;
+    --cat-neutral: #8e8e93;
+    --status-pending: #ff9500;
+    --status-processed: #34c759;
+    --status-no_action: #8e8e93;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', sans-serif;
+    background: var(--bg);
+    color: var(--text-primary);
+    font-size: 14px;
+    line-height: 1.5;
+    min-height: 100vh;
+  }
+
+  /* ── Header ── */
+  .header {
+    background: rgba(255,255,255,0.85);
+    backdrop-filter: saturate(180%) blur(20px);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    border-bottom: 1px solid var(--border);
+    padding: 0 32px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 52px;
+  }
+  .header-left { display: flex; align-items: center; gap: 12px; }
+  .logo { width: 24px; height: 24px; background: linear-gradient(135deg,#0071e3,#34c759); border-radius: 6px; flex-shrink: 0; }
+  .header-title { font-size: 15px; font-weight: 600; color: var(--text-primary); letter-spacing: -0.2px; }
+  .header-right { display: flex; align-items: center; gap: 10px; }
+  .last-updated { font-size: 12px; color: var(--text-tertiary); }
+  .config-btn {
+    display: flex; align-items: center; gap: 6px;
+    padding: 6px 12px; border-radius: 20px;
+    border: 1px solid var(--border2);
+    background: var(--surface); color: var(--text-secondary);
+    font-size: 12px; font-weight: 500; cursor: pointer;
+    transition: all 0.15s;
+  }
+  .config-btn:hover { background: var(--surface2); color: var(--text-primary); }
+
+  /* ── Layout ── */
+  .container { max-width: 1440px; margin: 0 auto; padding: 24px 32px 48px; }
+
+  /* ── Stats Row ── */
+  .stats-row {
+    display: grid; grid-template-columns: repeat(4, 1fr);
+    gap: 12px; margin-bottom: 24px;
+  }
+  .stat-card {
+    background: var(--surface); border-radius: var(--radius);
+    border: 1px solid var(--border); padding: 16px 18px;
+  }
+  .stat-card .label { font-size: 11px; color: var(--text-tertiary); letter-spacing: 0.3px; text-transform: uppercase; font-weight: 500; margin-bottom: 6px; }
+  .stat-card .value { font-size: 26px; font-weight: 700; letter-spacing: -0.5px; color: var(--text-primary); }
+  .stat-card .sub { font-size: 11px; color: var(--text-tertiary); margin-top: 2px; }
+  .stat-card.has-alert .value { color: var(--cat-bug); }
+
+  /* ── Tabs ── */
+  .tabs-wrap { margin-bottom: 16px; }
+  .tabs {
+    display: flex; gap: 2px;
+    background: var(--surface); border-radius: var(--radius);
+    border: 1px solid var(--border); padding: 4px;
+    width: fit-content;
+  }
+  .tab-btn {
+    padding: 7px 18px; border-radius: 8px; border: none;
+    background: transparent; color: var(--text-secondary);
+    font-size: 13px; font-weight: 500; cursor: pointer;
+    transition: all 0.15s; display: flex; align-items: center; gap: 7px;
+  }
+  .tab-btn:hover { color: var(--text-primary); background: var(--surface2); }
+  .tab-btn.active { background: var(--accent); color: #fff; }
+  .tab-badge {
+    display: inline-flex; align-items: center; justify-content: center;
+    min-width: 18px; height: 18px; padding: 0 5px;
+    border-radius: 9px; font-size: 10px; font-weight: 700;
+    background: rgba(0,0,0,0.15); color: inherit;
+  }
+  .tab-btn.active .tab-badge { background: rgba(255,255,255,0.25); }
+  .tab-badge.has-bug { background: var(--cat-bug); color: #fff; }
+  .tab-btn.active .tab-badge.has-bug { background: rgba(255,255,255,0.35); }
+
+  /* ── Toolbar ── */
+  .toolbar {
+    display: flex; align-items: center; gap: 10px;
+    margin-bottom: 12px; flex-wrap: wrap;
+  }
+  .filter-group { display: flex; gap: 6px; }
+  .filter-btn {
+    padding: 5px 12px; border-radius: 16px; border: 1px solid var(--border2);
+    background: var(--surface); color: var(--text-secondary);
+    font-size: 12px; font-weight: 500; cursor: pointer; transition: all 0.15s;
+    display: flex; align-items: center; gap: 5px;
+  }
+  .filter-btn:hover { border-color: var(--accent); color: var(--accent); }
+  .filter-btn.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .filter-dot { width: 6px; height: 6px; border-radius: 50%; }
+  .search-wrap { margin-left: auto; position: relative; }
+  .search-input {
+    padding: 6px 12px 6px 32px; border-radius: 20px;
+    border: 1px solid var(--border2); background: var(--surface);
+    font-size: 13px; color: var(--text-primary); outline: none;
+    width: 220px; transition: all 0.15s;
+  }
+  .search-input:focus { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(0,113,227,0.15); }
+  .search-icon { position: absolute; left: 10px; top: 50%; transform: translateY(-50%); color: var(--text-tertiary); pointer-events: none; font-size: 13px; }
+
+  /* ── Table ── */
+  .table-wrap {
+    background: var(--surface); border-radius: var(--radius);
+    border: 1px solid var(--border); overflow: hidden;
+    box-shadow: var(--shadow);
+  }
+  table { width: 100%; border-collapse: collapse; }
+  thead tr { border-bottom: 1px solid var(--border); }
+  thead th {
+    padding: 10px 14px; text-align: left;
+    font-size: 11px; font-weight: 600; color: var(--text-tertiary);
+    letter-spacing: 0.5px; text-transform: uppercase;
+    background: var(--surface2); white-space: nowrap;
+    user-select: none;
+  }
+  thead th.sortable { cursor: pointer; }
+  thead th.sortable:hover { color: var(--text-secondary); }
+  tbody tr {
+    border-bottom: 1px solid var(--border);
+    transition: background 0.1s;
+  }
+  tbody tr:last-child { border-bottom: none; }
+  tbody tr:hover { background: var(--surface2); }
+  td { padding: 12px 14px; vertical-align: top; }
+
+  /* column widths */
+  .col-cat { width: 72px; }
+  .col-title { width: 180px; }
+  .col-content { width: 200px; }
+  .col-analysis { width: 200px; }
+  .col-summary { width: 180px; }
+  .col-source { width: 110px; }
+  .col-url { width: 60px; }
+  .col-status { width: 110px; }
+
+  /* ── Category Badge ── */
+  .cat-badge {
+    display: inline-flex; align-items: center; gap: 5px;
+    padding: 3px 8px; border-radius: 6px;
+    font-size: 11px; font-weight: 600; white-space: nowrap;
+  }
+  .cat-badge.positive { background: #e8f9ef; color: #1a7f3c; }
+  .cat-badge.negative { background: #fff4e0; color: #b45309; }
+  .cat-badge.bug { background: #fef0ee; color: #c0392b; }
+  .cat-badge.neutral { background: #f2f2f7; color: #636366; }
+  .cat-dot { width: 6px; height: 6px; border-radius: 50%; }
+  .positive .cat-dot { background: var(--cat-positive); }
+  .negative .cat-dot { background: var(--cat-negative); }
+  .bug .cat-dot { background: var(--cat-bug); }
+  .neutral .cat-dot { background: var(--cat-neutral); }
+
+  /* ── Truncated text with hover tooltip ── */
+  .truncated {
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+    overflow: hidden; font-size: 13px; color: var(--text-secondary);
+    cursor: default; line-height: 1.5;
+  }
+  .cell-title { font-size: 13px; font-weight: 500; color: var(--text-primary); cursor: default; }
+
+  /* Tooltip */
+  .tooltip-wrap { position: relative; }
+  .tooltip {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    background: #1d1d1f;
+    color: #f5f5f7;
+    font-size: 12.5px;
+    line-height: 1.6;
+    padding: 12px 14px;
+    border-radius: 10px;
+    max-width: 360px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+    pointer-events: none;
+    word-break: break-word;
+  }
+  .tooltip-wrap:hover .tooltip { display: block; }
+  .tooltip-title { font-weight: 600; color: #fff; margin-bottom: 6px; font-size: 12px; }
+
+  /* ── Status Select ── */
+  .status-select {
+    appearance: none; -webkit-appearance: none;
+    padding: 4px 24px 4px 10px; border-radius: 16px;
+    font-size: 11.5px; font-weight: 600; cursor: pointer;
+    border: 1.5px solid; outline: none; transition: all 0.15s;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' fill='none'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%236e6e73' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+    width: 100%;
+  }
+  .status-select.pending { background-color: #fff4e0; color: #b45309; border-color: #f5c97a; }
+  .status-select.processed { background-color: #e8f9ef; color: #1a7f3c; border-color: #6fcf97; }
+  .status-select.no_action { background-color: #f2f2f7; color: #636366; border-color: #c7c7cc; }
+
+  /* ── URL link ── */
+  .url-link {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 28px; height: 28px; border-radius: 7px;
+    background: var(--surface2); border: 1px solid var(--border);
+    color: var(--accent); text-decoration: none;
+    font-size: 12px; transition: all 0.15s;
+  }
+  .url-link:hover { background: var(--accent); color: #fff; border-color: var(--accent); }
+
+  /* ── Source tag ── */
+  .source-tag {
+    font-size: 11px; color: var(--text-tertiary);
+    background: var(--surface2); border: 1px solid var(--border);
+    padding: 2px 7px; border-radius: 5px; display: inline-block;
+    font-family: 'SF Mono', 'Monaco', monospace;
+  }
+
+  /* ── Empty state ── */
+  .empty-state {
+    padding: 60px 24px; text-align: center; color: var(--text-tertiary);
+  }
+  .empty-state .icon { font-size: 32px; margin-bottom: 12px; }
+  .empty-state .msg { font-size: 14px; }
+
+  /* ── Config Modal ── */
+  .modal-overlay {
+    display: none; position: fixed; inset: 0;
+    background: rgba(0,0,0,0.4); backdrop-filter: blur(4px);
+    z-index: 200; align-items: center; justify-content: center;
+  }
+  .modal-overlay.open { display: flex; }
+  .modal {
+    background: var(--surface); border-radius: 16px;
+    padding: 28px 32px; width: 480px; max-width: 95vw;
+    box-shadow: 0 24px 64px rgba(0,0,0,0.2);
+  }
+  .modal h2 { font-size: 17px; font-weight: 600; margin-bottom: 6px; }
+  .modal p { font-size: 13px; color: var(--text-secondary); margin-bottom: 20px; line-height: 1.6; }
+  .modal-field { margin-bottom: 16px; }
+  .modal-field label { display: block; font-size: 12px; font-weight: 500; color: var(--text-secondary); margin-bottom: 6px; }
+  .modal-field input {
+    width: 100%; padding: 9px 12px; border-radius: 8px;
+    border: 1.5px solid var(--border2); font-size: 13px;
+    font-family: 'SF Mono', Monaco, monospace; outline: none;
+    transition: border-color 0.15s; color: var(--text-primary);
+  }
+  .modal-field input:focus { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(0,113,227,0.15); }
+  .modal-actions { display: flex; gap: 10px; justify-content: flex-end; margin-top: 24px; }
+  .btn {
+    padding: 8px 18px; border-radius: 8px; border: none;
+    font-size: 13px; font-weight: 500; cursor: pointer; transition: all 0.15s;
+  }
+  .btn-secondary { background: var(--surface2); color: var(--text-secondary); border: 1px solid var(--border2); }
+  .btn-secondary:hover { background: var(--border); }
+  .btn-primary { background: var(--accent); color: #fff; }
+  .btn-primary:hover { background: var(--accent-hover); }
+
+  /* ── Toast ── */
+  .toast {
+    position: fixed; bottom: 24px; right: 24px; z-index: 300;
+    background: #1d1d1f; color: #fff; padding: 12px 18px; border-radius: 10px;
+    font-size: 13px; font-weight: 500; box-shadow: 0 8px 24px rgba(0,0,0,0.25);
+    transform: translateY(80px); opacity: 0; transition: all 0.3s cubic-bezier(0.34,1.56,0.64,1);
+    pointer-events: none;
+  }
+  .toast.show { transform: translateY(0); opacity: 1; }
+
+  /* ── Reply preview ── */
+  .reply-snippet {
+    margin-top: 4px; font-size: 11px; color: var(--text-tertiary);
+    font-style: italic; display: -webkit-box;
+    -webkit-line-clamp: 1; -webkit-box-orient: vertical; overflow: hidden;
+  }
+
+  @media (max-width: 1024px) {
+    .container { padding: 16px; }
+    .stats-row { grid-template-columns: repeat(2, 1fr); }
+    .col-analysis, .col-content { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<header class="header">
+  <div class="header-left">
+    <div class="logo"></div>
+    <span class="header-title">Intel Dashboard</span>
+    <span style="font-size:12px;color:var(--text-tertiary)">· Cam Extension</span>
+  </div>
+  <div class="header-right">
+    <span class="last-updated" id="lastUpdated">—</span>
+    <button class="config-btn" onclick="openModal()">
+      ⚙ GitHub 配置
+    </button>
+  </div>
+</header>
+
+<!-- Container -->
+<div class="container">
+
+  <!-- Stats Row -->
+  <div class="stats-row" id="statsRow">
+    <div class="stat-card">
+      <div class="label">今日条目</div>
+      <div class="value" id="statTotal">—</div>
+      <div class="sub">所有来源合计</div>
+    </div>
+    <div class="stat-card has-alert">
+      <div class="label">Bug / 问题</div>
+      <div class="value" id="statBug">—</div>
+      <div class="sub">需技术跟进</div>
+    </div>
+    <div class="stat-card">
+      <div class="label">待处理</div>
+      <div class="value" id="statPending">—</div>
+      <div class="sub">尚未回应</div>
+    </div>
+    <div class="stat-card">
+      <div class="label">正面反馈</div>
+      <div class="value" id="statPositive">—</div>
+      <div class="sub">可用于内容素材</div>
+    </div>
+  </div>
+
+  <!-- Tabs -->
+  <div class="tabs-wrap">
+    <div class="tabs" id="tabs"></div>
+  </div>
+
+  <!-- Toolbar -->
+  <div class="toolbar">
+    <div class="filter-group" id="catFilters">
+      <button class="filter-btn active" data-cat="all">全部</button>
+      <button class="filter-btn" data-cat="bug">
+        <span class="filter-dot" style="background:var(--cat-bug)"></span> Bug
+      </button>
+      <button class="filter-btn" data-cat="negative">
+        <span class="filter-dot" style="background:var(--cat-negative)"></span> 负面
+      </button>
+      <button class="filter-btn" data-cat="positive">
+        <span class="filter-dot" style="background:var(--cat-positive)"></span> 正面
+      </button>
+      <button class="filter-btn" data-cat="neutral">
+        <span class="filter-dot" style="background:var(--cat-neutral)"></span> 中性
+      </button>
+    </div>
+    <div class="filter-group">
+      <button class="filter-btn" data-status="pending" id="filterPending">待处理</button>
+    </div>
+    <div class="search-wrap">
+      <span class="search-icon">🔍</span>
+      <input type="text" class="search-input" placeholder="搜索标题、内容..." id="searchInput">
+    </div>
+  </div>
+
+  <!-- Table -->
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th class="col-cat">分类</th>
+          <th class="col-title">主题</th>
+          <th class="col-content">原文内容</th>
+          <th class="col-analysis">分析</th>
+          <th class="col-summary">要点摘要</th>
+          <th class="col-source">来源</th>
+          <th class="col-url">链接</th>
+          <th class="col-status">处理状态</th>
+        </tr>
+      </thead>
+      <tbody id="tableBody">
+        <tr><td colspan="8"><div class="empty-state"><div class="icon">⏳</div><div class="msg">加载中...</div></div></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+</div>
+
+<!-- Config Modal -->
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal">
+    <h2>GitHub 配置</h2>
+    <p>配置后，修改处理状态会自动同步写入 GitHub 仓库中的 <code style="font-size:12px;background:#f2f2f7;padding:1px 5px;border-radius:4px">data.json</code>。Token 仅存在本地 localStorage。</p>
+    <div class="modal-field">
+      <label>GitHub Token（需要 repo write 权限）</label>
+      <input type="password" id="cfgToken" placeholder="ghp_xxxxxxxxxxxxxxxxxxxx">
+    </div>
+    <div class="modal-field">
+      <label>仓库（格式：owner/repo）</label>
+      <input type="text" id="cfgRepo" placeholder="your-org/intel-dashboard">
+    </div>
+    <div class="modal-field">
+      <label>文件路径</label>
+      <input type="text" id="cfgPath" placeholder="data.json" value="data.json">
+    </div>
+    <div class="modal-field">
+      <label>分支</label>
+      <input type="text" id="cfgBranch" placeholder="main" value="main">
+    </div>
+    <div class="modal-actions">
+      <button class="btn btn-secondary" onclick="closeModal()">取消</button>
+      <button class="btn btn-primary" onclick="saveConfig()">保存配置</button>
+    </div>
+  </div>
+</div>
+
+<!-- Toast -->
+<div class="toast" id="toast"></div>
+
+<script>
+// ─── State ───────────────────────────────────────────────
+let allData = null;
+let activeTab = null;
+let activeCat = 'all';
+let activePendingOnly = false;
+let searchQuery = '';
+// tooltip position tracking
+let tooltipX = 0, tooltipY = 0;
+document.addEventListener('mousemove', e => { tooltipX = e.clientX; tooltipY = e.clientY; });
+
+// ─── Init ─────────────────────────────────────────────────
+async function init() {
+  try {
+    const res = await fetch('data.json?t=' + Date.now());
+    allData = await res.json();
+    render();
+  } catch(e) {
+    document.getElementById('tableBody').innerHTML = `<tr><td colspan="8"><div class="empty-state"><div class="icon">⚠️</div><div class="msg">无法加载数据：${e.message}</div></div></td></tr>`;
+  }
+}
+
+// ─── Render ───────────────────────────────────────────────
+function render() {
+  if (!allData) return;
+
+  // last updated
+  const d = new Date(allData.lastUpdated);
+  document.getElementById('lastUpdated').textContent = '更新于 ' + d.toLocaleString('zh-CN', {month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit'});
+
+  // tabs
+  const tabs = allData.tabs;
+  if (!activeTab) activeTab = Object.keys(tabs)[0];
+
+  // stats (all items)
+  const allItems = Object.values(tabs).flatMap(t => t.items);
+  document.getElementById('statTotal').textContent = allItems.length;
+  document.getElementById('statBug').textContent = allItems.filter(i => i.category === 'bug').length;
+  document.getElementById('statPending').textContent = allItems.filter(i => i.status === 'pending').length;
+  document.getElementById('statPositive').textContent = allItems.filter(i => i.category === 'positive').length;
+
+  renderTabs(tabs);
+  renderTable(tabs[activeTab].items);
+}
+
+function renderTabs(tabs) {
+  const container = document.getElementById('tabs');
+  container.innerHTML = '';
+  Object.entries(tabs).forEach(([key, tab]) => {
+    const bugCount = tab.items.filter(i => i.category === 'bug').length;
+    const btn = document.createElement('button');
+    btn.className = 'tab-btn' + (key === activeTab ? ' active' : '');
+    btn.innerHTML = `${tab.label} <span class="tab-badge${bugCount > 0 ? ' has-bug' : ''}">${tab.items.length}</span>`;
+    btn.onclick = () => { activeTab = key; render(); };
+    container.appendChild(btn);
+  });
+}
+
+function renderTable(items) {
+  // apply filters
+  let filtered = items.slice();
+  if (activeCat !== 'all') filtered = filtered.filter(i => i.category === activeCat);
+  if (activePendingOnly) filtered = filtered.filter(i => i.status === 'pending');
+  if (searchQuery) {
+    const q = searchQuery.toLowerCase();
+    filtered = filtered.filter(i =>
+      (i.title||'').toLowerCase().includes(q) ||
+      (i.content||'').toLowerCase().includes(q) ||
+      (i.summary||'').toLowerCase().includes(q) ||
+      (i.analysis||'').toLowerCase().includes(q)
+    );
+  }
+
+  const tbody = document.getElementById('tableBody');
+  if (filtered.length === 0) {
+    tbody.innerHTML = `<tr><td colspan="8"><div class="empty-state"><div class="icon">🔍</div><div class="msg">没有匹配的条目</div></div></td></tr>`;
+    return;
+  }
+
+  tbody.innerHTML = filtered.map(item => `
+    <tr data-id="${item.id}">
+      <td class="col-cat">${catBadge(item.category)}</td>
+      <td class="col-title">
+        <div class="tooltip-wrap">
+          <div class="cell-title">${esc(item.title)}</div>
+          ${item.replied ? `<div class="reply-snippet">↩ ${esc(item.replyText||'')}</div>` : ''}
+          <div class="tooltip"><div class="tooltip-title">主题</div>${esc(item.title)}${item.replied ? `<br><br><span style="color:#86efac">↩ 已回复：</span>${esc(item.replyText||'')}` : ''}</div>
+        </div>
+      </td>
+      <td class="col-content">
+        <div class="tooltip-wrap">
+          <div class="truncated">${esc(item.content||'')}</div>
+          <div class="tooltip" style="max-width:400px"><div class="tooltip-title">原文内容</div>${esc(item.content||'')}</div>
+        </div>
+      </td>
+      <td class="col-analysis">
+        <div class="tooltip-wrap">
+          <div class="truncated">${esc(item.analysis||'')}</div>
+          <div class="tooltip"><div class="tooltip-title">分析</div>${esc(item.analysis||'')}</div>
+        </div>
+      </td>
+      <td class="col-summary">
+        <div class="tooltip-wrap">
+          <div class="truncated">${esc(item.summary||'')}</div>
+          <div class="tooltip"><div class="tooltip-title">要点摘要</div>${esc(item.summary||'')}</div>
+        </div>
+      </td>
+      <td class="col-source">${sourceTag(item)}</td>
+      <td class="col-url">
+        ${item.url ? `<a class="url-link" href="${item.url}" target="_blank" title="打开原帖">↗</a>` : '—'}
+      </td>
+      <td class="col-status">
+        <select class="status-select ${item.status}" onchange="onStatusChange('${item.id}', this)">
+          <option value="pending" ${item.status==='pending'?'selected':''}>待处理</option>
+          <option value="processed" ${item.status==='processed'?'selected':''}>已处理</option>
+          <option value="no_action" ${item.status==='no_action'?'selected':''}>无需处理</option>
+        </select>
+      </td>
+    </tr>
+  `).join('');
+
+  // position tooltips on mouse position
+  tbody.querySelectorAll('.tooltip-wrap').forEach(wrap => {
+    wrap.addEventListener('mouseenter', () => {
+      const tip = wrap.querySelector('.tooltip');
+      if (!tip) return;
+      // will be repositioned in a rAF after display
+      requestAnimationFrame(() => {
+        const vw = window.innerWidth, vh = window.innerHeight;
+        let x = tooltipX + 14, y = tooltipY + 14;
+        tip.style.left = x + 'px';
+        tip.style.top = y + 'px';
+        tip.style.display = 'block';
+        const rect = tip.getBoundingClientRect();
+        if (rect.right > vw - 10) tip.style.left = (tooltipX - rect.width - 10) + 'px';
+        if (rect.bottom > vh - 10) tip.style.top = (tooltipY - rect.height - 10) + 'px';
+      });
+    });
+    wrap.addEventListener('mouseleave', () => {
+      const tip = wrap.querySelector('.tooltip');
+      if (tip) tip.style.display = 'none';
+    });
+  });
+}
+
+// ─── Helpers ─────────────────────────────────────────────
+function esc(s) {
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+function catBadge(cat) {
+  const map = { positive: '正面', negative: '负面', bug: 'Bug', neutral: '中性' };
+  return `<span class="cat-badge ${cat}"><span class="cat-dot"></span>${map[cat]||cat}</span>`;
+}
+
+function sourceTag(item) {
+  if (item.subreddit) return `<span class="source-tag">${item.subreddit}</span>`;
+  if (item.account) return `<span class="source-tag">${item.account}</span>`;
+  if (item.source === 'cam101') return `<span class="source-tag">cam101</span>`;
+  return `<span class="source-tag">${item.source||''}</span>`;
+}
+
+// ─── Status Change ────────────────────────────────────────
+async function onStatusChange(id, sel) {
+  const newStatus = sel.value;
+  sel.className = `status-select ${newStatus}`;
+
+  // update local data
+  for (const tab of Object.values(allData.tabs)) {
+    const item = tab.items.find(i => i.id === id);
+    if (item) { item.status = newStatus; break; }
+  }
+
+  // update stats
+  document.getElementById('statPending').textContent =
+    Object.values(allData.tabs).flatMap(t=>t.items).filter(i=>i.status==='pending').length;
+
+  // try GitHub sync
+  const cfg = getConfig();
+  if (cfg.token && cfg.repo) {
+    showToast('⏳ 同步到 GitHub...');
+    const ok = await pushToGitHub(cfg, JSON.stringify(allData, null, 2));
+    showToast(ok ? '✅ 已同步到 GitHub' : '⚠️ 本地已保存，GitHub 同步失败');
+  } else {
+    showToast('💾 状态已更新（未配置 GitHub，仅本地）');
+  }
+}
+
+// ─── GitHub API ───────────────────────────────────────────
+async function pushToGitHub(cfg, content) {
+  try {
+    // get current SHA
+    const headRes = await fetch(
+      `https://api.github.com/repos/${cfg.repo}/contents/${cfg.path}?ref=${cfg.branch}`,
+      { headers: { Authorization: `token ${cfg.token}`, Accept: 'application/vnd.github.v3+json' } }
+    );
+    const headJson = await headRes.json();
+    const sha = headJson.sha;
+
+    // push update
+    const body = JSON.stringify({
+      message: `chore: update status [${new Date().toISOString()}]`,
+      content: btoa(unescape(encodeURIComponent(content))),
+      sha,
+      branch: cfg.branch
+    });
+    const putRes = await fetch(
+      `https://api.github.com/repos/${cfg.repo}/contents/${cfg.path}`,
+      { method: 'PUT', headers: { Authorization: `token ${cfg.token}`, Accept: 'application/vnd.github.v3+json', 'Content-Type': 'application/json' }, body }
+    );
+    return putRes.ok;
+  } catch(e) { return false; }
+}
+
+// ─── Config ───────────────────────────────────────────────
+function getConfig() {
+  return {
+    token: localStorage.getItem('gh_token') || '',
+    repo: localStorage.getItem('gh_repo') || '',
+    path: localStorage.getItem('gh_path') || 'data.json',
+    branch: localStorage.getItem('gh_branch') || 'main',
+  };
+}
+function openModal() {
+  const cfg = getConfig();
+  document.getElementById('cfgToken').value = cfg.token;
+  document.getElementById('cfgRepo').value = cfg.repo;
+  document.getElementById('cfgPath').value = cfg.path;
+  document.getElementById('cfgBranch').value = cfg.branch;
+  document.getElementById('modalOverlay').classList.add('open');
+}
+function closeModal() { document.getElementById('modalOverlay').classList.remove('open'); }
+function saveConfig() {
+  localStorage.setItem('gh_token', document.getElementById('cfgToken').value.trim());
+  localStorage.setItem('gh_repo', document.getElementById('cfgRepo').value.trim());
+  localStorage.setItem('gh_path', document.getElementById('cfgPath').value.trim() || 'data.json');
+  localStorage.setItem('gh_branch', document.getElementById('cfgBranch').value.trim() || 'main');
+  closeModal();
+  showToast('✅ 配置已保存');
+}
+document.getElementById('modalOverlay').addEventListener('click', e => { if(e.target===e.currentTarget) closeModal(); });
+
+// ─── Filters ─────────────────────────────────────────────
+document.getElementById('catFilters').addEventListener('click', e => {
+  const btn = e.target.closest('[data-cat]');
+  if (!btn) return;
+  activeCat = btn.dataset.cat;
+  document.querySelectorAll('[data-cat]').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  renderTable(allData.tabs[activeTab].items);
+});
+
+document.getElementById('filterPending').addEventListener('click', function() {
+  activePendingOnly = !activePendingOnly;
+  this.classList.toggle('active', activePendingOnly);
+  renderTable(allData.tabs[activeTab].items);
+});
+
+document.getElementById('searchInput').addEventListener('input', e => {
+  searchQuery = e.target.value;
+  renderTable(allData.tabs[activeTab].items);
+});
+
+// ─── Toast ────────────────────────────────────────────────
+let toastTimer;
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => t.classList.remove('show'), 2800);
+}
+
+// ─── Start ────────────────────────────────────────────────
+init();
+</script>
+</body>
+</html>

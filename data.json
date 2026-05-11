@@ -1,0 +1,148 @@
+{
+  "lastUpdated": "2026-05-11T09:52:00+08:00",
+  "tabs": {
+    "reddit": {
+      "label": "Reddit",
+      "items": [
+        {
+          "id": "reddit-1t883gb",
+          "source": "reddit",
+          "subreddit": "r/CamGirlProblems",
+          "title": "Your Numbers Are Down? Here's What You Should Be Doing Now From a 12 Year Amateur Porn Vet",
+          "content": "THINGS ARE CHANGING. No matter how much you whine, complain, stomp your feet or want things to go back to 2020 numbers, it's not happening. This is the New Era of Pluto in Aquarius. You can still have a twitter and tiktok accounts, just don't post sexual/sensual content...",
+          "analysis": "12年老玩家的经验总结贴，讨论主播流量下降的应对策略。评论中出现"free control link"关键词匹配。整体是正面内容，涉及内容营销、定价策略等话题。对Lovense/Cam Extension无直接负面影响。",
+          "summary": "主播行业流量下滑讨论，老玩家分享经验。提及免费控制链接作为引流工具，对我们产品是潜在正面背书。",
+          "category": "positive",
+          "url": "https://www.reddit.com/r/CamGirlProblems/comments/1t883gb/",
+          "score": 125,
+          "timestamp": "2026-05-10T09:52:00+08:00",
+          "status": "pending"
+        },
+        {
+          "id": "reddit-mock-001",
+          "source": "reddit",
+          "subreddit": "r/CamGirls",
+          "title": "Lovense app keeps disconnecting mid-show, anyone else?",
+          "content": "I've been having issues with my Lovense toy disconnecting every 10-15 minutes during shows. It's really embarrassing when it happens in front of tippers. Tried reinstalling, still happens. Running iOS 17.4.",
+          "analysis": "用户反馈 Lovense app 在直播过程中频繁断连，约10-15分钟一次。运行环境 iOS 17.4。这是典型的蓝牙稳定性 bug，已有多个类似帖子。可能与最近某版本更新有关。",
+          "summary": "iOS用户反馈直播中玩具断连问题，影响用户体验和打赏收入，需技术团队跟进排查。",
+          "category": "bug",
+          "url": "https://www.reddit.com/r/CamGirls/comments/mock001/",
+          "score": 47,
+          "timestamp": "2026-05-10T14:30:00+08:00",
+          "status": "pending"
+        },
+        {
+          "id": "reddit-mock-002",
+          "source": "reddit",
+          "subreddit": "r/CamGirlProblems",
+          "title": "How do you set up the Cam Extension for OBS?",
+          "content": "I just got Cam Extension and I'm confused about how to add it to OBS. The instructions say to use a browser source but I can't figure out which URL to use. Do I need to be logged in first?",
+          "analysis": "新用户对Cam Extension + OBS集成配置感到困惑，属于典型的新手入门问题。说明产品文档或新手引导不够清晰，特别是browser source URL这一步。",
+          "summary": "用户不知道如何在OBS中配置Cam Extension，反映新手引导/文档存在缺口。",
+          "category": "negative",
+          "url": "https://www.reddit.com/r/CamGirlProblems/comments/mock002/",
+          "score": 12,
+          "timestamp": "2026-05-09T20:15:00+08:00",
+          "status": "processed"
+        }
+      ]
+    },
+    "cam101": {
+      "label": "Cam101 论坛",
+      "items": [
+        {
+          "id": "cam101-L1VqsC",
+          "source": "cam101",
+          "title": "Camming naked by a pepsi machine in FL",
+          "content": "Relaying an experience I had recently. I was at a shopping center and saw a secluded spot near a vending machine. Decided to do a quick cam session from my phone. Made $40 in 20 minutes! Has anyone else tried guerrilla camming?",
+          "analysis": "用户分享非传统场景直播经验，内容偏趣味分享性质。我们回复了欢迎和鼓励性内容，维护社区氛围。与产品功能无直接关联。",
+          "summary": "社区互动帖，已回复。无产品相关问题，纯社区维护。",
+          "category": "neutral",
+          "url": "https://www.cam101.com/forumDetails/L1VqsC/",
+          "timestamp": "2026-03-18T23:00:00+08:00",
+          "replied": true,
+          "replyText": "Welcome to Cam101! That sounds like quite the adventure — glad you made it back home safe. Resourcefulness like that is honestly impressive.",
+          "status": "no_action"
+        },
+        {
+          "id": "cam101-vBHzEp",
+          "source": "cam101",
+          "title": "Miss Popularity - worth joining?",
+          "content": "I've seen the Miss Popularity event on Lovense but I'm not sure if it's worth my time. Has anyone actually made decent money from it? The rewards seem vague and I don't know what I'd actually get.",
+          "analysis": "用户对Miss Popularity活动价值存疑，认为奖励描述模糊——正好印证了我们Event Plaza改版分析中的核心问题：模特无法感知具体收益。这是真实用户声音的验证。",
+          "summary": "用户对活动奖励描述模糊表示困惑，是Event Plaza改版方案的真实佐证。已回复活动详情。",
+          "category": "negative",
+          "url": "https://www.cam101.com/forumDetails/vBHzEp/",
+          "timestamp": "2026-03-18T23:00:00+08:00",
+          "replied": true,
+          "replyText": "Miss Popularity is actually a great event for building your fanbase! The rewards include...",
+          "status": "processed"
+        },
+        {
+          "id": "cam101-mock-003",
+          "source": "cam101",
+          "title": "Cam Extension chat widget not showing on stream",
+          "content": "I enabled the Cam Extension chat overlay in my settings but it's not showing up during my stream. I've tried refreshing and restarting OBS. The widget shows in preview but disappears when I go live.",
+          "analysis": "Cam Extension聊天覆盖层在直播时消失的bug报告。Preview正常但直播时不显示，可能是OBS场景切换或浏览器源刷新问题。需要前端团队确认是否有已知issue。",
+          "summary": "Chat overlay直播时消失，Preview正常。疑似OBS集成bug，需技术确认。",
+          "category": "bug",
+          "url": "https://www.cam101.com/forumDetails/mock003/",
+          "timestamp": "2026-05-10T11:20:00+08:00",
+          "replied": false,
+          "status": "pending"
+        }
+      ]
+    },
+    "x": {
+      "label": "X / DM",
+      "items": [
+        {
+          "id": "x-vibemate-001",
+          "source": "x",
+          "account": "@Vibemate_PC",
+          "title": "用户询问VibeMate PC版下载",
+          "content": "Hi! I saw your post about VibeMate. Where can I download the PC version? Is it free?",
+          "analysis": "基础产品咨询，用户想了解PC版下载渠道和定价。属于高意向用户，已自主发现产品。回复需提供下载链接和定价说明。",
+          "summary": "高意向用户询问下载和价格，已回复官网链接和免费试用说明。",
+          "category": "positive",
+          "url": "https://twitter.com/Vibemate_PC",
+          "timestamp": "2026-05-11T04:30:00+08:00",
+          "replied": true,
+          "replyText": "Hey! You can download VibeMate for free at vibemate.com — there's a free tier and premium plans starting at $9.99/mo. Let me know if you have any questions!",
+          "status": "processed"
+        },
+        {
+          "id": "x-vibemate-002",
+          "source": "x",
+          "account": "@VibeMateOffical",
+          "title": "用户反馈连接不稳定",
+          "content": "your app keeps losing connection to my toy during shows. this has happened 3 times today already and i lost tips because of it. really frustrated",
+          "analysis": "用户在直播中多次遭遇连接断开，直接导致打赏损失，情绪明显负面。这与Reddit上的断连投诉是同一类问题，建议技术团队优先排查。需要安抚用户并给出时间线。",
+          "summary": "直播断连导致丢失打赏，情绪负面。与Reddit同类bug吻合，需升级给技术团队。",
+          "category": "bug",
+          "url": "https://twitter.com/VibeMateOffical",
+          "timestamp": "2026-05-11T04:45:00+08:00",
+          "replied": true,
+          "replyText": "We're really sorry about this — losing tips because of a connection issue is absolutely frustrating and we take this seriously. Our team is investigating. Can you DM us your device model and app version?",
+          "status": "pending"
+        },
+        {
+          "id": "x-assistantcam-001",
+          "source": "x",
+          "account": "@Assistant_cam",
+          "title": "询问Cam Extension与CB的兼容性",
+          "content": "Does Cam Extension work with Chaturbate? I use CB as my main platform and want to know if the features work there.",
+          "analysis": "用户询问Cam Extension与Chaturbate的兼容性，这是最常见的平台兼容问题之一。CB是主流平台，若支持则是重要卖点。",
+          "summary": "CB平台兼容性询问，高频FAQ。已回复支持详情。",
+          "category": "neutral",
+          "url": "https://twitter.com/Assistant_cam",
+          "timestamp": "2026-05-11T04:55:00+08:00",
+          "replied": true,
+          "replyText": "Yes! Cam Extension fully supports Chaturbate. You can use the chat overlay, tip alerts, and Lovense integration all within CB streams.",
+          "status": "no_action"
+        }
+      ]
+    }
+  }
+}
