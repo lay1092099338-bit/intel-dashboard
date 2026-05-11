@@ -128,6 +128,17 @@
   .filter-btn:hover { border-color: var(--accent); color: var(--accent); }
   .filter-btn.active { background: var(--accent); color: #fff; border-color: var(--accent); }
   .filter-dot { width: 6px; height: 6px; border-radius: 50%; }
+  
+  .date-filter-wrap { display: flex; gap: 6px; align-items: center; }
+  .date-input {
+    padding: 5px 10px; border-radius: 8px;
+    border: 1px solid var(--border2); background: var(--surface);
+    font-size: 12px; color: var(--text-primary); outline: none;
+    width: 120px; transition: all 0.15s;
+  }
+  .date-input:focus { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(0,113,227,0.15); }
+  .date-sep { color: var(--text-tertiary); font-size: 12px; }
+  
   .search-wrap { margin-left: auto; position: relative; }
   .search-input {
     padding: 6px 12px 6px 32px; border-radius: 20px;
@@ -153,8 +164,16 @@
     background: var(--surface2); white-space: nowrap;
     user-select: none;
   }
-  thead th.sortable { cursor: pointer; }
+  thead th.sortable { cursor: pointer; position: relative; }
   thead th.sortable:hover { color: var(--text-secondary); }
+  thead th.sortable::after {
+    content: '⇅';
+    margin-left: 4px;
+    opacity: 0.3;
+    font-size: 10px;
+  }
+  thead th.sortable.asc::after { content: '↑'; opacity: 1; color: var(--accent); }
+  thead th.sortable.desc::after { content: '↓'; opacity: 1; color: var(--accent); }
   tbody tr {
     border-bottom: 1px solid var(--border);
     transition: background 0.1s;
@@ -382,6 +401,12 @@
     </div>
     <div class="filter-group">
       <button class="filter-btn" data-status="pending" id="filterPending">待处理</button>
+      <button class="filter-btn" id="filterHideEmpty">隐藏空记录</button>
+    </div>
+    <div class="date-filter-wrap">
+      <input type="date" class="date-input" id="dateFrom" placeholder="开始日期">
+      <span class="date-sep">—</span>
+      <input type="date" class="date-input" id="dateTo" placeholder="结束日期">
     </div>
     <div class="search-wrap">
       <span class="search-icon">🔍</span>
@@ -395,13 +420,12 @@
       <thead>
         <tr>
           <th class="col-cat">分类</th>
-          <th class="col-title">主题</th>
+          <th class="col-title sortable" data-sort="title">主题</th>
           <th class="col-content">原文内容</th>
-          <th class="col-analysis">分析</th>
           <th class="col-summary">要点摘要</th>
-          <th class="col-source">来源</th>
+          <th class="col-source sortable" data-sort="source">来源</th>
           <th class="col-url">链接</th>
-          <th class="col-status">处理状态</th>
+          <th class="col-status sortable desc" data-sort="timestamp">日期 ↓</th>
         </tr>
       </thead>
       <tbody id="tableBody">
@@ -449,7 +473,12 @@ let allData = null;
 let activeTab = null;
 let activeCat = 'all';
 let activePendingOnly = false;
+let hideEmpty = false;
 let searchQuery = '';
+let dateFrom = '';
+let dateTo = '';
+let sortBy = 'timestamp';
+let sortDir = 'desc';
 // tooltip position tracking
 let tooltipX = 0, tooltipY = 0;
 document.addEventListener('mousemove', e => { tooltipX = e.clientX; tooltipY = e.clientY; });
@@ -506,15 +535,53 @@ function renderTable(items) {
   let filtered = items.slice();
   if (activeCat !== 'all') filtered = filtered.filter(i => i.category === activeCat);
   if (activePendingOnly) filtered = filtered.filter(i => i.status === 'pending');
+  if (hideEmpty) {
+    filtered = filtered.filter(i => {
+      const t = (i.title||'').toLowerCase();
+      const c = (i.content||'').toLowerCase();
+      const s = (i.summary||'').toLowerCase();
+      return !(
+        t.includes('无需回复') || t.includes('无新') || t.includes('监控正常') ||
+        t.includes('日检') || t.includes('扫描') ||
+        c.includes('无需回复') || c.includes('无实质内容') || c.includes('无有效内容') ||
+        s.includes('无新内容') || s.includes('监控正常') ||
+        (i.status === 'no_action' && !i.replied)
+      );
+    });
+  }
+  if (dateFrom) {
+    const from = new Date(dateFrom).getTime();
+    filtered = filtered.filter(i => new Date(i.timestamp).getTime() >= from);
+  }
+  if (dateTo) {
+    const to = new Date(dateTo).getTime() + 86400000;
+    filtered = filtered.filter(i => new Date(i.timestamp).getTime() < to);
+  }
   if (searchQuery) {
     const q = searchQuery.toLowerCase();
     filtered = filtered.filter(i =>
       (i.title||'').toLowerCase().includes(q) ||
       (i.content||'').toLowerCase().includes(q) ||
-      (i.summary||'').toLowerCase().includes(q) ||
-      (i.analysis||'').toLowerCase().includes(q)
+      (i.summary||'').toLowerCase().includes(q)
     );
   }
+  
+  // sort
+  filtered.sort((a, b) => {
+    let valA, valB;
+    if (sortBy === 'timestamp') {
+      valA = new Date(a.timestamp).getTime();
+      valB = new Date(b.timestamp).getTime();
+    } else if (sortBy === 'title') {
+      valA = (a.title||'').toLowerCase();
+      valB = (b.title||'').toLowerCase();
+    } else if (sortBy === 'source') {
+      valA = (a.source||'').toLowerCase();
+      valB = (b.source||'').toLowerCase();
+    }
+    if (sortDir === 'asc') return valA > valB ? 1 : -1;
+    return valA < valB ? 1 : -1;
+  });
 
   const tbody = document.getElementById('tableBody');
   if (filtered.length === 0) {
@@ -522,13 +589,16 @@ function renderTable(items) {
     return;
   }
 
-  tbody.innerHTML = filtered.map(item => `
+  tbody.innerHTML = filtered.map(item => {
+    const dt = new Date(item.timestamp);
+    const dateStr = dt.toLocaleDateString('zh-CN', {month:'numeric',day:'numeric'}) + ' ' + dt.toLocaleTimeString('zh-CN', {hour:'2-digit',minute:'2-digit'});
+    return `
     <tr data-id="${item.id}">
       <td class="col-cat">${catBadge(item.category)}</td>
       <td class="col-title">
         <div class="tooltip-wrap">
           <div class="cell-title">${esc(item.title)}</div>
-          ${item.replied ? `<div class="reply-snippet">↩ ${esc(item.replyText||'')}</div>` : ''}
+          ${item.replied ? `<div class="reply-snippet">↩ ${esc((item.replyText||'').substring(0,60))}${(item.replyText||'').length>60?'...':''}</div>` : ''}
           <div class="tooltip"><div class="tooltip-title">主题</div>${esc(item.title)}${item.replied ? `<br><br><span style="color:#86efac">↩ 已回复：</span>${esc(item.replyText||'')}` : ''}</div>
         </div>
       </td>
@@ -536,12 +606,6 @@ function renderTable(items) {
         <div class="tooltip-wrap">
           <div class="truncated">${esc(item.content||'')}</div>
           <div class="tooltip" style="max-width:400px"><div class="tooltip-title">原文内容</div>${esc(item.content||'')}</div>
-        </div>
-      </td>
-      <td class="col-analysis">
-        <div class="tooltip-wrap">
-          <div class="truncated">${esc(item.analysis||'')}</div>
-          <div class="tooltip"><div class="tooltip-title">分析</div>${esc(item.analysis||'')}</div>
         </div>
       </td>
       <td class="col-summary">
@@ -554,15 +618,10 @@ function renderTable(items) {
       <td class="col-url">
         ${item.url ? `<a class="url-link" href="${item.url}" target="_blank" title="打开原帖">↗</a>` : '—'}
       </td>
-      <td class="col-status">
-        <select class="status-select ${item.status}" onchange="onStatusChange('${item.id}', this)">
-          <option value="pending" ${item.status==='pending'?'selected':''}>待处理</option>
-          <option value="processed" ${item.status==='processed'?'selected':''}>已处理</option>
-          <option value="no_action" ${item.status==='no_action'?'selected':''}>无需处理</option>
-        </select>
-      </td>
+      <td class="col-status" style="font-size:12px;color:var(--text-secondary);white-space:nowrap">${dateStr}</td>
     </tr>
-  `).join('');
+  `;
+  }).join('');
 
   // position tooltips on mouse position
   tbody.querySelectorAll('.tooltip-wrap').forEach(wrap => {
@@ -701,8 +760,42 @@ document.getElementById('filterPending').addEventListener('click', function() {
   renderTable(allData.tabs[activeTab].items);
 });
 
+document.getElementById('filterHideEmpty').addEventListener('click', function() {
+  hideEmpty = !hideEmpty;
+  this.classList.toggle('active', hideEmpty);
+  renderTable(allData.tabs[activeTab].items);
+});
+
+document.getElementById('dateFrom').addEventListener('change', e => {
+  dateFrom = e.target.value;
+  renderTable(allData.tabs[activeTab].items);
+});
+
+document.getElementById('dateTo').addEventListener('change', e => {
+  dateTo = e.target.value;
+  renderTable(allData.tabs[activeTab].items);
+});
+
 document.getElementById('searchInput').addEventListener('input', e => {
   searchQuery = e.target.value;
+  renderTable(allData.tabs[activeTab].items);
+});
+
+// Sort handlers
+document.addEventListener('click', e => {
+  const th = e.target.closest('th.sortable');
+  if (!th) return;
+  const col = th.dataset.sort;
+  if (sortBy === col) {
+    sortDir = sortDir === 'asc' ? 'desc' : 'asc';
+  } else {
+    sortBy = col;
+    sortDir = 'desc';
+  }
+  document.querySelectorAll('th.sortable').forEach(t => {
+    t.classList.remove('asc', 'desc');
+  });
+  th.classList.add(sortDir);
   renderTable(allData.tabs[activeTab].items);
 });
 
