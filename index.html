@@ -69,6 +69,18 @@
     transition: all 0.15s;
   }
   .config-btn:hover { background: var(--surface2); color: var(--text-primary); }
+  .export-btn {
+    display: inline-flex; align-items: center; gap: 6px;
+    padding: 8px 18px; border-radius: 20px;
+    border: none;
+    background: var(--accent); color: #fff;
+    font-size: 13px; font-weight: 600; cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0,113,227,0.25), 0 1px 2px rgba(0,113,227,0.15);
+    transition: all 0.15s;
+  }
+  .export-btn:hover { background: var(--accent-hover); transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,113,227,0.35), 0 2px 4px rgba(0,113,227,0.2); }
+  .export-btn:active { transform: translateY(0); }
+  .export-btn .export-icon { font-size: 14px; }
 
   /* ── Layout ── */
   .container { max-width: 1440px; margin: 0 auto; padding: 24px 32px 48px; }
@@ -1544,6 +1556,9 @@
   </div>
   <div class="header-right">
     <span class="last-updated" id="lastUpdated">—</span>
+    <button class="export-btn" id="btnExport" title="导出 Excel">
+      <span class="export-icon">⬇</span> 导出 Excel
+    </button>
     <button class="config-btn" onclick="openModal()">
       ⚙ GitHub 配置
     </button>
@@ -1598,9 +1613,6 @@
       <button class="filter-btn" data-cat="neutral">
         <span class="filter-dot" style="background:var(--cat-neutral)"></span> 中性
       </button>
-    </div>
-    <div class="filter-group">
-      <button class="filter-btn" id="btnExport" title="导出 Excel">⬇ 导出 Excel</button>
     </div>
     <div class="date-filter-wrap">
       <input type="date" class="date-input" id="dateFrom" placeholder="开始日期">
