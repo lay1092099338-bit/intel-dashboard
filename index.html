@@ -282,7 +282,12 @@
     background: rgba(0,0,0,0.4); backdrop-filter: blur(4px);
     z-index: 200; align-items: center; justify-content: center;
   }
-  .modal-overlay.open { display: flex; }
+  .modal-overlay.open, .modal-overlay.active { display: flex; }
+  .export-source-item { display:flex; align-items:center; padding:10px 12px; margin-bottom:6px; background:var(--surface2); border:1px solid var(--border); border-radius:8px; cursor:pointer; transition: background .15s, border-color .15s; }
+  .export-source-item:hover { background:var(--border); border-color:var(--border2); }
+  .export-source-item input { margin-right: 10px; }
+  .export-source-item .src-name { flex:1; font-size:13px; color:var(--text-primary); font-weight:500; }
+  .export-source-item .src-count { font-size:12px; color:var(--text-secondary); }
   .modal {
     background: var(--surface); border-radius: 16px;
     padding: 28px 32px; width: 480px; max-width: 95vw;
@@ -1560,8 +1565,7 @@
       </button>
     </div>
     <div class="filter-group">
-      <button class="filter-btn" data-status="pending" id="filterPending">待处理</button>
-      <button class="filter-btn" id="filterHideEmpty">隐藏空记录</button>
+      <button class="filter-btn" id="btnExport" title="导出 Excel">⬇ 导出 Excel</button>
     </div>
     <div class="date-filter-wrap">
       <input type="date" class="date-input" id="dateFrom" placeholder="开始日期">
@@ -1624,16 +1628,33 @@
   </div>
 </div>
 
+<!-- Export Modal -->
+<div class="modal-overlay" id="exportModalOverlay">
+  <div class="modal">
+    <h2>导出 Excel</h2>
+    <p>选择要导出的数据源，可多选。当前筛选条件（分类/日期/搜索）不会应用到导出，导出的是完整数据。</p>
+    <div class="modal-field" id="exportSourceList">
+      <!-- 动态渲染复选框 -->
+    </div>
+    <div class="modal-actions">
+      <button class="btn btn-secondary" onclick="document.getElementById('exportModalOverlay').classList.remove('active')">取消</button>
+      <button class="btn btn-primary" onclick="doExport()">导出</button>
+    </div>
+  </div>
+</div>
+
 <!-- Toast -->
 <div class="toast" id="toast"></div>
+
+<!-- SheetJS for Excel export -->
+<script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
 
 <script>
 // ─── State ───────────────────────────────────────────────
 let allData = null;
 let activeTab = null;
 let activeCat = 'all';
-let activePendingOnly = false;
-let hideEmpty = false;
+
 let searchQuery = '';
 let dateFrom = '';
 let dateTo = '';
@@ -1713,21 +1734,6 @@ function renderTable(items) {
   // apply filters
   let filtered = items.slice();
   if (activeCat !== 'all') filtered = filtered.filter(i => i.category === activeCat);
-  if (activePendingOnly) filtered = filtered.filter(i => i.status === 'pending');
-  if (hideEmpty) {
-    filtered = filtered.filter(i => {
-      const t = (i.title||'').toLowerCase();
-      const c = (i.content||'').toLowerCase();
-      const s = (i.summary||'').toLowerCase();
-      return !(
-        t.includes('无需回复') || t.includes('无新') || t.includes('监控正常') ||
-        t.includes('日检') || t.includes('扫描') ||
-        c.includes('无需回复') || c.includes('无实质内容') || c.includes('无有效内容') ||
-        s.includes('无新内容') || s.includes('监控正常') ||
-        (i.status === 'no_action' && !i.replied)
-      );
-    });
-  }
   if (dateFrom) {
     const from = new Date(dateFrom).getTime();
     filtered = filtered.filter(i => new Date(i.timestamp).getTime() >= from);
@@ -1931,17 +1937,7 @@ document.getElementById('catFilters').addEventListener('click', e => {
   renderTable(allData.tabs[activeTab].items);
 });
 
-document.getElementById('filterPending').addEventListener('click', function() {
-  activePendingOnly = !activePendingOnly;
-  this.classList.toggle('active', activePendingOnly);
-  renderTable(allData.tabs[activeTab].items);
-});
-
-document.getElementById('filterHideEmpty').addEventListener('click', function() {
-  hideEmpty = !hideEmpty;
-  this.classList.toggle('active', hideEmpty);
-  renderTable(allData.tabs[activeTab].items);
-});
+// 导出 Excel 按钮点击处理在文件尾部定义（renderExportList + 弹窗）
 
 document.getElementById('dateFrom').addEventListener('change', e => {
   dateFrom = e.target.value;
@@ -1985,6 +1981,74 @@ function showToast(msg) {
   clearTimeout(toastTimer);
   toastTimer = setTimeout(() => t.classList.remove('show'), 2800);
 }
+
+// Export to Excel
+function doExport() {
+  const picked = Array.from(document.querySelectorAll('#exportSourceList input[type=checkbox]:checked')).map(c => c.value);
+  if (picked.length === 0) {
+    showToast('请至少选一个数据源');
+    return;
+  }
+  if (typeof XLSX === 'undefined') {
+    showToast('导出库未加载，请检查网络');
+    return;
+  }
+  const catLabel = { positive:'正面', negative:'负面', bug:'Bug', neutral:'中性' };
+  const statusLabel = { pending:'待处理', processed:'已处理', no_action:'无需处理' };
+  const wb = XLSX.utils.book_new();
+  picked.forEach(key => {
+    const tab = allData.tabs[key];
+    if (!tab) return;
+    const items = (tab.items || []).slice().sort((a,b) => (b.timestamp||'').localeCompare(a.timestamp||''));
+    const rows = items.map(it => ({
+      '日期': (it.timestamp || '').replace('T',' ').slice(0,16),
+      '分类': catLabel[it.category] || it.category || '',
+      '来源': it.source || '',
+      '子版块': it.subreddit || '',
+      '主题': it.title || '',
+      '原文内容': it.content || '',
+      '要点摘要': it.summary || '',
+      '链接': it.url || '',
+      '状态': statusLabel[it.status] || it.status || '',
+      '已回复': it.replied ? '是' : '',
+      '回复内容': it.replyText || '',
+      'ID': it.id || '',
+    }));
+    const header = ['日期','分类','来源','子版块','主题','原文内容','要点摘要','链接','状态','已回复','回复内容','ID'];
+    const ws = XLSX.utils.json_to_sheet(rows, { header });
+    ws['!cols'] = [
+      { wch: 18 }, { wch: 8 }, { wch: 10 }, { wch: 18 }, { wch: 40 },
+      { wch: 60 }, { wch: 50 }, { wch: 36 }, { wch: 10 }, { wch: 8 },
+      { wch: 60 }, { wch: 20 },
+    ];
+    const sheetName = (tab.label || key).replace(/[\[\]\*\?\/\\:]/g, '_').slice(0, 31);
+    XLSX.utils.book_append_sheet(wb, ws, sheetName);
+  });
+  const today = new Date().toISOString().slice(0,10);
+  XLSX.writeFile(wb, `intel-dashboard-${today}.xlsx`);
+  document.getElementById('exportModalOverlay').classList.remove('active');
+  showToast(`已导出 ${picked.length} 个工作表`);
+}
+
+// 点击导出按钮：渲染列表并开启弹窗
+document.getElementById('btnExport').onclick = function() {
+  if (!allData || !allData.tabs) { showToast('数据未加载完成'); return; }
+  const listEl = document.getElementById('exportSourceList');
+  listEl.innerHTML = '';
+  Object.entries(allData.tabs).forEach(([key, tab]) => {
+    const items = (tab.items || []);
+    const row = document.createElement('label');
+    row.className = 'export-source-item';
+    row.innerHTML = '<input type="checkbox" value="' + key + '" checked><span class="src-name">' + (tab.label || key) + '</span><span class="src-count">' + items.length + ' 条</span>';
+    listEl.appendChild(row);
+  });
+  document.getElementById('exportModalOverlay').classList.add('active');
+};
+
+// 点击导出弹窗遮罩关闭
+document.getElementById('exportModalOverlay').addEventListener('click', function(e) {
+  if (e.target === this) this.classList.remove('active');
+});
 
 // ─── Start ────────────────────────────────────────────────
 init();
