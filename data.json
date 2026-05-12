@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-12T10:02:02+08:00",
+  "lastUpdated": "2026-05-12T10:16:37+08:00",
   "tabs": {
     "reddit": {
       "label": "Reddit",
@@ -432,6 +432,19 @@
           "score": 128,
           "timestamp": "2026-05-10T09:30:00+08:00",
           "status": "no_action"
+        },
+        {
+          "id": "reddit-TEST_INGEST_DRY",
+          "source": "reddit",
+          "subreddit": "r/VibeMateFam",
+          "title": "Test post for ingest dry run",
+          "content": "Loving the new VibeMate update, the connect time is way faster!",
+          "summary": "自动入库 (2026-05-12); 源: vibemate_fam; type=text; note: 用户对新版连接速度反馈正面，可作运营素材",
+          "category": "positive",
+          "url": "https://www.reddit.com/r/VibeMateFam/comments/TEST_INGEST_DRY/test_post_for_ingest_dry_run/",
+          "score": 12,
+          "timestamp": "2026-05-12T08:00:00+08:00",
+          "status": "pending"
         }
       ]
     },
