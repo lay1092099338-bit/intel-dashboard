@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-11T18:44:18+08:00",
+  "lastUpdated": "2026-05-12T10:02:02+08:00",
   "tabs": {
     "reddit": {
       "label": "Reddit",
@@ -951,6 +951,19 @@
           "timestamp": "T22:00:00+08:00",
           "replied": false,
           "status": "no_action"
+        },
+        {
+          "id": "cam101-PM8IGL",
+          "source": "cam101",
+          "title": "Co-Streaming Rush Winner Announced!",
+          "content": "Official contest winner announcement (4 days ago, 3 replies), Sophia991 hadn't replied yet. Celebrated the winner and hyped the next event to encourage participation.",
+          "summary": "Cam101 论坛回帖, slot=22",
+          "category": "positive",
+          "url": "https://www.cam101.com/forumDetails/PM8IGL/cam-101-co-streaming-rush-winner-announced",
+          "timestamp": "2026-05-11T22:00:00+08:00",
+          "replied": true,
+          "replyText": "Congrats to lily_meghan! 🏆 19 co-streaming rounds is seriously impressive — that dedication paid off! Excited to see who rises to the top in the next event. The competition was clearly fierce! 🔥",
+          "status": "processed"
         }
       ]
     },
