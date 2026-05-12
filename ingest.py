@@ -26,6 +26,8 @@ HISTORY_DIR = ROOT / "history"
 HISTORY_DIR.mkdir(exist_ok=True)
 
 REDDIT_DAILY = Path("/tmp/reddit_daily.json")
+REDDIT_VIBEMATE_CAMGIRL = Path("/tmp/reddit_vibemate_camgirl.json")
+REDDIT_VIBEMATE_FAM = Path("/tmp/reddit_vibemate_fam.json")
 CAM101_REPORTS = [Path("/tmp/cam101_report_09.json"), Path("/tmp/cam101_report_22.json")]
 
 TZ = timezone(timedelta(hours=8))
@@ -95,6 +97,58 @@ def reddit_items_from_daily(daily) -> list:
             "title": title,
             "content": selftext[:500],
             "summary": f"自动入库 ({today_str()}): 关键词 {it.get('matched_keyword', '')}, tags={','.join(it.get('tags', []) or [])}",
+            "category": category,
+            "url": url,
+            "score": it.get("score", 0),
+            "timestamp": ts,
+            "status": "pending",
+        })
+    return out
+
+
+def _classify_by_sentiment(sentiment: str) -> str:
+    s = (sentiment or "").lower().strip()
+    if s == "positive":
+        return "positive"
+    if s == "negative":
+        return "negative"
+    return "neutral"
+
+
+def reddit_items_from_vibemate(payload, source_label: str) -> list:
+    """把 vibemate_camgirl / vibemate_fam tmp -> dashboard items"""
+    out = []
+    sub = payload.get("subreddit", "")
+    for it in payload.get("items", []) or []:
+        pid = it.get("id") or ""
+        if not pid:
+            continue
+        permalink = it.get("permalink", "")
+        url = f"https://www.reddit.com{permalink}" if permalink else ""
+        created = it.get("created_utc")
+        if created:
+            ts = datetime.fromtimestamp(created, TZ).strftime("%Y-%m-%dT%H:%M:%S+08:00")
+        else:
+            ts = now_iso()
+        category = _classify_by_sentiment(it.get("sentiment", ""))
+        # vibemate_camgirl 默认负面信号优先；vibemate_fam 默认中性
+        if not it.get("sentiment"):
+            category = "neutral"
+        post_type = it.get("post_type", "")
+        summary_bits = [f"自动入库 ({today_str()})", f"源: {source_label}"]
+        if post_type:
+            summary_bits.append(f"type={post_type}")
+        if it.get("matched_keyword"):
+            summary_bits.append(f"kw={it['matched_keyword']}")
+        if it.get("note"):
+            summary_bits.append(f"note: {it['note'][:120]}")
+        out.append({
+            "id": f"reddit-{pid}",
+            "source": "reddit",
+            "subreddit": f"r/{sub}" if sub and not sub.startswith("r/") else (sub or ""),
+            "title": it.get("title", ""),
+            "content": (it.get("selftext", "") or "")[:500],
+            "summary": "; ".join(summary_bits),
             "category": category,
             "url": url,
             "score": it.get("score", 0),
@@ -176,24 +230,31 @@ def main():
 
     summary = {"reddit": {"added": 0, "updated": 0}, "cam101": {"added": 0, "updated": 0}}
 
-    # ---- reddit ----
-    rd = load_json(REDDIT_DAILY)
-    if rd:
-        items = reddit_items_from_daily(rd)
+    # ---- reddit (multi-source: daily / vibemate_camgirl / vibemate_fam) ----
+    reddit_sources = [
+        (REDDIT_DAILY, reddit_items_from_daily, None),
+        (REDDIT_VIBEMATE_CAMGIRL, lambda p: reddit_items_from_vibemate(p, "vibemate_camgirl"), "vibemate_camgirl"),
+        (REDDIT_VIBEMATE_FAM, lambda p: reddit_items_from_vibemate(p, "vibemate_fam"), "vibemate_fam"),
+    ]
+    for src_path, parser, label in reddit_sources:
+        rd = load_json(src_path)
+        if not rd:
+            print(f"[info] no {src_path}")
+            continue
+        items = parser(rd)
         if items:
             tab = data["tabs"].setdefault("reddit", {"label": "Reddit", "items": []})
             a, u = upsert_items(tab["items"], items)
-            summary["reddit"]["added"] = a
-            summary["reddit"]["updated"] = u
-        # 备份到 history 便于回溯（即使 0 条也存）
+            summary["reddit"]["added"] += a
+            summary["reddit"]["updated"] += u
+        # 备份到 history
         try:
-            (HISTORY_DIR / f"{today_str()}-reddit_daily.json").write_text(
+            tag = label or "reddit_daily"
+            (HISTORY_DIR / f"{today_str()}-{tag}.json").write_text(
                 json.dumps(rd, ensure_ascii=False, indent=2), encoding="utf-8"
             )
         except Exception as e:
             print(f"[warn] history write failed: {e}")
-    else:
-        print("[info] no /tmp/reddit_daily.json")
 
     # ---- cam101 ----
     for p in CAM101_REPORTS:
