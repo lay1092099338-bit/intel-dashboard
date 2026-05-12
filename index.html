@@ -283,11 +283,46 @@
     z-index: 200; align-items: center; justify-content: center;
   }
   .modal-overlay.open, .modal-overlay.active { display: flex; }
-  .export-source-item { display:flex; align-items:center; padding:10px 12px; margin-bottom:6px; background:var(--surface2); border:1px solid var(--border); border-radius:8px; cursor:pointer; transition: background .15s, border-color .15s; }
-  .export-source-item:hover { background:var(--border); border-color:var(--border2); }
-  .export-source-item input { margin-right: 10px; }
-  .export-source-item .src-name { flex:1; font-size:13px; color:var(--text-primary); font-weight:500; }
-  .export-source-item .src-count { font-size:12px; color:var(--text-secondary); }
+
+  /* 导出面板 */
+  .modal.export-modal { width: 720px; max-width: 95vw; max-height: 88vh; display:flex; flex-direction:column; }
+  .export-modal > p { margin-bottom: 18px; }
+  .export-modal .export-section { margin-bottom: 16px; }
+  .export-modal .export-section-title { font-size: 12px; font-weight: 500; color: var(--text-secondary); margin-bottom: 8px; }
+  .export-modal .export-section-title-row { display:flex; align-items:center; justify-content:space-between; margin-bottom: 8px; }
+  .export-modal .export-count { display:inline-block; margin-left:6px; padding:1px 8px; font-size:11px; color:var(--accent); background:rgba(0,113,227,.08); border-radius:10px; font-weight:600; }
+  .export-chip-row { display:flex; flex-wrap:wrap; gap:8px; }
+  .export-chip { display:inline-flex; align-items:center; gap:6px; padding:6px 12px; background:var(--surface2); border:1px solid var(--border2); border-radius:18px; font-size:12.5px; cursor:pointer; user-select:none; transition: background .15s, border-color .15s; color: var(--text-primary); }
+  .export-chip:hover { background: var(--border); }
+  .export-chip input { margin: 0; cursor:pointer; }
+  .export-chip .chip-dot { display:inline-block; width:8px; height:8px; border-radius:50%; }
+  .export-chip .chip-count { color: var(--text-secondary); font-size:11.5px; margin-left:2px; }
+  .export-date-row { display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
+  .export-date-presets { display:flex; gap:6px; margin-left:auto; }
+  .preset-btn { padding:5px 10px; font-size:12px; background:var(--surface2); border:1px solid var(--border2); border-radius:6px; color:var(--text-secondary); cursor:pointer; transition: all .15s; }
+  .preset-btn:hover { background:var(--border); color:var(--text-primary); }
+  .preset-btn.active { background: var(--accent); color:#fff; border-color: var(--accent); }
+  .btn.btn-sm { padding: 5px 10px; font-size: 12px; }
+  .export-search-input { width:100%; padding:8px 12px; font-size:13px; border:1px solid var(--border2); border-radius:8px; outline:none; box-sizing:border-box; transition: border-color .15s; }
+  .export-search-input:focus { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(0,113,227,.12); }
+  .export-preview-list { max-height: 260px; overflow-y:auto; border:1px solid var(--border); border-radius:8px; background:var(--surface2); }
+  .export-preview-list:empty::before { content:"无符合筛选条件的数据"; display:block; text-align:center; padding:32px 16px; color:var(--text-tertiary); font-size:13px; }
+  .export-preview-item { display:flex; align-items:flex-start; gap:8px; padding:8px 12px; border-bottom:1px solid var(--border); cursor:pointer; transition: background .1s; }
+  .export-preview-item:last-child { border-bottom:none; }
+  .export-preview-item:hover { background:var(--border); }
+  .export-preview-item input { margin-top:3px; }
+  .export-preview-item .pv-main { flex:1; min-width:0; }
+  .export-preview-item .pv-title { font-size:13px; font-weight:500; color:var(--text-primary); overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .export-preview-item .pv-meta { display:flex; align-items:center; gap:8px; margin-top:3px; font-size:11.5px; color:var(--text-secondary); }
+  .export-preview-item .pv-cat { padding:1px 6px; border-radius:4px; font-size:11px; color:#fff; font-weight:500; }
+  .export-preview-item .pv-cat.positive { background: var(--cat-positive); }
+  .export-preview-item .pv-cat.negative { background: var(--cat-negative); }
+  .export-preview-item .pv-cat.bug { background: var(--cat-bug); }
+  .export-preview-item .pv-cat.neutral { background: var(--cat-neutral); }
+  .export-preview-actions { display:flex; align-items:center; gap:6px; }
+  .linky { background:none; border:none; color: var(--accent); font-size:12px; cursor:pointer; padding:2px 4px; }
+  .linky:hover { text-decoration: underline; }
+  .export-sep { color: var(--text-tertiary); font-size: 11px; }
   .modal {
     background: var(--surface); border-radius: 16px;
     padding: 28px 32px; width: 480px; max-width: 95vw;
@@ -1630,15 +1665,62 @@
 
 <!-- Export Modal -->
 <div class="modal-overlay" id="exportModalOverlay">
-  <div class="modal">
+  <div class="modal export-modal">
     <h2>导出 Excel</h2>
-    <p>选择要导出的数据源，可多选。当前筛选条件（分类/日期/搜索）不会应用到导出，导出的是完整数据。</p>
-    <div class="modal-field" id="exportSourceList">
-      <!-- 动态渲染复选框 -->
+    <p>按条件筛选数据，可逐条勾选后导出。默认全选，每个数据源一个 Sheet。</p>
+
+    <div class="export-section">
+      <div class="export-section-title">数据源</div>
+      <div class="export-chip-row" id="exportSourceChips"></div>
     </div>
+
+    <div class="export-section">
+      <div class="export-section-title">分类</div>
+      <div class="export-chip-row" id="exportCatChips">
+        <label class="export-chip"><input type="checkbox" value="positive" checked><span class="chip-dot" style="background:var(--cat-positive)"></span>正面</label>
+        <label class="export-chip"><input type="checkbox" value="bug" checked><span class="chip-dot" style="background:var(--cat-bug)"></span>Bug</label>
+        <label class="export-chip"><input type="checkbox" value="negative" checked><span class="chip-dot" style="background:var(--cat-negative)"></span>负面</label>
+        <label class="export-chip"><input type="checkbox" value="neutral" checked><span class="chip-dot" style="background:var(--cat-neutral)"></span>中性</label>
+      </div>
+    </div>
+
+    <div class="export-section">
+      <div class="export-section-title">日期范围</div>
+      <div class="export-date-row">
+        <input type="date" class="date-input" id="exportDateFrom">
+        <span class="date-sep">—</span>
+        <input type="date" class="date-input" id="exportDateTo">
+        <button class="btn btn-secondary btn-sm" type="button" id="exportDateClear">清空</button>
+        <div class="export-date-presets">
+          <button class="preset-btn" type="button" data-days="7">近7天</button>
+          <button class="preset-btn" type="button" data-days="30">近30天</button>
+          <button class="preset-btn" type="button" data-days="0">全部</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="export-section">
+      <div class="export-section-title">关键词（可选）</div>
+      <input type="text" class="export-search-input" id="exportSearch" placeholder="搜索标题、内容、摘要…">
+    </div>
+
+    <div class="export-section">
+      <div class="export-section-title-row">
+        <div class="export-section-title" style="margin-bottom:0">预览 / 逐条勾选 <span id="exportPreviewCount" class="export-count">0</span></div>
+        <div class="export-preview-actions">
+          <button class="linky" type="button" id="exportSelectAll">全选</button>
+          <span class="export-sep">|</span>
+          <button class="linky" type="button" id="exportSelectNone">全不选</button>
+          <span class="export-sep">|</span>
+          <button class="linky" type="button" id="exportInvert">反选</button>
+        </div>
+      </div>
+      <div class="export-preview-list" id="exportPreviewList"></div>
+    </div>
+
     <div class="modal-actions">
       <button class="btn btn-secondary" onclick="document.getElementById('exportModalOverlay').classList.remove('active')">取消</button>
-      <button class="btn btn-primary" onclick="doExport()">导出</button>
+      <button class="btn btn-primary" onclick="doExport()" id="exportConfirmBtn">导出 <span id="exportBtnCount">0</span> 条</button>
     </div>
   </div>
 </div>
@@ -1982,39 +2064,127 @@ function showToast(msg) {
   toastTimer = setTimeout(() => t.classList.remove('show'), 2800);
 }
 
-// Export to Excel
+// ─── Export to Excel (完整筛选面板) ────────────────────────────────
+const CAT_LABEL = { positive:'正面', negative:'负面', bug:'Bug', neutral:'中性' };
+const STATUS_LABEL = { pending:'待处理', processed:'已处理', no_action:'无需处理' };
+// 用户逐条取消勾选的 id 集合（在筛选结果基础上保持）
+let exportUnchecked = new Set();
+
+function openExportModal() {
+  if (!allData || !allData.tabs) { showToast('数据未加载完成'); return; }
+  // 数据源 chips
+  const srcEl = document.getElementById('exportSourceChips');
+  srcEl.innerHTML = '';
+  Object.entries(allData.tabs).forEach(([key, tab]) => {
+    const n = (tab.items || []).length;
+    const label = document.createElement('label');
+    label.className = 'export-chip';
+    label.innerHTML = '<input type="checkbox" data-src="' + key + '" checked>' + (tab.label || key) + '<span class="chip-count">(' + n + ')</span>';
+    srcEl.appendChild(label);
+  });
+  // 重置状态
+  exportUnchecked = new Set();
+  document.getElementById('exportSearch').value = '';
+  document.getElementById('exportDateFrom').value = '';
+  document.getElementById('exportDateTo').value = '';
+  document.querySelectorAll('#exportCatChips input').forEach(c => c.checked = true);
+  document.querySelectorAll('.preset-btn').forEach(b => b.classList.remove('active'));
+  refreshExportPreview();
+  document.getElementById('exportModalOverlay').classList.add('active');
+}
+
+// 按当前筛选条件计算候选数据
+function computeExportFiltered() {
+  if (!allData || !allData.tabs) return [];
+  const srcSet = new Set(Array.from(document.querySelectorAll('#exportSourceChips input:checked')).map(c => c.dataset.src));
+  const catSet = new Set(Array.from(document.querySelectorAll('#exportCatChips input:checked')).map(c => c.value));
+  const df = document.getElementById('exportDateFrom').value;
+  const dt = document.getElementById('exportDateTo').value;
+  const q = (document.getElementById('exportSearch').value || '').trim().toLowerCase();
+  const fromMs = df ? new Date(df + 'T00:00:00+08:00').getTime() : null;
+  const toMs = dt ? new Date(dt + 'T23:59:59+08:00').getTime() : null;
+  const out = [];
+  Object.entries(allData.tabs).forEach(([key, tab]) => {
+    if (!srcSet.has(key)) return;
+    (tab.items || []).forEach(it => {
+      if (!catSet.has(it.category || 'neutral')) return;
+      const ts = it.timestamp ? new Date(it.timestamp).getTime() : NaN;
+      if (fromMs !== null && (!ts || ts < fromMs)) return;
+      if (toMs !== null && (!ts || ts > toMs)) return;
+      if (q) {
+        const blob = ((it.title||'') + ' ' + (it.content||'') + ' ' + (it.summary||'') + ' ' + (it.replyText||'')).toLowerCase();
+        if (!blob.includes(q)) return;
+      }
+      out.push({ _tabKey: key, ...it });
+    });
+  });
+  out.sort((a,b) => (b.timestamp||'').localeCompare(a.timestamp||''));
+  return out;
+}
+
+function refreshExportPreview() {
+  const filtered = computeExportFiltered();
+  const listEl = document.getElementById('exportPreviewList');
+  listEl.innerHTML = '';
+  filtered.forEach(it => {
+    const checked = !exportUnchecked.has(it.id);
+    const row = document.createElement('label');
+    row.className = 'export-preview-item';
+    const dateStr = (it.timestamp || '').replace('T',' ').slice(0,16);
+    const cat = it.category || 'neutral';
+    row.innerHTML = '<input type="checkbox" data-id="' + (it.id || '') + '"' + (checked ? ' checked' : '') + '>'
+      + '<div class="pv-main">'
+      +   '<div class="pv-title">' + escapeHtml(it.title || '(无标题)') + '</div>'
+      +   '<div class="pv-meta">'
+      +     '<span class="pv-cat ' + cat + '">' + (CAT_LABEL[cat] || cat) + '</span>'
+      +     '<span>' + (it.source || '') + (it.subreddit ? ' · ' + escapeHtml(it.subreddit) : '') + '</span>'
+      +     '<span>' + dateStr + '</span>'
+      +   '</div>'
+      + '</div>';
+    listEl.appendChild(row);
+  });
+  updateExportCounts(filtered);
+}
+
+function updateExportCounts(filtered) {
+  if (!filtered) filtered = computeExportFiltered();
+  const selected = filtered.filter(it => !exportUnchecked.has(it.id)).length;
+  document.getElementById('exportPreviewCount').textContent = selected + ' / ' + filtered.length;
+  document.getElementById('exportBtnCount').textContent = selected;
+  document.getElementById('exportConfirmBtn').disabled = selected === 0;
+}
+
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
 function doExport() {
-  const picked = Array.from(document.querySelectorAll('#exportSourceList input[type=checkbox]:checked')).map(c => c.value);
-  if (picked.length === 0) {
-    showToast('请至少选一个数据源');
-    return;
-  }
-  if (typeof XLSX === 'undefined') {
-    showToast('导出库未加载，请检查网络');
-    return;
-  }
-  const catLabel = { positive:'正面', negative:'负面', bug:'Bug', neutral:'中性' };
-  const statusLabel = { pending:'待处理', processed:'已处理', no_action:'无需处理' };
+  if (typeof XLSX === 'undefined') { showToast('导出库未加载，请检查网络'); return; }
+  const filtered = computeExportFiltered().filter(it => !exportUnchecked.has(it.id));
+  if (filtered.length === 0) { showToast('没有可导出的数据'); return; }
+
   const wb = XLSX.utils.book_new();
-  picked.forEach(key => {
-    const tab = allData.tabs[key];
-    if (!tab) return;
-    const items = (tab.items || []).slice().sort((a,b) => (b.timestamp||'').localeCompare(a.timestamp||''));
+  // 按数据源分组：每个源一个 sheet
+  const grouped = {};
+  filtered.forEach(it => { (grouped[it._tabKey] = grouped[it._tabKey] || []).push(it); });
+  const header = ['日期','分类','来源','子版块','主题','原文内容','要点摘要','链接','状态','已回复','回复内容','ID'];
+
+  Object.entries(grouped).forEach(([key, items]) => {
+    const tab = allData.tabs[key] || {};
     const rows = items.map(it => ({
       '日期': (it.timestamp || '').replace('T',' ').slice(0,16),
-      '分类': catLabel[it.category] || it.category || '',
+      '分类': CAT_LABEL[it.category] || it.category || '',
       '来源': it.source || '',
       '子版块': it.subreddit || '',
       '主题': it.title || '',
       '原文内容': it.content || '',
       '要点摘要': it.summary || '',
       '链接': it.url || '',
-      '状态': statusLabel[it.status] || it.status || '',
+      '状态': STATUS_LABEL[it.status] || it.status || '',
       '已回复': it.replied ? '是' : '',
       '回复内容': it.replyText || '',
       'ID': it.id || '',
     }));
-    const header = ['日期','分类','来源','子版块','主题','原文内容','要点摘要','链接','状态','已回复','回复内容','ID'];
     const ws = XLSX.utils.json_to_sheet(rows, { header });
     ws['!cols'] = [
       { wch: 18 }, { wch: 8 }, { wch: 10 }, { wch: 18 }, { wch: 40 },
@@ -2025,29 +2195,92 @@ function doExport() {
     XLSX.utils.book_append_sheet(wb, ws, sheetName);
   });
   const today = new Date().toISOString().slice(0,10);
-  XLSX.writeFile(wb, `intel-dashboard-${today}.xlsx`);
+  XLSX.writeFile(wb, 'intel-dashboard-' + today + '.xlsx');
   document.getElementById('exportModalOverlay').classList.remove('active');
-  showToast(`已导出 ${picked.length} 个工作表`);
+  showToast('已导出 ' + filtered.length + ' 条（' + Object.keys(grouped).length + ' 个工作表）');
 }
 
-// 点击导出按钮：渲染列表并开启弹窗
-document.getElementById('btnExport').onclick = function() {
-  if (!allData || !allData.tabs) { showToast('数据未加载完成'); return; }
-  const listEl = document.getElementById('exportSourceList');
-  listEl.innerHTML = '';
-  Object.entries(allData.tabs).forEach(([key, tab]) => {
-    const items = (tab.items || []);
-    const row = document.createElement('label');
-    row.className = 'export-source-item';
-    row.innerHTML = '<input type="checkbox" value="' + key + '" checked><span class="src-name">' + (tab.label || key) + '</span><span class="src-count">' + items.length + ' 条</span>';
-    listEl.appendChild(row);
-  });
-  document.getElementById('exportModalOverlay').classList.add('active');
-};
+// ─── 导出面板事件绑定 ────────────────────────────────
+document.getElementById('btnExport').onclick = openExportModal;
 
-// 点击导出弹窗遮罩关闭
 document.getElementById('exportModalOverlay').addEventListener('click', function(e) {
   if (e.target === this) this.classList.remove('active');
+});
+
+// 数据源/分类/搜索/日期 变动 → 重建预览（重置 unchecked、避免遗留幸存状态）
+function rebuildPreview() {
+  exportUnchecked = new Set();
+  refreshExportPreview();
+}
+document.getElementById('exportSourceChips').addEventListener('change', rebuildPreview);
+document.getElementById('exportCatChips').addEventListener('change', rebuildPreview);
+document.getElementById('exportDateFrom').addEventListener('change', () => { document.querySelectorAll('.preset-btn').forEach(b=>b.classList.remove('active')); rebuildPreview(); });
+document.getElementById('exportDateTo').addEventListener('change', () => { document.querySelectorAll('.preset-btn').forEach(b=>b.classList.remove('active')); rebuildPreview(); });
+let _expSearchTimer;
+document.getElementById('exportSearch').addEventListener('input', () => {
+  clearTimeout(_expSearchTimer);
+  _expSearchTimer = setTimeout(rebuildPreview, 150);
+});
+
+// 预设时间 chip
+document.querySelectorAll('.preset-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const days = parseInt(btn.dataset.days, 10);
+    document.querySelectorAll('.preset-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    const df = document.getElementById('exportDateFrom');
+    const dt = document.getElementById('exportDateTo');
+    if (days === 0) { df.value = ''; dt.value = ''; }
+    else {
+      const now = new Date();
+      const pad = n => String(n).padStart(2,'0');
+      const toYMD = d => d.getFullYear() + '-' + pad(d.getMonth()+1) + '-' + pad(d.getDate());
+      const start = new Date(now.getTime() - (days-1)*86400000);
+      df.value = toYMD(start);
+      dt.value = toYMD(now);
+    }
+    rebuildPreview();
+  });
+});
+
+// 清空日期
+document.getElementById('exportDateClear').addEventListener('click', () => {
+  document.getElementById('exportDateFrom').value = '';
+  document.getElementById('exportDateTo').value = '';
+  document.querySelectorAll('.preset-btn').forEach(b => b.classList.remove('active'));
+  rebuildPreview();
+});
+
+// 逐条勾选（事件委托）
+document.getElementById('exportPreviewList').addEventListener('change', (e) => {
+  const cb = e.target.closest('input[type=checkbox]');
+  if (!cb) return;
+  const id = cb.dataset.id;
+  if (cb.checked) exportUnchecked.delete(id);
+  else exportUnchecked.add(id);
+  updateExportCounts();
+});
+
+// 全选 / 全不选 / 反选
+document.getElementById('exportSelectAll').addEventListener('click', () => {
+  exportUnchecked = new Set();
+  document.querySelectorAll('#exportPreviewList input[type=checkbox]').forEach(c => c.checked = true);
+  updateExportCounts();
+});
+document.getElementById('exportSelectNone').addEventListener('click', () => {
+  const filtered = computeExportFiltered();
+  filtered.forEach(it => exportUnchecked.add(it.id));
+  document.querySelectorAll('#exportPreviewList input[type=checkbox]').forEach(c => c.checked = false);
+  updateExportCounts(filtered);
+});
+document.getElementById('exportInvert').addEventListener('click', () => {
+  const filtered = computeExportFiltered();
+  filtered.forEach(it => {
+    if (exportUnchecked.has(it.id)) exportUnchecked.delete(it.id);
+    else exportUnchecked.add(it.id);
+  });
+  document.querySelectorAll('#exportPreviewList input[type=checkbox]').forEach(c => { c.checked = !c.checked; });
+  updateExportCounts(filtered);
 });
 
 // ─── Start ────────────────────────────────────────────────
