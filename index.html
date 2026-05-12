@@ -1393,8 +1393,107 @@
     }
   }
 }</script>
+  <style>
+    /* 密码门 */
+    #auth-gate {
+      position: fixed; inset: 0;
+      background: linear-gradient(135deg, #f5f5f7 0%, #e8e8ed 100%);
+      display: flex; align-items: center; justify-content: center;
+      z-index: 9999;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro SC", "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+    }
+    #auth-gate .auth-card {
+      background: #fff;
+      padding: 40px 48px;
+      border-radius: 16px;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.08), 0 2px 8px rgba(0,0,0,0.04);
+      width: 360px; max-width: 90vw;
+      text-align: center;
+    }
+    #auth-gate h1 {
+      font-size: 22px; font-weight: 600; margin: 0 0 8px;
+      color: #1d1d1f;
+    }
+    #auth-gate .auth-sub {
+      font-size: 13px; color: #86868b; margin-bottom: 28px;
+    }
+    #auth-gate input {
+      width: 100%;
+      padding: 12px 16px;
+      font-size: 15px;
+      border: 1px solid #d2d2d7;
+      border-radius: 10px;
+      outline: none;
+      background: #fff;
+      box-sizing: border-box;
+      transition: border-color .15s, box-shadow .15s;
+    }
+    #auth-gate input:focus {
+      border-color: #0071e3;
+      box-shadow: 0 0 0 3px rgba(0,113,227,0.15);
+    }
+    #auth-gate .auth-btn {
+      width: 100%;
+      margin-top: 16px;
+      padding: 12px;
+      font-size: 15px; font-weight: 500;
+      color: #fff;
+      background: #0071e3;
+      border: none; border-radius: 10px;
+      cursor: pointer;
+      transition: background .15s;
+    }
+    #auth-gate .auth-btn:hover { background: #0077ed; }
+    #auth-gate .auth-err {
+      color: #ff3b30; font-size: 13px; margin-top: 12px; min-height: 18px;
+    }
+    body.auth-locked { overflow: hidden; }
+    body.auth-locked > :not(#auth-gate) { display: none !important; }
+  </style>
 </head>
-<body>
+<body class="auth-locked">
+  <div id="auth-gate">
+    <div class="auth-card">
+      <h1>Intel Dashboard</h1>
+      <div class="auth-sub">请输入访问密码</div>
+      <input id="auth-input" type="password" placeholder="密码" autofocus />
+      <button class="auth-btn" id="auth-btn">进入</button>
+      <div class="auth-err" id="auth-err"> </div>
+    </div>
+  </div>
+  <script>
+    (function(){
+      // 简易密码门（前端阁，非真安全）
+      var KEY = 'intel-dashboard-auth';
+      var EXPECT = 'danxiao123';
+      function unlock(){
+        document.body.classList.remove('auth-locked');
+        var g = document.getElementById('auth-gate');
+        if (g && g.parentNode) g.parentNode.removeChild(g);
+      }
+      try {
+        if (sessionStorage.getItem(KEY) === '1') { unlock(); return; }
+      } catch(e) {}
+      function submit(){
+        var v = (document.getElementById('auth-input').value || '').trim();
+        if (v === EXPECT) {
+          try { sessionStorage.setItem(KEY, '1'); } catch(e){}
+          unlock();
+        } else {
+          document.getElementById('auth-err').textContent = '密码错误';
+          document.getElementById('auth-input').select();
+        }
+      }
+      document.addEventListener('DOMContentLoaded', function(){
+        var btn = document.getElementById('auth-btn');
+        var inp = document.getElementById('auth-input');
+        if (btn) btn.addEventListener('click', submit);
+        if (inp) inp.addEventListener('keydown', function(e){
+          if (e.key === 'Enter') submit();
+        });
+      });
+    })();
+  </script>
 
 <!-- Header -->
 <header class="header">
