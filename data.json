@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-12T10:31:58+08:00",
+  "lastUpdated": "2026-05-12T23:50:08+08:00",
   "tabs": {
     "reddit": {
       "label": "Reddit",
@@ -834,6 +834,19 @@
           "url": "https://www.reddit.com/r/VibeMateFam/comments/1q3eldf/vibemate_on_firestick/",
           "score": 1,
           "timestamp": "2026-01-04T11:05:13+08:00",
+          "status": "pending"
+        },
+        {
+          "id": "reddit-reddit-31tas3b9",
+          "source": "reddit",
+          "subreddit": "r/CreatorsAdvice",
+          "title": "Anon payments?",
+          "content": "",
+          "summary": "自动入库 (2026-05-12): 关键词 , tags=",
+          "category": "neutral",
+          "url": "",
+          "score": 0,
+          "timestamp": "2026-05-12T23:50:08+08:00",
           "status": "pending"
         }
       ]
