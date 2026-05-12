@@ -51,16 +51,81 @@ def load_json(p: Path):
         return None
 
 
+# ── 分类规则（2026-05-12 重审后的标准）──
+# 原则：
+#   positive  = 用户主动表达正向信号（获奖庆祝/感谢/品牌推荐/收入提升/主动推广）
+#   bug       = 明确报告功能异常
+#   negative  = 抱怨/可疑用户/地区限制/负面体验
+#   neutral   = 产品咨询/讨论/我方运营/欢迎贴/社交贴/中性分享
+
+BUG_PHRASES = [
+    "not working", "isn't connecting", "isnt connecting", "doesn't connect", "doesnt connect",
+    "won't connect", "wont connect", "can't connect", "cant connect",
+    "broken", "loading error", "failed to", "stuck on", "crashes", "crashed",
+    "doesn't work", "doesnt work", "won't work", "wont work", "stopped working",
+    "glitch", "freezes", "frozen", "disconnect", "won't load", "wont load",
+]
+
+NEGATIVE_PHRASES = [
+    "scam", "fake", "strange user", "suspicious", "sketchy", "fraud", "phishing",
+    "restriction", "banned", "can't use in", "blocked in", "not available in",
+    "exhausting", "frustrat", "angry", "disappoint", "refund",
+]
+
+# “用户主动正向”强信号
+STRONG_POSITIVE_PHRASES = [
+    # 获奖/庆祝
+    "i won", "i've won", "won a prize", "won the", "prize win", "lucky prize",
+    "carnival prize", "first token",
+    # 感谢
+    "thank you for", "thanks for the tutorial", "agradecimiento", "appreciate",
+    # 品牌推广 / 收入提升
+    "earning so much more", "earn extra revenue", "sells twice more",
+    "check out lovense", "recommend lovense", "i recommend",
+    # 社区表达爱
+    "real love and support", "so glad",
+]
+
+# "咨询" / “中性讨论”强信号—— 这些即使含“good/great/love”也不是 positive
+NEUTRAL_PHRASES = [
+    "has anyone tried", "does anyone use", "anybody tried", "any tips",
+    "how do i", "how does", "questions about", "need help", "need advice",
+    "recommend", "which one",
+]
+
+
+def classify_text(title: str, body: str) -> str:
+    """统一分类函数（供各源使用）。优先级：bug > negative > strong_positive > neutral."""
+    full = (title + " " + body).lower()
+    for kw in BUG_PHRASES:
+        if kw in full:
+            return "bug"
+    for kw in NEGATIVE_PHRASES:
+        if kw in full:
+            return "negative"
+    # 先看咨询/讨论信号（避免“thanks”之类误伤）
+    is_inquiry = any(kw in full for kw in NEUTRAL_PHRASES)
+    for kw in STRONG_POSITIVE_PHRASES:
+        if kw in full:
+            # 咨询贴即使包含“thanks”也还是 neutral
+            if is_inquiry and kw in ("thank you for", "appreciate"):
+                continue
+            return "positive"
+    return "neutral"
+
+
 def classify_reddit(item) -> str:
-    """根据 daily_fetch 的 tags 推断 dashboard category"""
+    """优先看 daily_fetch 的 tags，其次起 fallback 到关键词分类。"""
     tags = item.get("tags", []) or []
     if "bug" in tags:
         return "bug"
-    if "trust" in tags or "confusion" in tags:
+    if "trust" in tags:
         return "negative"
-    if "positive" in tags:
-        return "positive"
-    return "neutral"
+    # “positive” tag 太宽宽、在 daily_fetch 里包含 love it/great 等词——不一定是用户正向信号。
+    # 不再直接信任 tag=positive，还是走文本分类判断。
+    title = item.get("title", "")
+    body = item.get("selftext", "") or ""
+    return classify_text(title, body)
 
 
 def reddit_items_from_daily(daily) -> list:
@@ -106,10 +171,15 @@ def reddit_items_from_daily(daily) -> list:
     return out
 
 
-def _classify_by_sentiment(sentiment: str) -> str:
+def _classify_by_sentiment(sentiment: str, title: str = "", body: str = "") -> str:
+    """优先走文本分类（准确）；sentiment 只作为 fallback。"""
+    if title or body:
+        cat = classify_text(title, body)
+        # 如果文本分类出 bug/negative/positive，以文本判断为准
+        if cat != "neutral":
+            return cat
+    # 文本为 neutral 时才看 sentiment——但 sentiment=positive 不够强，“仅凭 sentiment 到 positive”在这里不够资格让我们打 positive
     s = (sentiment or "").lower().strip()
-    if s == "positive":
-        return "positive"
     if s == "negative":
         return "negative"
     return "neutral"
@@ -130,10 +200,12 @@ def reddit_items_from_vibemate(payload, source_label: str) -> list:
             ts = datetime.fromtimestamp(created, TZ).strftime("%Y-%m-%dT%H:%M:%S+08:00")
         else:
             ts = now_iso()
-        category = _classify_by_sentiment(it.get("sentiment", ""))
-        # vibemate_camgirl 默认负面信号优先；vibemate_fam 默认中性
-        if not it.get("sentiment"):
-            category = "neutral"
+        category = _classify_by_sentiment(
+            it.get("sentiment", ""),
+            title=it.get("title", ""),
+            body=it.get("selftext", "") or "",
+        )
+        # vibemate_fam 默认 neutral（社交生态占多）——上面函数已经处理了
         post_type = it.get("post_type", "")
         summary_bits = [f"自动入库 ({today_str()})", f"源: {source_label}"]
         if post_type:
@@ -174,13 +246,19 @@ def cam101_items_from_report(rep) -> list:
         pid = r.get("post_id") or ""
         if not pid:
             continue
+        # 根据原帖标题判断分类：
+        # cam101 的 replied[].post_title 是原帖标题，note 是我们回帖理由
+        # 有“用户主动正向表达”信号的贴才算 positive，其他正常回帖都是 neutral
+        post_title = r.get("post_title", "")
+        post_note = r.get("note", "") or ""
+        category = classify_text(post_title, post_note)
         out.append({
             "id": f"cam101-{pid}",
             "source": "cam101",
-            "title": r.get("post_title", ""),
-            "content": (r.get("note") or "")[:500],
+            "title": post_title,
+            "content": post_note[:500],
             "summary": f"Cam101 论坛回帖, slot={rep.get('slot', '')}",
-            "category": "positive",  # 主动回帖默认 positive
+            "category": category,
             "url": r.get("post_url", ""),
             "timestamp": ts,
             "replied": True,
