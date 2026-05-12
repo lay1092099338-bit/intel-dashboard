@@ -234,13 +234,17 @@ def cam101_items_from_report(rep) -> list:
     """把 cam101_report_*.json -> dashboard items（从 replied 列表）"""
     out = []
     run_time = rep.get("run_time", "")  # "YYYY-MM-DD HH:MM"
-    if run_time:
+    ts = None
+    # 防御：run_time 必须是 "YYYY-MM-DD HH:MM" 格式，长度至少 16，且前 10 位形如日期
+    if isinstance(run_time, str) and len(run_time) >= 16 and run_time[4] == '-' and run_time[7] == '-':
         try:
-            ts_dt = datetime.strptime(run_time, "%Y-%m-%d %H:%M").replace(tzinfo=TZ)
+            ts_dt = datetime.strptime(run_time[:16], "%Y-%m-%d %H:%M").replace(tzinfo=TZ)
             ts = ts_dt.strftime("%Y-%m-%dT%H:%M:%S+08:00")
-        except Exception:
-            ts = now_iso()
-    else:
+        except Exception as e:
+            print(f"[warn] cam101 run_time parse failed ({run_time!r}): {e}, fallback now")
+    if not ts:
+        if run_time:
+            print(f"[warn] cam101 run_time malformed ({run_time!r}), fallback now")
         ts = now_iso()
     for r in rep.get("replied", []) or []:
         pid = r.get("post_id") or ""
