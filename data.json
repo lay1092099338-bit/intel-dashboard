@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-13T09:36:33+08:00",
+  "lastUpdated": "2026-05-13T23:50:06+08:00",
   "tabs": {
     "reddit": {
       "label": "Reddit",
@@ -910,7 +910,7 @@
           "category": "neutral",
           "url": "",
           "score": 0,
-          "timestamp": "2026-05-13T09:36:33+08:00",
+          "timestamp": "2026-05-13T23:50:06+08:00",
           "status": "pending",
           "ingestedAt": "2026-05-12T23:50:08+08:00"
         },
@@ -919,12 +919,12 @@
           "source": "reddit",
           "subreddit": "r/VibeMateFam",
           "title": "[Event] 7-Day Check-in Challenge: Win v-coins for your consistency!",
-          "content": "Official VibeMate event post",
+          "content": "https://preview.redd.it/knzmjedgqn0h1.jpg?width=1372&amp;format=pjpg&amp;auto=webp&amp;s=76474d9cca8413591ad53092f0fedad041a64afb\n\nHi everyone!\n\nWe’re excited to announce a new event starting on May 13(EDT) at the VIP's Center. If you’re already checking in daily, it’s time to get rewarded for it!\n\n**📅 When is it?**\n\nThe challenge runs from May 13, 00:00 to May 20, 23:59 (EDT).\n\n\n\n**🎁 What can you win?**\n\n🥇 1st Place: 50-V-coins\n\n🥈 30th Place: 20-V-coins\n\n🥉 50th Place: 10-V-coins\n\n\n\n**📝 The Rule",
           "summary": "",
           "category": "neutral",
           "url": "https://www.reddit.com/r/VibeMateFam/comments/1tau43d/event_7day_checkin_challenge_win_vcoins_for_your/",
           "score": 2,
-          "timestamp": "2026-05-12T15:18:24+08:00",
+          "timestamp": "2026-05-12T15:18:25+08:00",
           "status": "pending",
           "ingestedAt": "2026-05-13T09:36:33+08:00"
         }
