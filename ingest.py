@@ -161,7 +161,7 @@ def reddit_items_from_daily(daily) -> list:
             "subreddit": f"r/{sub}" if sub and not sub.startswith("r/") else (sub or ""),
             "title": title,
             "content": selftext[:500],
-            "summary": f"自动入库 ({today_str()}): 关键词 {it.get('matched_keyword', '')}, tags={','.join(it.get('tags', []) or [])}",
+            "summary": "",
             "category": category,
             "url": url,
             "score": it.get("score", 0),
@@ -206,21 +206,13 @@ def reddit_items_from_vibemate(payload, source_label: str) -> list:
             body=it.get("selftext", "") or "",
         )
         # vibemate_fam 默认 neutral（社交生态占多）——上面函数已经处理了
-        post_type = it.get("post_type", "")
-        summary_bits = [f"自动入库 ({today_str()})", f"源: {source_label}"]
-        if post_type:
-            summary_bits.append(f"type={post_type}")
-        if it.get("matched_keyword"):
-            summary_bits.append(f"kw={it['matched_keyword']}")
-        if it.get("note"):
-            summary_bits.append(f"note: {it['note'][:120]}")
         out.append({
             "id": f"reddit-{pid}",
             "source": "reddit",
             "subreddit": f"r/{sub}" if sub and not sub.startswith("r/") else (sub or ""),
             "title": it.get("title", ""),
             "content": (it.get("selftext", "") or "")[:500],
-            "summary": "; ".join(summary_bits),
+            "summary": "",
             "category": category,
             "url": url,
             "score": it.get("score", 0),
@@ -277,6 +269,7 @@ def upsert_items(tab_items: list, new_items: list) -> tuple[int, int]:
     by_id = {it.get("id"): i for i, it in enumerate(tab_items)}
     added = 0
     updated = 0
+    ingest_ts = now_iso()  # 本次入库时间戳
     for ni in new_items:
         nid = ni.get("id")
         if not nid:
@@ -289,6 +282,8 @@ def upsert_items(tab_items: list, new_items: list) -> tuple[int, int]:
                 tab_items[by_id[nid]] = merged
                 updated += 1
         else:
+            # 新条目：加 ingestedAt（首次入库时间）
+            ni["ingestedAt"] = ingest_ts
             tab_items.append(ni)
             by_id[nid] = len(tab_items) - 1
             added += 1
