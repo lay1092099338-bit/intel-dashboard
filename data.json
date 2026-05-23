@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-21T23:50:22+08:00",
+  "lastUpdated": "2026-05-23T23:50:06+08:00",
   "tabs": {
     "reddit": {
       "label": "Reddit",
@@ -1137,6 +1137,20 @@
           "timestamp": "2026-05-21T06:54:37+08:00",
           "status": "pending",
           "ingestedAt": "2026-05-21T23:50:22+08:00"
+        },
+        {
+          "id": "reddit-1tk6bhl",
+          "source": "reddit",
+          "subreddit": "r/VibeMateFam",
+          "title": "🏁 Our 7-Day Check-in Challenge has officially ended!",
+          "content": "https://preview.redd.it/7ikz1z37tl2h1.jpg?width=2730&format=pjpg&auto=webp&s=be2890389af7ca12eb587ee28f0a0e1592a260ab Thank you to everyone who participated in our 7-Day Check-in Challenge! We were thrilled to see so many of you maintaining your streaks and racing for the top spots on the final day. 🏆 The results are officially in! Congratulations to Our Winners! (Note: Rewards have already been automatically credited to your accounts. Check your balance inside the VIP Center! 💰",
+          "summary": "官方活动结束公告帖，7天打卡挑战已结束，建议运营跟进总结回帖并感谢参与者。情绪积极。",
+          "category": "neutral",
+          "url": "https://www.reddit.com/r/VibeMateFam/comments/1tk6bhl/our_7day_checkin_challenge_has_officially_ended/",
+          "score": 1,
+          "timestamp": "2026-05-22T10:58:23+08:00",
+          "status": "pending",
+          "ingestedAt": "2026-05-23T23:50:06+08:00"
         }
       ]
     },
