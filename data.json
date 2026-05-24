@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-24T09:45:07+08:00",
+  "lastUpdated": "2026-05-24T23:50:07+08:00",
   "tabs": {
     "reddit": {
       "label": "Reddit",
@@ -1976,6 +1976,20 @@
           "replyText": "That is such a valid point, Princessaavavictoria! 📊 Detailed daily and weekly stats would be a real game-changer for tracking your growth and knowing which strategies are actually working. More data = smarter decisions! I will pass this feedback to the team — it is a great feature request for Event Plaza. 💡",
           "status": "processed",
           "ingestedAt": "2026-05-24T09:45:07+08:00"
+        },
+        {
+          "id": "cam101-3Tu7b3",
+          "source": "cam101",
+          "title": "What's most important?",
+          "content": "[cam101 原帖无正文或未采集] New member asking what to have/know before starting; 0 prior replies; provided practical starter advice",
+          "summary": "New member asking what to have/know before starting; 0 prior replies; provided practical starter advice",
+          "category": "neutral",
+          "url": "https://www.cam101.com/forumDetails/3Tu7b3/cam-101-what-s-most-important",
+          "timestamp": "2026-05-24T22:00:00+08:00",
+          "replied": true,
+          "replyText": "Great question! Before getting started, the most important things are: a reliable internet connection, a decent webcam (720p or better), and good lighting. Beyond gear, consistency matters most — showing up regularly helps build your audience. Also take time to read through the Cam101 resources here: https://www.cam101.com/newModel/Keep_streaming — they cover everything a new model needs to know. Welcome and good luck! 💕",
+          "status": "processed",
+          "ingestedAt": "2026-05-24T23:50:07+08:00"
         }
       ]
     },
