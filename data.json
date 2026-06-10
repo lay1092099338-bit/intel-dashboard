@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-09T23:50:19+08:00",
+  "lastUpdated": "2026-06-10T09:45:11+08:00",
   "tabs": {
     "reddit": {
       "label": "Reddit",
@@ -1683,6 +1683,20 @@
           "timestamp": "2026-06-08T08:17:28+08:00",
           "status": "pending",
           "ingestedAt": "2026-06-09T09:45:26+08:00"
+        },
+        {
+          "id": "reddit-reddit-1u1bedt",
+          "source": "reddit",
+          "subreddit": "r/CamGirlProblems",
+          "title": "Lush extension for browser not working",
+          "content": "I’m using Firefox and when I look up how to connect it on stripchat it tells me to do the browser method and now I have it as an extension. But now it’s saying I need to update it but I don’t see another version on the lush site. I tried doing the lush connect app on my laptop but it’s saying i don’t have a device for it and it won’t even let me install it. I’m super confused I also have the 2nd gen lush I think. Any help would be appreciated 🙏🙏.",
+          "summary": "用户在Firefox上使用Lush浏览器扩展连接Stripchat时遇到问题，扩展提示需更新但找不到新版本，桌面应用也无法安装，寻求解决方法。",
+          "category": "bug",
+          "url": "https://reddit.com/r/CamGirlProblems/comments/1u1bedt/lush_extension_for_browser_not_working/",
+          "score": 3,
+          "timestamp": "2026-06-10T01:16:03+08:00",
+          "status": "pending",
+          "ingestedAt": "2026-06-10T09:45:11+08:00"
         }
       ]
     },
@@ -3110,6 +3124,48 @@
           "replyText": "Congratulations to Miss_Lucifer6! 🏆🎉 Using music to create atmosphere and keeping notes on viewers to build personal connections is such a thoughtful approach — no wonder it stood out! That personal touch really does make the difference between a room people visit once and one they keep coming back to. Looking forward to the next topic! ✨",
           "status": "processed",
           "ingestedAt": "2026-06-09T23:50:19+08:00"
+        },
+        {
+          "id": "cam101-PCtc6F",
+          "source": "cam101",
+          "title": "Mmm I'm interested in the site",
+          "content": "[cam101 原帖无正文或未采集] New member expressing interest in the site; welcomed them and encouraged community participation.",
+          "summary": "New member expressing interest in the site; welcomed them and encouraged community participation.",
+          "category": "neutral",
+          "url": "https://www.cam101.com/forumDetails/PCtc6F/cam-101-mmm-i-m-interested-in-the-site",
+          "timestamp": "2026-06-10T09:00:00+08:00",
+          "replied": true,
+          "replyText": "Welcome to Cam101! 💕 This community is such a great place to learn, connect, and grow. You will find a lot of supportive people here who understand the industry and genuinely want to help. Feel free to ask questions, share your experiences, and make yourself at home — we are all here for each other! 🌟",
+          "status": "processed",
+          "ingestedAt": "2026-06-10T09:45:11+08:00"
+        },
+        {
+          "id": "cam101-VkGX6P",
+          "source": "cam101",
+          "title": "I love you all",
+          "content": "[cam101 原帖无正文或未采集] New member expressing excitement about getting started; provided warm welcome and directed them to the community.",
+          "summary": "New member expressing excitement about getting started; provided warm welcome and directed them to the community.",
+          "category": "neutral",
+          "url": "https://www.cam101.com/forumDetails/VkGX6P/cam-101-i-love-you-all",
+          "timestamp": "2026-06-10T09:00:00+08:00",
+          "replied": true,
+          "replyText": "Welcome to Cam101! 🎉 Getting started can feel overwhelming, but you've come to the right place. There are so many experienced models here who are happy to share tips and support each other. Feel free to post any questions or just jump into the conversations — the community here is super friendly! 💕",
+          "status": "processed",
+          "ingestedAt": "2026-06-10T09:45:11+08:00"
+        },
+        {
+          "id": "cam101-ri6dID",
+          "source": "cam101",
+          "title": "Best Wireless webcam?",
+          "content": "[cam101 原帖无正文或未采集] Model asking for wireless webcam recommendations; provided practical IP camera app solution and WiFi optimization tip.",
+          "summary": "Model asking for wireless webcam recommendations; provided practical IP camera app solution and WiFi optimization tip.",
+          "category": "neutral",
+          "url": "https://www.cam101.com/forumDetails/ri6dID/cam-101-best-wireless-webcam",
+          "timestamp": "2026-06-10T09:00:00+08:00",
+          "replied": true,
+          "replyText": "Great question! Honestly, for wireless streaming most models find that using an IP camera app on a second phone (like DroidCam or EpocCam) works really well — it connects over WiFi and gives you freedom to move around without a cord. Just make sure your WiFi signal is strong throughout your space to avoid the lag and freezing issues you mentioned. Another option is the Sony ZV-1 with a USB wireless adapter for higher quality. For the connection drops on your current phone setup, try reducing the stream resolution or switching to 5GHz WiFi — that can help a lot with stability! 💪",
+          "status": "processed",
+          "ingestedAt": "2026-06-10T09:45:11+08:00"
         }
       ]
     },
