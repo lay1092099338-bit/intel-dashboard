@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-12T09:45:14+08:00",
+  "lastUpdated": "2026-06-12T23:50:15+08:00",
   "tabs": {
     "reddit": {
       "label": "Reddit",
@@ -1774,7 +1774,7 @@
           "subreddit": "r/CamGirlProblems",
           "title": "Esca no longer on SM?",
           "content": "I have had an Esca2 for years, I needed to reconnect it but it's now only showing QR for Lovense app?",
-          "summary": "Esca2用户发现设备重新连接时仅显示Lovense应用二维码，疑惑该产品是否已停止独立应用支持，寻求解答。",
+          "summary": "Esca2设备重新连接时发现官方应用已更换为Lovense，用户困惑不知如何操作，寻求帮助。",
           "category": "neutral",
           "url": "https://reddit.com/r/CamGirlProblems/comments/1u3atqc/esca_no_longer_on_sm/",
           "score": 1,
@@ -1788,7 +1788,7 @@
           "subreddit": "r/CamGirlProblems",
           "title": "Swedish models",
           "content": "Hey hey! Where are the Swedish models streaming or working online? It’s been worse and worse for me on SC. Dont know what else to do anymore. submitted by /u/TheSlushyNaturalist [link] [comments]",
-          "summary": "一位瑞典主播在SC平台收益持续下滑，寻求同样来自瑞典的模特分享其他可行的工作平台或建议。",
+          "summary": "一位瑞典主播在SC平台收益持续下滑，希望找到同为瑞典的模特交流，寻求平台转型或运营建议。",
           "category": "neutral",
           "url": "https://www.reddit.com/r/CamGirlProblems/comments/1u349m7/swedish_models/",
           "score": 0,
@@ -1802,13 +1802,27 @@
           "subreddit": "r/CamGirlProblems",
           "title": "Lush Toy won’t fit inside me",
           "content": "I just got my Lush and omg it hurts trying to put it in. I can usually handle two fingers fine, but this thing feels totally different and just won’t go in comfortably. Does everyone find inserting their lush easy? I tried lube but now I have a burning pain.",
-          "summary": "用户收到Lush玩具后发现无法顺利插入，尝试润滑油后出现灼痛感，向社区求助是否普遍存在此困难。",
+          "summary": "用户收到Lush玩具后发现插入困难且有灼痛感，寻求他人使用经验与建议，情绪略显困惑和不安。",
           "category": "neutral",
           "url": "https://reddit.com/r/CamGirlProblems/comments/1u32oci/lush_toy_wont_fit_inside_me/",
           "score": 4,
           "timestamp": "2026-06-11T23:43:20+08:00",
           "status": "pending",
           "ingestedAt": "2026-06-12T09:45:14+08:00"
+        },
+        {
+          "id": "reddit-1u2n4cz",
+          "source": "reddit",
+          "subreddit": "r/VibeMateFam",
+          "title": "🎉 Check-in Speed Week 2.0: Event Concluded! 🎉",
+          "content": "https://preview.redd.it/xpu61c5w8k6h1.png?width=1600&format=png&auto=webp&s=45094d0b9f56c072f14232e4bb8425edbd052190 Thank you all for your amazing passion and active participation! The event ended with incredible energy. Big congratulations to all the winners on the leaderboard! 🏆 💡 Prize Delivery: Your V-Coins rewards will be credited to your accounts within 3 working days. Thank you all again for participating. Stay tuned, keep your fingers ready, and we’ll see you in the",
+          "summary": "运营活动总结帖，宣布Check-in Speed Week 2.0活动结束，情绪积极，建议运营查看参与数据并感谢用户。",
+          "category": "neutral",
+          "url": "https://www.reddit.com/r/VibeMateFam/comments/1u2n4cz/checkin_speed_week_20_event_concluded/",
+          "score": 1,
+          "timestamp": "2026-06-11T11:00:40+08:00",
+          "status": "pending",
+          "ingestedAt": "2026-06-12T23:50:15+08:00"
         }
       ]
     },
@@ -3334,6 +3348,20 @@
           "replyText": "Congratulations! 🎉 That's amazing news — enjoy your prize and keep up the great work on Cam101! 🔥",
           "status": "processed",
           "ingestedAt": "2026-06-12T09:45:14+08:00"
+        },
+        {
+          "id": "cam101-BDObFE",
+          "source": "cam101",
+          "title": "Hello! New person, how to set up private rooms?",
+          "content": "[cam101 原帖无正文或未采集] New member asking how to set up private rooms with Lovense OBS for multi-streaming — replied with practical setup guidance.",
+          "summary": "New member asking how to set up private rooms with Lovense OBS for multi-streaming — replied with practical setup guidance.",
+          "category": "neutral",
+          "url": "https://www.cam101.com/forumDetails/BDObFE/cam-101-hello-new-person-how-to-set-up-private-rooms",
+          "timestamp": "2026-06-12T22:00:00+08:00",
+          "replied": true,
+          "replyText": "Welcome to Cam101! 🎉 Great question — setting up private rooms with Lovense OBS for multi-streaming takes just a few steps. First, make sure your Lovense caming extension is installed and connected to your streaming platform. Then in your OBS settings, you can configure a private scene/room by setting up your preferred layout and linking it to your cam site's private show feature. Each platform (Chaturbate, Stripchat, etc.) has its own private room settings in the model dashboard. If you run into any specific issues with the setup, feel free to drop more details here and we'll help you troubleshoot! 💕",
+          "status": "processed",
+          "ingestedAt": "2026-06-12T23:50:15+08:00"
         }
       ]
     },
