@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T09:45:09+08:00",
+  "lastUpdated": "2026-06-23T23:50:06+08:00",
   "tabs": {
     "reddit": {
       "label": "Reddit",
@@ -3773,13 +3773,13 @@
           "id": "cam101-vRr3hL",
           "source": "cam101",
           "title": "Viewers dropped drastically",
-          "content": "[cam101 原帖无正文或未采集] 用户23分钟前回复了Sophia991的评论并提供了详细数据，需要即时回应给出具体建议",
-          "summary": "用户23分钟前回复了Sophia991的评论并提供了详细数据，需要即时回应给出具体建议",
+          "content": "[cam101 原帖无正文或未采集] Follow-up reply: serafino94 responded to Sophia991's earlier comment (3 days ago) with specific detail about a sudden drop on Feb 18. Provided targeted advice on Chaturbate algorithm changes and profile refresh strategy to help them investigate the root cause.",
+          "summary": "Follow-up reply: serafino94 responded to Sophia991's earlier comment (3 days ago) with specific detail about a sudden drop on Feb 18. Provided targeted advice on Chaturbate algorithm changes and profile refresh strategy to help them investigate the root cause.",
           "category": "neutral",
           "url": "https://www.cam101.com/forumDetails/vRr3hL/cam-101-viewers-dropped-drastically",
-          "timestamp": "2026-06-20T22:00:00+08:00",
+          "timestamp": "2026-06-23T22:00:00+08:00",
           "replied": true,
-          "replyText": "Thank you for sharing all those details — that really helps! What you describe (dropping to pages 4-5 despite great ratings and loyal regulars) is a classic sign of a Chaturbate algorithm change. February 2026 is when many models reported similar sudden drops. A few things to try: 1) Stream at different time slots — the algorithm may now weight peak-hour streaming more. 2) Make sure your tags are up to date, as Chaturbate periodically adjusts which tags get boosted. 3) Ask your regulars to follow and enable notifications so they can find you even when you are buried in search. 4) Contact Chaturbate support directly — with your specific dates and viewer data you have a strong case to escalate. It sounds like the algorithm is working against you rather than anything you did wrong! 💕",
+          "replyText": "Thanks for the extra detail, serafino94! The fact that it happened on one specific date — 18th February — is a really important clue. That kind of sudden drop on a specific day usually points to a platform-side change rather than anything you did. Chaturbate occasionally updates its algorithm or makes backend changes that affect discovery and ranking, and those can hit certain accounts hard with no warning. It might also be worth checking if your stream tags, category, or any settings changed around that date. Another thing to try: refreshing your Chaturbate profile (update your bio, add fresh tags) since the algorithm tends to favour active, recently-updated profiles. Keep at it — consistency really does help rebuild over time! 💕",
           "status": "processed",
           "ingestedAt": "2026-06-14T09:45:10+08:00"
         },
@@ -4174,6 +4174,20 @@
           "replyText": "That's a solid multi-platform strategy, Tylerwood2022! 💪 Spreading across multiple sites really helps maximize your visibility. Are you finding any particular platform works best for driving viewers to your streams? Would love to hear what's working for you — that kind of experience is super valuable for the community!",
           "status": "processed",
           "ingestedAt": "2026-06-21T23:50:12+08:00"
+        },
+        {
+          "id": "cam101-FRn42O",
+          "source": "cam101",
+          "title": "wo-hoo ive won a prize 5th time this time I know how to use it!!!!!",
+          "content": "[cam101 原帖无正文或未采集] New post (0 prior replies). User celebrating 5th prize win and thanking team for account reset that fixed prize claiming. Warm congratulatory reply acknowledging both the win and the support resolution.",
+          "summary": "New post (0 prior replies). User celebrating 5th prize win and thanking team for account reset that fixed prize claiming. Warm congratulatory reply acknowledging both the win and the support resolution.",
+          "category": "positive",
+          "url": "https://www.cam101.com/forumDetails/FRn42O/cam-101-wo-hoo-ive-won-a-prize-5th-time-this-time-i-know-h",
+          "timestamp": "2026-06-23T22:00:00+08:00",
+          "replied": true,
+          "replyText": "Wo-hoo indeed — 5th time is amazing! 🎉 So glad the account reset helped you finally get it all figured out, and huge shoutout to the team for getting it sorted. Enjoy your prize and keep those wins coming! 🏆",
+          "status": "processed",
+          "ingestedAt": "2026-06-23T23:50:06+08:00"
         }
       ]
     },
