@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29T23:50:15+08:00",
+  "lastUpdated": "2026-06-30T09:45:12+08:00",
   "tabs": {
     "reddit": {
       "label": "Reddit",
@@ -2467,6 +2467,48 @@
           "timestamp": "2026-06-28T07:49:26+08:00",
           "status": "pending",
           "ingestedAt": "2026-06-29T09:45:12+08:00"
+        },
+        {
+          "id": "reddit-reddit-1uj4e61",
+          "source": "reddit",
+          "subreddit": "r/CamGirlProblems",
+          "title": "Lovense browser extension keeps resetting/losing my settings. Any fixes?",
+          "content": "Hey everyone, I'm having a super annoying issue with the Lovense browser extension. Every time I close my browser (or sometimes completely randomly during a session), all of my extension settings completely reset to default. I have to log back in, redo my levels, and set up everything from scratch. Has anyone else dealt with this? Is there a way to force it to save my configuration permanently? For reference, I'm using Chrome",
+          "summary": "Lovense浏览器扩展频繁重置设置令用户困扰，发帖者希望找到在Chrome中永久保存配置的解决方法。",
+          "category": "neutral",
+          "url": "https://reddit.com/r/CamGirlProblems/comments/1uj4e61/lovense_browser_extension_keeps_resettinglosing/",
+          "score": 3,
+          "timestamp": "2026-06-30T04:45:08+08:00",
+          "status": "pending",
+          "ingestedAt": "2026-06-30T09:45:12+08:00"
+        },
+        {
+          "id": "reddit-reddit-1uixxvr",
+          "source": "reddit",
+          "subreddit": "r/CamGirlProblems",
+          "title": "Warning about Lovense Domi",
+          "content": "I posted when this happened the first time and it’s happened again: a hairline fracture has appeared on my Domi after only a handful of uses. I never dropped it. It’s from the lithium ion battery swelling up inside the Domi’s casing. This is incredibly dangerous and could lead to the battery exploding in literally one of the worst places it could. You don’t think it’ll happen to you, but my Hitachi’s wire became exposed and it had, not quite an EXPLOSION explosion, but the thing flared with a pop and burned my leg. I should’ve stopped using it the moment the wire was exposed. I’m letting Lovense know, again, but I am not going to be surprised if they apologize and send me another, again, which now I’m wondering if I should even use if they do.",
+          "summary": "Lovense Domi电池膨胀导致外壳裂缝，用户曾因类似问题受伤，对品牌安全性感到担忧和失望，并警告他人注意此风险。",
+          "category": "neutral",
+          "url": "https://reddit.com/r/CamGirlProblems/comments/1uixxvr/warning_about_lovense_domi/",
+          "score": 149,
+          "timestamp": "2026-06-30T00:49:10+08:00",
+          "status": "pending",
+          "ingestedAt": "2026-06-30T09:45:12+08:00"
+        },
+        {
+          "id": "reddit-reddit-1uicq3s",
+          "source": "reddit",
+          "subreddit": "r/CamGirlProblems",
+          "title": "Gamers Girls Gone Wild",
+          "content": "Hear me out…. Those of you who have streamed games via TikTok, you may know of Tikfinity… IYKYK Do we know if there is something similar for OBS to incorporate tip goals, tip sounds and TTS across all platforms through OBS that ALSO is Lovense friendly?",
+          "summary": "发帖者询问是否存在类似Tikfinity、能在OBS中整合小费目标、音效、TTS并兼容Lovense的跨平台工具，语气充满期待，寻求技术方案建议。",
+          "category": "neutral",
+          "url": "https://reddit.com/r/CamGirlProblems/comments/1uicq3s/gamers_girls_gone_wild/",
+          "score": 2,
+          "timestamp": "2026-06-29T07:55:13+08:00",
+          "status": "pending",
+          "ingestedAt": "2026-06-30T09:45:12+08:00"
         }
       ]
     },
@@ -4487,13 +4529,13 @@
           "id": "cam101-3eLCHF",
           "source": "cam101",
           "title": "More than a collaboration. It's a growth opportunity.",
-          "content": "[cam101 原帖无正文或未采集] Lovense partnership growth post, 0 replies — business-oriented content relevant to professional creators",
-          "summary": "Lovense partnership growth post, 0 replies — business-oriented content relevant to professional creators",
+          "content": "[cam101 原帖无正文或未采集] Debbie@Cam101 replied to Sophia991's earlier question 18 hours ago saying sign-ups are open. Replied to acknowledge her response and continue the conversation naturally.",
+          "summary": "Debbie@Cam101 replied to Sophia991's earlier question 18 hours ago saying sign-ups are open. Replied to acknowledge her response and continue the conversation naturally.",
           "category": "neutral",
           "url": "https://www.cam101.com/forumDetails/3eLCHF/cam-101-more-than-a-collaboration-it-s-a-growth-opportuni",
-          "timestamp": "2026-06-25T22:24:00+08:00",
+          "timestamp": "2026-06-30T09:00:00+08:00",
           "replied": true,
-          "replyText": "This is so much more than just a promo deal — the combination of reach, analytics, and interactive tools creates a real ecosystem for growth. What really stands out to me is the data feedback loop: you can see what is working and adjust your strategy in real time. For creators who treat this as a business, that kind of insight is invaluable. Has anyone here taken the leap and signed up? Would love to hear how it has impacted your numbers! 📈",
+          "replyText": "That is great to hear, Debbie! 😊 Good to know sign-ups are open — DMing you now for more details. This partnership sounds like exactly what dedicated creators need to take things to the next level!",
           "status": "processed",
           "ingestedAt": "2026-06-25T23:50:06+08:00"
         },
