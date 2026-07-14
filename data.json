@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-13T23:50:06+08:00",
+  "lastUpdated": "2026-07-14T09:45:09+08:00",
   "tabs": {
     "reddit": {
       "label": "Reddit",
@@ -3251,6 +3251,20 @@
           "timestamp": "2026-07-11T07:07:52+08:00",
           "status": "pending",
           "ingestedAt": "2026-07-12T09:45:13+08:00"
+        },
+        {
+          "id": "reddit-reddit-1uv9wi6",
+          "source": "reddit",
+          "subreddit": "r/CamGirlProblems",
+          "title": "Chatbox",
+          "content": "The last few times I streamed on CB using Lovense Chatbox, I kept seeing a message (only on Chatbox, not CB itself) “Total is requesting a private show.” Nobody named “Total” was in my room. I tried both declining and accepting it, but nothing happened. And I got the message several times during each stream. But nothing happened AND no prvt shows were requested by actual viewers. I don’t know if they tried or not. And I don’t know if “Total” was actually a viewer requesting a prvt show, but a glitch of some kind kept it from showing the name… At one point I finally just asked if someone had requested a private show, but no response. Any idea what this is???",
+          "summary": "主播在使用Lovense Chatbox直播时反复收到\"Total正在请求私聊\"的提示，但房间内无此用户且无实际私聊发生，疑似软件故障，求解答。",
+          "category": "neutral",
+          "url": "https://reddit.com/r/CamGirlProblems/comments/1uv9wi6/chatbox/",
+          "score": 3,
+          "timestamp": "2026-07-13T20:16:24+08:00",
+          "status": "pending",
+          "ingestedAt": "2026-07-14T09:45:09+08:00"
         }
       ]
     },
@@ -5840,6 +5854,34 @@
           "replyText": "That is amazing, congratulations! 🎉 Winning so many prizes shows how dedicated you are. Keep enjoying the events — there are always more exciting ones coming! 💕",
           "status": "processed",
           "ingestedAt": "2026-07-13T23:50:06+08:00"
+        },
+        {
+          "id": "cam101-XrhJ4n",
+          "source": "cam101",
+          "title": "My Frst prize",
+          "content": "[cam101 原帖无正文或未采集] Prize celebration post, 0 replies, new post not in cache",
+          "summary": "Prize celebration post, 0 replies, new post not in cache",
+          "category": "neutral",
+          "url": "https://www.cam101.com/forumDetails/XrhJ4n/cam-101-my-frst-prize",
+          "timestamp": "2026-07-14T09:00:00+08:00",
+          "replied": true,
+          "replyText": "Congratulations!! 🎉 Winning a stream promo from the Carnival event is such a well-deserved achievement! Wishing you amazing streams ahead — enjoy every moment of it! 🥳✨",
+          "status": "processed",
+          "ingestedAt": "2026-07-14T09:45:09+08:00"
+        },
+        {
+          "id": "cam101-n2FGel",
+          "source": "cam101",
+          "title": "hazme vibrar",
+          "content": "[cam101 原帖无正文或未采集] Spanish casual post, 0 replies, new post not in cache",
+          "summary": "Spanish casual post, 0 replies, new post not in cache",
+          "category": "neutral",
+          "url": "https://www.cam101.com/forumDetails/n2FGel/cam-101-hazme-vibrar",
+          "timestamp": "2026-07-14T09:00:00+08:00",
+          "replied": true,
+          "replyText": "¡Qué divertido! 😄 Bienvenida a la comunidad, espero que disfrutes mucho tus shows!",
+          "status": "processed",
+          "ingestedAt": "2026-07-14T09:45:09+08:00"
         }
       ]
     },
