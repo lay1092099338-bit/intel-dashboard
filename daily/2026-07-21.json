@@ -1,6 +1,6 @@
 {
   "date": "2026-07-21",
-  "generated_at": "2026-07-21 13:59 UTC+8",
+  "generated_at": "2026-07-21 23:55 UTC+8",
   "sources": {
     "reddit": {
       "items": [
@@ -221,8 +221,8 @@
       ]
     },
     "telegram": {
-      "date_range": "2026-07-19 ~ 2026-07-20",
-      "generated_at": "2026-07-20 14:00 UTC+08:00",
+      "date_range": "2026-07-20 ~ 2026-07-21",
+      "generated_at": "2026-07-21 14:00 UTC+08:00",
       "source": "local_storage_v3",
       "groups": {
         "-1001839056771": {
