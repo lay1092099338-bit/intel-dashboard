@@ -1,6 +1,6 @@
 {
   "date": "2026-07-21",
-  "generated_at": "2026-07-21 11:59 UTC+8",
+  "generated_at": "2026-07-21 13:59 UTC+8",
   "sources": {
     "reddit": {
       "items": [
@@ -255,7 +255,8 @@
       },
       "poller_status": "unknown",
       "messages": []
-    }
+    },
+    "x_dm": null
   },
   "summary": {
     "reddit_items": 1,
@@ -263,6 +264,7 @@
     "reddit_vibemate_fam_items": 0,
     "reddit_vibemate_camgirl_items": 0,
     "cam101_replied": 7,
-    "telegram_messages": 0
+    "telegram_messages": 0,
+    "x_dm_replied": 0
   }
 }
