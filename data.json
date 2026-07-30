@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-30T06:00:07+08:00",
+  "lastUpdated": "2026-07-30T09:45:06+08:00",
   "tabs": {
     "reddit": {
       "label": "Reddit",
@@ -6882,13 +6882,13 @@
           "id": "cam101-UllE8o",
           "source": "cam101",
           "title": "I've won a prizeseeee",
-          "content": "[cam101 原帖无正文或未采集] Co-streaming prize win post from 3 days ago with 0 replies. Sophia991 had not replied.",
-          "summary": "Co-streaming prize win post from 3 days ago with 0 replies. Sophia991 had not replied.",
+          "content": "[cam101 原帖无正文或未采集] in-cache, recent activity (3 days ago), won $129 GC + stream promo, no prior Sophia reply",
+          "summary": "in-cache, recent activity (3 days ago), won $129 GC + stream promo, no prior Sophia reply",
           "category": "positive",
           "url": "https://www.cam101.com/forumDetails/UllE8o/cam-101-i-ve-won-a-prizeseeee",
-          "timestamp": "2026-07-27T09:00:00+08:00",
+          "timestamp": "2026-07-30T09:00:00+08:00",
           "replied": true,
-          "replyText": "Congratulations!! 🎉🎉 $129 GC + Stream Promotion is such an incredible prize combo! A 4K webcam would be such an upgrade for your stream quality — great choice! Enjoy every bit of it, you earned it! 💜✨",
+          "replyText": "That's amazing!! 🎉😍 A $129 GC AND a stream promotion is such a fantastic combo — the new 4K webcam is going to level up your stream quality so much! Enjoy your prizes, you deserve it! 🏆✨",
           "status": "processed",
           "ingestedAt": "2026-07-24T23:50:10+08:00"
         },
@@ -7073,6 +7073,20 @@
           "replyText": "Congratulations!! 🎉🎊 Winning a stream promo through the Carnival is amazing — that kind of visibility can make a real difference for your channel. Enjoy it and keep up the great work! 💜",
           "status": "processed",
           "ingestedAt": "2026-07-29T23:50:10+08:00"
+        },
+        {
+          "id": "cam101-sQW575",
+          "source": "cam101",
+          "title": "Stream Button Issue",
+          "content": "[cam101 原帖无正文或未采集] new post, tech issue with Stripchat stream button redirect",
+          "summary": "new post, tech issue with Stripchat stream button redirect",
+          "category": "neutral",
+          "url": "https://www.cam101.com/forumDetails/sQW575/cam-101-stream-button-issue",
+          "timestamp": "2026-07-30T09:00:00+08:00",
+          "replied": true,
+          "replyText": "Hi! Thanks for reporting this — that does sound like an unexpected redirect issue with the Stripchat stream button. Could you let us know which browser and version of the caming extension you're using? In the meantime, try clearing your browser cache and reinstalling the extension to see if that resolves it. You can also reach out directly at camming@lovense.com and our team will take a closer look. Hope we can get this sorted for you quickly! 💙",
+          "status": "processed",
+          "ingestedAt": "2026-07-30T09:45:06+08:00"
         }
       ]
     },
