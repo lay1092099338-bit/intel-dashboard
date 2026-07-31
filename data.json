@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-31T12:29:32+08:00",
+  "lastUpdated": "2026-07-31T23:50:07+08:00",
   "tabs": {
     "reddit": {
       "label": "Reddit",
@@ -7143,6 +7143,48 @@
           "replyText": "Hi! Thanks for reporting this — that does sound like an unexpected redirect issue with the Stripchat stream button. Could you let us know which browser and version of the caming extension you're using? In the meantime, try clearing your browser cache and reinstalling the extension to see if that resolves it. You can also reach out directly at camming@lovense.com and our team will take a closer look. Hope we can get this sorted for you quickly! 💙",
           "status": "processed",
           "ingestedAt": "2026-07-30T09:45:06+08:00"
+        },
+        {
+          "id": "cam101-4Ej0JU",
+          "source": "cam101",
+          "title": "my community",
+          "content": "[cam101 原帖无正文或未采集] New member post sharing enthusiasm for social sharing. Welcomed user and encouraged community engagement. 0 replies, 21h old.",
+          "summary": "New member post sharing enthusiasm for social sharing. Welcomed user and encouraged community engagement. 0 replies, 21h old.",
+          "category": "neutral",
+          "url": "https://www.cam101.com/forumDetails/4Ej0JU/cam-101-my-community",
+          "timestamp": "2026-07-31T22:00:00+08:00",
+          "replied": true,
+          "replyText": "That spirit of sharing and staying connected is what makes this community so great! 💕 You are definitely not alone here — Cam101 is full of models who love to support each other. Welcome, and feel free to jump into any discussion!",
+          "status": "processed",
+          "ingestedAt": "2026-07-31T23:50:07+08:00"
+        },
+        {
+          "id": "cam101-NxoFMh",
+          "source": "cam101",
+          "title": "Stripchat error message",
+          "content": "[cam101 原帖无正文或未采集] User reporting persistent Stripchat error tied to Elgato Wave 3 mic. Stripchat support had already investigated. Suggested isolation testing and Elgato support as next steps. 0 replies, 2 days old.",
+          "summary": "User reporting persistent Stripchat error tied to Elgato Wave 3 mic. Stripchat support had already investigated. Suggested isolation testing and Elgato support as next steps. 0 replies, 2 days old.",
+          "category": "neutral",
+          "url": "https://www.cam101.com/forumDetails/NxoFMh/cam-101-stripchat-error-message",
+          "timestamp": "2026-07-31T22:00:00+08:00",
+          "replied": true,
+          "replyText": "That is a tricky one! Since Stripchat support has already checked your settings and is pointing to the Elgato Wave 3, it might be worth testing with a different audio input temporarily to rule that out — even a basic USB mic or your built-in mic. Sometimes Stripchat's audio engine handles certain USB audio interfaces differently than other platforms. If the issue only shows on Stripchat, it could also be worth reaching out to Elgato support to see if there are known compatibility notes. Hope you get it sorted soon! 💜",
+          "status": "processed",
+          "ingestedAt": "2026-07-31T23:50:07+08:00"
+        },
+        {
+          "id": "cam101-cDuNKH",
+          "source": "cam101",
+          "title": "Is anyone monitoring the Cam101 Admin account?",
+          "content": "[cam101 原帖无正文或未采集] User frustrated about no response from Cam101 admin account for over a week. Redirected to official support email camming@lovense.com. 0 replies, 17h old.",
+          "summary": "User frustrated about no response from Cam101 admin account for over a week. Redirected to official support email camming@lovense.com. 0 replies, 17h old.",
+          "category": "negative",
+          "url": "https://www.cam101.com/forumDetails/cDuNKH/cam-101-is-anyone-monitoring-the-cam101-admin-account",
+          "timestamp": "2026-07-31T22:00:00+08:00",
+          "replied": true,
+          "replyText": "Hi! Sorry to hear you have not received a response — that is definitely not the experience we want you to have. For the fastest support, I would recommend reaching out directly via email at camming@lovense.com and our team will be happy to help you out. 💜",
+          "status": "processed",
+          "ingestedAt": "2026-07-31T23:50:07+08:00"
         }
       ]
     },
