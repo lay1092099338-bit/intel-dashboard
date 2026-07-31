@@ -1,0 +1,126 @@
+{
+  "captureDate": "2026-07-31",
+  "date": "2026-07-31",
+  "generatedAt": "2026-08-01T06:00:07+08:00",
+  "generated_at": "2026-08-01 06:00 UTC+8",
+  "exportStatus": "partial",
+  "sourceStatuses": {
+    "reddit": "missing",
+    "handy": "missing",
+    "reddit_vibemate_fam": "missing",
+    "reddit_vibemate_camgirl": "missing",
+    "cam101_09": "missing",
+    "cam101_22": "ok",
+    "telegram": "missing",
+    "x_dm": "ok"
+  },
+  "sources": {
+    "reddit": null,
+    "handy": null,
+    "reddit_vibemate_fam": null,
+    "reddit_vibemate_camgirl": null,
+    "cam101": {
+      "slot_09": null,
+      "slot_22": {
+        "run_time": "2026-07-31 22:00",
+        "slot": "22",
+        "replied": [
+          {
+            "post_id": "4Ej0JU",
+            "post_title": "my community",
+            "post_url": "https://www.cam101.com/forumDetails/4Ej0JU/cam-101-my-community",
+            "reply_text": "That spirit of sharing and staying connected is what makes this community so great! 💕 You are definitely not alone here — Cam101 is full of models who love to support each other. Welcome, and feel free to jump into any discussion!",
+            "note": "New member post sharing enthusiasm for social sharing. Welcomed user and encouraged community engagement. 0 replies, 21h old."
+          },
+          {
+            "post_id": "NxoFMh",
+            "post_title": "Stripchat error message",
+            "post_url": "https://www.cam101.com/forumDetails/NxoFMh/cam-101-stripchat-error-message",
+            "reply_text": "That is a tricky one! Since Stripchat support has already checked your settings and is pointing to the Elgato Wave 3, it might be worth testing with a different audio input temporarily to rule that out — even a basic USB mic or your built-in mic. Sometimes Stripchat's audio engine handles certain USB audio interfaces differently than other platforms. If the issue only shows on Stripchat, it could also be worth reaching out to Elgato support to see if there are known compatibility notes. Hope you get it sorted soon! 💜",
+            "note": "User reporting persistent Stripchat error tied to Elgato Wave 3 mic. Stripchat support had already investigated. Suggested isolation testing and Elgato support as next steps. 0 replies, 2 days old."
+          },
+          {
+            "post_id": "cDuNKH",
+            "post_title": "Is anyone monitoring the Cam101 Admin account?",
+            "post_url": "https://www.cam101.com/forumDetails/cDuNKH/cam-101-is-anyone-monitoring-the-cam101-admin-account",
+            "reply_text": "Hi! Sorry to hear you have not received a response — that is definitely not the experience we want you to have. For the fastest support, I would recommend reaching out directly via email at camming@lovense.com and our team will be happy to help you out. 💜",
+            "note": "User frustrated about no response from Cam101 admin account for over a week. Redirected to official support email camming@lovense.com. 0 replies, 17h old."
+          }
+        ],
+        "skipped_count": 13,
+        "error": null
+      },
+      "all_replied": [
+        {
+          "post_id": "4Ej0JU",
+          "post_title": "my community",
+          "post_url": "https://www.cam101.com/forumDetails/4Ej0JU/cam-101-my-community",
+          "reply_text": "That spirit of sharing and staying connected is what makes this community so great! 💕 You are definitely not alone here — Cam101 is full of models who love to support each other. Welcome, and feel free to jump into any discussion!",
+          "note": "New member post sharing enthusiasm for social sharing. Welcomed user and encouraged community engagement. 0 replies, 21h old."
+        },
+        {
+          "post_id": "NxoFMh",
+          "post_title": "Stripchat error message",
+          "post_url": "https://www.cam101.com/forumDetails/NxoFMh/cam-101-stripchat-error-message",
+          "reply_text": "That is a tricky one! Since Stripchat support has already checked your settings and is pointing to the Elgato Wave 3, it might be worth testing with a different audio input temporarily to rule that out — even a basic USB mic or your built-in mic. Sometimes Stripchat's audio engine handles certain USB audio interfaces differently than other platforms. If the issue only shows on Stripchat, it could also be worth reaching out to Elgato support to see if there are known compatibility notes. Hope you get it sorted soon! 💜",
+          "note": "User reporting persistent Stripchat error tied to Elgato Wave 3 mic. Stripchat support had already investigated. Suggested isolation testing and Elgato support as next steps. 0 replies, 2 days old."
+        },
+        {
+          "post_id": "cDuNKH",
+          "post_title": "Is anyone monitoring the Cam101 Admin account?",
+          "post_url": "https://www.cam101.com/forumDetails/cDuNKH/cam-101-is-anyone-monitoring-the-cam101-admin-account",
+          "reply_text": "Hi! Sorry to hear you have not received a response — that is definitely not the experience we want you to have. For the fastest support, I would recommend reaching out directly via email at camming@lovense.com and our team will be happy to help you out. 💜",
+          "note": "User frustrated about no response from Cam101 admin account for over a week. Redirected to official support email camming@lovense.com. 0 replies, 17h old."
+        }
+      ]
+    },
+    "telegram": null,
+    "x_dm": {
+      "date": "2026-08-01",
+      "generated_at": "04:17 UTC+8",
+      "accounts": {
+        "vibemate_pc": {
+          "account": "@Vibemate_PC",
+          "status": "ok",
+          "replied_dms": [
+            {
+              "user": "@DBereznak6061",
+              "original": "Guess I'll try again",
+              "reply": "Hey! Still here — please go ahead, I’m all ears.",
+              "note": "User followed up after our previous invite to share something; sent warm re-invitation to continue the conversation."
+            }
+          ],
+          "replied_notifications": [],
+          "skipped_count": 22,
+          "error": null
+        },
+        "vibemate_offical": {
+          "account": "@VibeMateOffical",
+          "status": "empty",
+          "replied_dms": [],
+          "skipped_count": 0,
+          "error": null
+        },
+        "assistant_cam": {
+          "account": "@Assistant_cam",
+          "status": "empty",
+          "replied_dms": [],
+          "skipped_count": 3,
+          "error": null
+        }
+      },
+      "summary": {
+        "total_replied": 1
+      }
+    }
+  },
+  "summary": {
+    "reddit_items": 0,
+    "handy_items": 0,
+    "reddit_vibemate_fam_items": 0,
+    "reddit_vibemate_camgirl_items": 0,
+    "cam101_replied": 3,
+    "telegram_messages": 0,
+    "x_dm_replied": 1
+  }
+}
