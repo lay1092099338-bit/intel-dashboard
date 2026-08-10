@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-10T06:00:06+08:00",
+  "lastUpdated": "2026-08-10T09:45:13+08:00",
   "tabs": {
     "reddit": {
       "label": "Reddit",
@@ -4343,6 +4343,34 @@
           "timestamp": "2026-08-08T07:49:35+08:00",
           "status": "pending",
           "ingestedAt": "2026-08-09T09:45:27+08:00"
+        },
+        {
+          "id": "reddit-reddit-1vk3c0n",
+          "source": "reddit",
+          "subreddit": "r/CamGirlProblems",
+          "title": "It's my first time selling underwear and I don't know anything about it; I need help from people with experience! 😭",
+          "content": "For the first time, someone is interested in buying my used underwear—specifically \"VERY WET,\" in his own words. The client isn't asking for a video or a sample of me actually getting them wet, which is a plus since I don't squirt (I've done it twice, very lightly and off-camera—I don't even know if it counts). The point is, he's offering good money, but I need something that looks like a real gush when he smells the garment. I'm still new to this and want to save some cash; if you have tips using ingredients I might have at home, I'd really appreciate it. Also, how the hell does shipping work? Do you give your real address in these cases? I'm totally lost! 😭",
+          "summary": "新手首次出售内衣，求助如何制造\"湿润感\"的家用替代方法，同时对匿名安全寄送流程感到困惑和焦虑。",
+          "category": "neutral",
+          "url": "https://reddit.com/r/CamGirlProblems/comments/1vk3c0n/its_my_first_time_selling_underwear_and_i_dont/",
+          "score": 3,
+          "timestamp": "2026-08-10T06:30:29+08:00",
+          "status": "pending",
+          "ingestedAt": "2026-08-10T09:45:13+08:00"
+        },
+        {
+          "id": "reddit-reddit-1vjcvi9",
+          "source": "reddit",
+          "subreddit": "r/CamGirlProblems",
+          "title": "Lovense mobile connection issues",
+          "content": "Hiya - I feel like I’m doing everything right but when I try to connect the Lovense 4 to the mobile sites, it won’t connect to my phone. I’m launching it through stream browser app (which I thought I was supposed to do?) Anyone have an issue with the Bluetooth not connecting using the stream browser app? I appreciate your help so much!",
+          "summary": "用户在使用流媒体浏览器应用时，Lovense 4蓝牙无法连接手机，寻求社区帮助排查问题。",
+          "category": "neutral",
+          "url": "https://reddit.com/r/CamGirlProblems/comments/1vjcvi9/lovense_mobile_connection_issues/",
+          "score": 2,
+          "timestamp": "2026-08-09T09:33:49+08:00",
+          "status": "pending",
+          "ingestedAt": "2026-08-10T09:45:13+08:00"
         }
       ]
     },
@@ -8184,13 +8212,13 @@
           "id": "cam101-Tsi9ET",
           "source": "cam101",
           "title": "Your toy has been disconnected message",
-          "content": "[cam101 原帖无正文或未采集] BlueEyedGuy94 asked a follow-up question ('where are the extension settings?') on a post Sophia991 had already replied to. Provided step-by-step instructions for locating the Caming Extension settings panel.",
-          "summary": "BlueEyedGuy94 asked a follow-up question ('where are the extension settings?') on a post Sophia991 had already replied to. Provided step-by-step instructions for locating the Caming Extension settings panel.",
+          "content": "[cam101 原帖无正文或未采集] BlueEyedGuy94 posted a follow-up 3 hours ago saying disabling the extension didn't fix the blinking error message. Clarified that the notification might originate from the cam site itself rather than the Lovense extension, and suggested checking site broadcaster settings.",
+          "summary": "BlueEyedGuy94 posted a follow-up 3 hours ago saying disabling the extension didn't fix the blinking error message. Clarified that the notification might originate from the cam site itself rather than the Lovense extension, and suggested checking site broadcaster settings.",
           "category": "bug",
           "url": "https://www.cam101.com/forumDetails/Tsi9ET/cam-101-your-toy-has-been-disconnected-message",
-          "timestamp": "2026-08-09T09:00:00+08:00",
+          "timestamp": "2026-08-10T09:00:00+08:00",
           "replied": true,
-          "replyText": "To access the Lovense Caming Extension settings, click the extension icon in your browser's toolbar (top-right area), then look for the gear/settings icon inside the panel. From there you should find notification options including toy status messages. You can toggle off the disconnect notifications from that settings menu. If you can't find it, make sure you're on the latest version of the extension! 😊",
+          "replyText": "If you've disabled the extension and the message is still appearing, it might be coming from the cam site itself rather than Lovense. Try checking your Chaturbate or Stripchat broadcaster settings for a toy/device notification toggle. A full page refresh or starting a new broadcast session often clears these persistent messages too. Hope that helps! 😊",
           "status": "processed",
           "ingestedAt": "2026-08-08T23:50:16+08:00"
         },
