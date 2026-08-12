@@ -1,0 +1,211 @@
+{
+  "captureDate": "2026-08-12",
+  "date": "2026-08-12",
+  "generatedAt": "2026-08-13T06:00:07+08:00",
+  "generated_at": "2026-08-13 06:00 UTC+8",
+  "exportStatus": "complete",
+  "sourceStatuses": {
+    "reddit": "ok",
+    "handy": "ok",
+    "reddit_vibemate_fam": "ok",
+    "reddit_vibemate_camgirl": "ok",
+    "cam101_09": "ok",
+    "cam101_22": "ok",
+    "telegram": "ok",
+    "x_dm": "ok"
+  },
+  "sources": {
+    "reddit": {
+      "items": [],
+      "fetched_at": "2026-08-12T07:00:08.226168+08:00",
+      "search_status": "ok",
+      "rss_status": "ok",
+      "pullpush_status": "disabled",
+      "overall_status": "ok"
+    },
+    "handy": {
+      "items": [
+        {
+          "id": "handy-1vluvr5",
+          "type": "post",
+          "subreddit": "theHandy",
+          "title": "What is the easiest/cheapest way to get various 3d printed accessories for hands free use?",
+          "content": "&lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;Every time I go down this route I get overwhelmed. Some things are like 1 of 4 total pieces I need. Or its version 3 of 4, etc. I just need someone to send me &lt;/p&gt; &lt;p&gt;1) the exact links I need for a product where I can lay down in bed/sit in a chair completely hands free.&lt;/p&gt; &lt;p&gt;2) the exact website to provide these links to for them to ship to me as I dont own a 3d printer.&lt;/p&gt; &lt;p&gt;Or better yet, some store link on etsy/etc that has a good option ready to ship. &lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/AdviceSubstantial407&quot;&gt; /u/AdviceSubstantial407 &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/theHandy/comments/1vluvr5/what_is_the_easiestcheapest_way_to_get_various_3d/&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/theHandy/comments/1vluvr5/what_is_the_easiestcheapest_way_to_get_various_3d/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;",
+          "url": "https://www.reddit.com/r/theHandy/comments/1vluvr5/what_is_the_easiestcheapest_way_to_get_various_3d/",
+          "author": "/u/AdviceSubstantial407",
+          "run_time": "2026-08-12T05:38:36+08:00"
+        },
+        {
+          "id": "handy-1vlqsyu",
+          "type": "post",
+          "subreddit": "theHandy",
+          "title": "A Quick Update on The Handy 2",
+          "content": "&lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;We have some good news! The Handy 2 is fully in stock and shipping immediately.&lt;/p&gt; &lt;p&gt;All units have the charging and battery fixes fully implemented, and in the unlikely event anything comes up, it&amp;#39;s covered under warranty. &lt;/p&gt; &lt;p&gt;We also wanted to give everyone a heads-up that the launch price will be going up later in August. If you&amp;#39;ve been thinking about picking one up, now is a great time — you can save up to $120 before the increase kicks in.&lt;/p&gt; &lt;p&gt;As always, thank you for your continued support. It means a lot to us. &lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/HandyAshley&quot;&gt; /u/HandyAshley &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/theHandy/comments/1vlqsyu/a_quick_update_on_the_handy_2/&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/theHandy/comments/1vlqsyu/a_quick_update_on_the_handy_2/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;",
+          "url": "https://www.reddit.com/r/theHandy/comments/1vlqsyu/a_quick_update_on_the_handy_2/",
+          "author": "/u/HandyAshley",
+          "run_time": "2026-08-12T03:07:18+08:00"
+        },
+        {
+          "id": "handy-1vlhnts",
+          "type": "post",
+          "subreddit": "theHandy",
+          "title": "Beginner Advice - Handy 2 Pro",
+          "content": "&lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;Shoutout to helpful users here who have convinced me to try this out and order a Handy 2 Pro yesterday. Patiently waiting for it to arrive…&lt;/p&gt; &lt;p&gt;I also purchased a heavy duty camera arm to connect it hands free and silicone tape which I heard adds to the experience to anyone viewing remotely. &lt;/p&gt; &lt;p&gt;As someone who has never experienced anything like this before, do you have any recommendations around how to use it for the first time? I will admit that the most compelling reason I’ve purchased it is to be controlled remotely. Just joined a discord for it and looking forward to handing over control in the coming no days but also reading how potentially powerful this unit is. Not sure overclocking is for me just yet. (Nervous laughter). &lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/AShaan12345&quot;&gt; /u/AShaan12345 &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/theHandy/comments/1vlhnts/beginner_advice_handy_2_pro/&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href=&quo",
+          "url": "https://www.reddit.com/r/theHandy/comments/1vlhnts/beginner_advice_handy_2_pro/",
+          "author": "/u/AShaan12345",
+          "run_time": "2026-08-11T21:35:35+08:00"
+        },
+        {
+          "id": "handy-1vlgbjg",
+          "type": "post",
+          "subreddit": "theHandy",
+          "title": "Should we mask out Handy device in SexLikeReal Passthrough videos?",
+          "content": "&lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;So you wont be seeing it and rather enjoy the video&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/doublevr&quot;&gt; /u/doublevr &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/theHandy/comments/1vlgbjg/should_we_mask_out_handy_device_in_sexlikereal/&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/theHandy/comments/1vlgbjg/should_we_mask_out_handy_device_in_sexlikereal/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;",
+          "url": "https://www.reddit.com/r/theHandy/comments/1vlgbjg/should_we_mask_out_handy_device_in_sexlikereal/",
+          "author": "/u/doublevr",
+          "run_time": "2026-08-11T20:39:50+08:00"
+        }
+      ],
+      "posts": 4,
+      "comments": 0,
+      "fetched_at": "2026-08-12T08:30:11.066102+08:00"
+    },
+    "reddit_vibemate_fam": {
+      "date": "2026-08-12",
+      "generated_at": "11:00",
+      "subreddit": "VibeMateFam",
+      "items": []
+    },
+    "reddit_vibemate_camgirl": {
+      "date": "2026-08-12",
+      "generated_at": "10:00",
+      "subreddit": "CamGirlProblems",
+      "keyword": "vibemate",
+      "items": []
+    },
+    "cam101": {
+      "slot_09": {
+        "run_time": "2026-08-11 09:00",
+        "slot": "09",
+        "replied": [],
+        "skipped_count": 56,
+        "error": null,
+        "notes": "All recent posts (within 5 days) had already been replied to by Sophia991 in previous runs. Posts checked: JDoPAq (Studio League July Winners), WEWYqO (New Viewers from Rising Star), 84GDoP (STUDIO HUB by Lovense), 7zoPVO (Streaming From iPhone), 7XD8HF (CAM4 Tipping Games), Tsi9ET (Toy disconnected message), NxoFMh (Stripchat error), bU7Bmd (Chrome extension lite), UU9mQc (prize won - 16h new activity), g8oegQ, 8R4eTV, GfhOC4, MQhUwH, 6pZG80, 25oF1q, pNifAr, mNn9Jk, Pbo9vV, 5GnEsS, kJuo3J, gKe91F, Ljm9b3 (carnival posts). New posts found: CDOd3J (Steal Brainrot game - spam/off-topic), UJ5scs (Wilder Leaf supplement - spam). Spam batch (escort/love-spell/abortion pills): ~30 posts skipped. Posts with replies>=5 skipped: Tsi9ET(6), NxoFMh(7), lA0Gfl(40+)."
+      },
+      "slot_22": {
+        "run_time": "2026-08-11 22:00",
+        "slot": "22",
+        "replied": [
+          {
+            "post_id": "iVPSLD",
+            "post_title": "Chaturbate Account Banned",
+            "post_url": "https://www.cam101.com/forumDetails/iVPSLD/cam-101-chaturbate-account-banned",
+            "reply_text": "I'm really sorry to hear about this experience — it sounds incredibly frustrating, especially since you sent your own documents in good faith. Unfortunately, Chaturbate's support can be very slow to respond to appeal requests, and many models have faced similar situations.\n\nA few things that might help: try reaching out to their support team again via a different email address, and be very clear and detailed in your message — explain your situation calmly and include any proof you have that the documents are genuinely yours. Sometimes persistence pays off, even if it takes a while.\n\nIn the meantime, there are plenty of great platforms where you can continue growing your audience — many models actually find they do better on other sites. You're clearly dedicated, and that will take you far! 💕",
+            "note": "New post (not in cache). Posted today (Aug 11). Model got banned from Chaturbate due to document confusion, first reply."
+          },
+          {
+            "post_id": "Tsi9ET",
+            "post_title": "Your toy has been disconnected message",
+            "post_url": "https://www.cam101.com/forumDetails/Tsi9ET/cam-101-your-toy-has-been-disconnected-message",
+            "reply_text": "That's exactly right — the \"Your toy has been disconnected\" message is triggered by the cam site itself detecting that no Lovense device is actively connected. If you don't want to use a toy during your stream, the cleanest workaround is to not link Lovense to the site at all for that session, or to use a separate browser profile without the extension enabled. Once a toy is connected (even briefly), the message stops. Hope this clears it up! 💕",
+            "note": "Follow-up reply. Thread was active (shalalallaaa replied 1 day ago). Sophia had already replied 2 days ago — added clarification for completeness."
+          }
+        ],
+        "skipped_count": 57,
+        "error": null
+      },
+      "all_replied": [
+        {
+          "post_id": "iVPSLD",
+          "post_title": "Chaturbate Account Banned",
+          "post_url": "https://www.cam101.com/forumDetails/iVPSLD/cam-101-chaturbate-account-banned",
+          "reply_text": "I'm really sorry to hear about this experience — it sounds incredibly frustrating, especially since you sent your own documents in good faith. Unfortunately, Chaturbate's support can be very slow to respond to appeal requests, and many models have faced similar situations.\n\nA few things that might help: try reaching out to their support team again via a different email address, and be very clear and detailed in your message — explain your situation calmly and include any proof you have that the documents are genuinely yours. Sometimes persistence pays off, even if it takes a while.\n\nIn the meantime, there are plenty of great platforms where you can continue growing your audience — many models actually find they do better on other sites. You're clearly dedicated, and that will take you far! 💕",
+          "note": "New post (not in cache). Posted today (Aug 11). Model got banned from Chaturbate due to document confusion, first reply."
+        },
+        {
+          "post_id": "Tsi9ET",
+          "post_title": "Your toy has been disconnected message",
+          "post_url": "https://www.cam101.com/forumDetails/Tsi9ET/cam-101-your-toy-has-been-disconnected-message",
+          "reply_text": "That's exactly right — the \"Your toy has been disconnected\" message is triggered by the cam site itself detecting that no Lovense device is actively connected. If you don't want to use a toy during your stream, the cleanest workaround is to not link Lovense to the site at all for that session, or to use a separate browser profile without the extension enabled. Once a toy is connected (even briefly), the message stops. Hope this clears it up! 💕",
+          "note": "Follow-up reply. Thread was active (shalalallaaa replied 1 day ago). Sophia had already replied 2 days ago — added clarification for completeness."
+        }
+      ]
+    },
+    "telegram": {
+      "date_range": "2026-08-11 ~ 2026-08-12",
+      "generated_at": "2026-08-12 14:00 UTC+08:00",
+      "source": "local_storage_v3",
+      "groups": {
+        "-1001839056771": {
+          "name": "Lovense Better Camming",
+          "type": "模特群"
+        },
+        "-1002451488990": {
+          "name": "VibeMate PC Extension",
+          "type": "用户群"
+        },
+        "-1002866825060": {
+          "name": "Lovense Better Camming 1.0",
+          "type": "模特群"
+        }
+      },
+      "total_messages": 0,
+      "group_stats": {
+        "Lovense Better Camming": {
+          "type": "模特群",
+          "count": 0
+        },
+        "VibeMate PC Extension": {
+          "type": "用户群",
+          "count": 0
+        },
+        "Lovense Better Camming 1.0": {
+          "type": "模特群",
+          "count": 0
+        }
+      },
+      "poller_status": "unknown",
+      "messages": []
+    },
+    "x_dm": {
+      "date": "2026-08-13",
+      "generated_at": "04:16 UTC+8",
+      "accounts": {
+        "vibemate_pc": {
+          "account": "@Vibemate_PC",
+          "status": "empty",
+          "replied_dms": [],
+          "replied_notifications": [],
+          "skipped_count": 26,
+          "error": null
+        },
+        "vibemate_offical": {
+          "account": "@VibeMateOffical",
+          "status": "empty",
+          "replied_dms": [],
+          "skipped_count": 0,
+          "error": null
+        },
+        "assistant_cam": {
+          "account": "@Assistant_cam",
+          "status": "empty",
+          "replied_dms": [],
+          "skipped_count": 15,
+          "error": null
+        }
+      },
+      "summary": {
+        "total_replied": 0
+      }
+    }
+  },
+  "summary": {
+    "reddit_items": 0,
+    "handy_items": 4,
+    "reddit_vibemate_fam_items": 0,
+    "reddit_vibemate_camgirl_items": 0,
+    "cam101_replied": 2,
+    "telegram_messages": 0,
+    "x_dm_replied": 0
+  }
+}
