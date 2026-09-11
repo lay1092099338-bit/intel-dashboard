@@ -1,0 +1,104 @@
+{
+  "captureDate": "2026-09-11",
+  "date": "2026-09-11",
+  "generatedAt": "2026-09-12T06:00:14+08:00",
+  "generated_at": "2026-09-12 06:00 UTC+8",
+  "exportStatus": "partial",
+  "sourceStatuses": {
+    "reddit": "missing",
+    "handy": "missing",
+    "reddit_vibemate_fam": "missing",
+    "reddit_vibemate_camgirl": "missing",
+    "cam101_09": "missing",
+    "cam101_22": "missing",
+    "telegram": "ok",
+    "x_dm": "ok"
+  },
+  "sources": {
+    "reddit": null,
+    "handy": null,
+    "reddit_vibemate_fam": null,
+    "reddit_vibemate_camgirl": null,
+    "cam101": {
+      "slot_09": null,
+      "slot_22": null,
+      "all_replied": []
+    },
+    "telegram": {
+      "date_range": "2026-09-10 ~ 2026-09-11",
+      "generated_at": "2026-09-11 14:00 UTC+08:00",
+      "source": "local_storage_v3",
+      "groups": {
+        "-1001839056771": {
+          "name": "Lovense Better Camming",
+          "type": "模特群"
+        },
+        "-1002451488990": {
+          "name": "VibeMate PC Extension",
+          "type": "用户群"
+        },
+        "-1002866825060": {
+          "name": "Lovense Better Camming 1.0",
+          "type": "模特群"
+        }
+      },
+      "total_messages": 0,
+      "group_stats": {
+        "Lovense Better Camming": {
+          "type": "模特群",
+          "count": 0
+        },
+        "VibeMate PC Extension": {
+          "type": "用户群",
+          "count": 0
+        },
+        "Lovense Better Camming 1.0": {
+          "type": "模特群",
+          "count": 0
+        }
+      },
+      "poller_status": "unknown",
+      "messages": []
+    },
+    "x_dm": {
+      "date": "2026-09-12",
+      "generated_at": "04:14 UTC+8",
+      "accounts": {
+        "vibemate_pc": {
+          "account": "@Vibemate_PC",
+          "status": "empty",
+          "replied_dms": [],
+          "replied_notifications": [],
+          "skipped_count": 23,
+          "error": null
+        },
+        "vibemate_offical": {
+          "account": "@VibeMateOffical",
+          "status": "empty",
+          "replied_dms": [],
+          "skipped_count": 0,
+          "error": null
+        },
+        "assistant_cam": {
+          "account": "@Assistant_cam",
+          "status": "empty",
+          "replied_dms": [],
+          "skipped_count": 15,
+          "error": null
+        }
+      },
+      "summary": {
+        "total_replied": 0
+      }
+    }
+  },
+  "summary": {
+    "reddit_items": 0,
+    "handy_items": 0,
+    "reddit_vibemate_fam_items": 0,
+    "reddit_vibemate_camgirl_items": 0,
+    "cam101_replied": 0,
+    "telegram_messages": 0,
+    "x_dm_replied": 0
+  }
+}
