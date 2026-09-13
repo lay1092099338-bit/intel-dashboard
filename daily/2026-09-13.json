@@ -1,0 +1,231 @@
+{
+  "captureDate": "2026-09-13",
+  "date": "2026-09-13",
+  "generatedAt": "2026-09-14T06:00:10+08:00",
+  "generated_at": "2026-09-14 06:00 UTC+8",
+  "exportStatus": "complete",
+  "sourceStatuses": {
+    "reddit": "ok",
+    "handy": "ok",
+    "reddit_vibemate_fam": "ok",
+    "reddit_vibemate_camgirl": "ok",
+    "cam101_09": "ok",
+    "cam101_22": "ok",
+    "telegram": "ok",
+    "x_dm": "ok"
+  },
+  "sources": {
+    "reddit": {
+      "items": [],
+      "fetched_at": "2026-09-13T07:00:12.550957+08:00",
+      "search_status": "ok",
+      "rss_status": "ok",
+      "pullpush_status": "disabled",
+      "overall_status": "ok"
+    },
+    "handy": {
+      "items": [
+        {
+          "id": "handy-1we8x6s",
+          "type": "post",
+          "subreddit": "theHandy",
+          "title": "Best sleeve for girth?",
+          "content": "&lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;Most toys don&amp;#39;t fit me due to 6 + inches girth , so which handy sleeve is the loosest of them all? &lt;/p&gt; &lt;p&gt;I am interested in the silk sleeve.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/PublicIsland4550&quot;&gt; /u/PublicIsland4550 &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/theHandy/comments/1we8x6s/best_sleeve_for_girth/&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/theHandy/comments/1we8x6s/best_sleeve_for_girth/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;",
+          "url": "https://www.reddit.com/r/theHandy/comments/1we8x6s/best_sleeve_for_girth/",
+          "author": "/u/PublicIsland4550",
+          "run_time": "2026-09-12T18:22:30+08:00"
+        },
+        {
+          "id": "handy-1wdzqnf",
+          "type": "post",
+          "subreddit": "theHandy",
+          "title": "Battery Status Display (?)",
+          "content": "&lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;Can we get a function to check the battery charge and status while charging ? Maybe by pressing or holding a button.&lt;br/&gt; On my 2 Pro, that i know, i can only check the percentage by turning it on and off. And even then i need to pay attention so i dont miss it.&lt;br/&gt; Correct me if there is already a function for this but i didnt see it. &lt;/p&gt; &lt;p&gt;If you guys have have any other function in mind that is missing, tell me in the comments and maybe it would be implemented some day.. &lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/darkx96&quot;&gt; /u/darkx96 &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/theHandy/comments/1wdzqnf/battery_status_display/&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/theHandy/comments/1wdzqnf/battery_status_display/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;",
+          "url": "https://www.reddit.com/r/theHandy/comments/1wdzqnf/battery_status_display/",
+          "author": "/u/darkx96",
+          "run_time": "2026-09-12T10:07:07+08:00"
+        }
+      ],
+      "posts": 2,
+      "comments": 0,
+      "fetched_at": "2026-09-13T08:30:11.574539+08:00"
+    },
+    "reddit_vibemate_fam": {
+      "date": "2026-09-13",
+      "generated_at": "11:00",
+      "subreddit": "VibeMateFam",
+      "items": []
+    },
+    "reddit_vibemate_camgirl": {
+      "date": "2026-09-13",
+      "generated_at": "10:00",
+      "subreddit": "CamGirlProblems",
+      "keyword": "vibemate",
+      "items": []
+    },
+    "cam101": {
+      "slot_09": {
+        "run_time": "2026-09-13 09:00",
+        "slot": "09",
+        "replied": [
+          {
+            "post_id": "mQLfe7",
+            "post_title": "Wtf Drug dealers And other",
+            "post_url": "https://www.cam101.com/forumDetails/mQLfe7/cam-101-wtf-drug-dealers-and-other",
+            "reply_text": "Totally agree — it's really frustrating to see the forum cluttered with spam. This community is supposed to be a safe, helpful space for models. Hopefully the Cam101 team sees this and steps up moderation. In the meantime, use the Report button on those posts to flag them — the more reports, the faster they get removed! 💕",
+            "note": "User complaining about spam/drug dealer posts on forum. Fresh post ~7h old, 1 reply before ours. Successfully posted reply."
+          },
+          {
+            "post_id": "uCGifH",
+            "post_title": "A Quick Reminder About Fake Ads on CAM101",
+            "post_url": "https://www.cam101.com/forumDetails/uCGifH/cam-101-a-quick-reminder-about-fake-ads-on-cam101",
+            "reply_text": "Thanks for the heads up! 🙏 It is sad to see so many spam posts and fake ads lately — it really clutters up what should be a helpful community space. Glad the team is on it. Everyone should definitely use the Report button whenever they spot something suspicious. Let's keep Cam101 clean and safe for real models! 💜",
+            "note": "Official Cam101 announcement about fake ads, 0 replies before ours. Successfully posted reply."
+          }
+        ],
+        "skipped_count": 38,
+        "error": null
+      },
+      "slot_22": {
+        "run_time": "2026-09-13 22:00",
+        "slot": "22",
+        "replied": [
+          {
+            "post_id": "QPVVb3",
+            "post_title": "I was cumming",
+            "post_url": "https://www.cam101.com/forumDetails/QPVVb3/cam-101-i-was-cumming",
+            "reply_text": "Haha love the energy! There is nothing quite like that first real earning moment — it is seriously addictive in the best way. Keep riding that wave and keep showing up consistently. The money follows the momentum!",
+            "note": "New post from today (17 hours ago), 0 replies. New member sharing excitement about first earnings. Encouraging reply."
+          }
+        ],
+        "skipped_count": 35,
+        "error": null
+      },
+      "all_replied": [
+        {
+          "post_id": "mQLfe7",
+          "post_title": "Wtf Drug dealers And other",
+          "post_url": "https://www.cam101.com/forumDetails/mQLfe7/cam-101-wtf-drug-dealers-and-other",
+          "reply_text": "Totally agree — it's really frustrating to see the forum cluttered with spam. This community is supposed to be a safe, helpful space for models. Hopefully the Cam101 team sees this and steps up moderation. In the meantime, use the Report button on those posts to flag them — the more reports, the faster they get removed! 💕",
+          "note": "User complaining about spam/drug dealer posts on forum. Fresh post ~7h old, 1 reply before ours. Successfully posted reply."
+        },
+        {
+          "post_id": "uCGifH",
+          "post_title": "A Quick Reminder About Fake Ads on CAM101",
+          "post_url": "https://www.cam101.com/forumDetails/uCGifH/cam-101-a-quick-reminder-about-fake-ads-on-cam101",
+          "reply_text": "Thanks for the heads up! 🙏 It is sad to see so many spam posts and fake ads lately — it really clutters up what should be a helpful community space. Glad the team is on it. Everyone should definitely use the Report button whenever they spot something suspicious. Let's keep Cam101 clean and safe for real models! 💜",
+          "note": "Official Cam101 announcement about fake ads, 0 replies before ours. Successfully posted reply."
+        },
+        {
+          "post_id": "QPVVb3",
+          "post_title": "I was cumming",
+          "post_url": "https://www.cam101.com/forumDetails/QPVVb3/cam-101-i-was-cumming",
+          "reply_text": "Haha love the energy! There is nothing quite like that first real earning moment — it is seriously addictive in the best way. Keep riding that wave and keep showing up consistently. The money follows the momentum!",
+          "note": "New post from today (17 hours ago), 0 replies. New member sharing excitement about first earnings. Encouraging reply."
+        }
+      ]
+    },
+    "telegram": {
+      "date_range": "2026-09-12 ~ 2026-09-13",
+      "generated_at": "2026-09-13 14:00 UTC+08:00",
+      "source": "local_storage_v3",
+      "groups": {
+        "-1001839056771": {
+          "name": "Lovense Better Camming",
+          "type": "模特群"
+        },
+        "-1002451488990": {
+          "name": "VibeMate PC Extension",
+          "type": "用户群"
+        },
+        "-1002866825060": {
+          "name": "Lovense Better Camming 1.0",
+          "type": "模特群"
+        }
+      },
+      "total_messages": 0,
+      "group_stats": {
+        "Lovense Better Camming": {
+          "type": "模特群",
+          "count": 0
+        },
+        "VibeMate PC Extension": {
+          "type": "用户群",
+          "count": 0
+        },
+        "Lovense Better Camming 1.0": {
+          "type": "模特群",
+          "count": 0
+        }
+      },
+      "poller_status": "unknown",
+      "messages": []
+    },
+    "x_dm": {
+      "date": "2026-09-14",
+      "generated_at": "04:20 UTC+8",
+      "accounts": {
+        "vibemate_pc": {
+          "account": "@Vibemate_PC",
+          "status": "empty",
+          "replied_dms": [],
+          "replied_notifications": [],
+          "skipped_count": 24,
+          "error": null,
+          "scan_detail": {
+            "total_notifications": 24,
+            "skipped": {
+              "点赞": 11,
+              "关注": 8,
+              "系统通知": 1,
+              "DM/already_replied": 22
+            }
+          }
+        },
+        "vibemate_offical": {
+          "account": "@VibeMateOffical",
+          "status": "empty",
+          "replied_dms": [],
+          "skipped_count": 22,
+          "error": null,
+          "scan_detail": {
+            "total_conversations": 22,
+            "skipped": {
+              "already_replied": 22,
+              "spam": 0,
+              "self_sent": 47,
+              "no_text": 0
+            }
+          }
+        },
+        "assistant_cam": {
+          "account": "@Assistant_cam",
+          "status": "empty",
+          "replied_dms": [],
+          "skipped_count": 3,
+          "error": null,
+          "scan_detail": {
+            "skipped": {
+              "already_replied": 3,
+              "spam": 0,
+              "self_sent": 12,
+              "no_text": 0
+            }
+          }
+        }
+      },
+      "summary": {
+        "total_replied": 0
+      }
+    }
+  },
+  "summary": {
+    "reddit_items": 0,
+    "handy_items": 2,
+    "reddit_vibemate_fam_items": 0,
+    "reddit_vibemate_camgirl_items": 0,
+    "cam101_replied": 3,
+    "telegram_messages": 0,
+    "x_dm_replied": 0
+  }
+}
