@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T06:00:16+08:00",
+  "lastUpdated": "2026-09-13T09:45:06+08:00",
   "tabs": {
     "reddit": {
       "label": "Reddit",
@@ -10102,13 +10102,13 @@
           "id": "cam101-uCGifH",
           "source": "cam101",
           "title": "A Quick Reminder About Fake Ads on CAM101",
-          "content": "[cam101 原帖无正文或未采集] Community safety announcement, 0 existing replies, Sophia991 not previously replied.",
-          "summary": "Community safety announcement, 0 existing replies, Sophia991 not previously replied.",
+          "content": "[cam101 原帖无正文或未采集] Official Cam101 announcement about fake ads, 0 replies before ours. Successfully posted reply.",
+          "summary": "Official Cam101 announcement about fake ads, 0 replies before ours. Successfully posted reply.",
           "category": "negative",
           "url": "https://www.cam101.com/forumDetails/uCGifH/cam-101-a-quick-reminder-about-fake-ads-on-cam101",
-          "timestamp": "2026-08-29T22:00:00+08:00",
+          "timestamp": "2026-09-13T09:00:00+08:00",
           "replied": true,
-          "replyText": "Really appreciate the heads up on this! It is so important to keep the community safe and trustworthy, especially for newer members who might not know the red flags yet. The Report button is such a helpful tool — glad the team is on top of it! Thanks for keeping CAM101 a great place for everyone 💜",
+          "replyText": "Thanks for the heads up! 🙏 It is sad to see so many spam posts and fake ads lately — it really clutters up what should be a helpful community space. Glad the team is on it. Everyone should definitely use the Report button whenever they spot something suspicious. Let's keep Cam101 clean and safe for real models! 💜",
           "status": "processed",
           "ingestedAt": "2026-08-25T23:50:12+08:00"
         },
@@ -11007,6 +11007,20 @@
           "replyText": "This is such a smart feature! Co-streaming really does help both models reach new audiences without competing for the same viewers. The fact that the other model appears anonymously is a really thoughtful design — no risk of losing your audience. For anyone who hasn't tried it yet, it's worth giving a shot especially if you're looking to break out of a slow period. 💕",
           "status": "processed",
           "ingestedAt": "2026-09-12T09:45:24+08:00"
+        },
+        {
+          "id": "cam101-mQLfe7",
+          "source": "cam101",
+          "title": "Wtf Drug dealers And other",
+          "content": "[cam101 原帖无正文或未采集] User complaining about spam/drug dealer posts on forum. Fresh post ~7h old, 1 reply before ours. Successfully posted reply.",
+          "summary": "User complaining about spam/drug dealer posts on forum. Fresh post ~7h old, 1 reply before ours. Successfully posted reply.",
+          "category": "neutral",
+          "url": "https://www.cam101.com/forumDetails/mQLfe7/cam-101-wtf-drug-dealers-and-other",
+          "timestamp": "2026-09-13T09:00:00+08:00",
+          "replied": true,
+          "replyText": "Totally agree — it's really frustrating to see the forum cluttered with spam. This community is supposed to be a safe, helpful space for models. Hopefully the Cam101 team sees this and steps up moderation. In the meantime, use the Report button on those posts to flag them — the more reports, the faster they get removed! 💕",
+          "status": "processed",
+          "ingestedAt": "2026-09-13T09:45:06+08:00"
         }
       ]
     },
