@@ -1,0 +1,295 @@
+{
+  "captureDate": "2026-09-24",
+  "date": "2026-09-24",
+  "generatedAt": "2026-09-25T06:00:13+08:00",
+  "generated_at": "2026-09-25 06:00 UTC+8",
+  "exportStatus": "complete",
+  "sourceStatuses": {
+    "reddit": "ok",
+    "handy": "ok",
+    "reddit_vibemate_fam": "ok",
+    "reddit_vibemate_camgirl": "ok",
+    "cam101_09": "ok",
+    "cam101_22": "ok",
+    "telegram": "ok",
+    "x_dm": "ok"
+  },
+  "sources": {
+    "reddit": {
+      "items": [],
+      "fetched_at": "2026-09-23T07:00:08.670840+08:00",
+      "search_status": "ok",
+      "rss_status": "ok",
+      "pullpush_status": "disabled",
+      "overall_status": "ok"
+    },
+    "handy": {
+      "items": [
+        {
+          "id": "handy-1wn8oc3",
+          "type": "post",
+          "subreddit": "theHandy",
+          "title": "Simple handsfree solution",
+          "content": "&lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;Hi,&lt;br/&gt; I have the Handy 2 and just got a Quest 3. The only thing I need now is a hands-free option. I have my own 3D printer so printing is no problem, but when I search the different forums it’s mostly solutions that also require buying a lot of other hardware. Maybe I’ve looked in the wrong places, but if anyone knows where I can find a print that doesn’t need 5 different kinds of pipe and 10 different screws, it would be much appreciated.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/Available-Courage326&quot;&gt; /u/Available-Courage326 &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/theHandy/comments/1wn8oc3/simple_handsfree_solution/&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/theHandy/comments/1wn8oc3/simple_handsfree_solution/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;",
+          "url": "https://www.reddit.com/r/theHandy/comments/1wn8oc3/simple_handsfree_solution/",
+          "author": "/u/Available-Courage326",
+          "run_time": "2026-09-22T20:52:54+08:00"
+        },
+        {
+          "id": "handy-1wn23km",
+          "type": "post",
+          "subreddit": "theHandy",
+          "title": "How to setup handsfree?",
+          "content": "&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href=&quot;https://www.reddit.com/r/theHandy/comments/1wn23km/how_to_setup_handsfree/&quot;&gt; &lt;img src=&quot;https://preview.redd.it/wm36gmo3r0rh1.jpeg?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=f050a586667fd788e540c7b4a9b19d4a1428313e&quot; alt=&quot;How to setup handsfree?&quot; title=&quot;How to setup handsfree?&quot; /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;So ive bought recently this kit to make the handy 1 i bought handsfree, but i realized im not really sure in which position or orientation do i have to put the ring before applying the tape so its correctly placed, if anyone can share an image of their setup if its similar i would appreciate it&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/Marshza&quot;&gt; /u/Marshza &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://i.redd.it/wm36gmo3r0rh1.jpeg&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/theHandy/comments/1wn23km/how_to_setup_handsfree/&quot;&gt;[comments]&lt;/a&g",
+          "url": "https://www.reddit.com/r/theHandy/comments/1wn23km/how_to_setup_handsfree/",
+          "author": "/u/Marshza",
+          "run_time": "2026-09-22T14:51:32+08:00"
+        },
+        {
+          "id": "handy-1wmxe1y",
+          "type": "post",
+          "subreddit": "theHandy",
+          "title": "MagicHandy Chatbot &amp; Script Playground - Major Updates",
+          "content": "&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href=&quot;https://www.reddit.com/r/theHandy/comments/1wmxe1y/magichandy_chatbot_script_playground_major_updates/&quot;&gt; &lt;img src=&quot;https://external-preview.redd.it/aipLag8ilLzkxwHo1ahpmXIRYuaoMYBsdIIn-Vxg6UU.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=b716bca3b5cdd5730b7b032dc21cb10b294de9a3&quot; alt=&quot;MagicHandy Chatbot &amp;amp; Script Playground - Major Updates&quot; title=&quot;MagicHandy Chatbot &amp;amp; Script Playground - Major Updates&quot; /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;I would encourage you if you haven&amp;#39;t tried the app, or tried it at an earlier stage of development to try it again!&lt;/p&gt; &lt;p&gt;A lot of progress has been made and the app is now very stable, LLM handling is much better and local network and internet access is now functional and integrated into setup. There are also new control modes (Creative, Creative v2, Layered), play around with those!&lt;/p&gt; &lt;p&gt;Cross-platform/non-Windows support is still minimal (although it should be workable), I really need someone to collaborate on that front.&lt;/p",
+          "url": "https://www.reddit.com/r/theHandy/comments/1wmxe1y/magichandy_chatbot_script_playground_major_updates/",
+          "author": "/u/okurinsan",
+          "run_time": "2026-09-22T10:43:49+08:00"
+        },
+        {
+          "id": "handy-1wmux7y",
+          "type": "post",
+          "subreddit": "theHandy",
+          "title": "Which quickshot goes best with the handy?",
+          "content": "&lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;I&amp;#39;m planning to finally purchase a handy 1.0 next week, with the official hands-free setup and a fleshlight quickshot. Problem is I can&amp;#39;t really decide which of the quickshots I should get... currently torn between the Turbo and Riley Reid sleeve. Would love to hear some thoughts and suggestions. Also bonus question: do quickshots work with the case on with the handy, or do I need to buy a different strap for that?&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/thatguyinthetower69&quot;&gt; /u/thatguyinthetower69 &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/theHandy/comments/1wmux7y/which_quickshot_goes_best_with_the_handy/&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/theHandy/comments/1wmux7y/which_quickshot_goes_best_with_the_handy/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;",
+          "url": "https://www.reddit.com/r/theHandy/comments/1wmux7y/which_quickshot_goes_best_with_the_handy/",
+          "author": "/u/thatguyinthetower69",
+          "run_time": "2026-09-22T08:50:24+08:00"
+        }
+      ],
+      "posts": 4,
+      "comments": 0,
+      "fetched_at": "2026-09-23T08:30:26.244825+08:00"
+    },
+    "reddit_vibemate_fam": {
+      "date": "2026-09-24",
+      "generated_at": "11:00",
+      "subreddit": "VibeMateFam",
+      "items": []
+    },
+    "reddit_vibemate_camgirl": {
+      "date": "2026-09-24",
+      "generated_at": "10:01",
+      "subreddit": "CamGirlProblems",
+      "keyword": "vibemate",
+      "items": []
+    },
+    "cam101": {
+      "slot_09": {
+        "run_time": "2026-09-19 09:00",
+        "slot": "09",
+        "replied": [
+          {
+            "post_id": "w5CuTr",
+            "post_title": "The most intense orgasms of my life",
+            "post_url": "https://www.cam101.com/forumDetails/w5CuTr/cam-101-the-most-intense-orgasms-of-my-life",
+            "reply_text": "Love that you shared this! Lovense really does have a way of turning an ordinary moment into something extraordinary 💕 The Gemini is a gem indeed — glad it is treating you (and your viewers) so well!",
+            "note": "NSFW personal experience sharing post about toy use; replied lightly with brief appreciation"
+          },
+          {
+            "post_id": "5w8L5n",
+            "post_title": "Tiered Hardware & Audience Drive: How My 5-Toy Lovense Arsenal Powers High-Traffic Male Streams",
+            "post_url": "https://www.cam101.com/forumDetails/5w8L5n/cam-101-tiered-hardware-audience-drive-how-my-5-toy-lov",
+            "reply_text": "This is an incredibly detailed and thoughtful breakdown — thank you for sharing your full setup! The tiered progression model you describe (Lush 3 for ambient buzz → Diamo for endurance → Solace Pro as the grand finale) is a really smart way to give viewers clear milestones to rally around. The VibeMate sync feature combined with Co-Streaming Battles is a powerful combo for cross-room visibility too. Your suggestions for multi-device priority routing and per-device tip threshold mapping are excellent feedback — we will pass these along to the StreamMaster dev team. If you would like to share more detailed notes, feel free to reach out at camming@lovense.com as well. Excited to see creators like you pushing the platform to its fullest potential! 💪",
+            "note": "Detailed 5-toy setup guide with feature requests for StreamMaster; acknowledged tips, escalated dev feedback, provided support email"
+          },
+          {
+            "post_id": "dWtEQV",
+            "post_title": "What Brought us to the Cam 101 community",
+            "post_url": "https://www.cam101.com/forumDetails/dWtEQV/cam-101-what-brought-us-to-the-cam-101-community",
+            "reply_text": "Welcome to the Cam101 community! 🎉 So exciting that you are getting started with the Lovense Webcam 2 and setting up your toys on Chaturbate — you are in the right place to learn fast! The community here is super supportive and full of experienced creators happy to share tips. Feel free to ask any questions you have about setting up your Lovense toys with Chaturbate — we are always here to help. Wishing you the best with your new setup! 💕",
+            "note": "New member intro post setting up Lovense Webcam 2 + toys on Chaturbate; warm welcome, directed to community support"
+          },
+          {
+            "post_id": "IQK4WD",
+            "post_title": "Lovense helps",
+            "post_url": "https://www.cam101.com/forumDetails/IQK4WD/cam-101-lovense-helps",
+            "reply_text": "This is genuinely great insight, Mia — especially the tip about keeping the first buzz cheap so new viewers test the toy. That low barrier to entry is such a smart way to build the habit. And naming your patterns rather than just \"level 3\" is something more models should do! Your wishlist (live battery warning, named patterns in the public menu, better stacked tip handling, visible lag indicator) is spot on. We will pass this feedback to our dev team. If you want to share more details, feel free to reach out at camming@lovense.com — your experience is exactly the kind of feedback that shapes future updates. Thanks for sharing! 💕",
+            "note": "Practical tips post with Lovense feature wishlist; validated her advice, escalated feature requests to dev team, provided support email"
+          }
+        ],
+        "skipped_count": 43,
+        "error": null
+      },
+      "slot_22": {
+        "run_time": "2026-09-24 22:00",
+        "slot": "22",
+        "replied": [
+          {
+            "post_id": "LVqHeu",
+            "post_title": "wanna know how this works",
+            "post_url": "https://www.cam101.com/forumDetails/LVqHeu/cam-101-wanna-know-how-this-works",
+            "reply_text": "Welcome to Cam101! 😊 This is a community forum for cam models and content creators to connect, share tips, ask questions, and learn from each other. You can browse posts in different channels like Help/Advice, New Member, Tips & Tricks, and more. Feel free to introduce yourself, ask anything you need, and explore the resources available here. The community is very supportive and there is always someone happy to help! 💕",
+            "note": "New user asking how Cam101 works, posted 9 hours before slot, 0 replies at time of response"
+          },
+          {
+            "post_id": "zibYs0",
+            "post_title": "Fun and growth",
+            "post_url": "https://www.cam101.com/forumDetails/zibYs0/cam-101-fun-and-growth",
+            "reply_text": "Love this energy! 🌟 Exploring new sides of yourself while connecting with people from around the world is truly one of the best parts of this journey. You are in the right place to grow — the community here is super welcoming and full of experienced creators ready to share what they know. Looking forward to seeing you thrive! 💕✨",
+            "note": "New member intro posted 22 hours before slot, 0 replies at time of response"
+          },
+          {
+            "post_id": "076m6u",
+            "post_title": "Winner Announcement: Streamer Voices Pick!",
+            "post_url": "https://www.cam101.com/forumDetails/076m6u/cam-101-winner-announcement-streamer-voices-pick",
+            "reply_text": "Congratulations @austinsummer! 🎉🥳 A well-deserved win — the insight about a multi-toy setup driving viewer engagement and earnings is such valuable advice for the community. Thank you for sharing your experience! Stay tuned everyone for more #StreamerVoices discussions and chances to win! 💜",
+            "note": "Official winner announcement post, 0 replies at time of response"
+          },
+          {
+            "post_id": "WYF7HF",
+            "post_title": "You're Probably Using Only 10% of Your Streaming Setup",
+            "post_url": "https://www.cam101.com/forumDetails/WYF7HF/cam-101-you-re-probably-using-only-10-of-your-streaming-s",
+            "reply_text": "This is such a great reminder! 💡 Most creators only scratch the surface of what Cam Extension can do. Combining Lovense toy control, interactive overlays, tip games, and OBS integration in one place genuinely transforms your stream from just going live to actively managing the viewer experience. If you haven not explored all the features yet, definitely worth diving in — it makes a real difference! 🎥✨",
+            "note": "Tips post about streaming setup/Cam Extension, 0 replies at time of response"
+          }
+        ],
+        "skipped_count": 50,
+        "error": null
+      },
+      "all_replied": [
+        {
+          "post_id": "w5CuTr",
+          "post_title": "The most intense orgasms of my life",
+          "post_url": "https://www.cam101.com/forumDetails/w5CuTr/cam-101-the-most-intense-orgasms-of-my-life",
+          "reply_text": "Love that you shared this! Lovense really does have a way of turning an ordinary moment into something extraordinary 💕 The Gemini is a gem indeed — glad it is treating you (and your viewers) so well!",
+          "note": "NSFW personal experience sharing post about toy use; replied lightly with brief appreciation"
+        },
+        {
+          "post_id": "5w8L5n",
+          "post_title": "Tiered Hardware & Audience Drive: How My 5-Toy Lovense Arsenal Powers High-Traffic Male Streams",
+          "post_url": "https://www.cam101.com/forumDetails/5w8L5n/cam-101-tiered-hardware-audience-drive-how-my-5-toy-lov",
+          "reply_text": "This is an incredibly detailed and thoughtful breakdown — thank you for sharing your full setup! The tiered progression model you describe (Lush 3 for ambient buzz → Diamo for endurance → Solace Pro as the grand finale) is a really smart way to give viewers clear milestones to rally around. The VibeMate sync feature combined with Co-Streaming Battles is a powerful combo for cross-room visibility too. Your suggestions for multi-device priority routing and per-device tip threshold mapping are excellent feedback — we will pass these along to the StreamMaster dev team. If you would like to share more detailed notes, feel free to reach out at camming@lovense.com as well. Excited to see creators like you pushing the platform to its fullest potential! 💪",
+          "note": "Detailed 5-toy setup guide with feature requests for StreamMaster; acknowledged tips, escalated dev feedback, provided support email"
+        },
+        {
+          "post_id": "dWtEQV",
+          "post_title": "What Brought us to the Cam 101 community",
+          "post_url": "https://www.cam101.com/forumDetails/dWtEQV/cam-101-what-brought-us-to-the-cam-101-community",
+          "reply_text": "Welcome to the Cam101 community! 🎉 So exciting that you are getting started with the Lovense Webcam 2 and setting up your toys on Chaturbate — you are in the right place to learn fast! The community here is super supportive and full of experienced creators happy to share tips. Feel free to ask any questions you have about setting up your Lovense toys with Chaturbate — we are always here to help. Wishing you the best with your new setup! 💕",
+          "note": "New member intro post setting up Lovense Webcam 2 + toys on Chaturbate; warm welcome, directed to community support"
+        },
+        {
+          "post_id": "IQK4WD",
+          "post_title": "Lovense helps",
+          "post_url": "https://www.cam101.com/forumDetails/IQK4WD/cam-101-lovense-helps",
+          "reply_text": "This is genuinely great insight, Mia — especially the tip about keeping the first buzz cheap so new viewers test the toy. That low barrier to entry is such a smart way to build the habit. And naming your patterns rather than just \"level 3\" is something more models should do! Your wishlist (live battery warning, named patterns in the public menu, better stacked tip handling, visible lag indicator) is spot on. We will pass this feedback to our dev team. If you want to share more details, feel free to reach out at camming@lovense.com — your experience is exactly the kind of feedback that shapes future updates. Thanks for sharing! 💕",
+          "note": "Practical tips post with Lovense feature wishlist; validated her advice, escalated feature requests to dev team, provided support email"
+        },
+        {
+          "post_id": "LVqHeu",
+          "post_title": "wanna know how this works",
+          "post_url": "https://www.cam101.com/forumDetails/LVqHeu/cam-101-wanna-know-how-this-works",
+          "reply_text": "Welcome to Cam101! 😊 This is a community forum for cam models and content creators to connect, share tips, ask questions, and learn from each other. You can browse posts in different channels like Help/Advice, New Member, Tips & Tricks, and more. Feel free to introduce yourself, ask anything you need, and explore the resources available here. The community is very supportive and there is always someone happy to help! 💕",
+          "note": "New user asking how Cam101 works, posted 9 hours before slot, 0 replies at time of response"
+        },
+        {
+          "post_id": "zibYs0",
+          "post_title": "Fun and growth",
+          "post_url": "https://www.cam101.com/forumDetails/zibYs0/cam-101-fun-and-growth",
+          "reply_text": "Love this energy! 🌟 Exploring new sides of yourself while connecting with people from around the world is truly one of the best parts of this journey. You are in the right place to grow — the community here is super welcoming and full of experienced creators ready to share what they know. Looking forward to seeing you thrive! 💕✨",
+          "note": "New member intro posted 22 hours before slot, 0 replies at time of response"
+        },
+        {
+          "post_id": "076m6u",
+          "post_title": "Winner Announcement: Streamer Voices Pick!",
+          "post_url": "https://www.cam101.com/forumDetails/076m6u/cam-101-winner-announcement-streamer-voices-pick",
+          "reply_text": "Congratulations @austinsummer! 🎉🥳 A well-deserved win — the insight about a multi-toy setup driving viewer engagement and earnings is such valuable advice for the community. Thank you for sharing your experience! Stay tuned everyone for more #StreamerVoices discussions and chances to win! 💜",
+          "note": "Official winner announcement post, 0 replies at time of response"
+        },
+        {
+          "post_id": "WYF7HF",
+          "post_title": "You're Probably Using Only 10% of Your Streaming Setup",
+          "post_url": "https://www.cam101.com/forumDetails/WYF7HF/cam-101-you-re-probably-using-only-10-of-your-streaming-s",
+          "reply_text": "This is such a great reminder! 💡 Most creators only scratch the surface of what Cam Extension can do. Combining Lovense toy control, interactive overlays, tip games, and OBS integration in one place genuinely transforms your stream from just going live to actively managing the viewer experience. If you haven not explored all the features yet, definitely worth diving in — it makes a real difference! 🎥✨",
+          "note": "Tips post about streaming setup/Cam Extension, 0 replies at time of response"
+        }
+      ]
+    },
+    "telegram": {
+      "date_range": "2026-09-23 ~ 2026-09-24",
+      "generated_at": "2026-09-24 14:00 UTC+08:00",
+      "source": "local_storage_v3",
+      "groups": {
+        "-1001839056771": {
+          "name": "Lovense Better Camming",
+          "type": "模特群"
+        },
+        "-1002451488990": {
+          "name": "VibeMate PC Extension",
+          "type": "用户群"
+        },
+        "-1002866825060": {
+          "name": "Lovense Better Camming 1.0",
+          "type": "模特群"
+        }
+      },
+      "total_messages": 0,
+      "group_stats": {
+        "Lovense Better Camming": {
+          "type": "模特群",
+          "count": 0
+        },
+        "VibeMate PC Extension": {
+          "type": "用户群",
+          "count": 0
+        },
+        "Lovense Better Camming 1.0": {
+          "type": "模特群",
+          "count": 0
+        }
+      },
+      "poller_status": "unknown",
+      "messages": []
+    },
+    "x_dm": {
+      "date": "2026-09-25",
+      "generated_at": "04:19 UTC+8",
+      "accounts": {
+        "vibemate_pc": {
+          "account": "@Vibemate_PC",
+          "status": "empty",
+          "replied_dms": [],
+          "replied_notifications": [],
+          "skipped_count": 26,
+          "error": null
+        },
+        "vibemate_offical": {
+          "account": "@VibeMateOffical",
+          "status": "empty",
+          "replied_dms": [],
+          "skipped_count": 0,
+          "error": null
+        },
+        "assistant_cam": {
+          "account": "@Assistant_cam",
+          "status": "empty",
+          "replied_dms": [],
+          "skipped_count": 15,
+          "error": null
+        }
+      },
+      "summary": {
+        "total_replied": 0
+      }
+    }
+  },
+  "summary": {
+    "reddit_items": 0,
+    "handy_items": 4,
+    "reddit_vibemate_fam_items": 0,
+    "reddit_vibemate_camgirl_items": 0,
+    "cam101_replied": 8,
+    "telegram_messages": 0,
+    "x_dm_replied": 0
+  }
+}
