@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-03T06:00:10+08:00",
+  "lastUpdated": "2026-10-03T09:45:09+08:00",
   "tabs": {
     "reddit": {
       "label": "Reddit",
@@ -12505,6 +12505,20 @@
           "replyText": "Congratulations! 🎉🥳 Winning a prize is always such a great feeling — you earned it! Looking forward to seeing you at the next event too! 💕",
           "status": "processed",
           "ingestedAt": "2026-10-02T23:50:13+08:00"
+        },
+        {
+          "id": "cam101-MMceLG",
+          "source": "cam101",
+          "title": "Videos v Live that are sold",
+          "content": "[cam101 原帖无正文或未采集] New member asking what videos sell best. Provided general community advice on content strategy and asked a follow-up question to encourage engagement.",
+          "summary": "New member asking what videos sell best. Provided general community advice on content strategy and asked a follow-up question to encourage engagement.",
+          "category": "neutral",
+          "url": "https://www.cam101.com/forumDetails/MMceLG/cam-101-videos-v-live-that-are-sold",
+          "timestamp": "2026-10-03T09:00:00+08:00",
+          "replied": true,
+          "replyText": "Great question! Based on what the community shares here, personal experience content tends to do really well — things like behind-the-scenes clips, special themed shows, and exclusive interactions. Also, staying consistent with posting schedules helps build a loyal audience. What type of content have you been creating so far? 😊",
+          "status": "processed",
+          "ingestedAt": "2026-10-03T09:45:09+08:00"
         }
       ]
     },
