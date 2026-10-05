@@ -1,0 +1,224 @@
+{
+  "captureDate": "2026-10-05",
+  "date": "2026-10-05",
+  "generatedAt": "2026-10-06T06:00:07+08:00",
+  "generated_at": "2026-10-06 06:00 UTC+8",
+  "exportStatus": "complete",
+  "sourceStatuses": {
+    "reddit": "ok",
+    "handy": "ok",
+    "reddit_vibemate_fam": "ok",
+    "reddit_vibemate_camgirl": "ok",
+    "cam101_09": "ok",
+    "cam101_22": "ok",
+    "telegram": "ok",
+    "x_dm": "ok"
+  },
+  "sources": {
+    "reddit": {
+      "items": [
+        {
+          "id": "reddit-1wxk1id",
+          "source": "reddit",
+          "subreddit": "CamGirlProblems",
+          "title": "lovense remote unavailable in my region",
+          "content": "im using VPN and switched my system language and time to US , but still unavailable  :(",
+          "url": "https://reddit.com/r/CamGirlProblems/comments/1wxk1id/lovense_remote_unavailable_in_my_region/",
+          "score": 1,
+          "num_comments": 1,
+          "run_time": "2026-10-05T00:35:54+08:00"
+        }
+      ],
+      "fetched_at": "2026-10-05T07:00:09.577315+08:00",
+      "search_status": "ok",
+      "rss_status": "ok",
+      "pullpush_status": "disabled",
+      "overall_status": "ok"
+    },
+    "handy": {
+      "items": [
+        {
+          "id": "handy-1wxk1zr",
+          "type": "post",
+          "subreddit": "theHandy",
+          "title": "How long do theHandy 1 sales usually last?",
+          "content": "&lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;theHandy 1 is available/in stock in my region, so I was hoping to purchase it using a discount code that gives 55% off. However, it’s currently on sale for 30% off, and because of the ongoing sale, I can’t use the 55% off code.&lt;/p&gt; &lt;p&gt;Does anyone know how long these sales usually last, or how long the current 30% off sale is expected to run? I’m trying to figure out whether I should wait for the sale to end so I can use the 55% off coupon.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/FrickChicken&quot;&gt; /u/FrickChicken &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/theHandy/comments/1wxk1zr/how_long_do_thehandy_1_sales_usually_last/&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/theHandy/comments/1wxk1zr/how_long_do_thehandy_1_sales_usually_last/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;",
+          "url": "https://www.reddit.com/r/theHandy/comments/1wxk1zr/how_long_do_thehandy_1_sales_usually_last/",
+          "author": "/u/FrickChicken",
+          "run_time": "2026-10-05T00:36:27+08:00"
+        },
+        {
+          "id": "handy-1wx8uzn",
+          "type": "post",
+          "subreddit": "theHandy",
+          "title": "My first impressions. Good but not amazing",
+          "content": "&lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;I got my Handy (1) delivered on Tuesday, alongside the hands-free mount and a Quickshot turbo, and have since had the time for a few sessions. To be honest, my impressions are a little bit more tame than I hoped they would be. Hands-free is nice but not as world-altering as I expected; the difference in pleasure between getting jerked off by the handy and jerking off manually with a fleshlight really isn’t that big to me. Scripts are neat, especially the really fast and intense ones, but again probably not as crazy or immersive as I hoped. I did try getting a session going using VR but gave up because trying to set up the headset + the handy at the same time while having lube all over my hands was a total boner killer lol. I think it’s definitely my fault for letting my horny brain set such high expectations before buying. All in all a fun toy and I will continue to use it and will hopefully appreciate it more in the future, but right now if I could go back in time I’d probably wait for a sale before buying&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com",
+          "url": "https://www.reddit.com/r/theHandy/comments/1wx8uzn/my_first_impressions_good_but_not_amazing/",
+          "author": "/u/thatguyinthetower69",
+          "run_time": "2026-10-04T14:42:45+08:00"
+        }
+      ],
+      "posts": 2,
+      "comments": 0,
+      "fetched_at": "2026-10-05T08:30:08.126236+08:00"
+    },
+    "reddit_vibemate_fam": {
+      "date": "2026-10-05",
+      "generated_at": "11:00",
+      "subreddit": "VibeMateFam",
+      "items": []
+    },
+    "reddit_vibemate_camgirl": {
+      "date": "2026-10-05",
+      "generated_at": "10:03",
+      "subreddit": "CamGirlProblems",
+      "keyword": "vibemate",
+      "items": []
+    },
+    "cam101": {
+      "slot_09": {
+        "run_time": "2026-10-05 09:00",
+        "slot": "09",
+        "replied": [
+          {
+            "post_id": "MMceLG",
+            "post_title": "Videos v Live that are sold",
+            "post_url": "https://www.cam101.com/forumDetails/MMceLG/cam-101-videos-v-live-that-are-sold",
+            "reply_text": "Hi Senorita Luna! Great questions! For live shows when your space isn't quite ready, lighting can make a big difference — even a simple ring light and a neat background area can look super polished. You don't need a perfect home setup to start! As for announcing, yes, posting something like 'Going live in 15 minutes!' on your profile or social media is a great way to build anticipation. On most platforms, viewers watch for free during live broadcasts and tip/spend tokens for special requests or to activate toys. So it's free to watch but paid interactions keep the energy up. At 2 months in you're doing great — keep experimenting and you'll find what works best for you! 💕",
+            "note": "Replied to Senorita Luna's questions about live show setup, announcing, and payment model (posted Oct 4, ~16h before run)"
+          },
+          {
+            "post_id": "4lAzz0",
+            "post_title": "Who treats camming like a 9-5 job?",
+            "post_url": "https://www.cam101.com/forumDetails/4lAzz0/cam-101-who-treats-camming-like-a-9-5-job",
+            "reply_text": "That's a great schedule sammyraxx! Early mornings and late nights are often peak times when more viewers are online. Sounds like you've really figured out what works for your audience — consistency at those key hours will definitely keep your regulars coming back! 💪",
+            "note": "sammyraxx replied to Sophia991's question (Oct 4) saying she streams 6am-9am and after midnight — replied to that specific answer"
+          }
+        ],
+        "skipped_count": 109,
+        "error": null
+      },
+      "slot_22": {
+        "run_time": "2026-10-05 22:00",
+        "slot": "22",
+        "replied": [
+          {
+            "post_id": "XGm2ds",
+            "post_title": "New to camming :)",
+            "post_url": "https://www.cam101.com/forumDetails/XGm2ds/cam-101-new-to-camming",
+            "reply_text": "Welcome to the community! Building genuine connections with regulars comes down to consistency and authenticity — show up at the same times so your audience knows when to find you, and engage with them personally (remember names, ask about their day). For platforms, Chaturbate and Stripchat are great starting points with large audiences. For rates, research what similar models charge for tip menus and private shows, then adjust based on your comfort level. The Cam101 community is full of experienced models happy to help — keep asking questions here! 💕",
+            "note": "New member post from 9h ago, 0 prior replies. Asking about building regulars, platform selection, and rate guidance."
+          },
+          {
+            "post_id": "MMceLG",
+            "post_title": "Videos v Live that are sold",
+            "post_url": "https://www.cam101.com/forumDetails/MMceLG/cam-101-videos-v-live",
+            "reply_text": "Hi Senorita Luna! Great follow-up question 😊 For live shows, some popular types that work well for newer models include: tip-activated toy shows (if you use Lovense, viewers tip to control your toy), countdown goal shows (work toward a goal with the audience), Q&A or chatty shows (just talking and getting to know viewers — no pressure, just connection), and themed shows (costume, roleplay, etc.). Starting simple with a chatty or goal-based show is a low-pressure way to build confidence and grow your regulars. As you get more comfortable, you can try different formats to see what resonates with your audience. You are doing great for 2 months in! 💪💕",
+            "note": "Replied to Senorita Luna's follow-up 'What type of Live shows?' posted 7h ago (unanswered). Thread originally about videos vs live content."
+          }
+        ],
+        "skipped_count": 42,
+        "error": null
+      },
+      "all_replied": [
+        {
+          "post_id": "MMceLG",
+          "post_title": "Videos v Live that are sold",
+          "post_url": "https://www.cam101.com/forumDetails/MMceLG/cam-101-videos-v-live-that-are-sold",
+          "reply_text": "Hi Senorita Luna! Great questions! For live shows when your space isn't quite ready, lighting can make a big difference — even a simple ring light and a neat background area can look super polished. You don't need a perfect home setup to start! As for announcing, yes, posting something like 'Going live in 15 minutes!' on your profile or social media is a great way to build anticipation. On most platforms, viewers watch for free during live broadcasts and tip/spend tokens for special requests or to activate toys. So it's free to watch but paid interactions keep the energy up. At 2 months in you're doing great — keep experimenting and you'll find what works best for you! 💕",
+          "note": "Replied to Senorita Luna's questions about live show setup, announcing, and payment model (posted Oct 4, ~16h before run)"
+        },
+        {
+          "post_id": "4lAzz0",
+          "post_title": "Who treats camming like a 9-5 job?",
+          "post_url": "https://www.cam101.com/forumDetails/4lAzz0/cam-101-who-treats-camming-like-a-9-5-job",
+          "reply_text": "That's a great schedule sammyraxx! Early mornings and late nights are often peak times when more viewers are online. Sounds like you've really figured out what works for your audience — consistency at those key hours will definitely keep your regulars coming back! 💪",
+          "note": "sammyraxx replied to Sophia991's question (Oct 4) saying she streams 6am-9am and after midnight — replied to that specific answer"
+        },
+        {
+          "post_id": "XGm2ds",
+          "post_title": "New to camming :)",
+          "post_url": "https://www.cam101.com/forumDetails/XGm2ds/cam-101-new-to-camming",
+          "reply_text": "Welcome to the community! Building genuine connections with regulars comes down to consistency and authenticity — show up at the same times so your audience knows when to find you, and engage with them personally (remember names, ask about their day). For platforms, Chaturbate and Stripchat are great starting points with large audiences. For rates, research what similar models charge for tip menus and private shows, then adjust based on your comfort level. The Cam101 community is full of experienced models happy to help — keep asking questions here! 💕",
+          "note": "New member post from 9h ago, 0 prior replies. Asking about building regulars, platform selection, and rate guidance."
+        }
+      ]
+    },
+    "telegram": {
+      "date_range": "2026-10-04 ~ 2026-10-05",
+      "generated_at": "2026-10-05 14:00 UTC+08:00",
+      "source": "local_storage_v3",
+      "groups": {
+        "-1001839056771": {
+          "name": "Lovense Better Camming",
+          "type": "模特群"
+        },
+        "-1002451488990": {
+          "name": "VibeMate PC Extension",
+          "type": "用户群"
+        },
+        "-1002866825060": {
+          "name": "Lovense Better Camming 1.0",
+          "type": "模特群"
+        }
+      },
+      "total_messages": 0,
+      "group_stats": {
+        "Lovense Better Camming": {
+          "type": "模特群",
+          "count": 0
+        },
+        "VibeMate PC Extension": {
+          "type": "用户群",
+          "count": 0
+        },
+        "Lovense Better Camming 1.0": {
+          "type": "模特群",
+          "count": 0
+        }
+      },
+      "poller_status": "unknown",
+      "messages": []
+    },
+    "x_dm": {
+      "date": "2026-10-06",
+      "generated_at": "04:14 UTC+8",
+      "accounts": {
+        "vibemate_pc": {
+          "account": "@Vibemate_PC",
+          "status": "empty",
+          "replied_dms": [],
+          "replied_notifications": [],
+          "skipped_count": 17,
+          "error": null
+        },
+        "vibemate_offical": {
+          "account": "@VibeMateOffical",
+          "status": "empty",
+          "replied_dms": [],
+          "skipped_count": 0,
+          "error": null
+        },
+        "assistant_cam": {
+          "account": "@Assistant_cam",
+          "status": "empty",
+          "replied_dms": [],
+          "skipped_count": 15,
+          "error": null
+        }
+      },
+      "summary": {
+        "total_replied": 0
+      }
+    }
+  },
+  "summary": {
+    "reddit_items": 1,
+    "handy_items": 2,
+    "reddit_vibemate_fam_items": 0,
+    "reddit_vibemate_camgirl_items": 0,
+    "cam101_replied": 3,
+    "telegram_messages": 0,
+    "x_dm_replied": 0
+  }
+}
