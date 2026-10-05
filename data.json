@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-05T06:00:08+08:00",
+  "lastUpdated": "2026-10-05T09:45:11+08:00",
   "tabs": {
     "reddit": {
       "label": "Reddit",
@@ -6667,6 +6667,20 @@
           "timestamp": "2026-10-04T06:35:06+08:00",
           "status": "pending",
           "ingestedAt": "2026-10-04T09:45:15+08:00"
+        },
+        {
+          "id": "reddit-reddit-1wxk1id",
+          "source": "reddit",
+          "subreddit": "r/CamGirlProblems",
+          "title": "lovense remote unavailable in my region",
+          "content": "im using VPN and switched my system language and time to US , but still unavailable :(",
+          "summary": "用户因地区限制无法使用Lovense Remote，已尝试VPN及修改系统语言和时区等方法仍未解决，感到沮丧并寻求帮助。",
+          "category": "neutral",
+          "url": "https://reddit.com/r/CamGirlProblems/comments/1wxk1id/lovense_remote_unavailable_in_my_region/",
+          "score": 1,
+          "timestamp": "2026-10-05T00:35:54+08:00",
+          "status": "pending",
+          "ingestedAt": "2026-10-05T09:45:11+08:00"
         }
       ]
     },
