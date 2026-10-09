@@ -1,0 +1,179 @@
+{
+  "captureDate": "2026-10-09",
+  "date": "2026-10-09",
+  "generatedAt": "2026-10-10T06:00:07+08:00",
+  "generated_at": "2026-10-10 06:00 UTC+8",
+  "exportStatus": "partial",
+  "sourceStatuses": {
+    "reddit": "missing",
+    "handy": "missing",
+    "reddit_vibemate_fam": "ok",
+    "reddit_vibemate_camgirl": "ok",
+    "cam101_09": "missing",
+    "cam101_22": "ok",
+    "telegram": "ok",
+    "x_dm": "ok"
+  },
+  "sources": {
+    "reddit": null,
+    "handy": null,
+    "reddit_vibemate_fam": {
+      "date": "2026-10-09",
+      "generated_at": "11:00",
+      "subreddit": "VibeMateFam",
+      "items": []
+    },
+    "reddit_vibemate_camgirl": {
+      "date": "2026-10-09",
+      "generated_at": "10:00",
+      "subreddit": "CamGirlProblems",
+      "keyword": "vibemate",
+      "items": []
+    },
+    "cam101": {
+      "slot_09": null,
+      "slot_22": {
+        "run_time": "2026-10-09 22:00",
+        "slot": "22",
+        "replied": [
+          {
+            "post_id": "6466M7",
+            "post_title": "What Happens After a Free Control Link?",
+            "post_url": "https://www.cam101.com/forumDetails/6466M7/cam-101-what-happens-after-a-free-control-link",
+            "reply_text": "Great poll question! From my experience, it really depends on the viewer - some leave a tip right away, others stick around chatting and gradually become regulars. The Free Control Link is such a great icebreaker because it lowers the barrier to interact. I have noticed that viewers who engage through it are more likely to return, since they have already had a positive experience. How has everyone else found it affects viewer retention?",
+            "note": "New poll post from today, 0 replies before ours"
+          },
+          {
+            "post_id": "DRbqKH",
+            "post_title": "I've won't a prize!",
+            "post_url": "https://www.cam101.com/forumDetails/DRbqKH/cam-101-i-ve-won-t-a-prize",
+            "reply_text": "Congratulations Jusbb! Winning free promotion is huge - that kind of visibility can really make a difference for your streams. So happy for you, enjoy every bit of it!",
+            "note": "Carnival prize win post from Oct 8, 0 replies before ours"
+          },
+          {
+            "post_id": "mpgs5S",
+            "post_title": "I love camming",
+            "post_url": "https://www.cam101.com/forumDetails/mpgs5S/cam-101-i-love-camming",
+            "reply_text": "That is such a beautiful way to put it - camming really does give you that freedom to be yourself and connect on your own terms. Welcome to the community and keep embracing that energy!",
+            "note": "New member intro post from Oct 8, 0 replies before ours"
+          },
+          {
+            "post_id": "zFVE0J",
+            "post_title": "love camming",
+            "post_url": "https://www.cam101.com/forumDetails/zFVE0J/cam-101-love-camming",
+            "reply_text": "Love that energy AbundantPony! That enthusiasm is exactly what makes this community so fun. Keep it up!",
+            "note": "Previously replied; new comment from AbundantPony 12h ago triggered follow-up engagement"
+          }
+        ],
+        "skipped_count": 87,
+        "error": null
+      },
+      "all_replied": [
+        {
+          "post_id": "6466M7",
+          "post_title": "What Happens After a Free Control Link?",
+          "post_url": "https://www.cam101.com/forumDetails/6466M7/cam-101-what-happens-after-a-free-control-link",
+          "reply_text": "Great poll question! From my experience, it really depends on the viewer - some leave a tip right away, others stick around chatting and gradually become regulars. The Free Control Link is such a great icebreaker because it lowers the barrier to interact. I have noticed that viewers who engage through it are more likely to return, since they have already had a positive experience. How has everyone else found it affects viewer retention?",
+          "note": "New poll post from today, 0 replies before ours"
+        },
+        {
+          "post_id": "DRbqKH",
+          "post_title": "I've won't a prize!",
+          "post_url": "https://www.cam101.com/forumDetails/DRbqKH/cam-101-i-ve-won-t-a-prize",
+          "reply_text": "Congratulations Jusbb! Winning free promotion is huge - that kind of visibility can really make a difference for your streams. So happy for you, enjoy every bit of it!",
+          "note": "Carnival prize win post from Oct 8, 0 replies before ours"
+        },
+        {
+          "post_id": "mpgs5S",
+          "post_title": "I love camming",
+          "post_url": "https://www.cam101.com/forumDetails/mpgs5S/cam-101-i-love-camming",
+          "reply_text": "That is such a beautiful way to put it - camming really does give you that freedom to be yourself and connect on your own terms. Welcome to the community and keep embracing that energy!",
+          "note": "New member intro post from Oct 8, 0 replies before ours"
+        },
+        {
+          "post_id": "zFVE0J",
+          "post_title": "love camming",
+          "post_url": "https://www.cam101.com/forumDetails/zFVE0J/cam-101-love-camming",
+          "reply_text": "Love that energy AbundantPony! That enthusiasm is exactly what makes this community so fun. Keep it up!",
+          "note": "Previously replied; new comment from AbundantPony 12h ago triggered follow-up engagement"
+        }
+      ]
+    },
+    "telegram": {
+      "date_range": "2026-10-08 ~ 2026-10-09",
+      "generated_at": "2026-10-09 14:00 UTC+08:00",
+      "source": "local_storage_v3",
+      "groups": {
+        "-1001839056771": {
+          "name": "Lovense Better Camming",
+          "type": "模特群"
+        },
+        "-1002451488990": {
+          "name": "VibeMate PC Extension",
+          "type": "用户群"
+        },
+        "-1002866825060": {
+          "name": "Lovense Better Camming 1.0",
+          "type": "模特群"
+        }
+      },
+      "total_messages": 0,
+      "group_stats": {
+        "Lovense Better Camming": {
+          "type": "模特群",
+          "count": 0
+        },
+        "VibeMate PC Extension": {
+          "type": "用户群",
+          "count": 0
+        },
+        "Lovense Better Camming 1.0": {
+          "type": "模特群",
+          "count": 0
+        }
+      },
+      "poller_status": "unknown",
+      "messages": []
+    },
+    "x_dm": {
+      "date": "2026-10-10",
+      "generated_at": "04:15 UTC+8",
+      "accounts": {
+        "vibemate_pc": {
+          "account": "@Vibemate_PC",
+          "status": "empty",
+          "replied_dms": [],
+          "replied_notifications": [],
+          "skipped_count": 24,
+          "error": null
+        },
+        "vibemate_offical": {
+          "account": "@VibeMateOffical",
+          "status": "empty",
+          "replied_dms": [],
+          "skipped_count": 0,
+          "error": null
+        },
+        "assistant_cam": {
+          "account": "@Assistant_cam",
+          "status": "empty",
+          "replied_dms": [],
+          "skipped_count": 15,
+          "error": null
+        }
+      },
+      "summary": {
+        "total_replied": 0
+      }
+    }
+  },
+  "summary": {
+    "reddit_items": 0,
+    "handy_items": 0,
+    "reddit_vibemate_fam_items": 0,
+    "reddit_vibemate_camgirl_items": 0,
+    "cam101_replied": 4,
+    "telegram_messages": 0,
+    "x_dm_replied": 0
+  }
+}
