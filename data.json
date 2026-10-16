@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-16T06:00:07+08:00",
+  "lastUpdated": "2026-10-16T09:45:05+08:00",
   "tabs": {
     "reddit": {
       "label": "Reddit",
@@ -13359,6 +13359,76 @@
           "replyText": "Congrats on the 7-day stream promotion! 🎉 That is a fantastic prize — use it to showcase your content and grow your audience. Enjoy the spotlight! 🌟",
           "status": "processed",
           "ingestedAt": "2026-10-15T09:45:09+08:00"
+        },
+        {
+          "id": "cam101-ANYd1Q",
+          "source": "cam101",
+          "title": "【milky_0】 | Rising Star Success Story",
+          "content": "[cam101 原帖无正文或未采集] Replied in prior session; verified count=5 this run",
+          "summary": "Replied in prior session; verified count=5 this run",
+          "category": "neutral",
+          "url": "https://www.cam101.com/forumDetails/ANYd1Q/cam-101-%E3%80%90milky-0%E3%80%91-rising-star-success-story%E2%80%8B",
+          "timestamp": "2026-10-16T09:00:00+08:00",
+          "replied": true,
+          "replyText": "(already replied in prior run — confirmed Sophia991 count=5)",
+          "status": "processed",
+          "ingestedAt": "2026-10-16T09:45:05+08:00"
+        },
+        {
+          "id": "cam101-m6S4xN",
+          "source": "cam101",
+          "title": "Studio League is here!",
+          "content": "[cam101 原帖无正文或未采集] Replied in prior session; verified count=5 this run",
+          "summary": "Replied in prior session; verified count=5 this run",
+          "category": "neutral",
+          "url": "https://www.cam101.com/forumDetails/m6S4xN/cam-101-studio-league-is-here",
+          "timestamp": "2026-10-16T09:00:00+08:00",
+          "replied": true,
+          "replyText": "(already replied in prior run — confirmed Sophia991 count=5)",
+          "status": "processed",
+          "ingestedAt": "2026-10-16T09:45:05+08:00"
+        },
+        {
+          "id": "cam101-ZXlbLf",
+          "source": "cam101",
+          "title": "Happy happy",
+          "content": "[cam101 原帖无正文或未采集] Replied in prior session; verified count=5 this run",
+          "summary": "Replied in prior session; verified count=5 this run",
+          "category": "neutral",
+          "url": "https://www.cam101.com/forumDetails/ZXlbLf/cam-101-happy-happy",
+          "timestamp": "2026-10-16T09:00:00+08:00",
+          "replied": true,
+          "replyText": "(already replied in prior run — confirmed Sophia991 count=5)",
+          "status": "processed",
+          "ingestedAt": "2026-10-16T09:45:05+08:00"
+        },
+        {
+          "id": "cam101-g5B8FE",
+          "source": "cam101",
+          "title": "I've won a prize!",
+          "content": "[cam101 原帖无正文或未采集] Replied in prior session; verified count=5 this run",
+          "summary": "Replied in prior session; verified count=5 this run",
+          "category": "positive",
+          "url": "https://www.cam101.com/forumDetails/g5B8FE/cam-101-i-ve-won-a-prize",
+          "timestamp": "2026-10-16T09:00:00+08:00",
+          "replied": true,
+          "replyText": "(already replied in prior run — confirmed Sophia991 count=5)",
+          "status": "processed",
+          "ingestedAt": "2026-10-16T09:45:05+08:00"
+        },
+        {
+          "id": "cam101-ICufVK",
+          "source": "cam101",
+          "title": "I've won a prize!",
+          "content": "[cam101 原帖无正文或未采集] Replied at start of this cron run (slot 09); verified count=5",
+          "summary": "Replied at start of this cron run (slot 09); verified count=5",
+          "category": "positive",
+          "url": "https://www.cam101.com/forumDetails/ICufVK/cam-101-i-ve-won-a-prize",
+          "timestamp": "2026-10-16T09:00:00+08:00",
+          "replied": true,
+          "replyText": "Congratulations on winning the stream promo prize! 🎉 Your excitement is contagious — keep up the great work and here's to winning even more in the future! 🙌✨",
+          "status": "processed",
+          "ingestedAt": "2026-10-16T09:45:05+08:00"
         }
       ]
     },
