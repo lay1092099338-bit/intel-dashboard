@@ -15,7 +15,7 @@
     "x_dm": "ok",
     "remote_googleplay": "ok",
     "remote_appstore": "failed",
-    "remote_reddit": "failed",
+    "remote_reddit": "ok",
     "remote_x": "failed",
     "remote_trustpilot": "failed",
     "remote_games": "failed",
@@ -256,10 +256,77 @@
     "remote_reddit": {
       "label": "Remote · Reddit",
       "source": "remote_reddit",
-      "fetched_at": "2026-08-11T05:00:00+08:00",
-      "status": "failed",
-      "error": "backfilled placeholder: no backfillable source available",
-      "items": []
+      "fetched_at": "2026-08-11T05:10:00+08:00",
+      "status": "ok",
+      "error": null,
+      "items": [
+        {
+          "id": "remote_reddit-1vkycfy",
+          "source": "remote_reddit",
+          "title": "question about the app",
+          "content": "question about the app\n\nI am deciding on buying a long distance vibrator, but i can't decide between Lovense and Satisfyer.\n\nThe app is my biggest concern, as i know, that Lovense has a feature, where you can search through open links of people with connected toys and engage with them, without the need of a private link.\n\nIs the same feature on the Satisfyer app? How do i access it? Thanks in advance for your feedback!",
+          "summary": "（兜底）question about the app",
+          "url": "https://www.reddit.com/r/Satisfyer/comments/1vkycfy/question_about_the_app/",
+          "timestamp": "2026-08-11T05:43:31+08:00",
+          "category": "positive",
+          "score": 3,
+          "num_comments": 9,
+          "replies": [],
+          "meta": {
+            "product": "remote",
+            "subreddit": "Satisfyer",
+            "author": "LuckyC_77",
+            "topic": "remote_control",
+            "method": "pullpush_submission",
+            "lang": "en",
+            "backfilled": true
+          }
+        },
+        {
+          "id": "remote_reddit-1vkqv0y",
+          "source": "remote_reddit",
+          "title": "[1-on-1 Link] [27 bi sissy 34DD, Size 10 waist Come play with me while I work from home Owned, no adds But Reddit for pics to enjoy Tiffany the sissy 1 hehe 😈 ] [Hush2] [#NB4A] [#Chastity] [#Analonly] [06:09] https://c.lovense-api.com/t2/4ajlvk38?share_type=103 Control Link",
+          "content": "[1-on-1 Link] [27 bi sissy 34DD, Size 10 waist Come play with me while I work from home Owned, no adds But Reddit for pics to enjoy Tiffany the sissy 1 hehe 😈 ] [Hush2] [#NB4A] [#Chastity] [#Analonly] [06:09] https://c.lovense-api.com/t2/4ajlvk38?share_type=103 Control Link\n\n[removed]",
+          "summary": "（兜底）[1-on-1 Link] [27 bi sissy 34DD, Size 10",
+          "url": "https://www.reddit.com/r/LovenseControlLinks/comments/1vkqv0y/1on1_link_27_bi_sissy_34dd_size_10_waist_come/",
+          "timestamp": "2026-08-11T01:09:40+08:00",
+          "category": "positive",
+          "score": 1,
+          "num_comments": 0,
+          "replies": [],
+          "meta": {
+            "product": "remote",
+            "subreddit": "LovenseControlLinks",
+            "author": "[deleted]",
+            "topic": "remote_control",
+            "method": "pullpush_submission",
+            "lang": "en",
+            "backfilled": true
+          }
+        },
+        {
+          "id": "remote_reddit-1vktf2n",
+          "source": "remote_reddit",
+          "title": "denied by my toy [26, denied, anal-only]",
+          "content": "denied by my toy [26, denied, anal-only]\n\nafter work, i immediately plugged myself and put on my chastity belt - then i had a lot to do, i baked muffins for work tomorrow, did mealprep for the whole week, cooked my dinner and then had to clean up of course. three hours later, i unlocked my chastity belt to finally edge... i put the lush on my clit and searched for a random tease pattern on the lovense app. the lush was vibing my clit at a low level for maybe three minutes... then it died. 🫠 now that was frustrating. i'm charging it right now and might try again in like, half an hour... ah, i didn't even get to the edge 🫠",
+          "summary": "（兜底）denied by my toy [26, denied, anal-only]",
+          "url": "https://www.reddit.com/r/Femaleorgasmdenial/comments/1vktf2n/denied_by_my_toy_26_denied_analonly/",
+          "timestamp": "2026-08-11T02:40:58+08:00",
+          "category": "positive",
+          "score": 53,
+          "num_comments": 27,
+          "replies": [],
+          "meta": {
+            "product": "remote",
+            "subreddit": "Femaleorgasmdenial",
+            "author": "justadeniedgirl",
+            "topic": "feature",
+            "method": "pullpush_submission",
+            "lang": "en",
+            "backfilled": true
+          }
+        }
+      ]
     },
     "remote_x": {
       "label": "Remote · X",
@@ -305,7 +372,7 @@
           "source": "remote_news",
           "title": "Lovense Survey Reveals Why \"Start Small\" Fails Most First-Time Anal Toy Buyers - Yahoo Finance",
           "content": "Lovense Survey Reveals Why \"Start Small\" Fails Most First-Time Anal Toy Buyers  Yahoo Finance\n\n[来源 Source] Yahoo Finance",
-          "summary": "",
+          "summary": "（兜底摘要）Lovense Survey Reveals Why \"Start Small\"",
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTUgtc0pyM2F6UXpxSUNiY1ByWjhyNG1aellyaFhrYjJIOEYtUXd3MkpacGgxeG5OSThCdHpzbWtRMVVPS1NOZHd1RS1lMF9zcWNoNnBtN0RfcC1WSlpWdjYtV3RFSF9LR241djlFRWYwS3Fyc21uaHltOU1iZDFQdndRRFR2X1czdXQ3NkVPWFctNDVsc21PdzUycF9wdw?oc=5",
           "timestamp": "2026-08-11T15:00:00+08:00",
           "category": "neutral",
@@ -334,7 +401,7 @@
     "remote_googleplay_items": 0,
     "remote_news_items": 1,
     "remote_appstore_items": 0,
-    "remote_reddit_items": 0,
+    "remote_reddit_items": 3,
     "remote_x_items": 0,
     "remote_trustpilot_items": 0,
     "remote_games_items": 0,

@@ -15,7 +15,7 @@
     "x_dm": "ok",
     "remote_googleplay": "ok",
     "remote_appstore": "failed",
-    "remote_reddit": "failed",
+    "remote_reddit": "ok",
     "remote_x": "failed",
     "remote_trustpilot": "failed",
     "remote_games": "failed",
@@ -342,7 +342,7 @@
           "source": "remote_googleplay",
           "title": "★4 when I go on to control links through link hub and it's my t",
           "content": "when I go on to control links through link hub and it's my turn to control the host toy, the host reports that there are no vibes. This has been happening the past several days and is so very frustrating! It seems the latest update may have fixed this issue.",
-          "summary": "",
+          "summary": "（兜底摘要）★4 when I go on to control links through",
           "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=2d545267-8b47-433e-9946-3d1c49cc91ba",
           "timestamp": "2026-08-06T19:05:37+08:00",
           "category": "positive",
@@ -369,7 +369,7 @@
           "source": "remote_googleplay",
           "title": "★1 If you're using it for your own self satisfaction or playing",
           "content": "If you're using it for your own self satisfaction or playing with partners that you personally know, you're fine. Otherwise, the app is plagued with bots, prostitutes, and absolute garbage individuals. This app is only good if you keep to yourself. Otherwise, it's trash. Sad that you need it to control the toys though... Maybe split social and solo lovense functions into separate apps so the prostitutes have to go out to get jobs as opposed to trying to scam guys of 10 or 15 dollar \"gifts\".",
-          "summary": "",
+          "summary": "（兜底摘要）★1 If you're using it for your own self ",
           "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=86003040-0253-4bcf-998c-584bf7b21ffe",
           "timestamp": "2026-08-06T12:01:58+08:00",
           "category": "negative",
@@ -396,7 +396,7 @@
           "source": "remote_googleplay",
           "title": "★1 It does what its supppose to, then you are bombarded with no",
           "content": "It does what its supppose to, then you are bombarded with notifications. turn off notifications? now every tap in the app asks you to turn them back on. WHY IN THE WORLD ARE PUSH NOTIFICATIONS SO IMPORTANT TO YOU? IM NOT BUYING SOMETHING BECAUSE A NOTIFICATION POPS UP",
-          "summary": "",
+          "summary": "（兜底摘要）★1 It does what its supppose to, then yo",
           "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=4341c2a7-6fa2-40ab-8c0c-924d2c48e177",
           "timestamp": "2026-08-06T09:33:00+08:00",
           "category": "negative",
@@ -431,10 +431,33 @@
     "remote_reddit": {
       "label": "Remote · Reddit",
       "source": "remote_reddit",
-      "fetched_at": "2026-08-06T05:00:00+08:00",
-      "status": "failed",
-      "error": "backfilled placeholder: no backfillable source available",
-      "items": []
+      "fetched_at": "2026-08-06T05:10:00+08:00",
+      "status": "ok",
+      "error": null,
+      "items": [
+        {
+          "id": "remote_reddit-1vh69ws",
+          "source": "remote_reddit",
+          "title": "TheJOIGame Content Udate!🥳",
+          "content": "TheJOIGame Content Udate!🥳\n\nBig update dropped past month — female JOI, better mobile Lovense pairing, 600+ new voice lines & a much faster game 🔥\n\nHey all 👋 Been heads-down for the past month and there's a lot new. Quick rundown of what changed:\n\n🎙️ 600+ new voice lines (totaling over 8'000 recordings) — a huge voice expansion across the instructors: new edging lines, endings, countdowns and more. Way less repetition.\n\n👑 A big new wave of female / for-her JOI — a lot of you asked for real JOI written for women. First big batch is live, more on the way.\n\n📱 Mobile Lovense pairing — on your phone you can now connect straight through the Lovense app, no more fighting the QR code. Multiplayer toy sync keeps improving too.\n\n⚡ Faster — search and game loading are noticeably quicker and I fixed the peak-time slowdowns. Should feel snappy now.\n\n✨ Better loading screen — shows live how many clips + voice lines are loading for your session.\n\n🛠️ Fixes — the intense / ruin tasks that never showed up now appear, and visual effects (pixelate / mirror / colour) stay on the clip only.\n\n🔜 Coming next: configurable countdowns before edge & orgasm (\"get to the edge in 10… 9…\") and a \"ride the edge\" hold timer — groundwork's already in.\n\nIt's free, runs in your browser, works great on mobile, and there's multiplayer + toy control if you want it. Feedback genuinely shapes what I build next — a big chunk of this update came straight from suggestions. 💜\n\n👉 [TheJOIGame.com](http://thejoigame.com)",
+          "summary": "（兜底）TheJOIGame Content Udate!🥳",
+          "url": "https://www.reddit.com/r/joi/comments/1vh69ws/thejoigame_content_udate/",
+          "timestamp": "2026-08-06T22:45:04+08:00",
+          "category": "positive",
+          "score": 138,
+          "num_comments": 13,
+          "replies": [],
+          "meta": {
+            "product": "remote",
+            "subreddit": "joi",
+            "author": "joigames420",
+            "topic": "connection",
+            "method": "pullpush_submission",
+            "lang": "en",
+            "backfilled": true
+          }
+        }
+      ]
     },
     "remote_x": {
       "label": "Remote · X",
@@ -488,7 +511,7 @@
     "remote_googleplay_items": 3,
     "remote_news_items": 0,
     "remote_appstore_items": 0,
-    "remote_reddit_items": 0,
+    "remote_reddit_items": 1,
     "remote_x_items": 0,
     "remote_trustpilot_items": 0,
     "remote_games_items": 0,

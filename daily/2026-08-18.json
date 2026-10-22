@@ -15,7 +15,7 @@
     "x_dm": "ok",
     "remote_googleplay": "ok",
     "remote_appstore": "failed",
-    "remote_reddit": "failed",
+    "remote_reddit": "ok",
     "remote_x": "failed",
     "remote_trustpilot": "failed",
     "remote_games": "failed",
@@ -255,7 +255,7 @@
           "source": "remote_googleplay",
           "title": "★1 After the new update the app crashes at least once every ses",
           "content": "After the new update the app crashes at least once every session, and it's glitchy now too. For instance, when I'm playing a pattern playlist, the first pattern I play will subsequently stall out and refuse to play a second time, forcing me to open my phone and skip past it. I prefer a simple interface that works over the new bloated and glitchy version. Please fix this soon.",
-          "summary": "",
+          "summary": "（兜底摘要）★1 After the new update the app crashes ",
           "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=c8c2960d-8e49-4d60-ac49-cf8fac73fe43",
           "timestamp": "2026-08-18T20:17:58+08:00",
           "category": "negative",
@@ -290,10 +290,33 @@
     "remote_reddit": {
       "label": "Remote · Reddit",
       "source": "remote_reddit",
-      "fetched_at": "2026-08-18T05:00:00+08:00",
-      "status": "failed",
-      "error": "backfilled placeholder: no backfillable source available",
-      "items": []
+      "fetched_at": "2026-08-18T05:10:00+08:00",
+      "status": "ok",
+      "error": null,
+      "items": [
+        {
+          "id": "remote_reddit-1vr15r8",
+          "source": "remote_reddit",
+          "title": "Make me cum on my lovense while im at therapy! Control link below",
+          "content": "Make me cum on my lovense while im at therapy! Control link below\n\n[removed]",
+          "summary": "（兜底）Make me cum on my lovense while im at th",
+          "url": "https://www.reddit.com/r/Sissies/comments/1vr15r8/make_me_cum_on_my_lovense_while_im_at_therapy/",
+          "timestamp": "2026-08-18T02:51:05+08:00",
+          "category": "positive",
+          "score": 1,
+          "num_comments": 1,
+          "replies": [],
+          "meta": {
+            "product": "remote",
+            "subreddit": "Sissies",
+            "author": "Desiree_Nicole1990",
+            "topic": "remote_control",
+            "method": "pullpush_submission",
+            "lang": "en",
+            "backfilled": true
+          }
+        }
+      ]
     },
     "remote_x": {
       "label": "Remote · X",
@@ -347,7 +370,7 @@
     "remote_googleplay_items": 1,
     "remote_news_items": 0,
     "remote_appstore_items": 0,
-    "remote_reddit_items": 0,
+    "remote_reddit_items": 1,
     "remote_x_items": 0,
     "remote_trustpilot_items": 0,
     "remote_games_items": 0,

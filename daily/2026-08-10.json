@@ -15,7 +15,7 @@
     "x_dm": "ok",
     "remote_googleplay": "ok",
     "remote_appstore": "failed",
-    "remote_reddit": "failed",
+    "remote_reddit": "ok",
     "remote_x": "failed",
     "remote_trustpilot": "failed",
     "remote_games": "failed",
@@ -262,10 +262,33 @@
     "remote_reddit": {
       "label": "Remote · Reddit",
       "source": "remote_reddit",
-      "fetched_at": "2026-08-10T05:00:00+08:00",
-      "status": "failed",
-      "error": "backfilled placeholder: no backfillable source available",
-      "items": []
+      "fetched_at": "2026-08-10T05:10:00+08:00",
+      "status": "ok",
+      "error": null,
+      "items": [
+        {
+          "id": "remote_reddit-1vk11ja",
+          "source": "remote_reddit",
+          "title": "[Project] ErosPulse v0.11 – A custom GUI & AI-powered pattern generator for Lovense interactive devices (Edge2 in the first time)",
+          "content": "[Project] ErosPulse v0.11 – A custom GUI & AI-powered pattern generator for Lovense interactive devices (Edge2 in the first time)\n\nHey everyone! 👋\n\nI wanted to share a side project I've been building in Python called **ErosPulse** (currently at v0.11).\n\n# 💡 What is ErosPulse?\n\nErosPulse is a desktop application designed to control and automate connected haptic / wellness devices (specifically the Lovense lineup) using a custom PyQt-based UI and **LLM/AI-driven vibration pattern generation**.\n\n# ✨ Key Features\n\n* **Modern GUI & Tab Navigation:** Clean UI featuring Home, Connection, and Text/Command controls.\n* **Direct Lovense Integration:** Communicates over local network / API via a dedicated client (`LovenseClient`) for low-latency control.\n* **AI & LLM Pattern Generation:** Uses natural language prompts and AI models to dynamically interpret text and generate custom vibration sequences, rhythms, and intensity variations on the fly.\n* **Standalone / Vendor-Embedded Architecture:** Critical core dependencies (`requests`, `urllib3`, etc.) are pre-bundled in a `vendor/` directory so it runs seamlessly in isolated or offline environments without dependency hell.\n* **IDE & Platform Ready:** Includes Visual Studio (`.sln`) and PyCharm/VS Code structures.\n\n# 🛠️ Tech Stack\n\n* **Language:** Python 3.8+\n* **GUI Framework:** PyQt / Custom QSS styling\n* **AI Integration:** LLM prompt interpretation (`ai_prompt.py`)\n* **Networking:** Local API / HTTP Requests\n* **Architecture:** Modular structure (`core/` for business logic, `ui/` for rendering, `vendor/` for standalone runtime)\n\n# 📁 Project Structure Overview\n\nPlaintext\n\n    erospulse_v0.11/\n    ├── main.py                 # Application entry point\n    ├── core/                   # Lovense API, AI prompts, pattern gen & state\n    ├── ui/                     # App window, themes & tab pages\n    └── vendor/                 # Standalone embedded packages\n    \n\nI'd love to get feedback on the UI structure, LLM integration logic, or general architecture! Feel free to check out the project, open issues, or contribute.Hey everyone! 👋  \n  \nI wanted to share a side project I've been building in Python called ErosPulse (currently at v0.11).  \n  \n💡 What is ErosPulse?  \n  \nErosPulse is a desktop application designed to control and automate connected haptic / wellness devices (specifically the Lovense lineup) using a custom PyQt-based UI and LLM/AI-driven vibration pattern generation.  \n  \n✨ Key Features  \n  \nModern GUI & Tab Navigation: Clean UI featuring Home, Connection, and Text/Command controls.  \n  \nDirect Lovense Integration: Communicates over local network / API via a dedicated client (LovenseClient) for low-latency control.  \n  \nAI & LLM Pattern Generation: Uses natural language prompts and AI models to dynamically interpret text and generate custom vibration sequences, rhythms, and intensity variations on the fly.  \n  \nStandalone / Vendor-Embedded Architecture: Critical core dependencies (requests, urllib3, e",
+          "summary": "（兜底）[Project] ErosPulse v0.11 – A custom GUI",
+          "url": "https://www.reddit.com/r/lovense/comments/1vk11ja/project_erospulse_v011_a_custom_gui_aipowered/",
+          "timestamp": "2026-08-10T04:55:03+08:00",
+          "category": "positive",
+          "score": 1,
+          "num_comments": 5,
+          "replies": [],
+          "meta": {
+            "product": "remote",
+            "subreddit": "lovense",
+            "author": "Artichaut_BZH",
+            "topic": "feature",
+            "method": "pullpush_submission",
+            "lang": "en",
+            "backfilled": true
+          }
+        }
+      ]
     },
     "remote_x": {
       "label": "Remote · X",
@@ -319,7 +342,7 @@
     "remote_googleplay_items": 0,
     "remote_news_items": 0,
     "remote_appstore_items": 0,
-    "remote_reddit_items": 0,
+    "remote_reddit_items": 1,
     "remote_x_items": 0,
     "remote_trustpilot_items": 0,
     "remote_games_items": 0,

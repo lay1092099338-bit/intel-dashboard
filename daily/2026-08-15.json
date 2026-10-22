@@ -15,7 +15,7 @@
     "x_dm": "ok",
     "remote_googleplay": "ok",
     "remote_appstore": "failed",
-    "remote_reddit": "failed",
+    "remote_reddit": "ok",
     "remote_x": "failed",
     "remote_trustpilot": "failed",
     "remote_games": "failed",
@@ -200,7 +200,7 @@
           "source": "remote_googleplay",
           "title": "★1 keeps logging out on itself, can't get in anymore. There is ",
           "content": "keeps logging out on itself, can't get in anymore. There is constant problems with app functions, no way to resolve them as they are not interested in doing so.",
-          "summary": "",
+          "summary": "（兜底摘要）★1 keeps logging out on itself, can't ge",
           "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=b44792bd-a004-49af-a904-47f099e6e9ba",
           "timestamp": "2026-08-15T09:38:51+08:00",
           "category": "negative",
@@ -227,7 +227,7 @@
           "source": "remote_googleplay",
           "title": "★1 The app keeps getting worse. It looks like a mash-up of seve",
           "content": "The app keeps getting worse. It looks like a mash-up of several completely different apps with no consistent design. It's confusing, cluttered, and honestly just ugly full of AI slop. The app is turning into one of those awful mobile games, packed with dark patterns and shady features that nobody wants except scammers.",
-          "summary": "",
+          "summary": "（兜底摘要）★1 The app keeps getting worse. It looks",
           "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=9cedc7e9-3187-4590-9a30-c632b8c09d32",
           "timestamp": "2026-08-15T07:24:24+08:00",
           "category": "negative",
@@ -262,10 +262,55 @@
     "remote_reddit": {
       "label": "Remote · Reddit",
       "source": "remote_reddit",
-      "fetched_at": "2026-08-15T05:00:00+08:00",
-      "status": "failed",
-      "error": "backfilled placeholder: no backfillable source available",
-      "items": []
+      "fetched_at": "2026-08-15T05:10:00+08:00",
+      "status": "ok",
+      "error": null,
+      "items": [
+        {
+          "id": "remote_reddit-1vp18qg",
+          "source": "remote_reddit",
+          "title": "Chastikey 2.4 is live — your Lovense toy now plays natively in the app, and your AI keyholder feels what she's writing",
+          "content": "Chastikey 2.4 is live — your Lovense toy now plays natively in the app, and your AI keyholder feels what she's writing\n\nHey everyone — Vitalys here, solo dev, full disclosure: this is my app. \\*\\*Chastikey 2.4 is out\\*\\*, and it's the biggest release since I rebuilt the thing. 274 commits went into the version itself and another \\~180 landed on top before it shipped, so instead of a vague \"improvements and bug fixes\", here's the actual list.\n\n\\---\n\n\\## The headline: Lovense, natively, in the app\n\nUntil now, connected-toy play meant opening a browser. That's over.\n\n\\- \\*\\*The playroom is in the app — 13 tables, played over the phone's own Bluetooth.\\*\\* No browser, no five-link chain to reach a toy you're literally holding. Roulette, Simon, Semaphore, Chicken, Blackjack, La Voix, the Interrogation, Permission, the Black Box, the persona chat, the Massage, the Breath, and the Stories.  \n\\- \\*\\*Pair the toy from the phone.\\*\\* One Bluetooth door, one tutorial that goes all the way through, and a way back out of every screen.  \n\\- \\*\\*The main chat became a sensation engine.\\*\\* With a toy connected, her reply puts a hand on you that follows what she's writing — sentence by sentence, starting on the \\*first\\* reply, matched to the scene she's actually playing.  \n\\- \\*\\*Live voice sessions.\\*\\* You talk to her out loud, she answers out loud, and the body follows in milliseconds.  \n\\- \\*\\*The Stories: 100 BDSM houses\\*\\*, a dial from soft to total, and a campaign that remembers you between evenings. You answer out loud; the house is drawn from the intensity band you set, so \"soft\" never hands you the hardest room in the book.  \n\\- \\*\\*Real hardware support, not just vibrators.\\*\\* Every motor a toy has (not just the first one), two toys on one body at the same time, full-travel stroker patterns for Solace / Solace Pro with seven contracted modes, and a sensor-driven robot mode.  \n\\- \\*\\*Lovense control is now unlimited, on every account.\\*\\* I sold minute packs for a while. I stopped: as of 11 August the meter is gone entirely, no packs, no per-tier ceiling, nothing to buy. Opening a table costs nothing either — I removed the 5-token entry fee that was charging you twice for the same session.  \n\\- \\*\\*STOP is never gated, never clamped, never billed.\\*\\* It sits at the top of the room and kills a table running anywhere — another screen, another device, an app you force-quit.\n\nHonest caveat, same as it says inside the app: \\*\\*the toy module is alpha.\\*\\* A cloud command returning 200 is not proof that your body felt anything. If you tell it \"I felt nothing\", it believes you and says so — it doesn't argue with your skin.\n\n\\---\n\n\\## The AI keyholder\n\n\\- \\*\\*Premium's included messages doubled: 2,500 → 5,000 a month\\*\\*, same €19.99. Plus stays at 750, Free at 50.  \n\\- \\*\\*The hidden rails are dead.\\*\\* No per-day, per-hour or per-week burst throttle. Your announced monthly quota is the only ceiling that exists.  \n\\- \\*\\*20 audio units included for everyo",
+          "summary": "（兜底）Chastikey 2.4 is live — your Lovense toy",
+          "url": "https://www.reddit.com/r/ChastikeyReborn/comments/1vp18qg/chastikey_24_is_live_your_lovense_toy_now_plays/",
+          "timestamp": "2026-08-15T20:10:36+08:00",
+          "category": "positive",
+          "score": 1,
+          "num_comments": 4,
+          "replies": [],
+          "meta": {
+            "product": "remote",
+            "subreddit": "ChastikeyReborn",
+            "author": "VitalysRDT",
+            "topic": "connection",
+            "method": "pullpush_submission",
+            "lang": "en",
+            "backfilled": true
+          }
+        },
+        {
+          "id": "remote_reddit-1voe0ju",
+          "source": "remote_reddit",
+          "title": "Trainer Update: Made Long-Distance Blowjobs a Reality (and more)",
+          "content": "Trainer Update: Made Long-Distance Blowjobs a Reality (and more)\n\n**Hi everyone!**\n\nAround 5 months ago we posted a video of our blowjob trainer, the Reach Trainer, and the feedback and support from this subreddit was incredible.\n\nSince then we’ve kept working on it, and now the Reach Trainer can **connect to xToys** and use live movement data to control **strokers** and **vibrators** remotely.\n\nSo what can the xToys integration actually do?\n\n1. Sync the live up-and-down movement of the Reach Trainer to compatible strokers\n2. Control vibrator strength based on how deep the person is going\n3. Connect multiple strokers and vibrators to the same Trainer session\n4. Sync a stroker to your own Trainer, which technically lets you suck yourself off without needing to be extremely flexible\n\nThe video shows a Lovense Solace Pro and a Lovense Hush 2 vibrator reacting live to the depth data from the Trainer.\n\nThe Trainer measures depth as a percentage, smooths the movement data, and sends it to our server. From there it goes to xToys and then to the connected toy.\n\nDepth ranges can also be configured, and because we now have a public webhook for the Trainer data, it’s possible to build your own applications around it. For example, playing Guitar Hero, Pong, or even Elden Ring with a control emulator.\n\n**Developing it**\n\nOne of the more annoying parts of building this was figuring out the xToys webhook behaviour. Their documentation didn’t really explain things like how quickly the webhook could reliably accept new values, so quite a bit had to be worked out through testing.\n\nMovement smoothing was another problem. Too little filtering and the connected toy reacts to every tiny bit of noise; too much and it starts noticeably lagging behind the person using the Trainer. Getting it responsive without being jittery took a fair amount of experimenting.\n\nWe’ve directly tested two toys responding to the same Trainer at once. The system can theoretically handle considerably more, although around 50 devices is a more realistic upper limit before server load becomes a concern under current set-up.\n\nNext up we’re improving the UI, and later we want to add the ability to save blowjob performance patterns. These could then be replayed through connected toys later or shared with someone else who wants to try following the same pattern.\n\nIf anyone has questions about how the syncing works, I’d love to answer them.\n\nUser guide: [https://reach-restraints.gitbook.io/reach-restraints/reach-trainer/remote-sessions](https://reach-restraints.gitbook.io/reach-restraints/reach-trainer/remote-sessions)  \nWebsite: [https://reachrestraints.com/](https://reachrestraints.com/)  \nSocials: [https://linktr.ee/reach.r](https://linktr.ee/reach.r)",
+          "summary": "（兜底）Trainer Update: Made Long-Distance Blowj",
+          "url": "https://www.reddit.com/r/BdsmDIY/comments/1voe0ju/trainer_update_made_longdistance_blowjobs_a/",
+          "timestamp": "2026-08-15T01:41:10+08:00",
+          "category": "positive",
+          "score": 495,
+          "num_comments": 13,
+          "replies": [],
+          "meta": {
+            "product": "remote",
+            "subreddit": "BdsmDIY",
+            "author": "ReachRestraints",
+            "topic": "remote_control",
+            "method": "pullpush_submission",
+            "lang": "en",
+            "backfilled": true
+          }
+        }
+      ]
     },
     "remote_x": {
       "label": "Remote · X",
@@ -319,7 +364,7 @@
     "remote_googleplay_items": 2,
     "remote_news_items": 0,
     "remote_appstore_items": 0,
-    "remote_reddit_items": 0,
+    "remote_reddit_items": 2,
     "remote_x_items": 0,
     "remote_trustpilot_items": 0,
     "remote_games_items": 0,

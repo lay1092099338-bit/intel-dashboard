@@ -15,7 +15,7 @@
     "x_dm": "ok",
     "remote_googleplay": "ok",
     "remote_appstore": "failed",
-    "remote_reddit": "failed",
+    "remote_reddit": "ok",
     "remote_x": "failed",
     "remote_trustpilot": "failed",
     "remote_games": "failed",
@@ -274,7 +274,7 @@
           "source": "remote_googleplay",
           "title": "★1 Was able to log in after my last review and enjoy the app af",
           "content": "Was able to log in after my last review and enjoy the app after stating that I couldn't a couple weeks ago... until today. App won't let me log in at all so I can enjoy some private time with a long distance loved one. I was just about to raise the star rating too because it has been good recently...",
-          "summary": "",
+          "summary": "（兜底摘要）★1 Was able to log in after my last revi",
           "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=c4eb86a8-d9b8-4bd9-997c-9bf65c1a1b68",
           "timestamp": "2026-08-14T19:01:19+08:00",
           "category": "negative",
@@ -309,10 +309,55 @@
     "remote_reddit": {
       "label": "Remote · Reddit",
       "source": "remote_reddit",
-      "fetched_at": "2026-08-14T05:00:00+08:00",
-      "status": "failed",
-      "error": "backfilled placeholder: no backfillable source available",
-      "items": []
+      "fetched_at": "2026-08-14T05:10:00+08:00",
+      "status": "ok",
+      "error": null,
+      "items": [
+        {
+          "id": "remote_reddit-1vnggk6",
+          "source": "remote_reddit",
+          "title": "I Finally Orgasmed After 16 Days but it was Kind of Unsatisfying",
+          "content": "I Finally Orgasmed After 16 Days but it was Kind of Unsatisfying\n\nSo for anyone who hasn’t seen my posts yet, I’m the wordle denial guy. My boyfriend and I have been messing around with orgasm control and denial for the past month and a half, and it’s been great so far. I was going for a week of denial, but I ended up cumming without permission and he didn’t have time to punish me so that week turned into more than a week. \n\nAnyway, we recently got a lovense dolce to use for long distance play (we live on opposite ends of the country), and having him control the vibrator whilst I used it was pretty hot, but there was one issue; it just didn’t fit my anatomy properly. Which made the whole experience less than ideal. That said, he did make me cum, but it wasn’t that great. It felt more like a ruin. I kind of expected more after 16 days of orgasm denial and (mostly) no touch. \n\nMaybe it’s because we’re both inexperienced, and we were using it wrong? I don’t know. The whole thing makes me think though, maybe I prefer edging and denial over actual orgasms at this point. Maybe I should see if I could get to 3 weeks and then a month without cumming? I’d still like to have maintenance orgasms once in a while because if I don’t have them it kind of messes with my head and brain chemistry (I’m schizophrenic), but I just don’t know. \n\nI’ll ask my boyfriend if I can play around with the dolce on my own to sort of see if I can figure out what works for me and what doesn’t, or he and I could play around with it together more. It would just be a shame if we didn’t find a way to make it work because it was supposed to be a way for us to connect intimately despite the distance, and because I did spend a lot of money on it. We also had the goal of doing something with forced orgasms/overstimulation with it. I guess it’s time for some trial and error…",
+          "summary": "（兜底）I Finally Orgasmed After 16 Days but it ",
+          "url": "https://www.reddit.com/r/FTMorgasmdenial/comments/1vnggk6/i_finally_orgasmed_after_16_days_but_it_was_kind/",
+          "timestamp": "2026-08-14T00:58:26+08:00",
+          "category": "positive",
+          "score": 6,
+          "num_comments": 3,
+          "replies": [],
+          "meta": {
+            "product": "remote",
+            "subreddit": "FTMorgasmdenial",
+            "author": "KeepMeFromDreaming",
+            "topic": "remote_control",
+            "method": "pullpush_submission",
+            "lang": "en",
+            "backfilled": true
+          }
+        },
+        {
+          "id": "remote_reddit-1vno8dt",
+          "source": "remote_reddit",
+          "title": "I (20F)  let a stranger control my toy while i was at a family dinner",
+          "content": "I (20F)  let a stranger control my toy while i was at a family dinner\n\ni've had my lovense for a while. used it plenty of times at home, in my room, alone. but i wanted to push it further.\n\nlast weekend my family had a big dinner. aunt. uncle. cousins. grandparents. the whole thing. i was wearing a dress. no panties. toy inside me.\n\ni posted on a subreddit and sent the code to a stranger. he connected right as we sat down to eat.\n\nhe started low. just a little buzz. i could feel it but i could hide it. then he turned it up during my uncle's toast. i had to grip the edge of the table.\n\nhe kept it on for the whole meal. pulses. patterns. random spikes. i had to make conversation while clenching my thighs together. my grandma asked if i was feeling okay. i said i was just warm.\n\nhe sent me a message during dessert: \"don't you dare cum. not until i say.\"\n\ni came three times before we finished dinner. silent. face straight. no one knew.\n\nafter the meal, i excused myself to the bathroom. locked the door. leaned against the counter. he turned it to max. i came again, biting my hand.\n\nhe disconnected right after. no message. no goodbye.\n\ni walked back to the table like nothing happened.\n\nno one knows. no one ever will.",
+          "summary": "（兜底）I (20F) let a stranger control my toy wh",
+          "url": "https://www.reddit.com/r/SluttyConfessions/comments/1vno8dt/i_20f_let_a_stranger_control_my_toy_while_i_was/",
+          "timestamp": "2026-08-14T05:40:55+08:00",
+          "category": "neutral",
+          "score": 3,
+          "num_comments": 1,
+          "replies": [],
+          "meta": {
+            "product": "remote",
+            "subreddit": "SluttyConfessions",
+            "author": "Middle_Sign3113",
+            "topic": "connection",
+            "method": "pullpush_submission",
+            "lang": "en",
+            "backfilled": true
+          }
+        }
+      ]
     },
     "remote_x": {
       "label": "Remote · X",
@@ -366,7 +411,7 @@
     "remote_googleplay_items": 1,
     "remote_news_items": 0,
     "remote_appstore_items": 0,
-    "remote_reddit_items": 0,
+    "remote_reddit_items": 2,
     "remote_x_items": 0,
     "remote_trustpilot_items": 0,
     "remote_games_items": 0,
