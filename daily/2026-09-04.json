@@ -19,7 +19,6 @@
     "remote_x": "failed",
     "remote_trustpilot": "failed",
     "remote_games": "failed",
-    "remote_qa": "failed",
     "remote_news": "ok"
   },
   "sources": {
@@ -590,14 +589,6 @@
       "error": "backfilled placeholder: Steam rate limit",
       "items": []
     },
-    "remote_qa": {
-      "label": "Remote · 问答站",
-      "source": "remote_qa",
-      "fetched_at": "2026-09-04T05:00:00+08:00",
-      "status": "failed",
-      "error": "backfilled placeholder: justuseapp.com unreachable",
-      "items": []
-    },
     "remote_news": {
       "label": "Remote · 新闻",
       "source": "remote_news",
@@ -621,7 +612,6 @@
     "remote_reddit_items": 1,
     "remote_x_items": 0,
     "remote_trustpilot_items": 0,
-    "remote_games_items": 0,
-    "remote_qa_items": 0
+    "remote_games_items": 0
   }
 }
