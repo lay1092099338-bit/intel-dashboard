@@ -15,7 +15,7 @@
     "x_dm": "ok",
     "remote_googleplay": "ok",
     "remote_appstore": "failed",
-    "remote_reddit": "failed",
+    "remote_reddit": "ok",
     "remote_x": "failed",
     "remote_trustpilot": "failed",
     "remote_games": "failed",
@@ -326,10 +326,55 @@
     "remote_reddit": {
       "label": "Remote · Reddit",
       "source": "remote_reddit",
-      "fetched_at": "2026-09-09T05:00:00+08:00",
-      "status": "failed",
-      "error": "backfilled placeholder: no backfillable source available",
-      "items": []
+      "fetched_at": "2026-09-09T05:10:00+08:00",
+      "status": "ok",
+      "error": null,
+      "items": [
+        {
+          "id": "remote_reddit-1wbf38s",
+          "source": "remote_reddit",
+          "title": "How do you keep the spark alive when you’re in a long-distance relationship?",
+          "content": "How do you keep the spark alive when you’re in a long-distance relationship?\n\nUsually the answer is something like “schedule a date night and stick to it” but nothing kills romance faster than *scheduled* romantic sessions.\n\nAnd after a while, it feels monotonous. You fall into the same predictable routine: open a video call, watch a movie, eat dinner, ask about work, say goodnight.\n\nBetween bad internet connections, privacy worries, and screen fatigue, even video dates start feeling less like dynamic romance and more like a 1:1 with your boss. *Ugh*.\n\n**The actual problem in long-distance relationships isn't the physical distance, it's the predictability.**\n\nWhen you live in the same house or the same city, intimacy doesn’t have to be planned. Sneaking up behind you while you cook. A kiss on the cheek leads to something else. A hug leads to a squeeze, and suddenly you’re behind closed doors.\n\nLong distance deletes these organic, intimate moments.\n\nSo how do you spice up your long-distance relationships?\n\n**That’s where app-controlled sex toys** like Lovense come into play. Imagine your partner teasing you while you’re in a boring meeting at work. And you’re on edge all day.\n\nInstead of waiting for a planned late-night video call, smart **vibrators** and interactive couple's toys bring physical touch directly back into your day-to-day life:\n\n• **Remote Teasing & Control Link:** Imagine being at your desk during a quiet afternoon at work, and suddenly your **panty vibrator** (like the [Lovense Lush 4](https://in.imbesharam.com/products/lovense-lush-4-wireless-smart-vibrator) or[ Lovense Ferri](https://in.imbesharam.com/products/lovense-ferry-app-controlled-magnetic-panty-vibrator-new)) turns on. Your partner, thousands of miles away, just sent a custom vibration pattern via the **Lovense Remote App**. You’re on edge, completely connected, and anticipating their next move all day.\n\n• **Unpredictable Rhythms & Sound Sync:** When you’re finally laying in bed, you don't have to follow a set routine. Through the app, your partner can draw real-time vibration curves, sync the toy to their voice volume during a phone call, or let their own movement control your device using motion-sensing features.\n\n• **Mutual Interactive Play (Toy-to-Toy Sync):** Long-distance intimacy isn't a one-way street. By pairing male strokers (like the[ Lovense Max](https://in.imbesharam.com/products/lovense-max-2-hightech-male-masturbator-new)) with female vibrators, both partners can experience synchronized sensations in real time—when one moves, the other feels the reaction.\n\nThe setup requires minimal effort. All you need to do is connect your device via Bluetooth to your phone, your partner opens the app on theirs, and distance disappears. You're back to sharing spontaneous, intimate moments together even while being cities (or continents!) apart.",
+          "summary": "（兜底）How do you keep the spark alive when you",
+          "url": "https://www.reddit.com/r/IMbesharam/comments/1wbf38s/how_do_you_keep_the_spark_alive_when_youre_in_a/",
+          "timestamp": "2026-09-09T15:53:26+08:00",
+          "category": "positive",
+          "score": 1,
+          "num_comments": 0,
+          "replies": [],
+          "meta": {
+            "product": "remote",
+            "subreddit": "IMbesharam",
+            "author": "im-besharam",
+            "topic": "connection",
+            "method": "pullpush_submission",
+            "lang": "en",
+            "backfilled": true
+          }
+        },
+        {
+          "id": "remote_reddit-1wb8z3o",
+          "source": "remote_reddit",
+          "title": "Question about Connecting",
+          "content": "Question about Connecting\n\nDoes anyone know how to fix the issue where a toy won't connect to the Lovense Remote app. Saying it's connected to too many accounts? I tried to find it on my Bluetooth settings on the phone but I can't seem to find it and I don't know what else to do",
+          "summary": "（兜底）Question about Connecting",
+          "url": "https://www.reddit.com/r/lovense/comments/1wb8z3o/question_about_connecting/",
+          "timestamp": "2026-09-09T10:32:01+08:00",
+          "category": "neutral",
+          "score": 1,
+          "num_comments": 1,
+          "replies": [],
+          "meta": {
+            "product": "remote",
+            "subreddit": "lovense",
+            "author": "Joshyjosh33",
+            "topic": "connection",
+            "method": "pullpush_submission",
+            "lang": "en",
+            "backfilled": true
+          }
+        }
+      ]
     },
     "remote_x": {
       "label": "Remote · X",
@@ -383,7 +428,7 @@
     "remote_googleplay_items": 0,
     "remote_news_items": 0,
     "remote_appstore_items": 0,
-    "remote_reddit_items": 0,
+    "remote_reddit_items": 2,
     "remote_x_items": 0,
     "remote_trustpilot_items": 0,
     "remote_games_items": 0,

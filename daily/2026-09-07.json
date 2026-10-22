@@ -15,7 +15,7 @@
     "x_dm": "ok",
     "remote_googleplay": "ok",
     "remote_appstore": "failed",
-    "remote_reddit": "failed",
+    "remote_reddit": "ok",
     "remote_x": "failed",
     "remote_trustpilot": "failed",
     "remote_games": "failed",
@@ -227,7 +227,7 @@
           "source": "remote_googleplay",
           "title": "★1 App will stop working on a monthly basis requiring me to rei",
           "content": "App will stop working on a monthly basis requiring me to reinstall the app entirely. Restarting it doesn't work. Restarting my phone doesn't work. Deleting the cache doesn't work. The only way to get the app to work again after it stops is to completely uninstall it and reinstall it. This all started when they added their AI garbage, so I can only assume it's due to some \"vibe coded\" slop that causes this.",
-          "summary": "",
+          "summary": "（兜底摘要）★1 App will stop working on a monthly ba",
           "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=848b2e02-d192-45fc-9fdd-172e711102df",
           "timestamp": "2026-09-07T12:14:48+08:00",
           "category": "negative",
@@ -262,10 +262,55 @@
     "remote_reddit": {
       "label": "Remote · Reddit",
       "source": "remote_reddit",
-      "fetched_at": "2026-09-07T05:00:00+08:00",
-      "status": "failed",
-      "error": "backfilled placeholder: no backfillable source available",
-      "items": []
+      "fetched_at": "2026-09-07T05:10:00+08:00",
+      "status": "ok",
+      "error": null,
+      "items": [
+        {
+          "id": "remote_reddit-1w95ztz",
+          "source": "remote_reddit",
+          "title": "Need a new body wand, need suggestions/advice",
+          "content": "Need a new body wand, need suggestions/advice\n\nSo my knockoff Hitachi wand is about to kick the bucket after 5 years and I'm trying to get ahead of this before it does die. I've been looking at new ones and the Lovense Domi 2 seems very fun, I've seen a few pornstars and streamers use them but I wanted to know how powerful it actually is before I actually buy it. If there's another long distance wand I could use please let me know, because I would love to actually let my domme control my toy (the control app would either need to be completely free or compatible with the lovense app)",
+          "summary": "（兜底）Need a new body wand, need suggestions/a",
+          "url": "https://www.reddit.com/r/SexToys/comments/1w95ztz/need_a_new_body_wand_need_suggestionsadvice/",
+          "timestamp": "2026-09-07T03:40:40+08:00",
+          "category": "positive",
+          "score": 1,
+          "num_comments": 0,
+          "replies": [],
+          "meta": {
+            "product": "remote",
+            "subreddit": "SexToys",
+            "author": "PrincessAliceNSFW",
+            "topic": "remote_control",
+            "method": "pullpush_submission",
+            "lang": "en",
+            "backfilled": true
+          }
+        },
+        {
+          "id": "remote_reddit-1w9gflz",
+          "source": "remote_reddit",
+          "title": "Need To Be Used? M Wanting To Tease, Use, Watch Or Listen To You",
+          "content": "Need To Be Used? M Wanting To Tease, Use, Watch Or Listen To You\n\nEarly 30s M in the mood to dom or just have some relaxing fun. Not in the mood to fill my ass with toys \\*\\*yet\\*\\* but definitely in the mood to use and tease someone else\n\nLove watching and/or listening while I take control as well if you’re into that\n\nMessage here, send control link or add on Lovense (JadedAU)",
+          "summary": "（兜底）Need To Be Used? M Wanting To Tease, Use",
+          "url": "https://www.reddit.com/r/lovense/comments/1w9gflz/need_to_be_used_m_wanting_to_tease_use_watch_or/",
+          "timestamp": "2026-09-07T11:12:38+08:00",
+          "category": "positive",
+          "score": 1,
+          "num_comments": 3,
+          "replies": [],
+          "meta": {
+            "product": "remote",
+            "subreddit": "lovense",
+            "author": "youngaussieguy6495",
+            "topic": "remote_control",
+            "method": "pullpush_submission",
+            "lang": "en",
+            "backfilled": true
+          }
+        }
+      ]
     },
     "remote_x": {
       "label": "Remote · X",
@@ -311,7 +356,7 @@
           "source": "remote_news",
           "title": "Setting your bedsheets ablaze with the Lovense Solace Pro - GadgetMatch",
           "content": "Setting your bedsheets ablaze with the Lovense Solace Pro  GadgetMatch\n\n[来源 Source] GadgetMatch",
-          "summary": "",
+          "summary": "（兜底摘要）Setting your bedsheets ablaze with the L",
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5jWldIQmVzaTVGaWpEU1FZOTUzRGg0dDVtOGo4NENMejRfZU5zVVpESFoyUko3M3BBS2lBMnZkZThLUlNEY1lTdUYyaHFldFFqdU5GLXdDU2tidXQ1WG5USkRnNXE?oc=5",
           "timestamp": "2026-09-07T15:00:00+08:00",
           "category": "neutral",
@@ -340,7 +385,7 @@
     "remote_googleplay_items": 1,
     "remote_news_items": 1,
     "remote_appstore_items": 0,
-    "remote_reddit_items": 0,
+    "remote_reddit_items": 2,
     "remote_x_items": 0,
     "remote_trustpilot_items": 0,
     "remote_games_items": 0,

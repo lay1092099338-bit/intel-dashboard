@@ -15,7 +15,7 @@
     "x_dm": "ok",
     "remote_googleplay": "ok",
     "remote_appstore": "failed",
-    "remote_reddit": "failed",
+    "remote_reddit": "ok",
     "remote_x": "failed",
     "remote_trustpilot": "failed",
     "remote_games": "failed",
@@ -503,7 +503,7 @@
           "source": "remote_googleplay",
           "title": "★1 Una poronga",
           "content": "Una poronga",
-          "summary": "",
+          "summary": "（兜底摘要）★1 Una poronga",
           "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=0abcebda-0aee-4033-b264-d1992df05da4",
           "timestamp": "2026-09-04T18:17:43+08:00",
           "category": "negative",
@@ -538,10 +538,33 @@
     "remote_reddit": {
       "label": "Remote · Reddit",
       "source": "remote_reddit",
-      "fetched_at": "2026-09-04T05:00:00+08:00",
-      "status": "failed",
-      "error": "backfilled placeholder: no backfillable source available",
-      "items": []
+      "fetched_at": "2026-09-04T05:10:00+08:00",
+      "status": "ok",
+      "error": null,
+      "items": [
+        {
+          "id": "remote_reddit-1w6ez9f",
+          "source": "remote_reddit",
+          "title": "My Lovense Made Me Squirt for the First Time… and I’m Still Shaking 💦",
+          "content": "My Lovense Made Me Squirt for the First Time… and I’m Still Shaking 💦\n\nI was alone in bed playing with my Lovense, slowly testing different patterns and teasing myself instead of rushing. Every time I got close, I lowered it just enough to make myself wait. I wanted to see how long I could keep myself right on the edge.\n\nThen I found one pattern that felt completely different. My whole body tightened, my breathing became shaky, and suddenly I lost all control. I squirted for the first time—soaking the bed and leaving myself trembling, stunned, and unbelievably turned on.\n\nI just lay there afterward, staring at the mess and wondering why it took me this long to discover I could do that. Now I can’t stop thinking about what might happen if someone else controlled the toy and refused to let me stop. 💦",
+          "summary": "（兜底）My Lovense Made Me Squirt for the First ",
+          "url": "https://www.reddit.com/r/sexstories/comments/1w6ez9f/my_lovense_made_me_squirt_for_the_first_time_and/",
+          "timestamp": "2026-09-04T02:02:52+08:00",
+          "category": "positive",
+          "score": 1,
+          "num_comments": 0,
+          "replies": [],
+          "meta": {
+            "product": "remote",
+            "subreddit": "sexstories",
+            "author": "Lexxx81989",
+            "topic": "feature",
+            "method": "pullpush_submission",
+            "lang": "en",
+            "backfilled": true
+          }
+        }
+      ]
     },
     "remote_x": {
       "label": "Remote · X",
@@ -595,7 +618,7 @@
     "remote_googleplay_items": 1,
     "remote_news_items": 0,
     "remote_appstore_items": 0,
-    "remote_reddit_items": 0,
+    "remote_reddit_items": 1,
     "remote_x_items": 0,
     "remote_trustpilot_items": 0,
     "remote_games_items": 0,

@@ -15,7 +15,7 @@
     "x_dm": "ok",
     "remote_googleplay": "ok",
     "remote_appstore": "failed",
-    "remote_reddit": "failed",
+    "remote_reddit": "ok",
     "remote_x": "failed",
     "remote_trustpilot": "failed",
     "remote_games": "failed",
@@ -373,7 +373,7 @@
           "source": "remote_googleplay",
           "title": "★5 Sehr gut",
           "content": "Sehr gut",
-          "summary": "",
+          "summary": "（兜底摘要）★5 Sehr gut",
           "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=274dcfea-c9ec-454b-8059-166092117e29",
           "timestamp": "2026-09-12T16:59:19+08:00",
           "category": "positive",
@@ -404,10 +404,33 @@
     "remote_reddit": {
       "label": "Remote · Reddit",
       "source": "remote_reddit",
-      "fetched_at": "2026-09-12T05:00:00+08:00",
-      "status": "failed",
-      "error": "backfilled placeholder: no backfillable source available",
-      "items": []
+      "fetched_at": "2026-09-12T05:10:00+08:00",
+      "status": "ok",
+      "error": null,
+      "items": [
+        {
+          "id": "remote_reddit-1wdnp7s",
+          "source": "remote_reddit",
+          "title": "Shoot. I just noticed LOVENSE control links sub has been taken down. Where are y'all posting links?",
+          "content": "Shoot. I just noticed LOVENSE control links sub has been taken down. Where are y'all posting links?\n\nLooking to post some links for the next couple days",
+          "summary": "（兜底）Shoot. I just noticed LOVENSE control li",
+          "url": "https://www.reddit.com/r/lovense/comments/1wdnp7s/shoot_i_just_noticed_lovense_control_links_sub/",
+          "timestamp": "2026-09-12T02:01:35+08:00",
+          "category": "positive",
+          "score": 1,
+          "num_comments": 1,
+          "replies": [],
+          "meta": {
+            "product": "remote",
+            "subreddit": "lovense",
+            "author": "Learning49",
+            "topic": "remote_control",
+            "method": "pullpush_submission",
+            "lang": "en",
+            "backfilled": true
+          }
+        }
+      ]
     },
     "remote_x": {
       "label": "Remote · X",
@@ -461,7 +484,7 @@
     "remote_googleplay_items": 1,
     "remote_news_items": 0,
     "remote_appstore_items": 0,
-    "remote_reddit_items": 0,
+    "remote_reddit_items": 1,
     "remote_x_items": 0,
     "remote_trustpilot_items": 0,
     "remote_games_items": 0,
