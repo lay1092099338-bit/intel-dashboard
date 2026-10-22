@@ -15,7 +15,7 @@
     "x_dm": "ok",
     "remote_googleplay": "ok",
     "remote_appstore": "failed",
-    "remote_reddit": "failed",
+    "remote_reddit": "ok",
     "remote_x": "failed",
     "remote_trustpilot": "failed",
     "remote_games": "failed",
@@ -299,7 +299,7 @@
           "source": "remote_googleplay",
           "title": "★3 Would love wear OS compatibility. It's not sexy when your pa",
           "content": "Would love wear OS compatibility. It's not sexy when your partner has to have their phone out",
-          "summary": "",
+          "summary": "（兜底摘要）★3 Would love wear OS compatibility. It'",
           "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=a5015f75-c2f0-4408-9e4a-88fae51c489f",
           "timestamp": "2026-07-24T09:19:33+08:00",
           "category": "mixed",
@@ -322,7 +322,7 @@
           "source": "remote_googleplay",
           "title": "★4 After the update, it logged me out and won't let me log back",
           "content": "After the update, it logged me out and won't let me log back in again edit to update: contacted customer support, which was AI and didn't answer my question. Solution for my problem (after experimenting myself) is, uninstall and reinstall the app. 5 stars because it's an excellent app, -1 star for using AI instead of giving actual customer support",
-          "summary": "",
+          "summary": "（兜底摘要）★4 After the update, it logged me out an",
           "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=32402d3d-fd4f-41e3-a469-b66068ddea27",
           "timestamp": "2026-07-24T02:43:09+08:00",
           "category": "positive",
@@ -357,10 +357,55 @@
     "remote_reddit": {
       "label": "Remote · Reddit",
       "source": "remote_reddit",
-      "fetched_at": "2026-07-24T05:00:00+08:00",
-      "status": "failed",
-      "error": "backfilled placeholder: no backfillable source available",
-      "items": []
+      "fetched_at": "2026-07-24T05:10:00+08:00",
+      "status": "ok",
+      "error": null,
+      "items": [
+        {
+          "id": "remote_reddit-1v50h49",
+          "source": "remote_reddit",
+          "title": "Partner wants to play the games while connect to my toys",
+          "content": "Partner wants to play the games while connect to my toys\n\nHello! me and my partner are long distance and like to just have fun at times. He wants my toy to be connected while he plays the lovense games, like the in game tetris. But we don’t know if that’s possible.\n\nAny help with that?",
+          "summary": "（兜底）Partner wants to play the games while co",
+          "url": "https://www.reddit.com/r/lovense/comments/1v50h49/partner_wants_to_play_the_games_while_connect_to/",
+          "timestamp": "2026-07-24T12:06:03+08:00",
+          "category": "positive",
+          "score": 1,
+          "num_comments": 1,
+          "replies": [],
+          "meta": {
+            "product": "remote",
+            "subreddit": "lovense",
+            "author": "lunawunauna",
+            "topic": "remote_control",
+            "method": "pullpush_submission",
+            "lang": "en",
+            "backfilled": true
+          }
+        },
+        {
+          "id": "remote_reddit-1v4kfj5",
+          "source": "remote_reddit",
+          "title": "Turning Lovense Fanberry features OFF",
+          "content": "Turning Lovense Fanberry features OFF\n\nThe lovense app keeps automatically sending control links to people who tip a certain amount and im having trouble finding the settings to turn it off!!   \nIt makes me so mad when this happens, to my knowledge i never set it up to do that. If it was a part of an update or something, thats a pretty terrible move imo. Anyway, any help would be greatly appreciated. Btw does anyone actually use fanberry?",
+          "summary": "（兜底）Turning Lovense Fanberry features OFF",
+          "url": "https://www.reddit.com/r/camgirlslove/comments/1v4kfj5/turning_lovense_fanberry_features_off/",
+          "timestamp": "2026-07-24T01:22:51+08:00",
+          "category": "positive",
+          "score": 2,
+          "num_comments": 2,
+          "replies": [],
+          "meta": {
+            "product": "remote",
+            "subreddit": "camgirlslove",
+            "author": "Brilliant-Shelter604",
+            "topic": "remote_control",
+            "method": "pullpush_submission",
+            "lang": "en",
+            "backfilled": true
+          }
+        }
+      ]
     },
     "remote_x": {
       "label": "Remote · X",
@@ -414,7 +459,7 @@
     "remote_googleplay_items": 2,
     "remote_news_items": 0,
     "remote_appstore_items": 0,
-    "remote_reddit_items": 0,
+    "remote_reddit_items": 2,
     "remote_x_items": 0,
     "remote_trustpilot_items": 0,
     "remote_games_items": 0,

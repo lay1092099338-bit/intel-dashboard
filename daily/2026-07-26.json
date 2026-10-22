@@ -15,7 +15,7 @@
     "x_dm": "ok",
     "remote_googleplay": "ok",
     "remote_appstore": "failed",
-    "remote_reddit": "failed",
+    "remote_reddit": "ok",
     "remote_x": "failed",
     "remote_trustpilot": "failed",
     "remote_games": "failed",
@@ -310,7 +310,7 @@
           "source": "remote_googleplay",
           "title": "★1 ständig abgemeldet und die App stürzt durchgehend ab",
           "content": "ständig abgemeldet und die App stürzt durchgehend ab",
-          "summary": "",
+          "summary": "（兜底摘要）★1 ständig abgemeldet und die App stürzt",
           "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=192ef922-4ed7-4359-976b-7b9aae1063e7",
           "timestamp": "2026-07-26T11:09:10+08:00",
           "category": "negative",
@@ -345,10 +345,33 @@
     "remote_reddit": {
       "label": "Remote · Reddit",
       "source": "remote_reddit",
-      "fetched_at": "2026-07-26T05:00:00+08:00",
-      "status": "failed",
-      "error": "backfilled placeholder: no backfillable source available",
-      "items": []
+      "fetched_at": "2026-07-26T05:10:00+08:00",
+      "status": "ok",
+      "error": null,
+      "items": [
+        {
+          "id": "remote_reddit-1v6itym",
+          "source": "remote_reddit",
+          "title": "Shipping issue?",
+          "content": "Shipping issue?\n\nI ordered my two toys a little longer than a month ago and I saw that they’d be shipping in 1-2 weeks. It has not been delivered yet and the shipping number last update is 22 days ago. Is this shipping time normal?\n\nI have emailed Lovense about it and there has been no response. I enjoyed the last toys I have bought and would like to continue my patronage.\n\nI am moving away in a couple of weeks from this address so I would like to know the status of my order so I can either cancel it or reship it to another address.",
+          "summary": "（兜底）Shipping issue?",
+          "url": "https://www.reddit.com/r/lovense/comments/1v6itym/shipping_issue/",
+          "timestamp": "2026-07-26T04:20:22+08:00",
+          "category": "positive",
+          "score": 1,
+          "num_comments": 1,
+          "replies": [],
+          "meta": {
+            "product": "remote",
+            "subreddit": "lovense",
+            "author": "PomegranateEntire268",
+            "topic": "compat",
+            "method": "pullpush_submission",
+            "lang": "en",
+            "backfilled": true
+          }
+        }
+      ]
     },
     "remote_x": {
       "label": "Remote · X",
@@ -402,7 +425,7 @@
     "remote_googleplay_items": 1,
     "remote_news_items": 0,
     "remote_appstore_items": 0,
-    "remote_reddit_items": 0,
+    "remote_reddit_items": 1,
     "remote_x_items": 0,
     "remote_trustpilot_items": 0,
     "remote_games_items": 0,
