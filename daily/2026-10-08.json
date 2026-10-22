@@ -15,7 +15,7 @@
     "x_dm": "ok",
     "remote_googleplay": "ok",
     "remote_appstore": "failed",
-    "remote_reddit": "failed",
+    "remote_reddit": "ok",
     "remote_x": "failed",
     "remote_trustpilot": "failed",
     "remote_games": "failed",
@@ -337,7 +337,7 @@
           "source": "remote_googleplay",
           "title": "★1 el concepto de darnos placer o dar placer a alguien suena bi",
           "content": "el concepto de darnos placer o dar placer a alguien suena bien. El problema está en que la gente cree que se puede vender aquí contenido o pagar una cuota por entrar a grupos privados. Ese tipo cosas no están permitidas en la app y hay demasiada gente estafando en esta app. Como hombre puedo decir que ningún perfil privado de una chica ha estado libre de venderme contenido, incluso algunos enlaces de grupos. lo peor es la imposibilidad de denunciar este tipo de acciones en la aplicación.",
-          "summary": "",
+          "summary": "（兜底摘要）★1 el concepto de darnos placer o dar pl",
           "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=b5806f42-b34e-44fc-9b17-c886a4b150d5",
           "timestamp": "2026-10-08T08:41:15+08:00",
           "category": "negative",
@@ -372,10 +372,34 @@
     "remote_reddit": {
       "label": "Remote · Reddit",
       "source": "remote_reddit",
-      "fetched_at": "2026-10-08T05:00:00+08:00",
-      "status": "failed",
-      "error": "backfilled placeholder: no backfillable source available",
-      "items": []
+      "fetched_at": "2026-10-08T05:10:00+08:00",
+      "status": "ok",
+      "error": null,
+      "items": [
+        {
+          "id": "remote_reddit-c_peh4y7n",
+          "source": "remote_reddit",
+          "title": "[评论] The app offers great features (custom patterns, sync to musi",
+          "content": "The app offers great features (custom patterns, sync to music, long-distance link), but connection drops do happen. Crucial tip: disable battery optimization/low-power mode for the Lovense Remote app on your phone, as OS background limits cause 90% of the disconnect issues people run into.",
+          "summary": "（兜底）[评论] The app offers great features (cust",
+          "url": "https://www.reddit.com/r/productreview/comments/1wupu6u/lovense_reviews_that_cover_the_app_not_just_the/peh4y7n/",
+          "timestamp": "2026-10-08T01:53:12+08:00",
+          "category": "positive",
+          "score": 1,
+          "num_comments": 0,
+          "replies": [],
+          "meta": {
+            "product": "remote",
+            "subreddit": "productreview",
+            "author": "im-besharam",
+            "topic": "connection",
+            "method": "pullpush_comment",
+            "lang": "en",
+            "is_comment": true,
+            "backfilled": true
+          }
+        }
+      ]
     },
     "remote_x": {
       "label": "Remote · X",
@@ -429,7 +453,7 @@
     "remote_googleplay_items": 1,
     "remote_news_items": 0,
     "remote_appstore_items": 0,
-    "remote_reddit_items": 0,
+    "remote_reddit_items": 1,
     "remote_x_items": 0,
     "remote_trustpilot_items": 0,
     "remote_games_items": 0,

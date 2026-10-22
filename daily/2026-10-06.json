@@ -15,7 +15,7 @@
     "x_dm": "ok",
     "remote_googleplay": "ok",
     "remote_appstore": "failed",
-    "remote_reddit": "failed",
+    "remote_reddit": "ok",
     "remote_x": "failed",
     "remote_trustpilot": "failed",
     "remote_games": "failed",
@@ -241,7 +241,7 @@
           "source": "remote_googleplay",
           "title": "★1 Instability is the theme. app needs to be uninstalled and re",
           "content": "Instability is the theme. app needs to be uninstalled and reinstalled frequently, requiring you to re-pair devices every time and a loss of all saved patterns even when logged into an account. We will not purchase Lovense products in the future due to app issues. Then when a device fails the 10yr quality guarantee is useless, all they do is provide a discount of 3-5% off the everyday sale price. Bait and switch guarantee. Fool me once shame on you....",
-          "summary": "",
+          "summary": "（兜底摘要）★1 Instability is the theme. app needs t",
           "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=854f9dac-302e-4564-8558-d83b24595660",
           "timestamp": "2026-10-06T03:18:33+08:00",
           "category": "negative",
@@ -268,7 +268,7 @@
           "source": "remote_googleplay",
           "title": "★1 cualquiera dentro del rango de Bluetooth puede conectarse a ",
           "content": "cualquiera dentro del rango de Bluetooth puede conectarse a los juguetes, se supone que existe una opción de configurar un código de seguridad pero no aparece.",
-          "summary": "",
+          "summary": "（兜底摘要）★1 cualquiera dentro del rango de Blueto",
           "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=456d71d4-1276-4b1c-a40e-bf3c91a16752",
           "timestamp": "2026-10-06T08:55:14+08:00",
           "category": "negative",
@@ -303,10 +303,33 @@
     "remote_reddit": {
       "label": "Remote · Reddit",
       "source": "remote_reddit",
-      "fetched_at": "2026-10-06T05:00:00+08:00",
-      "status": "failed",
-      "error": "backfilled placeholder: no backfillable source available",
-      "items": []
+      "fetched_at": "2026-10-06T05:10:00+08:00",
+      "status": "ok",
+      "error": null,
+      "items": [
+        {
+          "id": "remote_reddit-1wyntiv",
+          "source": "remote_reddit",
+          "title": "Ich M30 Deutsch/English, Suche eine Frau mit der ich gelegentlich gemeinsam unsere Toys steuern kann leider finde ich niemanden mehr in der App scheint so gut wie keiner mehr zu nutzen. Schreibt mich gerne direkt an.",
+          "content": "Ich M30 Deutsch/English, Suche eine Frau mit der ich gelegentlich gemeinsam unsere Toys steuern kann leider finde ich niemanden mehr in der App scheint so gut wie keiner mehr zu nutzen. Schreibt mich gerne direkt an.\n\nDiese Lovense App ist seit 1 Monat leider wie ausgestorben\n\nBin offen für alles auch Voice Nachrichten oder Bilder/Videos",
+          "summary": "（兜底）Ich M30 Deutsch/English, Suche eine Frau",
+          "url": "https://www.reddit.com/r/lovense/comments/1wyntiv/ich_m30_deutschenglish_suche_eine_frau_mit_der/",
+          "timestamp": "2026-10-06T07:40:26+08:00",
+          "category": "positive",
+          "score": 1,
+          "num_comments": 3,
+          "replies": [],
+          "meta": {
+            "product": "remote",
+            "subreddit": "lovense",
+            "author": "Typ-X",
+            "topic": "praise",
+            "method": "pullpush_submission",
+            "lang": "en",
+            "backfilled": true
+          }
+        }
+      ]
     },
     "remote_x": {
       "label": "Remote · X",
@@ -360,7 +383,7 @@
     "remote_googleplay_items": 2,
     "remote_news_items": 0,
     "remote_appstore_items": 0,
-    "remote_reddit_items": 0,
+    "remote_reddit_items": 1,
     "remote_x_items": 0,
     "remote_trustpilot_items": 0,
     "remote_games_items": 0,

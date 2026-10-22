@@ -15,7 +15,7 @@
     "x_dm": "ok",
     "remote_googleplay": "ok",
     "remote_appstore": "failed",
-    "remote_reddit": "failed",
+    "remote_reddit": "ok",
     "remote_x": "failed",
     "remote_trustpilot": "failed",
     "remote_games": "failed",
@@ -231,7 +231,7 @@
           "source": "remote_googleplay",
           "title": "★1 .... playlist keeps vanishing! I do not want your stupid lov",
           "content": ".... playlist keeps vanishing! I do not want your stupid loveense songs!",
-          "summary": "",
+          "summary": "（兜底摘要）★1 .... playlist keeps vanishing! I do n",
           "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=6d05daa6-9a2a-4a4b-8d0b-e2b4d92086cb",
           "timestamp": "2026-10-05T12:00:17+08:00",
           "category": "negative",
@@ -258,7 +258,7 @@
           "source": "remote_googleplay",
           "title": "★1 app owners hate their community. app hasnt been working for ",
           "content": "app owners hate their community. app hasnt been working for like 2 weeks now",
-          "summary": "",
+          "summary": "（兜底摘要）★1 app owners hate their community. app ",
           "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=fd73902d-2c55-4941-ba98-fcabf4acec42",
           "timestamp": "2026-10-05T08:01:51+08:00",
           "category": "negative",
@@ -293,10 +293,55 @@
     "remote_reddit": {
       "label": "Remote · Reddit",
       "source": "remote_reddit",
-      "fetched_at": "2026-10-05T05:00:00+08:00",
-      "status": "failed",
-      "error": "backfilled placeholder: no backfillable source available",
-      "items": []
+      "fetched_at": "2026-10-05T05:10:00+08:00",
+      "status": "ok",
+      "error": null,
+      "items": [
+        {
+          "id": "remote_reddit-1wxjtm9",
+          "source": "remote_reddit",
+          "title": "lovense remote unavailable in my region",
+          "content": "lovense remote unavailable in my region\n\ncan anybody help me ?",
+          "summary": "（兜底）lovense remote unavailable in my region",
+          "url": "https://www.reddit.com/r/lovense/comments/1wxjtm9/lovense_remote_unavailable_in_my_region/",
+          "timestamp": "2026-10-05T00:26:45+08:00",
+          "category": "positive",
+          "score": 1,
+          "num_comments": 3,
+          "replies": [],
+          "meta": {
+            "product": "remote",
+            "subreddit": "lovense",
+            "author": "Mysterious-Roof5540",
+            "topic": "praise",
+            "method": "pullpush_submission",
+            "lang": "en",
+            "backfilled": true
+          }
+        },
+        {
+          "id": "remote_reddit-1wxp0jw",
+          "source": "remote_reddit",
+          "title": "Solace Pro: Great app features, but is the noise worth it?",
+          "content": "Solace Pro: Great app features, but is the noise worth it?\n\nHello Redditors 😊\n\nI’ve been using the Lovense Solace Pro for a while, and overall it has been a really good experience. \n\nThe thrusting feels consistent, and I’ve had the best results after spending some time trying different patterns rather than relying only on the defaults. The community made patterns are a real plus, although, like anything user created, some are much better than others.\n\nThe build feels sturdy, and I haven’t needed to charge it very often for my usual use. I also like having sleeve options, including compatibility with some Fleshlight sleeves. That flexibility has made the experience even better by providing more options. The sensation is strong enough that I can usually keep going after an orgasm and finish a second time.\n\nThe app integration is probably the main reason I keep coming back to it. Remote control with a partner adds a more interactive element than using it alone, especially when you’re messaging or sharing spicy content at the same time. I’ve also tried VibeMate with syncable videos and streams. When the sync is good, it can add a lot to the experience, though the quality naturally depends on the video or pattern being used. A good accessory to consider is the USB dongle for PC connection it makes desk use and gaming really fun.\n\nThere are a few things worth knowing before buying. It is not especially quiet... in my experience, it is noticeable enough that I would not use it where privacy or thin walls are a concern. I also think the mounting design could be more flexible. Being able to rotate the unit 180 degrees would make some positions easier to set up.\n\nFor me, the Solace Pro is a strong option if app connectivity, remote play, hands free, and pattern variety matter more than discretion. I would be less likely to recommend it to someone whose top priority is quiet operation or a very compact setup. That said, I really enjoy this toy and continue to use it regularly.",
+          "summary": "（兜底）Solace Pro: Great app features, but is t",
+          "url": "https://www.reddit.com/r/lovense/comments/1wxp0jw/solace_pro_great_app_features_but_is_the_noise/",
+          "timestamp": "2026-10-05T03:59:32+08:00",
+          "category": "positive",
+          "score": 1,
+          "num_comments": 1,
+          "replies": [],
+          "meta": {
+            "product": "remote",
+            "subreddit": "lovense",
+            "author": "MIKETHEBOMBDIGZ",
+            "topic": "remote_control",
+            "method": "pullpush_submission",
+            "lang": "en",
+            "backfilled": true
+          }
+        }
+      ]
     },
     "remote_x": {
       "label": "Remote · X",
@@ -350,7 +395,7 @@
     "remote_googleplay_items": 2,
     "remote_news_items": 0,
     "remote_appstore_items": 0,
-    "remote_reddit_items": 0,
+    "remote_reddit_items": 2,
     "remote_x_items": 0,
     "remote_trustpilot_items": 0,
     "remote_games_items": 0,

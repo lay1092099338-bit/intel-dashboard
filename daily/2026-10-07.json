@@ -15,7 +15,7 @@
     "x_dm": "ok",
     "remote_googleplay": "ok",
     "remote_appstore": "failed",
-    "remote_reddit": "failed",
+    "remote_reddit": "ok",
     "remote_x": "failed",
     "remote_trustpilot": "failed",
     "remote_games": "failed",
@@ -258,7 +258,7 @@
           "source": "remote_googleplay",
           "title": "★1 Developers have completely ruined the app. they removed the ",
           "content": "Developers have completely ruined the app. they removed the Bond community feature, arguably the best feature of the app and a way to socialize and meet new people. They also destroyed the AI companion's functionality, so that's not even an option anymore. Time to move on to a different toy ecosystem.",
-          "summary": "",
+          "summary": "（兜底摘要）★1 Developers have completely ruined the",
           "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=1d733097-e397-4b88-8ec0-32cf872d9931",
           "timestamp": "2026-10-07T18:38:44+08:00",
           "category": "negative",
@@ -285,7 +285,7 @@
           "source": "remote_googleplay",
           "title": "★1 used to love this app but this past week it hasn't been link",
           "content": "used to love this app but this past week it hasn't been linking to my music app :( very disappointed as I had just bought a new toy to use with it",
-          "summary": "",
+          "summary": "（兜底摘要）★1 used to love this app but this past w",
           "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=8aff694b-3b36-4be2-9225-6671231f6c52",
           "timestamp": "2026-10-07T11:37:17+08:00",
           "category": "negative",
@@ -320,10 +320,33 @@
     "remote_reddit": {
       "label": "Remote · Reddit",
       "source": "remote_reddit",
-      "fetched_at": "2026-10-07T05:00:00+08:00",
-      "status": "failed",
-      "error": "backfilled placeholder: no backfillable source available",
-      "items": []
+      "fetched_at": "2026-10-07T05:10:00+08:00",
+      "status": "ok",
+      "error": null,
+      "items": [
+        {
+          "id": "remote_reddit-1wzuch9",
+          "source": "remote_reddit",
+          "title": "OpenControl update: Intiface support, webcam masks, chat control, and shareable recordings with synced vibrations (promotion)",
+          "content": "OpenControl update: Intiface support, webcam masks, chat control, and shareable recordings with synced vibrations (promotion)\n\nHi again! It’s been about four months since I last posted about OpenControl [here](https://old.reddit.com/r/lovense/comments/1t4kdb7/opencontrol_for_lovense_promotion/). I’m still actively developing it, and wanted to share what’s changed.\n\nIt’s a **local Windows app that syncs compatible toys with screen movement, music or audio**, without needing pre-written scripts.\n\n**Record a video others can play along with**\n\nYou can now record your webcam and save the vibrations alongside the video. Share that recording with someone, and they can watch it in OpenControl while their compatible toy follows the recorded vibrations. They choose their own strength limit. Video, sound and vibrations come together in one file, so there’s nothing to unpack or set up separately.\n\n[Recording player screenshot](https://files.catbox.moe/w0fy0k.png)\n\n**Other additions since my last post:**\n\n- **Webcam mode:** Face-tracking masks for up to two people, blur, color effects and an on-screen pulse showing the vibration signal.\n- **Optional chat control:** Let the other person switch modes or set intensity with simple text commands. You choose whether control is enabled.\n- **Intiface Central support:** More compatible devices, alongside the existing Lovense Remote connection.\n- **Hero Mode:** Tracking for single-lane videos where moving cues hit a target.\n- A visual mask gallery, Windows installer and continued improvements to tracking and device timing.\n\n[Mask gallery screenshot](https://files.catbox.moe/zg4upe.png)\n\nEverything is processed locally.\n\n**I’m still developing OpenControl, and it’s available through Patreon. The activation key you receive is yours to keep, even if you only subscribe once. Your activated version keeps working after you cancel.**\n\n**[Latest version information](https://www.patreon.com/SoundenStyle/posts/opencontrol-play-171684540)** · **[Membership details](https://www.patreon.com/c/soundenstyle/membership)**\n\nFeedback is welcome, especially about how it works with different devices through Intiface.",
+          "summary": "（兜底）OpenControl update: Intiface support, we",
+          "url": "https://www.reddit.com/r/lovense/comments/1wzuch9/opencontrol_update_intiface_support_webcam_masks/",
+          "timestamp": "2026-10-07T19:44:33+08:00",
+          "category": "positive",
+          "score": 1,
+          "num_comments": 1,
+          "replies": [],
+          "meta": {
+            "product": "remote",
+            "subreddit": "lovense",
+            "author": "SoundenGrab",
+            "topic": "feature",
+            "method": "pullpush_submission",
+            "lang": "en",
+            "backfilled": true
+          }
+        }
+      ]
     },
     "remote_x": {
       "label": "Remote · X",
@@ -377,7 +400,7 @@
     "remote_googleplay_items": 2,
     "remote_news_items": 0,
     "remote_appstore_items": 0,
-    "remote_reddit_items": 0,
+    "remote_reddit_items": 1,
     "remote_x_items": 0,
     "remote_trustpilot_items": 0,
     "remote_games_items": 0,
