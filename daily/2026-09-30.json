@@ -12,7 +12,15 @@
     "cam101_09": "ok",
     "cam101_22": "ok",
     "telegram": "ok",
-    "x_dm": "ok"
+    "x_dm": "ok",
+    "remote_googleplay": "ok",
+    "remote_appstore": "failed",
+    "remote_reddit": "failed",
+    "remote_x": "failed",
+    "remote_trustpilot": "failed",
+    "remote_games": "failed",
+    "remote_qa": "failed",
+    "remote_news": "ok"
   },
   "sources": {
     "reddit": {
@@ -379,6 +387,148 @@
       "summary": {
         "total_replied": 0
       }
+    },
+    "remote_googleplay": {
+      "label": "Remote · Google Play",
+      "source": "remote_googleplay",
+      "fetched_at": "2026-09-30T05:00:00+08:00",
+      "status": "ok",
+      "error": null,
+      "items": [
+        {
+          "id": "remote_googleplay-2bc9cb11-1960-49ab-ab0d-b4439a0c7d67",
+          "source": "remote_googleplay",
+          "title": "★1 literally everything is censored? what's the point of that, ",
+          "content": "literally everything is censored? what's the point of that, like are they aware what kind of app they made? also every AI update just makes the rest of the features unusable.",
+          "summary": "",
+          "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=2bc9cb11-1960-49ab-ab0d-b4439a0c7d67",
+          "timestamp": "2026-09-30T17:57:55+08:00",
+          "category": "negative",
+          "score": 3,
+          "num_comments": 0,
+          "replies": [
+            {
+              "content": "We understand your frustration. We strive to provide a safe and positive environment while improving user experience. Feel free to reach out to us at https://www.lovense.com/contact to share your concerns. Rest assured that we will listen to your thoughts. Thank you so much."
+            }
+          ],
+          "meta": {
+            "product": "remote",
+            "rating": 1,
+            "app_version": null,
+            "lang": "en",
+            "country": "us",
+            "dev_replied": true,
+            "topic": "compat",
+            "backfilled": true
+          }
+        },
+        {
+          "id": "remote_googleplay-e4b8ab96-965c-4479-9642-7d2bc49b0f90",
+          "source": "remote_googleplay",
+          "title": "★1 I was enjoying using the Lovense Remote App the way it was. ",
+          "content": "I was enjoying using the Lovense Remote App the way it was. However with the announcement of the intention of removing the Bond Community, I'm annoyed. Bond Community was a way to meet, chat to & add other people. I bought a Lovense toy to use long distance, but now I feel like I've wasted my money for nothing. They're going to try their new idea & when it fails they'll be sorry",
+          "summary": "",
+          "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=e4b8ab96-965c-4479-9642-7d2bc49b0f90",
+          "timestamp": "2026-09-30T12:18:06+08:00",
+          "category": "negative",
+          "score": 2,
+          "num_comments": 0,
+          "replies": [
+            {
+              "content": "We understand how you feel about this experience. Your feedback matters a lot to us. We will keep optimizing our products and services, and strive to deliver a better‑quality user experience. Should you have any further questions or suggestions, please feel free to get in touch with us via https://www.lovense.com/contact. Thanks."
+            }
+          ],
+          "meta": {
+            "product": "remote",
+            "rating": 1,
+            "app_version": "8.7.0",
+            "lang": "en",
+            "country": "us",
+            "dev_replied": true,
+            "topic": "remote_control",
+            "backfilled": true
+          }
+        },
+        {
+          "id": "remote_googleplay-b0d0181d-8688-4c25-9f58-9623638980fd",
+          "source": "remote_googleplay",
+          "title": "★3 pas assez puissant",
+          "content": "pas assez puissant",
+          "summary": "",
+          "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=b0d0181d-8688-4c25-9f58-9623638980fd",
+          "timestamp": "2026-09-30T22:26:33+08:00",
+          "category": "mixed",
+          "score": 0,
+          "num_comments": 0,
+          "replies": [],
+          "meta": {
+            "product": "remote",
+            "rating": 3,
+            "app_version": "8.10.0",
+            "lang": "fr",
+            "country": "fr",
+            "dev_replied": false,
+            "topic": "other",
+            "backfilled": true
+          }
+        }
+      ]
+    },
+    "remote_appstore": {
+      "label": "Remote · App Store",
+      "source": "remote_appstore",
+      "fetched_at": "2026-09-30T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: Apple RSS returns empty since 2026",
+      "items": []
+    },
+    "remote_reddit": {
+      "label": "Remote · Reddit",
+      "source": "remote_reddit",
+      "fetched_at": "2026-09-30T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: no backfillable source available",
+      "items": []
+    },
+    "remote_x": {
+      "label": "Remote · X",
+      "source": "remote_x",
+      "fetched_at": "2026-09-30T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: pending GraphQL SearchTimeline",
+      "items": []
+    },
+    "remote_trustpilot": {
+      "label": "Remote · Trustpilot",
+      "source": "remote_trustpilot",
+      "fetched_at": "2026-09-30T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: Trustpilot blocks scraper IP",
+      "items": []
+    },
+    "remote_games": {
+      "label": "Remote · 游戏社区",
+      "source": "remote_games",
+      "fetched_at": "2026-09-30T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: Steam rate limit",
+      "items": []
+    },
+    "remote_qa": {
+      "label": "Remote · 问答站",
+      "source": "remote_qa",
+      "fetched_at": "2026-09-30T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: justuseapp.com unreachable",
+      "items": []
+    },
+    "remote_news": {
+      "label": "Remote · 新闻",
+      "source": "remote_news",
+      "fetched_at": "2026-09-30T05:20:00+08:00",
+      "status": "ok",
+      "error": null,
+      "items": []
     }
   },
   "summary": {
@@ -388,6 +538,14 @@
     "reddit_vibemate_camgirl_items": 0,
     "cam101_replied": 10,
     "telegram_messages": 0,
-    "x_dm_replied": 0
+    "x_dm_replied": 0,
+    "remote_googleplay_items": 3,
+    "remote_news_items": 0,
+    "remote_appstore_items": 0,
+    "remote_reddit_items": 0,
+    "remote_x_items": 0,
+    "remote_trustpilot_items": 0,
+    "remote_games_items": 0,
+    "remote_qa_items": 0
   }
 }

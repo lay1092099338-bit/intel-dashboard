@@ -12,7 +12,15 @@
     "cam101_09": "ok",
     "cam101_22": "ok",
     "telegram": "ok",
-    "x_dm": "ok"
+    "x_dm": "ok",
+    "remote_googleplay": "ok",
+    "remote_appstore": "failed",
+    "remote_reddit": "failed",
+    "remote_x": "failed",
+    "remote_trustpilot": "failed",
+    "remote_games": "failed",
+    "remote_qa": "failed",
+    "remote_news": "ok"
   },
   "sources": {
     "reddit": {
@@ -279,6 +287,169 @@
       "summary": {
         "total_replied": 1
       }
+    },
+    "remote_googleplay": {
+      "label": "Remote · Google Play",
+      "source": "remote_googleplay",
+      "fetched_at": "2026-09-20T05:00:00+08:00",
+      "status": "ok",
+      "error": null,
+      "items": [
+        {
+          "id": "remote_googleplay-810bd11f-3250-41e8-b442-06bf5bb15e84",
+          "source": "remote_googleplay",
+          "title": "★1 worst mistake of my life (the app is just THAT unstable, poo",
+          "content": "worst mistake of my life (the app is just THAT unstable, poorly optimized, lacking in the functions and consistency you want in something of this nature)",
+          "summary": "",
+          "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=810bd11f-3250-41e8-b442-06bf5bb15e84",
+          "timestamp": "2026-09-20T22:59:55+08:00",
+          "category": "negative",
+          "score": 1,
+          "num_comments": 0,
+          "replies": [
+            {
+              "content": "We’re truly sorry this app experience has been so disappointing for you. We hear your concerns about instability, poor optimization and inconsistent functionality, and we appreciate you sharing this feedback. Please reach out via https://www.lovense.com/contact with more details so our team can look into your issues. Thanks."
+            }
+          ],
+          "meta": {
+            "product": "remote",
+            "rating": 1,
+            "app_version": "8.7.0",
+            "lang": "en",
+            "country": "us",
+            "dev_replied": true,
+            "topic": "other",
+            "backfilled": true
+          }
+        },
+        {
+          "id": "remote_googleplay-ec8dcb53-94a0-4042-8866-47bcc6ae9fe8",
+          "source": "remote_googleplay",
+          "title": "★4 Pretty simple to use but feels like an ai version of Instagr",
+          "content": "Pretty simple to use but feels like an ai version of Instagram and twitter if you go to the fyp",
+          "summary": "",
+          "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=ec8dcb53-94a0-4042-8866-47bcc6ae9fe8",
+          "timestamp": "2026-09-20T09:40:12+08:00",
+          "category": "positive",
+          "score": 1,
+          "num_comments": 0,
+          "replies": [],
+          "meta": {
+            "product": "remote",
+            "rating": 4,
+            "app_version": "8.7.0",
+            "lang": "en",
+            "country": "us",
+            "dev_replied": false,
+            "topic": "other",
+            "backfilled": true
+          }
+        },
+        {
+          "id": "remote_googleplay-fdacfed6-4583-43dd-8248-cac71ae63c4c",
+          "source": "remote_googleplay",
+          "title": "★5 If you're not able to click continue, it's because you need ",
+          "content": "If you're not able to click continue, it's because you need to click a barely visible tiny circle next to the agreement text and then hit continue",
+          "summary": "",
+          "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=fdacfed6-4583-43dd-8248-cac71ae63c4c",
+          "timestamp": "2026-09-20T02:08:46+08:00",
+          "category": "positive",
+          "score": 1,
+          "num_comments": 0,
+          "replies": [
+            {
+              "content": "We are sorry to hear the issue you met. Please contact us at https://www.lovense.com/contact and we will provide further assistance. Thanks."
+            }
+          ],
+          "meta": {
+            "product": "remote",
+            "rating": 5,
+            "app_version": "8.9.1",
+            "lang": "en",
+            "country": "us",
+            "dev_replied": true,
+            "topic": "other",
+            "backfilled": true
+          }
+        }
+      ]
+    },
+    "remote_appstore": {
+      "label": "Remote · App Store",
+      "source": "remote_appstore",
+      "fetched_at": "2026-09-20T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: Apple RSS returns empty since 2026",
+      "items": []
+    },
+    "remote_reddit": {
+      "label": "Remote · Reddit",
+      "source": "remote_reddit",
+      "fetched_at": "2026-09-20T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: no backfillable source available",
+      "items": []
+    },
+    "remote_x": {
+      "label": "Remote · X",
+      "source": "remote_x",
+      "fetched_at": "2026-09-20T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: pending GraphQL SearchTimeline",
+      "items": []
+    },
+    "remote_trustpilot": {
+      "label": "Remote · Trustpilot",
+      "source": "remote_trustpilot",
+      "fetched_at": "2026-09-20T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: Trustpilot blocks scraper IP",
+      "items": []
+    },
+    "remote_games": {
+      "label": "Remote · 游戏社区",
+      "source": "remote_games",
+      "fetched_at": "2026-09-20T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: Steam rate limit",
+      "items": []
+    },
+    "remote_qa": {
+      "label": "Remote · 问答站",
+      "source": "remote_qa",
+      "fetched_at": "2026-09-20T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: justuseapp.com unreachable",
+      "items": []
+    },
+    "remote_news": {
+      "label": "Remote · 新闻",
+      "source": "remote_news",
+      "fetched_at": "2026-09-20T05:20:00+08:00",
+      "status": "ok",
+      "error": null,
+      "items": [
+        {
+          "id": "remote_news-JVVGljM0UzXzVaWUJFSlU0cGNoT1MxZ1A0ci1UMnVWOXV3cDgzWU1ERm5HeU9RdjBnMXp5MXp5aFAwZQ",
+          "source": "remote_news",
+          "title": "Lovense Shines in European Debut at IFA Berlin 2026, Demonstrating How Technology Strengthens Human Connection - PR Newswire",
+          "content": "Lovense Shines in European Debut at IFA Berlin 2026, Demonstrating How Technology Strengthens Human Connection  PR Newswire\n\n[来源 Source] PR Newswire",
+          "summary": "",
+          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOT3RDVHVoN01OMTVQSFQ5U1F0SElGRThKdE5XQl9tRGdfV1VHaUR0NnhIakRQcWpTdDNxX0l2d3NqeHVULW15clJTcWdfSjFRaXpMYXZkc0hWSjF0SzBHeHk3d042X3d3aUZtWWVmbDM3ZlVtbXlSWWFodEJRdEpsc29GUTBZT3JDTlowcFl5QzFGaGpXdkd3c1gwbDZCeDMtR1NfT0UwM0k4ZzNvOW45MkhhZ0phVzBUM2hYZWJVVGljM0UzXzVaWUJFSlU0cGNoT1MxZ1A0ci1UMnVWOXV3cDgzWU1ERm5HeU9RdjBnMXp5MXp5aFAwZQ?oc=5",
+          "timestamp": "2026-09-20T15:00:00+08:00",
+          "category": "neutral",
+          "score": 0,
+          "num_comments": 0,
+          "replies": [],
+          "meta": {
+            "product": "remote",
+            "news_source": "PR Newswire",
+            "topic": "other",
+            "lang": "en",
+            "backfilled": true
+          }
+        }
+      ]
     }
   },
   "summary": {
@@ -288,6 +459,14 @@
     "reddit_vibemate_camgirl_items": 0,
     "cam101_replied": 6,
     "telegram_messages": 0,
-    "x_dm_replied": 1
+    "x_dm_replied": 1,
+    "remote_googleplay_items": 3,
+    "remote_news_items": 1,
+    "remote_appstore_items": 0,
+    "remote_reddit_items": 0,
+    "remote_x_items": 0,
+    "remote_trustpilot_items": 0,
+    "remote_games_items": 0,
+    "remote_qa_items": 0
   }
 }
