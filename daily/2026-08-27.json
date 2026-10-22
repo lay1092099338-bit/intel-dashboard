@@ -15,7 +15,7 @@
     "x_dm": "ok",
     "remote_googleplay": "ok",
     "remote_appstore": "failed",
-    "remote_reddit": "failed",
+    "remote_reddit": "ok",
     "remote_x": "failed",
     "remote_trustpilot": "failed",
     "remote_games": "failed",
@@ -325,7 +325,7 @@
           "source": "remote_googleplay",
           "title": "★2 app was better before ai. why do these toys even need ai con",
           "content": "app was better before ai. why do these toys even need ai considering all the horrific stuff associated with it..",
-          "summary": "",
+          "summary": "（兜底摘要）★2 app was better before ai. why do thes",
           "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=e9f1cd68-5b1e-4e00-a270-6105ec820d8b",
           "timestamp": "2026-08-27T18:44:55+08:00",
           "category": "negative",
@@ -352,7 +352,7 @@
           "source": "remote_googleplay",
           "title": "★1 loved this app until they implemented AI. ill admit i didnt ",
           "content": "loved this app until they implemented AI. ill admit i didnt use the app often but logging back in and seeing AI slop on a sex toy app is repulsive.",
-          "summary": "",
+          "summary": "（兜底摘要）★1 loved this app until they implemented",
           "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=3f8d84b4-e610-4eb5-9b1f-2cff06b079bf",
           "timestamp": "2026-08-27T16:01:27+08:00",
           "category": "negative",
@@ -387,10 +387,33 @@
     "remote_reddit": {
       "label": "Remote · Reddit",
       "source": "remote_reddit",
-      "fetched_at": "2026-08-27T05:00:00+08:00",
-      "status": "failed",
-      "error": "backfilled placeholder: no backfillable source available",
-      "items": []
+      "fetched_at": "2026-08-27T05:10:00+08:00",
+      "status": "ok",
+      "error": null,
+      "items": [
+        {
+          "id": "remote_reddit-1vzjd74",
+          "source": "remote_reddit",
+          "title": "I've tried Satisfyer, Womanizer, and Lovense over the past few months. Tiny brain dump.",
+          "content": "I've tried Satisfyer, Womanizer, and Lovense over the past few months. Tiny brain dump.\n\nThis year was when I really got into suction toys. I ended up buying three: the Satisfyer Pro 2 Gen 3, Womanizer Premium 2, and Lovense Fizz.\n\nI mostly used them solo, and few times with my current partner. I’ve had these 3 for a while now, so I figured I’d write a lil review about them since i dont really have anyone to share about sex toys with.\n\nSatisfyer Pro 2 Gen 3\n\nBest value for the money. I didn’t expect too much at this price coz compared to other popular brands this one is cheaper, but it’s actually pretty decent. I can cum quickly with it, and the intensity levels are enough for my sensitivity.\n\nSize is great, the silicone mouth feels soft and squishy, good for the price. Love that the head can be removed and washed separately, not many toys have that and ofc its easier to wash and dry just the head if used a lot.\n\nThe downsides are that once you turn the intensity up, the suction is super noisy, i wouldnt recommend it to people who live with family or parents. The battery life is decent, not amazing and the strongest level might be a bit too weak for some people who are not that sensitive (tried it with one gf who is experienced with suction toys and she found it lacking)\n\nThe app also randomly disconnects sometimes, which is really annoying. I eventually stopped bothering with it. I’ve seen people say the Gen 3 has weaker suction than the Gen 2, but I haven’t tried the Gen 2, so I can’t really compare.\n\nWomanizer Premium 2\n\nI have mixed feelings about this one. It’s the most expensive of the three. The design is beautiful, to me its the prettiest suction toy ive seen, it feels well-made and fancy, it’s very comfortable to hold. A bit pricey but i think the material quality is amazing.\n\nThe stimulation feels a little too gentle for me, probably because its not really rumbly and i like some rumble. It’s more like soft pulses of air, and the suction. People who prefer steady soft pulses might really like it, for me its like something is missing.\n\nIt doesn’t have app control, so your partner cant really control it from afar.. if you use it alone or during sex with your partner is fine. The noise gets pretty noticeable at higher settings, lower settings is ok i think. For the price, I personally don’t think the value is that great.\n\nLovense Fizz\n\nThe Fizz cost me a bit over $100. I was interested in it because it has 2 different features in one, suction on one end and tapping on the other. I thought it would be cool since i can switch up between two different features so i dont get bored over time and do different sensations depending on what feels right that day.\n\nThe suction end was ok for me, does the job like the others. The tapping end was amazing! its my first time trying this kinda feature and loved it/ Switching between the two during a session is kinda fun, i also use it with my bf while PIV.\n\nThe downsides... the two ends can’t be turned on ",
+          "summary": "（兜底）I've tried Satisfyer, Womanizer, and Lov",
+          "url": "https://www.reddit.com/r/SexToys/comments/1vzjd74/ive_tried_satisfyer_womanizer_and_lovense_over/",
+          "timestamp": "2026-08-27T12:00:31+08:00",
+          "category": "positive",
+          "score": 1,
+          "num_comments": 0,
+          "replies": [],
+          "meta": {
+            "product": "remote",
+            "subreddit": "SexToys",
+            "author": "Valuable_bricks3",
+            "topic": "connection",
+            "method": "pullpush_submission",
+            "lang": "en",
+            "backfilled": true
+          }
+        }
+      ]
     },
     "remote_x": {
       "label": "Remote · X",
@@ -444,7 +467,7 @@
     "remote_googleplay_items": 2,
     "remote_news_items": 0,
     "remote_appstore_items": 0,
-    "remote_reddit_items": 0,
+    "remote_reddit_items": 1,
     "remote_x_items": 0,
     "remote_trustpilot_items": 0,
     "remote_games_items": 0,

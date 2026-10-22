@@ -15,7 +15,7 @@
     "x_dm": "ok",
     "remote_googleplay": "ok",
     "remote_appstore": "failed",
-    "remote_reddit": "failed",
+    "remote_reddit": "ok",
     "remote_x": "failed",
     "remote_trustpilot": "failed",
     "remote_games": "failed",
@@ -343,7 +343,7 @@
           "source": "remote_googleplay",
           "title": "★3 Connection is bad on that app",
           "content": "Connection is bad on that app",
-          "summary": "",
+          "summary": "（兜底摘要）★3 Connection is bad on that app",
           "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=adce99d8-2766-4d3d-a393-779ab0e0ec1c",
           "timestamp": "2026-08-30T05:26:31+08:00",
           "category": "mixed",
@@ -374,10 +374,55 @@
     "remote_reddit": {
       "label": "Remote · Reddit",
       "source": "remote_reddit",
-      "fetched_at": "2026-08-30T05:00:00+08:00",
-      "status": "failed",
-      "error": "backfilled placeholder: no backfillable source available",
-      "items": []
+      "fetched_at": "2026-08-30T05:10:00+08:00",
+      "status": "ok",
+      "error": null,
+      "items": [
+        {
+          "id": "remote_reddit-1w2kr89",
+          "source": "remote_reddit",
+          "title": "Rencontre par écran 4",
+          "content": "Rencontre par écran 4\n\nJe tiens à préciser que les noms de jouets ont été donnés par seul soucis de réalisme   \nEt un jour Emile a reçu un sextoy un lovense edge 3 pour être précis   \nComment avait-il eu son adresse est un mystère qu’il ne voulut pas creuser   \nÀ leur rendez-vous suivant il apparut avec l’objet au premier plan   \nYann eut un petit sourire gêné tu l’as quand même reçu?  \nJ’ai fait une gaffe?  \nGrand sourire d’emile   \nJ’ai toujours rêvé d’en essayer un   \nPar contre il faudra m’expliquer comment ça fonctionne   \nEnsemble ils cherchèrent sur internet, questionnèrent plusieurs IA\n\nC’est ainsi qu’un jour Emile se retrouva nu devant l’écran pour sa première séance.  \nLa première réponse de Gemini fut la suivante.  \nLe Lovense Edge 3 est un prostateur double moteur à bras flexibles, conçu pour bouger avec le corps tout en stimulant la zone P et le périnée. Pour une première séance efficace et sans douleur, le guidage de l'appareil repose sur quelques règles précises :  \nFébrilement les deux hommes multiplièrent les copier coller \n\n La préparation : Utiliser exclusivement un lubrifiant à base d'eau en quantité généreuse. Les lubrifiants à base de silicone endommagent le revêtement de l'appareil.  \n L'insertion : S'allonger sur le dos, jambes repliées ou relevées. Insérer doucement la branche interne (la plus longue) vers la prostate en orientant la tête légèrement vers l'avant, tandis que la branche externe vient se poser à plat contre le périnée. Les bras ajustables du Edge 3 permettent d'adapter l'angle à l'anatomie exacte d'Émile.  \n La connexion et le contrôle : Activer le Bluetooth sur le téléphone et appairer l'appareil via l'application Lovense Remote. L'application permet de régler indépendamment l'intensité des deux moteurs (interne et externe).  \n Le contrôle à distance : Via la fonction « Contrôle à distance » de l'application, Émile génère un lien d'invitation sécurisé qu'il envoie à Yann. Yann prend ainsi les commandes en direct depuis son propre écran, contrôlant la vitesse, le rythme et les vibrations à des kilomètres de distance.  \nPour sa première seance Emile fit les choses comme il faut   \nLa lumière de sa chambre était tiède, l'écran posé sur la table de chevet incliné vers le lit.  \nÉmile était allongé sur le dos, la peau luisante sous le halo du téléphone. L'appareil, ajusté à sa morphologie, était en place.  \nMalgré son expérience des jouets Emile fit les choses sérieusement. Il se badigeonna copieusement le cul devant le regard narquois de Yann Puis introduisit l’engin ( de belle taille quand même) doucement, lentement. Après tout cela faisait partie du jeu.\n\nSur son propre écran, Yann tenait son téléphone d'une main, les yeux fixés sur les réactions d'Émile, les doigts glissant doucement sur l'interface de contrôle de l'application.\n\nLes débuts ont été aussi chaotiques que comiques.  \nLa première tentative s'est soldée par un bide technique. L'application refusait de reconnaître le Bluetooth, coupant la connexio",
+          "summary": "（兜底）Rencontre par écran 4",
+          "url": "https://www.reddit.com/r/Ecriture_FR/comments/1w2kr89/rencontre_par_écran_4/",
+          "timestamp": "2026-08-30T23:36:15+08:00",
+          "category": "positive",
+          "score": 1,
+          "num_comments": 0,
+          "replies": [],
+          "meta": {
+            "product": "remote",
+            "subreddit": "Ecriture_FR",
+            "author": "Extreme_Kiwi_7930",
+            "topic": "connection",
+            "method": "pullpush_submission",
+            "lang": "en",
+            "backfilled": true
+          }
+        },
+        {
+          "id": "remote_reddit-1w1r8mz",
+          "source": "remote_reddit",
+          "title": "Which sites work with which toy - I checked the scene pages instead of the compatibility pages",
+          "content": "Which sites work with which toy - I checked the scene pages instead of the compatibility pages\n\nI kept finding wrong info on this, so I went through the sites I have access to and checked what they actually ship rather than what the compatibility page claims. Five of them I had wrong in my own notes before doing this, so this is partly a correction of myself.\n\n  \nMethod if you want to check one yourself: open a scene page and search the page source for \"funscript\" or \"toyScript\". If a site ships scripts it's in there. The marketing page is not a reliable source , a couple advertise support they don't have and at least one ship scripts without saying so anywhere.  \nHandy yes, Keon no: RealJamVR (roughly 715 of their \\~770 scenes have a downloadable script, but no KIIROO or Lovense integration) and NaughtyAmerica (connection key straight from the VR section, no third party app needed, but no KIIROO, no Lovense, no FeelConnect).\n\nKeon and Lovense yes, Handy no: VirtualRealPorn and its gay and trans sister sites. Feel Connect for Kiiroo, Lovense Remote for Lovense, nothing for the Handy.  \nBoth work, because it's a plain funscript download: VRConk, CzechVR, BaDoinkVR.\n\n  \nFeelConnect route: VRBangers, SexLikeReal, and VRBTrans on some scenes.\n\n  \nNothing I could find: VRPorn, VRSmash, SexBabesVR, Tonight's Girlfriend, RealGirlsNow, RealPornstarsVR.\n\n  \nThe one that actually costs people money: on SexLikeReal the scripts sit in the more expensive plan. The cheaper tier is video only and that isn't obvious at checkout.\n\n  \nHappy to be corrected on any of these, especially if something changed recently, a few I checked weeks rather than days ago.",
+          "summary": "（兜底）Which sites work with which toy - I chec",
+          "url": "https://www.reddit.com/r/oculusnsfw/comments/1w1r8mz/which_sites_work_with_which_toy_i_checked_the/",
+          "timestamp": "2026-08-30T00:37:48+08:00",
+          "category": "positive",
+          "score": 1,
+          "num_comments": 0,
+          "replies": [],
+          "meta": {
+            "product": "remote",
+            "subreddit": "oculusnsfw",
+            "author": "VRReviewer",
+            "topic": "praise",
+            "method": "pullpush_submission",
+            "lang": "en",
+            "backfilled": true
+          }
+        }
+      ]
     },
     "remote_x": {
       "label": "Remote · X",
@@ -431,7 +476,7 @@
     "remote_googleplay_items": 1,
     "remote_news_items": 0,
     "remote_appstore_items": 0,
-    "remote_reddit_items": 0,
+    "remote_reddit_items": 2,
     "remote_x_items": 0,
     "remote_trustpilot_items": 0,
     "remote_games_items": 0,

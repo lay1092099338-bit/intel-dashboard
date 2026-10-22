@@ -15,7 +15,7 @@
     "x_dm": "ok",
     "remote_googleplay": "ok",
     "remote_appstore": "failed",
-    "remote_reddit": "failed",
+    "remote_reddit": "ok",
     "remote_x": "failed",
     "remote_trustpilot": "failed",
     "remote_games": "failed",
@@ -347,7 +347,7 @@
           "source": "remote_googleplay",
           "title": "★4 Amazing 🤩😍😍😍",
           "content": "Amazing 🤩😍😍😍",
-          "summary": "",
+          "summary": "（兜底摘要）★4 Amazing 🤩😍😍😍",
           "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=1f340151-e7e4-4dbd-8b14-4f3cf178334d",
           "timestamp": "2026-08-29T03:12:11+08:00",
           "category": "positive",
@@ -378,10 +378,55 @@
     "remote_reddit": {
       "label": "Remote · Reddit",
       "source": "remote_reddit",
-      "fetched_at": "2026-08-29T05:00:00+08:00",
-      "status": "failed",
-      "error": "backfilled placeholder: no backfillable source available",
-      "items": []
+      "fetched_at": "2026-08-29T05:10:00+08:00",
+      "status": "ok",
+      "error": null,
+      "items": [
+        {
+          "id": "remote_reddit-1w1jgfk",
+          "source": "remote_reddit",
+          "title": "e621 + Rule34 support just landed in my free browser JOI game — plus XToys & Buttplug.io toy sync",
+          "content": "e621 + Rule34 support just landed in my free browser JOI game — plus XToys & Buttplug.io toy sync\n\nHey everyone 👋 solo dev of [TheJOIGame.com](http://thejoigame.com) here. My free JOI/gooning game got another massive update — here's what's new:\n\n🖼️ e621 and Rule34 as media sources — alongside Redgifs and our own huge archive. Type any tags and the game builds a session from them (Rule34 uses your own free API key). Furry, hentai, whatever your poison — mix sources freely in one game.\n\n🧩 XToys + Buttplug.io / Intiface support — on top of Lovense and The Handy. If your toy connects to either platform, it now syncs to the game's beat: speed, edges, finale, everything. That's hundreds of devices covered.\n\nThis is still being tested and improved.❤️\n\n🔒 Private multiplayer rooms — synced sessions (shared pace, chat, toy control) can now be locked by the host to only signed up accounts. (Better vibes, less anonymous annoying users)\n\n⏱️ Edge countdowns — highly requested feature: a big \"GET TO THE EDGE IN 5… 4… 3… 2… 1…\" warning before every edge instead of it hitting out of nowhere. Configurable, free mod.\n\n⭐ Community moderators in synced chat + a serious speed pass.\n\nFree, runs in your browser, no signup, great on mobile. Solo project — comments here genuinely decide what I build next (the countdown feature came straight from one).\n\n👉 [TheJOIGame.com](http://thejoigame.com)",
+          "summary": "（兜底）e621 + Rule34 support just landed in my ",
+          "url": "https://www.reddit.com/r/porngames/comments/1w1jgfk/e621_rule34_support_just_landed_in_my_free/",
+          "timestamp": "2026-08-29T18:55:29+08:00",
+          "category": "positive",
+          "score": 1,
+          "num_comments": 0,
+          "replies": [],
+          "meta": {
+            "product": "remote",
+            "subreddit": "porngames",
+            "author": "joigames420",
+            "topic": "feature",
+            "method": "pullpush_submission",
+            "lang": "en",
+            "backfilled": true
+          }
+        },
+        {
+          "id": "remote_reddit-1w1jc2f",
+          "source": "remote_reddit",
+          "title": "e621 + Rule34 support just landed in my free browser JOI game — plus XToys & Buttplug.io toy sync",
+          "content": "e621 + Rule34 support just landed in my free browser JOI game — plus XToys & Buttplug.io toy sync\n\nHey everyone 👋 solo dev of [TheJOIGame.com](http://thejoigame.com) here. My free JOI/gooning game got another massive update — here's what's new:\n\n🖼️ e621 and Rule34 as media sources — alongside Redgifs and our own huge archive. Type any tags and the game builds a session from them (Rule34 uses your own free API key). Furry, hentai, whatever your poison — mix sources freely in one game.\n\n🧩 XToys + Buttplug.io / Intiface support — on top of Lovense and The Handy. If your toy connects to either platform, it now syncs to the game's beat: speed, edges, finale, everything. That's hundreds of devices covered.\n\nThis is still being tested and improved.❤️\n\n🔒 Private multiplayer rooms — synced sessions (shared pace, chat, toy control) can now be locked by the host to only signed up accounts. (Better vibes, less anonymous annoying users)\n\n⏱️ Edge countdowns — highly requested feature: a big \"GET TO THE EDGE IN 5… 4… 3… 2… 1…\" warning before every edge instead of it hitting out of nowhere. Configurable, free mod.\n\n⭐ Community moderators in synced chat + a serious speed pass.\n\nFree, runs in your browser, no signup, great on mobile. Solo project — comments here genuinely decide what I build next (the countdown feature came straight from one).\n\n👉 [TheJOIGame.com](http://thejoigame.com)",
+          "summary": "（兜底）e621 + Rule34 support just landed in my ",
+          "url": "https://www.reddit.com/r/joi/comments/1w1jc2f/e621_rule34_support_just_landed_in_my_free/",
+          "timestamp": "2026-08-29T18:48:47+08:00",
+          "category": "positive",
+          "score": 1,
+          "num_comments": 0,
+          "replies": [],
+          "meta": {
+            "product": "remote",
+            "subreddit": "joi",
+            "author": "joigames420",
+            "topic": "feature",
+            "method": "pullpush_submission",
+            "lang": "en",
+            "backfilled": true
+          }
+        }
+      ]
     },
     "remote_x": {
       "label": "Remote · X",
@@ -435,7 +480,7 @@
     "remote_googleplay_items": 1,
     "remote_news_items": 0,
     "remote_appstore_items": 0,
-    "remote_reddit_items": 0,
+    "remote_reddit_items": 2,
     "remote_x_items": 0,
     "remote_trustpilot_items": 0,
     "remote_games_items": 0,

@@ -15,7 +15,7 @@
     "x_dm": "ok",
     "remote_googleplay": "ok",
     "remote_appstore": "failed",
-    "remote_reddit": "failed",
+    "remote_reddit": "ok",
     "remote_x": "failed",
     "remote_trustpilot": "failed",
     "remote_games": "failed",
@@ -279,7 +279,7 @@
           "source": "remote_googleplay",
           "title": "★4 love the newest update. looks so much better! it was easy to",
           "content": "love the newest update. looks so much better! it was easy to use before but now its more unique. however i can seem to get the ai play to work. just felt like checking it out but it keeps telling me to set my gender and a nickname which was already done before gand but it wont like it work at all. i did the update so idk what to try next",
-          "summary": "",
+          "summary": "（兜底摘要）★4 love the newest update. looks so much",
           "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=3e35d88b-84f2-4fa1-a51e-f2179e011c71",
           "timestamp": "2026-08-24T19:06:17+08:00",
           "category": "positive",
@@ -310,10 +310,33 @@
     "remote_reddit": {
       "label": "Remote · Reddit",
       "source": "remote_reddit",
-      "fetched_at": "2026-08-24T05:00:00+08:00",
-      "status": "failed",
-      "error": "backfilled placeholder: no backfillable source available",
-      "items": []
+      "fetched_at": "2026-08-24T05:10:00+08:00",
+      "status": "ok",
+      "error": null,
+      "items": [
+        {
+          "id": "remote_reddit-1vx2xzw",
+          "source": "remote_reddit",
+          "title": "Toy Talk: Lovense Domi 2 — Portable Power Meets Long-Distance Tease",
+          "content": "Toy Talk: Lovense Domi 2 — Portable Power Meets Long-Distance Tease\n\nWelcome to **Toy Talk**, r/VibeSync’s recurring highlight series where we slice through the marketing hype and give you the real breakdown on popular devices. Today, we’re putting the spotlight on a fan-favorite mini-wand: the **Lovense Domi 2**.\n\n# What Is It?\n\nThe Domi 2 is Lovense's take on a wand vibrator—shrinking the massive, corded \"Hitachi-style\" body into a compact, 9-inch travel-friendly design while adding Bluetooth connectivity for local or long-distance app control.\n\n|**Feature**|**Specification**|\n|:-|:-|\n|**Type**|Petite Wand Vibrator|\n|**Material**|Body-safe silicone head, ABS handle|\n|**Battery Life**|Up to 5–6 hours (manual) / \\~90 mins (app heavy)|\n|**Water Resistance**|IPX6 (Splashproof, not submersible)|\n|**Control Options**|Physical handle buttons + Lovense Remote App|\n\n# The Pros\n\n* **Unmatched Punch for Its Size:** Don't let the compact frame fool you. The Domi 2 packs impressive, deep-tissue rumble that rivals full-sized wands without causing instant arm fatigue.\n* **Gold Standard App Integration:** Lovense still holds the crown for long-distance connectivity. Whether your partner is across the couch or across the globe, the connection is reliable, with features like pattern creation, music syncing, and sound matching.\n* **Marathon Battery Life:** Running the toy on manual mode yields up to 5–6 hours of play on a single charge—massively outlasting most cordless mini-wands on the market.\n* **Ergonomic Flexibility:** The neck has just enough flex to bend around bodies comfortably during partnered play without feeling flimsy.\n* **Granular Remote Sex Toy Controls:** Multiple control options including preset patterns, custom patterns, and more available on the native app or on [vibesync.co.uk](http://vibesync.co.uk)\n\n# The Cons\n\n* **Not Quiet (Discretion Warning):** High power in a small body creates high noise. At maximum intensity, the Domi 2 can reach up to \\~60–70 dB, producing a noticeable rattle that won't fly in a house with paper-thin walls.\n* **Limited On-Device Controls:** Using the physical buttons limits you to just 3 preset speeds and 4 patterns with pretty big jumps in strength. To get granular speed adjustments, you *have* to open the smartphone app.\n* **Not Fully Waterproof:** It’s IPX6 water-resistant, meaning it handles a sink wash or a quick splash fine, but you cannot submerge it in the bath.\n* **App Battery Drain:** Using Bluetooth and app controls constantly drains both your phone battery and the toy's battery much faster than manual play.\n\n# The VibeSync Verdict\n\nThe **Lovense Domi 2** is a powerhouse if you’re in a long-distance relationship, play with a remote partner, or want maximum wand intensity without lugging around a full-sized appliance. However, if you prefer quiet solo sessions in the bath or hate relying on your phone to change vibration speeds, a traditional corded or waterproof wand might be a better fit.",
+          "summary": "（兜底）Toy Talk: Lovense Domi 2 — Portable Powe",
+          "url": "https://www.reddit.com/r/VibeSync/comments/1vx2xzw/toy_talk_lovense_domi_2_portable_power_meets/",
+          "timestamp": "2026-08-24T21:32:14+08:00",
+          "category": "positive",
+          "score": 1,
+          "num_comments": 0,
+          "replies": [],
+          "meta": {
+            "product": "remote",
+            "subreddit": "VibeSync",
+            "author": "VibeSyncControl",
+            "topic": "connection",
+            "method": "pullpush_submission",
+            "lang": "en",
+            "backfilled": true
+          }
+        }
+      ]
     },
     "remote_x": {
       "label": "Remote · X",
@@ -367,7 +390,7 @@
     "remote_googleplay_items": 1,
     "remote_news_items": 0,
     "remote_appstore_items": 0,
-    "remote_reddit_items": 0,
+    "remote_reddit_items": 1,
     "remote_x_items": 0,
     "remote_trustpilot_items": 0,
     "remote_games_items": 0,

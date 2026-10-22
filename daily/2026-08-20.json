@@ -15,7 +15,7 @@
     "x_dm": "ok",
     "remote_googleplay": "ok",
     "remote_appstore": "failed",
-    "remote_reddit": "failed",
+    "remote_reddit": "ok",
     "remote_x": "failed",
     "remote_trustpilot": "failed",
     "remote_games": "failed",
@@ -279,7 +279,7 @@
           "source": "remote_googleplay",
           "title": "★1 Buggy app. vn and turn swaps getting skipped",
           "content": "Buggy app. vn and turn swaps getting skipped",
-          "summary": "",
+          "summary": "（兜底摘要）★1 Buggy app. vn and turn swaps getting ",
           "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=19651651-0077-4c91-a416-a00b3fae4af3",
           "timestamp": "2026-08-20T18:45:25+08:00",
           "category": "negative",
@@ -306,7 +306,7 @@
           "source": "remote_googleplay",
           "title": "★4 Abgesehen von gelegentlichen Verbindungsproblemen ist es ein",
           "content": "Abgesehen von gelegentlichen Verbindungsproblemen ist es eine tolle App für das ein oder andere Abenteuer;)",
-          "summary": "",
+          "summary": "（兜底摘要）★4 Abgesehen von gelegentlichen Verbindu",
           "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=6c710fa9-a2ef-4aa6-b4e7-c955a93eb9aa",
           "timestamp": "2026-08-20T02:55:31+08:00",
           "category": "positive",
@@ -337,10 +337,77 @@
     "remote_reddit": {
       "label": "Remote · Reddit",
       "source": "remote_reddit",
-      "fetched_at": "2026-08-20T05:00:00+08:00",
-      "status": "failed",
-      "error": "backfilled placeholder: no backfillable source available",
-      "items": []
+      "fetched_at": "2026-08-20T05:10:00+08:00",
+      "status": "ok",
+      "error": null,
+      "items": [
+        {
+          "id": "remote_reddit-1vt3akg",
+          "source": "remote_reddit",
+          "title": "Long distance toys",
+          "content": "Long distance toys\n\nAnyone have hands on experience with any of the long distance toys? Looking at lelo, we vibe, and lovense. Just something new and fun when one of us is out of town for work! Any other recommendations are welcome too.",
+          "summary": "（兜底）Long distance toys",
+          "url": "https://www.reddit.com/r/MarriedSex/comments/1vt3akg/long_distance_toys/",
+          "timestamp": "2026-08-20T07:51:07+08:00",
+          "category": "positive",
+          "score": 1,
+          "num_comments": 0,
+          "replies": [],
+          "meta": {
+            "product": "remote",
+            "subreddit": "MarriedSex",
+            "author": "Due_Owl_8729",
+            "topic": "remote_control",
+            "method": "pullpush_submission",
+            "lang": "en",
+            "backfilled": true
+          }
+        },
+        {
+          "id": "remote_reddit-1vst5xc",
+          "source": "remote_reddit",
+          "title": "Update to my challenge to control every toy for F",
+          "content": "Update to my challenge to control every toy for F\n\nJust an update to my personal goal to control each toy that is being marketed for women. It’s difficult to match with people on control roulette and I can’t find real people on the link drops without p4p.  See my updated list at the end. \n\nHere is what you get if you’re willing to help me out.\n\n\\- I’m typically a pleasure dom in that I really care about getting my play partner to climax at least once if not multiple times during the play session.\n\n\\- I do not require you to share audio, pics, or videos but I definitely won’t complain if you do share. Nothing will be saved outside of the app. The same will go from my end. I will only share what you’d like to receive.\n\n\\- My toy (gush2) will be connected. If you are really into controlling you can do that as well. But if not all I ask is you just set a one minute loop of some wavy/changing patterns and I’ll control my personal toys strength on my own.\n\n\\- I do not do calls, just regular syncs with voice notes or texts. I personally enjoy the voice notes as I sometimes like to go back and listen later while enjoying myself. Again you do not need to send voice notes if you are not comfortable.\n\n\\- I’ve been on the lovense app for about three years and I am comfortable controlling toys and taking feedback to your personal preference. I have uploaded some patterns and if you’d like to try them or see the few comments that were left, send me a message as I won’t post my username in this post.\n\n\\- No need to friend me if you don’t want. It can be via a one time control link or you can message me to be friends in the app.\n\n\\- I’m perfectly fine duplicating toys that I’ve controlled before if you like a particular combo with one toy I haven’t controlled before.\n\n\\-Lastly in terms of times I’m on the east coast of US if that matters for anybody’s time zones. My work schedule can be hectic but I’m typically available late evenings my time. \n\nHere is the list of toys per the lovense website with the ones I’ve controlled already crossed out:  Ambi, ~~Gemini~~, exomoon, hush, ~~ferri~~, ~~domi~~, ~~Nora~~, ~~flexer~~, ~~osci 1, 2, 3, hyphy~~, ~~lush 1, 2, 3, 4~~, velvo, ridge, ~~dolce~~, vulse, lush mini, lush anal, gravity, mission 2, ~~tenera~~ ~~1, 2,~~ ~~valor~~, spinel, sex machine.\n\nComment below if interested or if you’d like to know anything else.",
+          "summary": "（兜底）Update to my challenge to control every ",
+          "url": "https://www.reddit.com/r/lovense/comments/1vst5xc/update_to_my_challenge_to_control_every_toy_for_f/",
+          "timestamp": "2026-08-20T01:31:16+08:00",
+          "category": "positive",
+          "score": 1,
+          "num_comments": 3,
+          "replies": [],
+          "meta": {
+            "product": "remote",
+            "subreddit": "lovense",
+            "author": "MyThr0wAway2022",
+            "topic": "remote_control",
+            "method": "pullpush_submission",
+            "lang": "en",
+            "backfilled": true
+          }
+        },
+        {
+          "id": "remote_reddit-1vt7e0c",
+          "source": "remote_reddit",
+          "title": "Game Mode Broken?",
+          "content": "Game Mode Broken?\n\nA few days ago, I tried connecting my Gush to a game supported by Lovense via the Game Mode built into the mobile app. For some reason, the Local IP, Port, and SSL Port numbers wouldn't show up. I sat around for at least ten minutes...still no dice. So I found the dongle, reinstalled the PC app, and tried that way...and the toy would connect, but wouldn't vibrate. I finally said \"fuck it\" and used Intiface Central, which worked without a problem per usual.  \n  \nI'm curious if anyone else is having this problem, and if so, if there's any fix? And yes, I tried this on multiple days with no luck, and yes, the app is updated, and yes, the toy works fine besides these issues.",
+          "summary": "（兜底）Game Mode Broken?",
+          "url": "https://www.reddit.com/r/lovense/comments/1vt7e0c/game_mode_broken/",
+          "timestamp": "2026-08-20T10:52:53+08:00",
+          "category": "neutral",
+          "score": 1,
+          "num_comments": 1,
+          "replies": [],
+          "meta": {
+            "product": "remote",
+            "subreddit": "lovense",
+            "author": "Lurker1408",
+            "topic": "compat",
+            "method": "pullpush_submission",
+            "lang": "en",
+            "backfilled": true
+          }
+        }
+      ]
     },
     "remote_x": {
       "label": "Remote · X",
@@ -394,7 +461,7 @@
     "remote_googleplay_items": 2,
     "remote_news_items": 0,
     "remote_appstore_items": 0,
-    "remote_reddit_items": 0,
+    "remote_reddit_items": 3,
     "remote_x_items": 0,
     "remote_trustpilot_items": 0,
     "remote_games_items": 0,

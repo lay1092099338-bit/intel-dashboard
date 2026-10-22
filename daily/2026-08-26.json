@@ -15,7 +15,7 @@
     "x_dm": "ok",
     "remote_googleplay": "ok",
     "remote_appstore": "failed",
-    "remote_reddit": "failed",
+    "remote_reddit": "ok",
     "remote_x": "failed",
     "remote_trustpilot": "failed",
     "remote_games": "failed",
@@ -251,7 +251,7 @@
           "source": "remote_googleplay",
           "title": "★4 its been given me trouble logging in but other than that its",
           "content": "its been given me trouble logging in but other than that its very fun",
-          "summary": "",
+          "summary": "（兜底摘要）★4 its been given me trouble logging in ",
           "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=317476b3-a04a-4d1a-8cd8-c3e07acc1bb0",
           "timestamp": "2026-08-26T04:10:31+08:00",
           "category": "positive",
@@ -274,7 +274,7 @@
           "source": "remote_googleplay",
           "title": "★3 Alle 5-6 Wochen muss ich die App neu installieren, da kein l",
           "content": "Alle 5-6 Wochen muss ich die App neu installieren, da kein login möglich ist. Nach Installation geht es wieder. Das Löschen des Cache hat nicht geholfen. Alle Toys müssen dann leider auch neu verbunden werden.",
-          "summary": "",
+          "summary": "（兜底摘要）★3 Alle 5-6 Wochen muss ich die App neu ",
           "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=f31261d2-5492-4d58-884c-330125a81eda",
           "timestamp": "2026-08-26T22:07:35+08:00",
           "category": "mixed",
@@ -305,10 +305,33 @@
     "remote_reddit": {
       "label": "Remote · Reddit",
       "source": "remote_reddit",
-      "fetched_at": "2026-08-26T05:00:00+08:00",
-      "status": "failed",
-      "error": "backfilled placeholder: no backfillable source available",
-      "items": []
+      "fetched_at": "2026-08-26T05:10:00+08:00",
+      "status": "ok",
+      "error": null,
+      "items": [
+        {
+          "id": "remote_reddit-1vydnki",
+          "source": "remote_reddit",
+          "title": "Gush 2 Patterns for Cock Hero Videos.",
+          "content": "Gush 2 Patterns for Cock Hero Videos.\n\nHave you played Cock Hero? \n\nIt involves videos with a beat meter that you have to follow in sync with the porn scene being shown.\n\nWell, I’ve manually created some patterns for the Lovense Gush 2, specifically for \"Cock Hero Championships,\" \"Cock Hero Championships: Episode 2,\" and \"Cock Hero Arcade\", all productions by Ebhan.\n\nIf you want to try them out, look for them on my Lovense profile under the name \"HotFoxBandit.\"",
+          "summary": "（兜底）Gush 2 Patterns for Cock Hero Videos.",
+          "url": "https://www.reddit.com/r/lovense/comments/1vydnki/gush_2_patterns_for_cock_hero_videos/",
+          "timestamp": "2026-08-26T05:46:51+08:00",
+          "category": "positive",
+          "score": 1,
+          "num_comments": 1,
+          "replies": [],
+          "meta": {
+            "product": "remote",
+            "subreddit": "lovense",
+            "author": "Michael_Edge",
+            "topic": "feature",
+            "method": "pullpush_submission",
+            "lang": "en",
+            "backfilled": true
+          }
+        }
+      ]
     },
     "remote_x": {
       "label": "Remote · X",
@@ -362,7 +385,7 @@
     "remote_googleplay_items": 2,
     "remote_news_items": 0,
     "remote_appstore_items": 0,
-    "remote_reddit_items": 0,
+    "remote_reddit_items": 1,
     "remote_x_items": 0,
     "remote_trustpilot_items": 0,
     "remote_games_items": 0,
