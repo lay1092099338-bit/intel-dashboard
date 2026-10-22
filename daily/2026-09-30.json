@@ -15,7 +15,7 @@
     "x_dm": "ok",
     "remote_googleplay": "ok",
     "remote_appstore": "failed",
-    "remote_reddit": "failed",
+    "remote_reddit": "ok",
     "remote_x": "failed",
     "remote_trustpilot": "failed",
     "remote_games": "failed",
@@ -400,7 +400,7 @@
           "source": "remote_googleplay",
           "title": "★1 literally everything is censored? what's the point of that, ",
           "content": "literally everything is censored? what's the point of that, like are they aware what kind of app they made? also every AI update just makes the rest of the features unusable.",
-          "summary": "",
+          "summary": "（兜底摘要）★1 literally everything is censored? wha",
           "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=2bc9cb11-1960-49ab-ab0d-b4439a0c7d67",
           "timestamp": "2026-09-30T17:57:55+08:00",
           "category": "negative",
@@ -427,7 +427,7 @@
           "source": "remote_googleplay",
           "title": "★1 I was enjoying using the Lovense Remote App the way it was. ",
           "content": "I was enjoying using the Lovense Remote App the way it was. However with the announcement of the intention of removing the Bond Community, I'm annoyed. Bond Community was a way to meet, chat to & add other people. I bought a Lovense toy to use long distance, but now I feel like I've wasted my money for nothing. They're going to try their new idea & when it fails they'll be sorry",
-          "summary": "",
+          "summary": "（兜底摘要）★1 I was enjoying using the Lovense Remo",
           "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=e4b8ab96-965c-4479-9642-7d2bc49b0f90",
           "timestamp": "2026-09-30T12:18:06+08:00",
           "category": "negative",
@@ -454,7 +454,7 @@
           "source": "remote_googleplay",
           "title": "★3 pas assez puissant",
           "content": "pas assez puissant",
-          "summary": "",
+          "summary": "（兜底摘要）★3 pas assez puissant",
           "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=b0d0181d-8688-4c25-9f58-9623638980fd",
           "timestamp": "2026-09-30T22:26:33+08:00",
           "category": "mixed",
@@ -485,10 +485,33 @@
     "remote_reddit": {
       "label": "Remote · Reddit",
       "source": "remote_reddit",
-      "fetched_at": "2026-09-30T05:00:00+08:00",
-      "status": "failed",
-      "error": "backfilled placeholder: no backfillable source available",
-      "items": []
+      "fetched_at": "2026-09-30T05:10:00+08:00",
+      "status": "ok",
+      "error": null,
+      "items": [
+        {
+          "id": "remote_reddit-1wtqflr",
+          "source": "remote_reddit",
+          "title": "Lovense lush 4 pattern recommendations",
+          "content": "Lovense lush 4 pattern recommendations\n\nJust as the title states ladies, I’m curious about what patterns you’d recommend or are good ones. Doesn’t seem like there is a lot of options unless I’m not scrolling far down enough",
+          "summary": "（兜底）Lovense lush 4 pattern recommendations",
+          "url": "https://www.reddit.com/r/lovense/comments/1wtqflr/lovense_lush_4_pattern_recommendations/",
+          "timestamp": "2026-09-30T08:10:03+08:00",
+          "category": "positive",
+          "score": 1,
+          "num_comments": 1,
+          "replies": [],
+          "meta": {
+            "product": "remote",
+            "subreddit": "lovense",
+            "author": "Severe-Wrangler5584",
+            "topic": "feature",
+            "method": "pullpush_submission",
+            "lang": "en",
+            "backfilled": true
+          }
+        }
+      ]
     },
     "remote_x": {
       "label": "Remote · X",
@@ -542,7 +565,7 @@
     "remote_googleplay_items": 3,
     "remote_news_items": 0,
     "remote_appstore_items": 0,
-    "remote_reddit_items": 0,
+    "remote_reddit_items": 1,
     "remote_x_items": 0,
     "remote_trustpilot_items": 0,
     "remote_games_items": 0,

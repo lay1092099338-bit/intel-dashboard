@@ -15,7 +15,7 @@
     "x_dm": "ok",
     "remote_googleplay": "ok",
     "remote_appstore": "failed",
-    "remote_reddit": "failed",
+    "remote_reddit": "ok",
     "remote_x": "failed",
     "remote_trustpilot": "failed",
     "remote_games": "failed",
@@ -411,7 +411,7 @@
           "source": "remote_googleplay",
           "title": "★5 very useful and very fun!",
           "content": "very useful and very fun!",
-          "summary": "",
+          "summary": "（兜底摘要）★5 very useful and very fun!",
           "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=42a7f313-f9dd-4648-9339-0fe41eed1c5c",
           "timestamp": "2026-10-04T20:58:03+08:00",
           "category": "positive",
@@ -442,10 +442,34 @@
     "remote_reddit": {
       "label": "Remote · Reddit",
       "source": "remote_reddit",
-      "fetched_at": "2026-10-04T05:00:00+08:00",
-      "status": "failed",
-      "error": "backfilled placeholder: no backfillable source available",
-      "items": []
+      "fetched_at": "2026-10-04T05:10:00+08:00",
+      "status": "ok",
+      "error": null,
+      "items": [
+        {
+          "id": "remote_reddit-c_pdss5rz",
+          "source": "remote_reddit",
+          "title": "[评论] what's the gender ratio like in there? the state of the love",
+          "content": "what's the gender ratio like in there? the state of the lovense app has me looking elsewhere but most of these servers seem to be 90% men and the ID verification spooks me a bit tbh (I'm 30, but like.. it's a lot to trust a random discord mod with)",
+          "summary": "（兜底）[评论] what's the gender ratio like in the",
+          "url": "https://www.reddit.com/r/lovense/comments/1wum6kx/what_is_the_deal_with_roulette/pdss5rz/",
+          "timestamp": "2026-10-04T20:51:54+08:00",
+          "category": "positive",
+          "score": 1,
+          "num_comments": 0,
+          "replies": [],
+          "meta": {
+            "product": "remote",
+            "subreddit": "lovense",
+            "author": "hiddenpower420",
+            "topic": "remote_control",
+            "method": "pullpush_comment",
+            "lang": "en",
+            "is_comment": true,
+            "backfilled": true
+          }
+        }
+      ]
     },
     "remote_x": {
       "label": "Remote · X",
@@ -499,7 +523,7 @@
     "remote_googleplay_items": 1,
     "remote_news_items": 0,
     "remote_appstore_items": 0,
-    "remote_reddit_items": 0,
+    "remote_reddit_items": 1,
     "remote_x_items": 0,
     "remote_trustpilot_items": 0,
     "remote_games_items": 0,

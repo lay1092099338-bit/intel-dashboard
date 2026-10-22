@@ -15,7 +15,7 @@
     "x_dm": "ok",
     "remote_googleplay": "ok",
     "remote_appstore": "failed",
-    "remote_reddit": "failed",
+    "remote_reddit": "ok",
     "remote_x": "failed",
     "remote_trustpilot": "failed",
     "remote_games": "failed",
@@ -364,10 +364,34 @@
     "remote_reddit": {
       "label": "Remote · Reddit",
       "source": "remote_reddit",
-      "fetched_at": "2026-10-01T05:00:00+08:00",
-      "status": "failed",
-      "error": "backfilled placeholder: no backfillable source available",
-      "items": []
+      "fetched_at": "2026-10-01T05:10:00+08:00",
+      "status": "ok",
+      "error": null,
+      "items": [
+        {
+          "id": "remote_reddit-c_pd1dxh5",
+          "source": "remote_reddit",
+          "title": "[评论] You can download the VibeMate app an connect it and watch p\\",
+          "content": "You can download the VibeMate app an connect it and watch p\\^rn an synchronize with the sound \n\nYou can create a control link with the Lovense Remote app an send it to someone else who will control it so you have both hands available to stimulate yourself \n\nor control it yourself with this app \n\nLike the other comment what was given",
+          "summary": "（兜底）[评论] You can download the VibeMate app a",
+          "url": "https://www.reddit.com/r/lovense/comments/1wu9vm9/lush_mini/pd1dxh5/",
+          "timestamp": "2026-10-01T00:58:49+08:00",
+          "category": "positive",
+          "score": 1,
+          "num_comments": 0,
+          "replies": [],
+          "meta": {
+            "product": "remote",
+            "subreddit": "lovense",
+            "author": "tequilla2922",
+            "topic": "remote_control",
+            "method": "pullpush_comment",
+            "lang": "en",
+            "is_comment": true,
+            "backfilled": true
+          }
+        }
+      ]
     },
     "remote_x": {
       "label": "Remote · X",
@@ -413,7 +437,7 @@
           "source": "remote_news",
           "title": "Lovense Ferri - Mamabella",
           "content": "Lovense Ferri  Mamabella\n\n[来源 Source] Mamabella",
-          "summary": "",
+          "summary": "（兜底摘要）Lovense Ferri - Mamabella",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9BQnFQenpCNll6aWFSYm1JTHJCQWplZEl0dmlwZVZOM0txNF9Yc0JndmtORjZ6TWtKUWRYdU42ZWI1QjJzdHFvak01RkZkNEVCTTEwOUxsVjZna0E?oc=5",
           "timestamp": "2026-10-01T14:29:53+08:00",
           "category": "neutral",
@@ -442,7 +466,7 @@
     "remote_googleplay_items": 0,
     "remote_news_items": 1,
     "remote_appstore_items": 0,
-    "remote_reddit_items": 0,
+    "remote_reddit_items": 1,
     "remote_x_items": 0,
     "remote_trustpilot_items": 0,
     "remote_games_items": 0,
