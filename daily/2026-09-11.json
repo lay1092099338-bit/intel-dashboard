@@ -12,7 +12,15 @@
     "cam101_09": "missing",
     "cam101_22": "missing",
     "telegram": "ok",
-    "x_dm": "ok"
+    "x_dm": "ok",
+    "remote_googleplay": "ok",
+    "remote_appstore": "failed",
+    "remote_reddit": "failed",
+    "remote_x": "failed",
+    "remote_trustpilot": "failed",
+    "remote_games": "failed",
+    "remote_qa": "failed",
+    "remote_news": "ok"
   },
   "sources": {
     "reddit": null,
@@ -90,6 +98,98 @@
       "summary": {
         "total_replied": 0
       }
+    },
+    "remote_googleplay": {
+      "label": "Remote · Google Play",
+      "source": "remote_googleplay",
+      "fetched_at": "2026-09-11T05:00:00+08:00",
+      "status": "ok",
+      "error": null,
+      "items": [
+        {
+          "id": "remote_googleplay-0b744573-df27-42ff-95d0-e542b1da0a30",
+          "source": "remote_googleplay",
+          "title": "★1 This App doesn't seem to work with its own products. I've tr",
+          "content": "This App doesn't seem to work with its own products. I've tried the Bluetooth link to my phone and other phones. It says the same thing. saying that the toy isn't on or could be a fake. Do not waste your time or money on this application if it's not going to work with its own products.",
+          "summary": "",
+          "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=0b744573-df27-42ff-95d0-e542b1da0a30",
+          "timestamp": "2026-09-11T05:36:41+08:00",
+          "category": "negative",
+          "score": 0,
+          "num_comments": 0,
+          "replies": [
+            {
+              "content": "We are sorry to hear you’re running into this frustrating connection issue even after testing on multiple phones. Please contact our support team at https://www.lovense.com/contact. Kindly share detailed information including your toy model and the exact error message. Our team will look into this and help resolve your problem.Thanks."
+            }
+          ],
+          "meta": {
+            "product": "remote",
+            "rating": 1,
+            "app_version": "8.7.0",
+            "lang": "en",
+            "country": "us",
+            "dev_replied": true,
+            "topic": "connection",
+            "backfilled": true
+          }
+        }
+      ]
+    },
+    "remote_appstore": {
+      "label": "Remote · App Store",
+      "source": "remote_appstore",
+      "fetched_at": "2026-09-11T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: Apple RSS returns empty since 2026",
+      "items": []
+    },
+    "remote_reddit": {
+      "label": "Remote · Reddit",
+      "source": "remote_reddit",
+      "fetched_at": "2026-09-11T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: no backfillable source available",
+      "items": []
+    },
+    "remote_x": {
+      "label": "Remote · X",
+      "source": "remote_x",
+      "fetched_at": "2026-09-11T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: pending GraphQL SearchTimeline",
+      "items": []
+    },
+    "remote_trustpilot": {
+      "label": "Remote · Trustpilot",
+      "source": "remote_trustpilot",
+      "fetched_at": "2026-09-11T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: Trustpilot blocks scraper IP",
+      "items": []
+    },
+    "remote_games": {
+      "label": "Remote · 游戏社区",
+      "source": "remote_games",
+      "fetched_at": "2026-09-11T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: Steam rate limit",
+      "items": []
+    },
+    "remote_qa": {
+      "label": "Remote · 问答站",
+      "source": "remote_qa",
+      "fetched_at": "2026-09-11T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: justuseapp.com unreachable",
+      "items": []
+    },
+    "remote_news": {
+      "label": "Remote · 新闻",
+      "source": "remote_news",
+      "fetched_at": "2026-09-11T05:20:00+08:00",
+      "status": "ok",
+      "error": null,
+      "items": []
     }
   },
   "summary": {
@@ -99,6 +199,14 @@
     "reddit_vibemate_camgirl_items": 0,
     "cam101_replied": 0,
     "telegram_messages": 0,
-    "x_dm_replied": 0
+    "x_dm_replied": 0,
+    "remote_googleplay_items": 1,
+    "remote_news_items": 0,
+    "remote_appstore_items": 0,
+    "remote_reddit_items": 0,
+    "remote_x_items": 0,
+    "remote_trustpilot_items": 0,
+    "remote_games_items": 0,
+    "remote_qa_items": 0
   }
 }

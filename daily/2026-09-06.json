@@ -12,7 +12,15 @@
     "cam101_09": "ok",
     "cam101_22": "ok",
     "telegram": "ok",
-    "x_dm": "ok"
+    "x_dm": "ok",
+    "remote_googleplay": "ok",
+    "remote_appstore": "failed",
+    "remote_reddit": "failed",
+    "remote_x": "failed",
+    "remote_trustpilot": "failed",
+    "remote_games": "failed",
+    "remote_qa": "failed",
+    "remote_news": "ok"
   },
   "sources": {
     "reddit": {
@@ -240,6 +248,121 @@
       "summary": {
         "total_replied": 0
       }
+    },
+    "remote_googleplay": {
+      "label": "Remote · Google Play",
+      "source": "remote_googleplay",
+      "fetched_at": "2026-09-06T05:00:00+08:00",
+      "status": "ok",
+      "error": null,
+      "items": [
+        {
+          "id": "remote_googleplay-f325fe91-1f44-4544-8cdf-72e02b6e6c34",
+          "source": "remote_googleplay",
+          "title": "★1 Normally works, but it has logged me out of my account sever",
+          "content": "Normally works, but it has logged me out of my account several times and then not let me log back in so all of my patterns disappear. Disappointing, has also lost the ability to connect to my toy and can't even detect it despite Bluetooth being on and the device being on",
+          "summary": "",
+          "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=f325fe91-1f44-4544-8cdf-72e02b6e6c34",
+          "timestamp": "2026-09-06T01:47:47+08:00",
+          "category": "negative",
+          "score": 1,
+          "num_comments": 0,
+          "replies": [
+            {
+              "content": "We are sorry to hear the issue you met. Please contact us at https://www.lovense.com/contact and we will provide further assistance. Thanks."
+            }
+          ],
+          "meta": {
+            "product": "remote",
+            "rating": 1,
+            "app_version": "8.6.1",
+            "lang": "en",
+            "country": "us",
+            "dev_replied": true,
+            "topic": "connection",
+            "backfilled": true
+          }
+        },
+        {
+          "id": "remote_googleplay-8805a963-b59a-45c5-9fd5-de40bfe0d327",
+          "source": "remote_googleplay",
+          "title": "★5 Tolle Technik.",
+          "content": "Tolle Technik.",
+          "summary": "",
+          "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=8805a963-b59a-45c5-9fd5-de40bfe0d327",
+          "timestamp": "2026-09-06T09:23:51+08:00",
+          "category": "positive",
+          "score": 0,
+          "num_comments": 0,
+          "replies": [],
+          "meta": {
+            "product": "remote",
+            "rating": 5,
+            "app_version": "8.6.1",
+            "lang": "de",
+            "country": "de",
+            "dev_replied": false,
+            "topic": "other",
+            "backfilled": true
+          }
+        }
+      ]
+    },
+    "remote_appstore": {
+      "label": "Remote · App Store",
+      "source": "remote_appstore",
+      "fetched_at": "2026-09-06T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: Apple RSS returns empty since 2026",
+      "items": []
+    },
+    "remote_reddit": {
+      "label": "Remote · Reddit",
+      "source": "remote_reddit",
+      "fetched_at": "2026-09-06T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: no backfillable source available",
+      "items": []
+    },
+    "remote_x": {
+      "label": "Remote · X",
+      "source": "remote_x",
+      "fetched_at": "2026-09-06T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: pending GraphQL SearchTimeline",
+      "items": []
+    },
+    "remote_trustpilot": {
+      "label": "Remote · Trustpilot",
+      "source": "remote_trustpilot",
+      "fetched_at": "2026-09-06T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: Trustpilot blocks scraper IP",
+      "items": []
+    },
+    "remote_games": {
+      "label": "Remote · 游戏社区",
+      "source": "remote_games",
+      "fetched_at": "2026-09-06T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: Steam rate limit",
+      "items": []
+    },
+    "remote_qa": {
+      "label": "Remote · 问答站",
+      "source": "remote_qa",
+      "fetched_at": "2026-09-06T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: justuseapp.com unreachable",
+      "items": []
+    },
+    "remote_news": {
+      "label": "Remote · 新闻",
+      "source": "remote_news",
+      "fetched_at": "2026-09-06T05:20:00+08:00",
+      "status": "ok",
+      "error": null,
+      "items": []
     }
   },
   "summary": {
@@ -249,6 +372,14 @@
     "reddit_vibemate_camgirl_items": 0,
     "cam101_replied": 2,
     "telegram_messages": 0,
-    "x_dm_replied": 0
+    "x_dm_replied": 0,
+    "remote_googleplay_items": 2,
+    "remote_news_items": 0,
+    "remote_appstore_items": 0,
+    "remote_reddit_items": 0,
+    "remote_x_items": 0,
+    "remote_trustpilot_items": 0,
+    "remote_games_items": 0,
+    "remote_qa_items": 0
   }
 }

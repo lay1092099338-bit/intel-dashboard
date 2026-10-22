@@ -12,7 +12,15 @@
     "cam101_09": "ok",
     "cam101_22": "ok",
     "telegram": "ok",
-    "x_dm": "ok"
+    "x_dm": "ok",
+    "remote_googleplay": "ok",
+    "remote_appstore": "failed",
+    "remote_reddit": "failed",
+    "remote_x": "failed",
+    "remote_trustpilot": "failed",
+    "remote_games": "failed",
+    "remote_qa": "failed",
+    "remote_news": "ok"
   },
   "sources": {
     "reddit": {
@@ -363,6 +371,121 @@
       "summary": {
         "total_replied": 0
       }
+    },
+    "remote_googleplay": {
+      "label": "Remote · Google Play",
+      "source": "remote_googleplay",
+      "fetched_at": "2026-09-10T05:00:00+08:00",
+      "status": "ok",
+      "error": null,
+      "items": [
+        {
+          "id": "remote_googleplay-8c43081a-b282-4943-8ad3-e57503b090a5",
+          "source": "remote_googleplay",
+          "title": "★2 app doesn't work well. option to sllow someone access is gre",
+          "content": "app doesn't work well. option to sllow someone access is greyed out. vibration strength stinks and is limited. there are modes that have much stronger vibration but you cant control. poorly designed and not very user friendly. Still dont get why the aop has built in social Media. its weird",
+          "summary": "",
+          "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=8c43081a-b282-4943-8ad3-e57503b090a5",
+          "timestamp": "2026-09-10T16:55:36+08:00",
+          "category": "negative",
+          "score": 0,
+          "num_comments": 0,
+          "replies": [
+            {
+              "content": "We apologize for your unsatisfying experience. We appreciate all your feedback and will pass it to our team for review. If you have any detailed comments or suggestions, please contact us at https://www.lovense.com/contact. Thank you so much."
+            }
+          ],
+          "meta": {
+            "product": "remote",
+            "rating": 2,
+            "app_version": "8.6.1",
+            "lang": "en",
+            "country": "us",
+            "dev_replied": true,
+            "topic": "other",
+            "backfilled": true
+          }
+        },
+        {
+          "id": "remote_googleplay-d1931ea3-03ab-4a98-a1ff-c15b8b179418",
+          "source": "remote_googleplay",
+          "title": "★5 I love this app. It's very fun, naughty and I've had a wonde",
+          "content": "I love this app. It's very fun, naughty and I've had a wonderful time using it with my Lovense. However, I am having a problem chatting with the AI companion in the app. Whenever I try to type, the keyboard pops up then immediately disappears. As a result, I have to chat with the companion on the web to complete the daily goal for rewards points. That means the companion can't control my toy. Is there a fix for this?",
+          "summary": "",
+          "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=d1931ea3-03ab-4a98-a1ff-c15b8b179418",
+          "timestamp": "2026-09-10T11:20:53+08:00",
+          "category": "positive",
+          "score": 5,
+          "num_comments": 0,
+          "replies": [],
+          "meta": {
+            "product": "remote",
+            "rating": 5,
+            "app_version": null,
+            "lang": "en",
+            "country": "us",
+            "dev_replied": false,
+            "topic": "praise",
+            "backfilled": true
+          }
+        }
+      ]
+    },
+    "remote_appstore": {
+      "label": "Remote · App Store",
+      "source": "remote_appstore",
+      "fetched_at": "2026-09-10T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: Apple RSS returns empty since 2026",
+      "items": []
+    },
+    "remote_reddit": {
+      "label": "Remote · Reddit",
+      "source": "remote_reddit",
+      "fetched_at": "2026-09-10T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: no backfillable source available",
+      "items": []
+    },
+    "remote_x": {
+      "label": "Remote · X",
+      "source": "remote_x",
+      "fetched_at": "2026-09-10T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: pending GraphQL SearchTimeline",
+      "items": []
+    },
+    "remote_trustpilot": {
+      "label": "Remote · Trustpilot",
+      "source": "remote_trustpilot",
+      "fetched_at": "2026-09-10T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: Trustpilot blocks scraper IP",
+      "items": []
+    },
+    "remote_games": {
+      "label": "Remote · 游戏社区",
+      "source": "remote_games",
+      "fetched_at": "2026-09-10T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: Steam rate limit",
+      "items": []
+    },
+    "remote_qa": {
+      "label": "Remote · 问答站",
+      "source": "remote_qa",
+      "fetched_at": "2026-09-10T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: justuseapp.com unreachable",
+      "items": []
+    },
+    "remote_news": {
+      "label": "Remote · 新闻",
+      "source": "remote_news",
+      "fetched_at": "2026-09-10T05:20:00+08:00",
+      "status": "ok",
+      "error": null,
+      "items": []
     }
   },
   "summary": {
@@ -372,6 +495,14 @@
     "reddit_vibemate_camgirl_items": 0,
     "cam101_replied": 8,
     "telegram_messages": 0,
-    "x_dm_replied": 0
+    "x_dm_replied": 0,
+    "remote_googleplay_items": 2,
+    "remote_news_items": 0,
+    "remote_appstore_items": 0,
+    "remote_reddit_items": 0,
+    "remote_x_items": 0,
+    "remote_trustpilot_items": 0,
+    "remote_games_items": 0,
+    "remote_qa_items": 0
   }
 }

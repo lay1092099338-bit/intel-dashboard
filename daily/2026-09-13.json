@@ -12,7 +12,15 @@
     "cam101_09": "ok",
     "cam101_22": "ok",
     "telegram": "ok",
-    "x_dm": "ok"
+    "x_dm": "ok",
+    "remote_googleplay": "ok",
+    "remote_appstore": "failed",
+    "remote_reddit": "failed",
+    "remote_x": "failed",
+    "remote_trustpilot": "failed",
+    "remote_games": "failed",
+    "remote_qa": "failed",
+    "remote_news": "ok"
   },
   "sources": {
     "reddit": {
@@ -217,6 +225,148 @@
       "summary": {
         "total_replied": 0
       }
+    },
+    "remote_googleplay": {
+      "label": "Remote · Google Play",
+      "source": "remote_googleplay",
+      "fetched_at": "2026-09-13T05:00:00+08:00",
+      "status": "ok",
+      "error": null,
+      "items": [
+        {
+          "id": "remote_googleplay-189d2158-1f91-4f05-a48d-bbadc865789e",
+          "source": "remote_googleplay",
+          "title": "★5 nvm I fixed it lol. it's a great app! Haha",
+          "content": "nvm I fixed it lol. it's a great app! Haha",
+          "summary": "",
+          "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=189d2158-1f91-4f05-a48d-bbadc865789e",
+          "timestamp": "2026-09-13T23:07:46+08:00",
+          "category": "positive",
+          "score": 0,
+          "num_comments": 0,
+          "replies": [],
+          "meta": {
+            "product": "remote",
+            "rating": 5,
+            "app_version": "8.9.1",
+            "lang": "en",
+            "country": "us",
+            "dev_replied": false,
+            "topic": "praise",
+            "backfilled": true
+          }
+        },
+        {
+          "id": "remote_googleplay-61f59fc4-6642-4825-bacb-a39ed715790e",
+          "source": "remote_googleplay",
+          "title": "★1 cant get past the \"By clicking the button, you confirm that ",
+          "content": "cant get past the \"By clicking the button, you confirm that you are over 18 years old, agree to our Privacy Policy, End User License Agreement, and Terms & Conditions,\" both app and phone are updated, no issues with wifi, and the app has all the permissions.",
+          "summary": "",
+          "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=61f59fc4-6642-4825-bacb-a39ed715790e",
+          "timestamp": "2026-09-13T23:05:40+08:00",
+          "category": "negative",
+          "score": 1,
+          "num_comments": 0,
+          "replies": [
+            {
+              "content": "We’re sorry you’re stuck at the confirmation screen even after updating your app and phone, with stable Wi‑Fi and all permissions enabled. Please reach out to our support team at https://www.lovense.com/contact and share more details about your issue, and we’ll assist you. Thanks."
+            }
+          ],
+          "meta": {
+            "product": "remote",
+            "rating": 1,
+            "app_version": "8.9.1",
+            "lang": "en",
+            "country": "us",
+            "dev_replied": true,
+            "topic": "privacy",
+            "backfilled": true
+          }
+        },
+        {
+          "id": "remote_googleplay-c2d6633a-b286-4c04-9ecd-362221c91202",
+          "source": "remote_googleplay",
+          "title": "★1 doesn't give information",
+          "content": "doesn't give information",
+          "summary": "",
+          "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=c2d6633a-b286-4c04-9ecd-362221c91202",
+          "timestamp": "2026-09-13T13:04:28+08:00",
+          "category": "negative",
+          "score": 1,
+          "num_comments": 0,
+          "replies": [
+            {
+              "content": "We’re sorry for the trouble. Please share detailed information about your issue and get in touch with us at https://www.lovense.com/contact for further support. Thank you so much."
+            }
+          ],
+          "meta": {
+            "product": "remote",
+            "rating": 1,
+            "app_version": "8.7.0",
+            "lang": "en",
+            "country": "us",
+            "dev_replied": true,
+            "topic": "other",
+            "backfilled": true
+          }
+        }
+      ]
+    },
+    "remote_appstore": {
+      "label": "Remote · App Store",
+      "source": "remote_appstore",
+      "fetched_at": "2026-09-13T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: Apple RSS returns empty since 2026",
+      "items": []
+    },
+    "remote_reddit": {
+      "label": "Remote · Reddit",
+      "source": "remote_reddit",
+      "fetched_at": "2026-09-13T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: no backfillable source available",
+      "items": []
+    },
+    "remote_x": {
+      "label": "Remote · X",
+      "source": "remote_x",
+      "fetched_at": "2026-09-13T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: pending GraphQL SearchTimeline",
+      "items": []
+    },
+    "remote_trustpilot": {
+      "label": "Remote · Trustpilot",
+      "source": "remote_trustpilot",
+      "fetched_at": "2026-09-13T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: Trustpilot blocks scraper IP",
+      "items": []
+    },
+    "remote_games": {
+      "label": "Remote · 游戏社区",
+      "source": "remote_games",
+      "fetched_at": "2026-09-13T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: Steam rate limit",
+      "items": []
+    },
+    "remote_qa": {
+      "label": "Remote · 问答站",
+      "source": "remote_qa",
+      "fetched_at": "2026-09-13T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: justuseapp.com unreachable",
+      "items": []
+    },
+    "remote_news": {
+      "label": "Remote · 新闻",
+      "source": "remote_news",
+      "fetched_at": "2026-09-13T05:20:00+08:00",
+      "status": "ok",
+      "error": null,
+      "items": []
     }
   },
   "summary": {
@@ -226,6 +376,14 @@
     "reddit_vibemate_camgirl_items": 0,
     "cam101_replied": 3,
     "telegram_messages": 0,
-    "x_dm_replied": 0
+    "x_dm_replied": 0,
+    "remote_googleplay_items": 3,
+    "remote_news_items": 0,
+    "remote_appstore_items": 0,
+    "remote_reddit_items": 0,
+    "remote_x_items": 0,
+    "remote_trustpilot_items": 0,
+    "remote_games_items": 0,
+    "remote_qa_items": 0
   }
 }

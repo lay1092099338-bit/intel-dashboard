@@ -12,7 +12,15 @@
     "cam101_09": "ok",
     "cam101_22": "ok",
     "telegram": "ok",
-    "x_dm": "ok"
+    "x_dm": "ok",
+    "remote_googleplay": "ok",
+    "remote_appstore": "failed",
+    "remote_reddit": "failed",
+    "remote_x": "failed",
+    "remote_trustpilot": "failed",
+    "remote_games": "failed",
+    "remote_qa": "failed",
+    "remote_news": "ok"
   },
   "sources": {
     "reddit": {
@@ -356,6 +364,179 @@
       "summary": {
         "total_replied": 0
       }
+    },
+    "remote_googleplay": {
+      "label": "Remote · Google Play",
+      "source": "remote_googleplay",
+      "fetched_at": "2026-09-18T05:00:00+08:00",
+      "status": "ok",
+      "error": null,
+      "items": [
+        {
+          "id": "remote_googleplay-a9dc4e62-e034-4218-8597-20092cec8dc6",
+          "source": "remote_googleplay",
+          "title": "★1 broken",
+          "content": "broken",
+          "summary": "",
+          "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=a9dc4e62-e034-4218-8597-20092cec8dc6",
+          "timestamp": "2026-09-18T21:45:42+08:00",
+          "category": "negative",
+          "score": 1,
+          "num_comments": 0,
+          "replies": [
+            {
+              "content": "We are truly sorry for the unpleasant experience you’ve had. We understand how you feel. Please get in touch with us via https://www.lovense.com/contact and provide detailed information about the issue you encountered. Rest assured, we will do our utmost to resolve your issue. Thanks."
+            }
+          ],
+          "meta": {
+            "product": "remote",
+            "rating": 1,
+            "app_version": "8.9.1",
+            "lang": "en",
+            "country": "us",
+            "dev_replied": true,
+            "topic": "other",
+            "backfilled": true
+          }
+        },
+        {
+          "id": "remote_googleplay-f43a4482-19ae-49ef-a28f-c0699b4523fc",
+          "source": "remote_googleplay",
+          "title": "★1 when an app is just a Web browser to access the portal and u",
+          "content": "when an app is just a Web browser to access the portal and updates are being made to the Web page not actual browser it breaks the app. every couple of weeks something new stops working for anywhere between a couple of hours to a few days while the update is actually being tested (by the user not actual testers) and they find out things don't work by user submitter reports instead of actual testing. If they could confirm updates work properly before rolling them out that would be great",
+          "summary": "",
+          "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=f43a4482-19ae-49ef-a28f-c0699b4523fc",
+          "timestamp": "2026-09-18T19:02:19+08:00",
+          "category": "negative",
+          "score": 14,
+          "num_comments": 0,
+          "replies": [
+            {
+              "content": "We are sorry to hear the issue you met. Please contact us at https://www.lovense.com/contact and we will provide further assistance. Thanks."
+            }
+          ],
+          "meta": {
+            "product": "remote",
+            "rating": 1,
+            "app_version": "8.7.0",
+            "lang": "en",
+            "country": "us",
+            "dev_replied": true,
+            "topic": "compat",
+            "backfilled": true
+          }
+        },
+        {
+          "id": "remote_googleplay-f030458a-2c6b-49c0-b2bf-7b05abc3d722",
+          "source": "remote_googleplay",
+          "title": "★1 can't get past the continue button to acknowledge the terms ",
+          "content": "can't get past the continue button to acknowledge the terms when you first open the app.",
+          "summary": "",
+          "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=f030458a-2c6b-49c0-b2bf-7b05abc3d722",
+          "timestamp": "2026-09-18T18:49:26+08:00",
+          "category": "negative",
+          "score": 1,
+          "num_comments": 0,
+          "replies": [
+            {
+              "content": "We are really sorry that our app haven't brought you a good experience. Please reach out to our support team at https://www.lovense.com/contact and share more details about your issue and we will provide further assistance. Thanks."
+            }
+          ],
+          "meta": {
+            "product": "remote",
+            "rating": 1,
+            "app_version": "8.9.1",
+            "lang": "en",
+            "country": "us",
+            "dev_replied": true,
+            "topic": "other",
+            "backfilled": true
+          }
+        },
+        {
+          "id": "remote_googleplay-0a945f73-4f8f-4f9c-a2f0-9b0eb8ebacbe",
+          "source": "remote_googleplay",
+          "title": "★1 Die App ist Ansicht Oky Steuerung allem drum und dran kann m",
+          "content": "Die App ist Ansicht Oky Steuerung allem drum und dran kann man nichts sagen eigentlich sehr zufrieden nur das mal wieder die App von Betrügern ausgenutzt wird damit jemand die Kontrolle übernimmt wird unzählige geld Verlangt mit 10 bis 20 Euro fängt es an dann kommt ich brauche 10 euro noch für Gleitmittel oder 10 euro für meine Kamera ist kaputt dann ich habe 40 Euro gespart kannst du mit 30 Euro geben damit ich ein abo kaufen dann haben wir spass deswegen 1 stern normal 0 sry",
+          "summary": "",
+          "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=0a945f73-4f8f-4f9c-a2f0-9b0eb8ebacbe",
+          "timestamp": "2026-09-18T21:09:12+08:00",
+          "category": "negative",
+          "score": 0,
+          "num_comments": 0,
+          "replies": [
+            {
+              "content": "We are sorry to hear about the situation. We are actively working to combat such fraudulent activities and strive to maintain a safe and positive environment for all users. If you encounter similar behavior, please use the report function to submit a report. Should the situation persist, please reach out via https://www.lovense.com/contact. Thanks."
+            }
+          ],
+          "meta": {
+            "product": "remote",
+            "rating": 1,
+            "app_version": "8.7.0",
+            "lang": "de",
+            "country": "de",
+            "dev_replied": true,
+            "topic": "other",
+            "backfilled": true
+          }
+        }
+      ]
+    },
+    "remote_appstore": {
+      "label": "Remote · App Store",
+      "source": "remote_appstore",
+      "fetched_at": "2026-09-18T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: Apple RSS returns empty since 2026",
+      "items": []
+    },
+    "remote_reddit": {
+      "label": "Remote · Reddit",
+      "source": "remote_reddit",
+      "fetched_at": "2026-09-18T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: no backfillable source available",
+      "items": []
+    },
+    "remote_x": {
+      "label": "Remote · X",
+      "source": "remote_x",
+      "fetched_at": "2026-09-18T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: pending GraphQL SearchTimeline",
+      "items": []
+    },
+    "remote_trustpilot": {
+      "label": "Remote · Trustpilot",
+      "source": "remote_trustpilot",
+      "fetched_at": "2026-09-18T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: Trustpilot blocks scraper IP",
+      "items": []
+    },
+    "remote_games": {
+      "label": "Remote · 游戏社区",
+      "source": "remote_games",
+      "fetched_at": "2026-09-18T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: Steam rate limit",
+      "items": []
+    },
+    "remote_qa": {
+      "label": "Remote · 问答站",
+      "source": "remote_qa",
+      "fetched_at": "2026-09-18T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: justuseapp.com unreachable",
+      "items": []
+    },
+    "remote_news": {
+      "label": "Remote · 新闻",
+      "source": "remote_news",
+      "fetched_at": "2026-09-18T05:20:00+08:00",
+      "status": "ok",
+      "error": null,
+      "items": []
     }
   },
   "summary": {
@@ -365,6 +546,14 @@
     "reddit_vibemate_camgirl_items": 0,
     "cam101_replied": 9,
     "telegram_messages": 0,
-    "x_dm_replied": 0
+    "x_dm_replied": 0,
+    "remote_googleplay_items": 4,
+    "remote_news_items": 0,
+    "remote_appstore_items": 0,
+    "remote_reddit_items": 0,
+    "remote_x_items": 0,
+    "remote_trustpilot_items": 0,
+    "remote_games_items": 0,
+    "remote_qa_items": 0
   }
 }
