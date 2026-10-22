@@ -12,7 +12,15 @@
     "cam101_09": "ok",
     "cam101_22": "ok",
     "telegram": "ok",
-    "x_dm": "ok"
+    "x_dm": "ok",
+    "remote_googleplay": "ok",
+    "remote_appstore": "failed",
+    "remote_reddit": "failed",
+    "remote_x": "failed",
+    "remote_trustpilot": "failed",
+    "remote_games": "failed",
+    "remote_qa": "failed",
+    "remote_news": "ok"
   },
   "sources": {
     "reddit": {
@@ -280,6 +288,194 @@
       "summary": {
         "total_replied": 0
       }
+    },
+    "remote_googleplay": {
+      "label": "Remote · Google Play",
+      "source": "remote_googleplay",
+      "fetched_at": "2026-08-23T05:00:00+08:00",
+      "status": "ok",
+      "error": null,
+      "items": [
+        {
+          "id": "remote_googleplay-3ee112dc-0f5d-4d56-8e56-0b7e062acd76",
+          "source": "remote_googleplay",
+          "title": "★5 good",
+          "content": "good",
+          "summary": "",
+          "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=3ee112dc-0f5d-4d56-8e56-0b7e062acd76",
+          "timestamp": "2026-08-23T20:52:44+08:00",
+          "category": "positive",
+          "score": 0,
+          "num_comments": 0,
+          "replies": [],
+          "meta": {
+            "product": "remote",
+            "rating": 5,
+            "app_version": "8.5.0",
+            "lang": "en",
+            "country": "us",
+            "dev_replied": false,
+            "topic": "other",
+            "backfilled": true
+          }
+        },
+        {
+          "id": "remote_googleplay-53c8ea07-8b02-476d-8282-4da67d50db95",
+          "source": "remote_googleplay",
+          "title": "★1 Had been unable to log into the app for a week now. Couldn't",
+          "content": "Had been unable to log into the app for a week now. Couldn't reset password or let me log in But am able to log onto the website. Finally had to uninstall and reinstall the app.",
+          "summary": "",
+          "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=53c8ea07-8b02-476d-8282-4da67d50db95",
+          "timestamp": "2026-08-23T19:00:09+08:00",
+          "category": "negative",
+          "score": 1,
+          "num_comments": 0,
+          "replies": [
+            {
+              "content": "We’re sorry to hear you’ve had login issues for a week. If you run into password‑reset troubles, please reset your password on our website first, then try signing in to the app. If the issue continue, reach out to us at https://www.lovense.com/contact, and we’ll be glad to assist you. Thank you for your understanding and support."
+            }
+          ],
+          "meta": {
+            "product": "remote",
+            "rating": 1,
+            "app_version": "8.5.0",
+            "lang": "en",
+            "country": "us",
+            "dev_replied": true,
+            "topic": "other",
+            "backfilled": true
+          }
+        },
+        {
+          "id": "remote_googleplay-fa47a3b2-ca61-46b3-9777-baa9c4a57139",
+          "source": "remote_googleplay",
+          "title": "★3 Great but login is busted it tends to sign you out for no re",
+          "content": "Great but login is busted it tends to sign you out for no reason without permission and the only way to log back in is to delete app and reinstall it but you lose all chat information from previous sessions",
+          "summary": "",
+          "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=fa47a3b2-ca61-46b3-9777-baa9c4a57139",
+          "timestamp": "2026-08-23T11:41:21+08:00",
+          "category": "mixed",
+          "score": 0,
+          "num_comments": 0,
+          "replies": [],
+          "meta": {
+            "product": "remote",
+            "rating": 3,
+            "app_version": "8.3.0",
+            "lang": "en",
+            "country": "us",
+            "dev_replied": false,
+            "topic": "account",
+            "backfilled": true
+          }
+        },
+        {
+          "id": "remote_googleplay-58d54e55-e1a1-452c-aafe-dc11a96e3ec7",
+          "source": "remote_googleplay",
+          "title": "★1 great app... originally.. last 2 months it crashes all the t",
+          "content": "great app... originally.. last 2 months it crashes all the time. constantly your patterns disappear. constantly having to Uninstall and reinstall just to get login to work. And talking to tech support? they offered zero ways to resolve it, and basically insisted that it's working fine. ITS NOT. I've used this for 3 years with no issues until whatever update they did... hate it... just give Me my old app back where it saved my patterns and I could access it without constant problems.",
+          "summary": "",
+          "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=58d54e55-e1a1-452c-aafe-dc11a96e3ec7",
+          "timestamp": "2026-08-23T00:19:00+08:00",
+          "category": "negative",
+          "score": 7,
+          "num_comments": 0,
+          "replies": [
+            {
+              "content": "We’re truly sorry for your frustrating experience. We understand how disruptive frequent crashes and missing patterns are after years of smooth use. Your feedback is valued and we are working to improve performance. Please share full issue details via https://www.lovense.com/contact and we’ll gladly assist you. Thanks."
+            }
+          ],
+          "meta": {
+            "product": "remote",
+            "rating": 1,
+            "app_version": "8.3.0",
+            "lang": "en",
+            "country": "us",
+            "dev_replied": true,
+            "topic": "account",
+            "backfilled": true
+          }
+        },
+        {
+          "id": "remote_googleplay-55f4e26f-6cb4-47f6-979e-98dcd1436cfa",
+          "source": "remote_googleplay",
+          "title": "★3 No pude conectar, no me sale el dispositivo jajaja 😕",
+          "content": "No pude conectar, no me sale el dispositivo jajaja 😕",
+          "summary": "",
+          "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=55f4e26f-6cb4-47f6-979e-98dcd1436cfa",
+          "timestamp": "2026-08-23T01:03:05+08:00",
+          "category": "mixed",
+          "score": 1,
+          "num_comments": 0,
+          "replies": [],
+          "meta": {
+            "product": "remote",
+            "rating": 3,
+            "app_version": null,
+            "lang": "es",
+            "country": "es",
+            "dev_replied": false,
+            "topic": "other",
+            "backfilled": true
+          }
+        }
+      ]
+    },
+    "remote_appstore": {
+      "label": "Remote · App Store",
+      "source": "remote_appstore",
+      "fetched_at": "2026-08-23T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: Apple RSS returns empty since 2026",
+      "items": []
+    },
+    "remote_reddit": {
+      "label": "Remote · Reddit",
+      "source": "remote_reddit",
+      "fetched_at": "2026-08-23T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: no backfillable source available",
+      "items": []
+    },
+    "remote_x": {
+      "label": "Remote · X",
+      "source": "remote_x",
+      "fetched_at": "2026-08-23T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: pending GraphQL SearchTimeline",
+      "items": []
+    },
+    "remote_trustpilot": {
+      "label": "Remote · Trustpilot",
+      "source": "remote_trustpilot",
+      "fetched_at": "2026-08-23T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: Trustpilot blocks scraper IP",
+      "items": []
+    },
+    "remote_games": {
+      "label": "Remote · 游戏社区",
+      "source": "remote_games",
+      "fetched_at": "2026-08-23T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: Steam rate limit",
+      "items": []
+    },
+    "remote_qa": {
+      "label": "Remote · 问答站",
+      "source": "remote_qa",
+      "fetched_at": "2026-08-23T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: justuseapp.com unreachable",
+      "items": []
+    },
+    "remote_news": {
+      "label": "Remote · 新闻",
+      "source": "remote_news",
+      "fetched_at": "2026-08-23T05:20:00+08:00",
+      "status": "ok",
+      "error": null,
+      "items": []
     }
   },
   "summary": {
@@ -289,6 +485,14 @@
     "reddit_vibemate_camgirl_items": 0,
     "cam101_replied": 5,
     "telegram_messages": 0,
-    "x_dm_replied": 0
+    "x_dm_replied": 0,
+    "remote_googleplay_items": 5,
+    "remote_news_items": 0,
+    "remote_appstore_items": 0,
+    "remote_reddit_items": 0,
+    "remote_x_items": 0,
+    "remote_trustpilot_items": 0,
+    "remote_games_items": 0,
+    "remote_qa_items": 0
   }
 }

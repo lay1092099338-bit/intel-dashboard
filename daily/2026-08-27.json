@@ -12,7 +12,15 @@
     "cam101_09": "ok",
     "cam101_22": "ok",
     "telegram": "ok",
-    "x_dm": "ok"
+    "x_dm": "ok",
+    "remote_googleplay": "ok",
+    "remote_appstore": "failed",
+    "remote_reddit": "failed",
+    "remote_x": "failed",
+    "remote_trustpilot": "failed",
+    "remote_games": "failed",
+    "remote_qa": "failed",
+    "remote_news": "ok"
   },
   "sources": {
     "reddit": {
@@ -304,6 +312,125 @@
       "summary": {
         "total_replied": 0
       }
+    },
+    "remote_googleplay": {
+      "label": "Remote · Google Play",
+      "source": "remote_googleplay",
+      "fetched_at": "2026-08-27T05:00:00+08:00",
+      "status": "ok",
+      "error": null,
+      "items": [
+        {
+          "id": "remote_googleplay-e9f1cd68-5b1e-4e00-a270-6105ec820d8b",
+          "source": "remote_googleplay",
+          "title": "★2 app was better before ai. why do these toys even need ai con",
+          "content": "app was better before ai. why do these toys even need ai considering all the horrific stuff associated with it..",
+          "summary": "",
+          "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=e9f1cd68-5b1e-4e00-a270-6105ec820d8b",
+          "timestamp": "2026-08-27T18:44:55+08:00",
+          "category": "negative",
+          "score": 3,
+          "num_comments": 0,
+          "replies": [
+            {
+              "content": "We’re sorry to hear the recent app updates have left you dissatisfied. We welcome the user's comments and suggestions. Please share them with us at https://www.lovense.com/contact. Rest assured, we value your input, and improving user experience is our ongoing commitment. Thanks."
+            }
+          ],
+          "meta": {
+            "product": "remote",
+            "rating": 2,
+            "app_version": "8.5.0",
+            "lang": "en",
+            "country": "us",
+            "dev_replied": true,
+            "topic": "other",
+            "backfilled": true
+          }
+        },
+        {
+          "id": "remote_googleplay-3f8d84b4-e610-4eb5-9b1f-2cff06b079bf",
+          "source": "remote_googleplay",
+          "title": "★1 loved this app until they implemented AI. ill admit i didnt ",
+          "content": "loved this app until they implemented AI. ill admit i didnt use the app often but logging back in and seeing AI slop on a sex toy app is repulsive.",
+          "summary": "",
+          "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=3f8d84b4-e610-4eb5-9b1f-2cff06b079bf",
+          "timestamp": "2026-08-27T16:01:27+08:00",
+          "category": "negative",
+          "score": 3,
+          "num_comments": 0,
+          "replies": [
+            {
+              "content": "We’re sorry the new AI features have left you disappointed. We take your feedback seriously and will pass your thoughts to our product team. Should you wish to share more details, please contact us at https://www.lovense.com/contact and we’ll gladly assist you. Thank you for your understanding and support."
+            }
+          ],
+          "meta": {
+            "product": "remote",
+            "rating": 1,
+            "app_version": null,
+            "lang": "en",
+            "country": "us",
+            "dev_replied": true,
+            "topic": "other",
+            "backfilled": true
+          }
+        }
+      ]
+    },
+    "remote_appstore": {
+      "label": "Remote · App Store",
+      "source": "remote_appstore",
+      "fetched_at": "2026-08-27T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: Apple RSS returns empty since 2026",
+      "items": []
+    },
+    "remote_reddit": {
+      "label": "Remote · Reddit",
+      "source": "remote_reddit",
+      "fetched_at": "2026-08-27T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: no backfillable source available",
+      "items": []
+    },
+    "remote_x": {
+      "label": "Remote · X",
+      "source": "remote_x",
+      "fetched_at": "2026-08-27T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: pending GraphQL SearchTimeline",
+      "items": []
+    },
+    "remote_trustpilot": {
+      "label": "Remote · Trustpilot",
+      "source": "remote_trustpilot",
+      "fetched_at": "2026-08-27T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: Trustpilot blocks scraper IP",
+      "items": []
+    },
+    "remote_games": {
+      "label": "Remote · 游戏社区",
+      "source": "remote_games",
+      "fetched_at": "2026-08-27T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: Steam rate limit",
+      "items": []
+    },
+    "remote_qa": {
+      "label": "Remote · 问答站",
+      "source": "remote_qa",
+      "fetched_at": "2026-08-27T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: justuseapp.com unreachable",
+      "items": []
+    },
+    "remote_news": {
+      "label": "Remote · 新闻",
+      "source": "remote_news",
+      "fetched_at": "2026-08-27T05:20:00+08:00",
+      "status": "ok",
+      "error": null,
+      "items": []
     }
   },
   "summary": {
@@ -313,6 +440,14 @@
     "reddit_vibemate_camgirl_items": 0,
     "cam101_replied": 8,
     "telegram_messages": 0,
-    "x_dm_replied": 0
+    "x_dm_replied": 0,
+    "remote_googleplay_items": 2,
+    "remote_news_items": 0,
+    "remote_appstore_items": 0,
+    "remote_reddit_items": 0,
+    "remote_x_items": 0,
+    "remote_trustpilot_items": 0,
+    "remote_games_items": 0,
+    "remote_qa_items": 0
   }
 }

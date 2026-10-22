@@ -12,7 +12,15 @@
     "cam101_09": "ok",
     "cam101_22": "ok",
     "telegram": "ok",
-    "x_dm": "ok"
+    "x_dm": "ok",
+    "remote_googleplay": "ok",
+    "remote_appstore": "failed",
+    "remote_reddit": "failed",
+    "remote_x": "failed",
+    "remote_trustpilot": "failed",
+    "remote_games": "failed",
+    "remote_qa": "failed",
+    "remote_news": "ok"
   },
   "sources": {
     "reddit": {
@@ -351,6 +359,148 @@
       "summary": {
         "total_replied": 0
       }
+    },
+    "remote_googleplay": {
+      "label": "Remote · Google Play",
+      "source": "remote_googleplay",
+      "fetched_at": "2026-09-03T05:00:00+08:00",
+      "status": "ok",
+      "error": null,
+      "items": [
+        {
+          "id": "remote_googleplay-77f1cb88-f779-40d8-832b-03e665aba37e",
+          "source": "remote_googleplay",
+          "title": "★5 So good",
+          "content": "So good",
+          "summary": "",
+          "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=77f1cb88-f779-40d8-832b-03e665aba37e",
+          "timestamp": "2026-09-03T10:39:25+08:00",
+          "category": "positive",
+          "score": 0,
+          "num_comments": 0,
+          "replies": [],
+          "meta": {
+            "product": "remote",
+            "rating": 5,
+            "app_version": "8.6.1",
+            "lang": "en",
+            "country": "us",
+            "dev_replied": false,
+            "topic": "other",
+            "backfilled": true
+          }
+        },
+        {
+          "id": "remote_googleplay-d1acfff0-c55b-4e4f-bd90-b472f748fda3",
+          "source": "remote_googleplay",
+          "title": "★1 SERIOUSLY! so the devs will let men who are built post shirt",
+          "content": "SERIOUSLY! so the devs will let men who are built post shirtless pictures and will men post pics of the outline of their junk and let women post provocative pictures but a person with an average body especially a male gets rejected? further more your ai algorithm sucks. post rejected because the word boy is associated with children?? y'all really need to pick up a damn book and read and learn one word can have multiple meanings in context.",
+          "summary": "",
+          "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=d1acfff0-c55b-4e4f-bd90-b472f748fda3",
+          "timestamp": "2026-09-03T04:50:52+08:00",
+          "category": "negative",
+          "score": 2,
+          "num_comments": 0,
+          "replies": [
+            {
+              "content": "We sincerely apologize for your unpleasant experience. We take this matter seriously and will continuously improve our review mechanism to deliver a better‑quality environment and enhance user experience. If you have any further questions or feedback, please reach out to us at https://www.lovense.com/contact. We will do our utmost to assist you."
+            }
+          ],
+          "meta": {
+            "product": "remote",
+            "rating": 1,
+            "app_version": "8.6.1",
+            "lang": "en",
+            "country": "us",
+            "dev_replied": true,
+            "topic": "other",
+            "backfilled": true
+          }
+        },
+        {
+          "id": "remote_googleplay-734905b4-ffa0-4f63-9f40-5595ba87c1ed",
+          "source": "remote_googleplay",
+          "title": "★5 super nach gefühlten 100en update kann man die app jetzt auc",
+          "content": "super nach gefühlten 100en update kann man die app jetzt auch mit einem TAB nutzen da sich die app jetzt drehen lässt und dann gibt es natürlich auch 5 Sterne",
+          "summary": "",
+          "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=734905b4-ffa0-4f63-9f40-5595ba87c1ed",
+          "timestamp": "2026-09-03T18:20:43+08:00",
+          "category": "positive",
+          "score": 3,
+          "num_comments": 0,
+          "replies": [
+            {
+              "content": "We’re sorry the new version failed to meet your expectations for user experience. We take the issues you mentioned seriously and have passed them along to our support team. Meanwhile, if you have further details regarding the issue or any other suggestions, please contact us at https://www.lovense.com/contact. We will do our utmost to assist you."
+            }
+          ],
+          "meta": {
+            "product": "remote",
+            "rating": 5,
+            "app_version": "8.6.1",
+            "lang": "de",
+            "country": "de",
+            "dev_replied": true,
+            "topic": "compat",
+            "backfilled": true
+          }
+        }
+      ]
+    },
+    "remote_appstore": {
+      "label": "Remote · App Store",
+      "source": "remote_appstore",
+      "fetched_at": "2026-09-03T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: Apple RSS returns empty since 2026",
+      "items": []
+    },
+    "remote_reddit": {
+      "label": "Remote · Reddit",
+      "source": "remote_reddit",
+      "fetched_at": "2026-09-03T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: no backfillable source available",
+      "items": []
+    },
+    "remote_x": {
+      "label": "Remote · X",
+      "source": "remote_x",
+      "fetched_at": "2026-09-03T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: pending GraphQL SearchTimeline",
+      "items": []
+    },
+    "remote_trustpilot": {
+      "label": "Remote · Trustpilot",
+      "source": "remote_trustpilot",
+      "fetched_at": "2026-09-03T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: Trustpilot blocks scraper IP",
+      "items": []
+    },
+    "remote_games": {
+      "label": "Remote · 游戏社区",
+      "source": "remote_games",
+      "fetched_at": "2026-09-03T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: Steam rate limit",
+      "items": []
+    },
+    "remote_qa": {
+      "label": "Remote · 问答站",
+      "source": "remote_qa",
+      "fetched_at": "2026-09-03T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: justuseapp.com unreachable",
+      "items": []
+    },
+    "remote_news": {
+      "label": "Remote · 新闻",
+      "source": "remote_news",
+      "fetched_at": "2026-09-03T05:20:00+08:00",
+      "status": "ok",
+      "error": null,
+      "items": []
     }
   },
   "summary": {
@@ -360,6 +510,14 @@
     "reddit_vibemate_camgirl_items": 0,
     "cam101_replied": 10,
     "telegram_messages": 0,
-    "x_dm_replied": 0
+    "x_dm_replied": 0,
+    "remote_googleplay_items": 3,
+    "remote_news_items": 0,
+    "remote_appstore_items": 0,
+    "remote_reddit_items": 0,
+    "remote_x_items": 0,
+    "remote_trustpilot_items": 0,
+    "remote_games_items": 0,
+    "remote_qa_items": 0
   }
 }
