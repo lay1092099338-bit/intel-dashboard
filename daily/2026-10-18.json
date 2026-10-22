@@ -12,7 +12,15 @@
     "cam101_09": "ok",
     "cam101_22": "ok",
     "telegram": "ok",
-    "x_dm": "ok"
+    "x_dm": "ok",
+    "remote_googleplay": "ok",
+    "remote_appstore": "failed",
+    "remote_reddit": "failed",
+    "remote_x": "failed",
+    "remote_trustpilot": "failed",
+    "remote_games": "failed",
+    "remote_qa": "failed",
+    "remote_news": "ok"
   },
   "sources": {
     "reddit": {
@@ -390,6 +398,190 @@
       "summary": {
         "total_replied": 0
       }
+    },
+    "remote_googleplay": {
+      "label": "Remote · Google Play",
+      "source": "remote_googleplay",
+      "fetched_at": "2026-10-18T05:00:00+08:00",
+      "status": "ok",
+      "error": null,
+      "items": [
+        {
+          "id": "remote_googleplay-e6b8beab-f38f-47b4-94e7-1ee5cf960da8",
+          "source": "remote_googleplay",
+          "title": "★2 Removal of the link hub/community tab was the worse decision",
+          "content": "Removal of the link hub/community tab was the worse decision regardless of google TOS. how am I supposed to find people to chat and sync with? discord is NOT intuitive whatsoever compared to being able to make a post and or go to the hub and find someone/make hub.",
+          "summary": "",
+          "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=e6b8beab-f38f-47b4-94e7-1ee5cf960da8",
+          "timestamp": "2026-10-18T14:26:41+08:00",
+          "category": "negative",
+          "score": 0,
+          "num_comments": 0,
+          "replies": [
+            {
+              "content": "We are sorry that the recent adjustments and updates have resulted in a poor user experience for you. We will continue to optimize the app moving forward to enhance the overall user experience. If you have any other comments or suggestions, please contact us at https://www.lovense.com/contact, and we will offer further assistance. Thanks."
+            }
+          ],
+          "meta": {
+            "product": "remote",
+            "rating": 2,
+            "app_version": null,
+            "lang": "en",
+            "country": "us",
+            "dev_replied": true,
+            "topic": "feature",
+            "backfilled": true
+          }
+        },
+        {
+          "id": "remote_googleplay-c354ebef-17fc-4f70-b868-64d8af2a3de1",
+          "source": "remote_googleplay",
+          "title": "★1 toy has hard time connecting",
+          "content": "toy has hard time connecting",
+          "summary": "",
+          "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=c354ebef-17fc-4f70-b868-64d8af2a3de1",
+          "timestamp": "2026-10-18T13:24:21+08:00",
+          "category": "negative",
+          "score": 0,
+          "num_comments": 0,
+          "replies": [],
+          "meta": {
+            "product": "remote",
+            "rating": 1,
+            "app_version": null,
+            "lang": "en",
+            "country": "us",
+            "dev_replied": false,
+            "topic": "other",
+            "backfilled": true
+          }
+        },
+        {
+          "id": "remote_googleplay-913b4a29-7256-4261-aebf-8d573b94493d",
+          "source": "remote_googleplay",
+          "title": "★3 meh",
+          "content": "meh",
+          "summary": "",
+          "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=913b4a29-7256-4261-aebf-8d573b94493d",
+          "timestamp": "2026-10-18T00:09:36+08:00",
+          "category": "mixed",
+          "score": 0,
+          "num_comments": 0,
+          "replies": [],
+          "meta": {
+            "product": "remote",
+            "rating": 3,
+            "app_version": null,
+            "lang": "en",
+            "country": "us",
+            "dev_replied": false,
+            "topic": "other",
+            "backfilled": true
+          }
+        },
+        {
+          "id": "remote_googleplay-b15014f9-c7e5-4b84-b5af-7de534914531",
+          "source": "remote_googleplay",
+          "title": "★3 je n’arrive pas a mettre l’application en français malgré qu",
+          "content": "je n’arrive pas a mettre l’application en français malgré que le français est coché.",
+          "summary": "",
+          "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=b15014f9-c7e5-4b84-b5af-7de534914531",
+          "timestamp": "2026-10-18T02:56:10+08:00",
+          "category": "mixed",
+          "score": 0,
+          "num_comments": 0,
+          "replies": [],
+          "meta": {
+            "product": "remote",
+            "rating": 3,
+            "app_version": "8.11.0",
+            "lang": "fr",
+            "country": "fr",
+            "dev_replied": false,
+            "topic": "other",
+            "backfilled": true
+          }
+        },
+        {
+          "id": "remote_googleplay-f2ba5f4f-f054-4f55-9fde-fc332bca9885",
+          "source": "remote_googleplay",
+          "title": "★3 Le doy tres estrellas porque no se puede cambiar al idioma e",
+          "content": "Le doy tres estrellas porque no se puede cambiar al idioma español.",
+          "summary": "",
+          "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=f2ba5f4f-f054-4f55-9fde-fc332bca9885",
+          "timestamp": "2026-10-18T06:37:01+08:00",
+          "category": "mixed",
+          "score": 0,
+          "num_comments": 0,
+          "replies": [],
+          "meta": {
+            "product": "remote",
+            "rating": 3,
+            "app_version": "8.11.0",
+            "lang": "es",
+            "country": "es",
+            "dev_replied": false,
+            "topic": "other",
+            "backfilled": true
+          }
+        }
+      ]
+    },
+    "remote_appstore": {
+      "label": "Remote · App Store",
+      "source": "remote_appstore",
+      "fetched_at": "2026-10-18T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: Apple RSS returns empty since 2026",
+      "items": []
+    },
+    "remote_reddit": {
+      "label": "Remote · Reddit",
+      "source": "remote_reddit",
+      "fetched_at": "2026-10-18T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: no backfillable source available",
+      "items": []
+    },
+    "remote_x": {
+      "label": "Remote · X",
+      "source": "remote_x",
+      "fetched_at": "2026-10-18T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: pending GraphQL SearchTimeline",
+      "items": []
+    },
+    "remote_trustpilot": {
+      "label": "Remote · Trustpilot",
+      "source": "remote_trustpilot",
+      "fetched_at": "2026-10-18T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: Trustpilot blocks scraper IP",
+      "items": []
+    },
+    "remote_games": {
+      "label": "Remote · 游戏社区",
+      "source": "remote_games",
+      "fetched_at": "2026-10-18T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: Steam rate limit",
+      "items": []
+    },
+    "remote_qa": {
+      "label": "Remote · 问答站",
+      "source": "remote_qa",
+      "fetched_at": "2026-10-18T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: justuseapp.com unreachable",
+      "items": []
+    },
+    "remote_news": {
+      "label": "Remote · 新闻",
+      "source": "remote_news",
+      "fetched_at": "2026-10-18T05:20:00+08:00",
+      "status": "ok",
+      "error": null,
+      "items": []
     }
   },
   "summary": {
@@ -399,6 +591,14 @@
     "reddit_vibemate_camgirl_items": 0,
     "cam101_replied": 16,
     "telegram_messages": 0,
-    "x_dm_replied": 0
+    "x_dm_replied": 0,
+    "remote_googleplay_items": 5,
+    "remote_news_items": 0,
+    "remote_appstore_items": 0,
+    "remote_reddit_items": 0,
+    "remote_x_items": 0,
+    "remote_trustpilot_items": 0,
+    "remote_games_items": 0,
+    "remote_qa_items": 0
   }
 }
