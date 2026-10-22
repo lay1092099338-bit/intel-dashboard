@@ -12,7 +12,15 @@
     "cam101_09": "ok",
     "cam101_22": "ok",
     "telegram": "ok",
-    "x_dm": "ok"
+    "x_dm": "ok",
+    "remote_googleplay": "ok",
+    "remote_appstore": "failed",
+    "remote_reddit": "failed",
+    "remote_x": "failed",
+    "remote_trustpilot": "failed",
+    "remote_games": "failed",
+    "remote_qa": "failed",
+    "remote_news": "ok"
   },
   "sources": {
     "reddit": {
@@ -444,6 +452,166 @@
       "summary": {
         "total_replied": 0
       }
+    },
+    "remote_googleplay": {
+      "label": "Remote · Google Play",
+      "source": "remote_googleplay",
+      "fetched_at": "2026-08-07T05:00:00+08:00",
+      "status": "ok",
+      "error": null,
+      "items": [
+        {
+          "id": "remote_googleplay-c00c31e0-c3c5-429a-bec6-2511ad180684",
+          "source": "remote_googleplay",
+          "title": "★1 Updates keep making this frustrating to use and killing the ",
+          "content": "Updates keep making this frustrating to use and killing the mood. Patterns disappear and account issues keep happening repeatedly. Honestly frustrating to use this with a partner. I would stay away and find 3rd party software to use instead.",
+          "summary": "",
+          "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=c00c31e0-c3c5-429a-bec6-2511ad180684",
+          "timestamp": "2026-08-07T12:31:21+08:00",
+          "category": "negative",
+          "score": 4,
+          "num_comments": 0,
+          "replies": [
+            {
+              "content": "We sincerely apologize for the unpleasant experience you’ve had. We are constantly working to optimize the app’s user experience. If you encounter any issues or have suggestions for improvement, please feel free to reach out to us at https://www.lovense.com/contact. We are all ears and ready to offer assistance."
+            }
+          ],
+          "meta": {
+            "product": "remote",
+            "rating": 1,
+            "app_version": "8.3.0",
+            "lang": "en",
+            "country": "us",
+            "dev_replied": true,
+            "topic": "remote_control",
+            "backfilled": true
+          }
+        },
+        {
+          "id": "remote_googleplay-121de954-4a65-4cc1-b8d9-fdcfca6dacee",
+          "source": "remote_googleplay",
+          "title": "★1 je note une étoile car aucun filtres de pays pour se mettre ",
+          "content": "je note une étoile car aucun filtres de pays pour se mettre en relation avec des français sur l'appli par exemple, l'application est que pour les américains et c'est chiant, car la commu France est nombreuse et c'est dommage de ne pas penser à nous, sinon le fait de pouvoir jouer avec sa femme a distance, c'est incroyable. mais le reste c'est à revoir.",
+          "summary": "",
+          "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=121de954-4a65-4cc1-b8d9-fdcfca6dacee",
+          "timestamp": "2026-08-07T02:10:38+08:00",
+          "category": "negative",
+          "score": 3,
+          "num_comments": 0,
+          "replies": [
+            {
+              "content": "We sincerely apologize for the inconvenience. We are constantly working to improve the user experience to better meet users’ needs. We have passed on your suggestion and will review it in future evaluations.\nIf you have any further comments or ideas, please reach out to us via https://www.lovense.com/contact. Thanks."
+            }
+          ],
+          "meta": {
+            "product": "remote",
+            "rating": 1,
+            "app_version": "8.3.0",
+            "lang": "fr",
+            "country": "fr",
+            "dev_replied": true,
+            "topic": "other",
+            "backfilled": true
+          }
+        }
+      ]
+    },
+    "remote_appstore": {
+      "label": "Remote · App Store",
+      "source": "remote_appstore",
+      "fetched_at": "2026-08-07T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: Apple RSS returns empty since 2026",
+      "items": []
+    },
+    "remote_reddit": {
+      "label": "Remote · Reddit",
+      "source": "remote_reddit",
+      "fetched_at": "2026-08-07T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: no backfillable source available",
+      "items": []
+    },
+    "remote_x": {
+      "label": "Remote · X",
+      "source": "remote_x",
+      "fetched_at": "2026-08-07T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: pending GraphQL SearchTimeline",
+      "items": []
+    },
+    "remote_trustpilot": {
+      "label": "Remote · Trustpilot",
+      "source": "remote_trustpilot",
+      "fetched_at": "2026-08-07T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: Trustpilot blocks scraper IP",
+      "items": []
+    },
+    "remote_games": {
+      "label": "Remote · 游戏社区",
+      "source": "remote_games",
+      "fetched_at": "2026-08-07T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: Steam rate limit",
+      "items": []
+    },
+    "remote_qa": {
+      "label": "Remote · 问答站",
+      "source": "remote_qa",
+      "fetched_at": "2026-08-07T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: justuseapp.com unreachable",
+      "items": []
+    },
+    "remote_news": {
+      "label": "Remote · 新闻",
+      "source": "remote_news",
+      "fetched_at": "2026-08-07T05:20:00+08:00",
+      "status": "ok",
+      "error": null,
+      "items": [
+        {
+          "id": "remote_news-J1eW5ySmdVMFExczR0Qm01ZmZpUEZJSFJoNXVsQi1hSjc5R3lfZFhOSjFwZk5Wa0F0aEJpWWx5eFRyQQ",
+          "source": "remote_news",
+          "title": "Lovense Lush 4 review - Mamabella",
+          "content": "Lovense Lush 4 review  Mamabella\n\n[来源 Source] Mamabella",
+          "summary": "",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE55WFJ0OEpOYUdfRGp2eV9qR0VPQUh3cExYZFhGdzY3TmJObzJ1eW5ySmdVMFExczR0Qm01ZmZpUEZJSFJoNXVsQi1hSjc5R3lfZFhOSjFwZk5Wa0F0aEJpWWx5eFRyQQ?oc=5",
+          "timestamp": "2026-08-07T15:00:00+08:00",
+          "category": "neutral",
+          "score": 0,
+          "num_comments": 0,
+          "replies": [],
+          "meta": {
+            "product": "remote",
+            "news_source": "Mamabella",
+            "topic": "other",
+            "lang": "en",
+            "backfilled": true
+          }
+        },
+        {
+          "id": "remote_news-RmI5UjN2dXN2WG9DWmZYbHN5MFlXRGFIN0RWdXM2TDg4OW8tbGNPdmNtMUtXVFVUTlBFaVd1VW1aTUpC",
+          "source": "remote_news",
+          "title": "Lovense Lush 3 Love Egg - Mamabella",
+          "content": "Lovense Lush 3 Love Egg  Mamabella\n\n[来源 Source] Mamabella",
+          "summary": "",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBMaUI4R093Tzl0OXl4TG9HdW0xalRuZ1NwN1lzNU42RllHTGVwRmI5UjN2dXN2WG9DWmZYbHN5MFlXRGFIN0RWdXM2TDg4OW8tbGNPdmNtMUtXVFVUTlBFaVd1VW1aTUpC?oc=5",
+          "timestamp": "2026-08-07T15:00:00+08:00",
+          "category": "neutral",
+          "score": 0,
+          "num_comments": 0,
+          "replies": [],
+          "meta": {
+            "product": "remote",
+            "news_source": "Mamabella",
+            "topic": "praise",
+            "lang": "en",
+            "backfilled": true
+          }
+        }
+      ]
     }
   },
   "summary": {
@@ -453,6 +621,14 @@
     "reddit_vibemate_camgirl_items": 0,
     "cam101_replied": 14,
     "telegram_messages": 0,
-    "x_dm_replied": 0
+    "x_dm_replied": 0,
+    "remote_googleplay_items": 2,
+    "remote_news_items": 2,
+    "remote_appstore_items": 0,
+    "remote_reddit_items": 0,
+    "remote_x_items": 0,
+    "remote_trustpilot_items": 0,
+    "remote_games_items": 0,
+    "remote_qa_items": 0
   }
 }
