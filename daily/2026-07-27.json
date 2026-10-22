@@ -12,7 +12,15 @@
     "cam101_09": "ok",
     "cam101_22": "ok",
     "telegram": "ok",
-    "x_dm": "ok"
+    "x_dm": "ok",
+    "remote_googleplay": "ok",
+    "remote_appstore": "failed",
+    "remote_reddit": "failed",
+    "remote_x": "failed",
+    "remote_trustpilot": "failed",
+    "remote_games": "failed",
+    "remote_qa": "failed",
+    "remote_news": "ok"
   },
   "sources": {
     "reddit": {
@@ -313,6 +321,196 @@
       "summary": {
         "total_replied": 0
       }
+    },
+    "remote_googleplay": {
+      "label": "Remote · Google Play",
+      "source": "remote_googleplay",
+      "fetched_at": "2026-07-27T05:00:00+08:00",
+      "status": "ok",
+      "error": null,
+      "items": [
+        {
+          "id": "remote_googleplay-81a3d743-e2cb-4cf3-9e11-e0fa96bc1894",
+          "source": "remote_googleplay",
+          "title": "★1 Filled with AI slop and leaning way too heavy into microtran",
+          "content": "Filled with AI slop and leaning way too heavy into microtransactions and trying to sell you more of their products",
+          "summary": "",
+          "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=81a3d743-e2cb-4cf3-9e11-e0fa96bc1894",
+          "timestamp": "2026-07-27T19:33:31+08:00",
+          "category": "negative",
+          "score": 4,
+          "num_comments": 0,
+          "replies": [
+            {
+              "content": "We sincerely regret that our app has failed to meet your expectations. All user opinions are taken seriously by our team as we continue to improve the platform. You can reach out to us at https://www.lovense.com/contact if you want to elaborate further. We look forward to your reply. Thanks."
+            }
+          ],
+          "meta": {
+            "product": "remote",
+            "rating": 1,
+            "app_version": "8.0.1",
+            "lang": "en",
+            "country": "us",
+            "dev_replied": true,
+            "topic": "other",
+            "backfilled": true
+          }
+        },
+        {
+          "id": "remote_googleplay-5f67842c-620c-440a-8b0d-e9f2382f5769",
+          "source": "remote_googleplay",
+          "title": "★1 dear god y'all ruined the app with this update. I don't want",
+          "content": "dear god y'all ruined the app with this update. I don't want to see other people's feet when I open this app. I don't want to use the ai companion",
+          "summary": "",
+          "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=5f67842c-620c-440a-8b0d-e9f2382f5769",
+          "timestamp": "2026-07-27T06:08:32+08:00",
+          "category": "negative",
+          "score": 5,
+          "num_comments": 0,
+          "replies": [
+            {
+              "content": "We are sorry that the recent update failed to meet your expectations. Your experience matters greatly to our team, and we take every user suggestion seriously as we keep improving the app. You can contact us athttps://www.lovense.com/contact for further discussion."
+            }
+          ],
+          "meta": {
+            "product": "remote",
+            "rating": 1,
+            "app_version": null,
+            "lang": "en",
+            "country": "us",
+            "dev_replied": true,
+            "topic": "compat",
+            "backfilled": true
+          }
+        },
+        {
+          "id": "remote_googleplay-e79f9594-6cd0-458c-a9c6-4fe35a925d23",
+          "source": "remote_googleplay",
+          "title": "★3 Numerous disconnections and issues with controlling power le",
+          "content": "Numerous disconnections and issues with controlling power level after update",
+          "summary": "",
+          "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=e79f9594-6cd0-458c-a9c6-4fe35a925d23",
+          "timestamp": "2026-07-27T04:05:20+08:00",
+          "category": "mixed",
+          "score": 0,
+          "num_comments": 0,
+          "replies": [],
+          "meta": {
+            "product": "remote",
+            "rating": 3,
+            "app_version": "8.2.0",
+            "lang": "en",
+            "country": "us",
+            "dev_replied": false,
+            "topic": "connection",
+            "backfilled": true
+          }
+        },
+        {
+          "id": "remote_googleplay-87d1fd91-d959-40f5-afbf-932f779ec38d",
+          "source": "remote_googleplay",
+          "title": "★1 you ruined it with the last update, complete mess, creating ",
+          "content": "you ruined it with the last update, complete mess, creating your own patterns is not a thing anymore and the app itself became really confusing, it doesn't make sense",
+          "summary": "",
+          "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=87d1fd91-d959-40f5-afbf-932f779ec38d",
+          "timestamp": "2026-07-27T09:15:55+08:00",
+          "category": "negative",
+          "score": 0,
+          "num_comments": 0,
+          "replies": [
+            {
+              "content": "We are sorry the recent update has disappointed you. We take your concerns about custom patterns and the confusing interface seriously and will continue to improve the application. Feel free to email further thoughts to https://www.lovense.com/contact and we will provide the further support."
+            }
+          ],
+          "meta": {
+            "product": "remote",
+            "rating": 1,
+            "app_version": null,
+            "lang": "es",
+            "country": "es",
+            "dev_replied": true,
+            "topic": "compat",
+            "backfilled": true
+          }
+        }
+      ]
+    },
+    "remote_appstore": {
+      "label": "Remote · App Store",
+      "source": "remote_appstore",
+      "fetched_at": "2026-07-27T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: Apple RSS returns empty since 2026",
+      "items": []
+    },
+    "remote_reddit": {
+      "label": "Remote · Reddit",
+      "source": "remote_reddit",
+      "fetched_at": "2026-07-27T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: no backfillable source available",
+      "items": []
+    },
+    "remote_x": {
+      "label": "Remote · X",
+      "source": "remote_x",
+      "fetched_at": "2026-07-27T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: pending GraphQL SearchTimeline",
+      "items": []
+    },
+    "remote_trustpilot": {
+      "label": "Remote · Trustpilot",
+      "source": "remote_trustpilot",
+      "fetched_at": "2026-07-27T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: Trustpilot blocks scraper IP",
+      "items": []
+    },
+    "remote_games": {
+      "label": "Remote · 游戏社区",
+      "source": "remote_games",
+      "fetched_at": "2026-07-27T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: Steam rate limit",
+      "items": []
+    },
+    "remote_qa": {
+      "label": "Remote · 问答站",
+      "source": "remote_qa",
+      "fetched_at": "2026-07-27T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: justuseapp.com unreachable",
+      "items": []
+    },
+    "remote_news": {
+      "label": "Remote · 新闻",
+      "source": "remote_news",
+      "fetched_at": "2026-07-27T05:20:00+08:00",
+      "status": "ok",
+      "error": null,
+      "items": [
+        {
+          "id": "remote_news-VHZHdzSGprX0NMNlFaUDhfS0dYcnViTE9hUVBWUDByeEVVNzMwUEF3LWxFLUd3TFJzRjlxZ3JCdjB0QQ",
+          "source": "remote_news",
+          "title": "Lovense Launches Remote 8.0 With an Upgraded Ecosystem Experience - Yahoo Finance",
+          "content": "Lovense Launches Remote 8.0 With an Upgraded Ecosystem Experience  Yahoo Finance\n\n[来源 Source] Yahoo Finance",
+          "summary": "",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQcGFHOFhtNjI5TGdDcWgya2lqdGVhTjNiTFNZazg4TnpBM1d1YmM1Q1NkZU9qREI1dkJad1Y5UFF4dUw4Z0NSaWsxUnVTaUxYMGUwZ0JHalVHZHdzSGprX0NMNlFaUDhfS0dYcnViTE9hUVBWUDByeEVVNzMwUEF3LWxFLUd3TFJzRjlxZ3JCdjB0QQ?oc=5",
+          "timestamp": "2026-07-27T15:00:00+08:00",
+          "category": "positive",
+          "score": 0,
+          "num_comments": 0,
+          "replies": [],
+          "meta": {
+            "product": "remote",
+            "news_source": "Yahoo Finance",
+            "topic": "other",
+            "lang": "en",
+            "backfilled": true
+          }
+        }
+      ]
     }
   },
   "summary": {
@@ -322,6 +520,14 @@
     "reddit_vibemate_camgirl_items": 0,
     "cam101_replied": 5,
     "telegram_messages": 0,
-    "x_dm_replied": 0
+    "x_dm_replied": 0,
+    "remote_googleplay_items": 4,
+    "remote_news_items": 1,
+    "remote_appstore_items": 0,
+    "remote_reddit_items": 0,
+    "remote_x_items": 0,
+    "remote_trustpilot_items": 0,
+    "remote_games_items": 0,
+    "remote_qa_items": 0
   }
 }
