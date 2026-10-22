@@ -12,7 +12,15 @@
     "cam101_09": "ok",
     "cam101_22": "ok",
     "telegram": "ok",
-    "x_dm": "ok"
+    "x_dm": "ok",
+    "remote_googleplay": "ok",
+    "remote_appstore": "failed",
+    "remote_reddit": "failed",
+    "remote_x": "failed",
+    "remote_trustpilot": "failed",
+    "remote_games": "failed",
+    "remote_qa": "failed",
+    "remote_news": "ok"
   },
   "sources": {
     "reddit": {
@@ -268,6 +276,182 @@
       "summary": {
         "total_replied": 1
       }
+    },
+    "remote_googleplay": {
+      "label": "Remote · Google Play",
+      "source": "remote_googleplay",
+      "fetched_at": "2026-10-21T05:00:00+08:00",
+      "status": "ok",
+      "error": null,
+      "items": [
+        {
+          "id": "remote_googleplay-dae52960-d5fc-47de-9a59-fbe9d2bd2026",
+          "source": "remote_googleplay",
+          "title": "★1 unstable connections, removed community, no users, trash.",
+          "content": "unstable connections, removed community, no users, trash.",
+          "summary": "",
+          "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=dae52960-d5fc-47de-9a59-fbe9d2bd2026",
+          "timestamp": "2026-10-21T13:17:18+08:00",
+          "category": "negative",
+          "score": 0,
+          "num_comments": 0,
+          "replies": [
+            {
+              "content": "We sincerely apologize for the unpleasant user experience you have encountered. We will keep optimizing the app in future updates to improve user experience. Should you have any other comments or suggestions, please reach out to us at https://www.lovense.com/contact, and we will provide further assistance. Thanks."
+            }
+          ],
+          "meta": {
+            "product": "remote",
+            "rating": 1,
+            "app_version": "8.11.0",
+            "lang": "en",
+            "country": "us",
+            "dev_replied": true,
+            "topic": "other",
+            "backfilled": true
+          }
+        },
+        {
+          "id": "remote_googleplay-d9971270-97f3-4862-906f-6e3a857e2103",
+          "source": "remote_googleplay",
+          "title": "★3 decent for short use (20ish minutes) but awful for long uses",
+          "content": "decent for short use (20ish minutes) but awful for long uses, very unreliable servers",
+          "summary": "",
+          "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=d9971270-97f3-4862-906f-6e3a857e2103",
+          "timestamp": "2026-10-21T13:14:10+08:00",
+          "category": "mixed",
+          "score": 0,
+          "num_comments": 0,
+          "replies": [],
+          "meta": {
+            "product": "remote",
+            "rating": 3,
+            "app_version": "8.11.0",
+            "lang": "en",
+            "country": "us",
+            "dev_replied": false,
+            "topic": "remote_control",
+            "backfilled": true
+          }
+        }
+      ]
+    },
+    "remote_appstore": {
+      "label": "Remote · App Store",
+      "source": "remote_appstore",
+      "fetched_at": "2026-10-21T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: Apple RSS returns empty since 2026",
+      "items": []
+    },
+    "remote_reddit": {
+      "label": "Remote · Reddit",
+      "source": "remote_reddit",
+      "fetched_at": "2026-10-21T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: no backfillable source available",
+      "items": []
+    },
+    "remote_x": {
+      "label": "Remote · X",
+      "source": "remote_x",
+      "fetched_at": "2026-10-21T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: pending GraphQL SearchTimeline",
+      "items": []
+    },
+    "remote_trustpilot": {
+      "label": "Remote · Trustpilot",
+      "source": "remote_trustpilot",
+      "fetched_at": "2026-10-21T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: Trustpilot blocks scraper IP",
+      "items": []
+    },
+    "remote_games": {
+      "label": "Remote · 游戏社区",
+      "source": "remote_games",
+      "fetched_at": "2026-10-21T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: Steam rate limit",
+      "items": []
+    },
+    "remote_qa": {
+      "label": "Remote · 问答站",
+      "source": "remote_qa",
+      "fetched_at": "2026-10-21T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: justuseapp.com unreachable",
+      "items": []
+    },
+    "remote_news": {
+      "label": "Remote · 新闻",
+      "source": "remote_news",
+      "fetched_at": "2026-10-21T05:20:00+08:00",
+      "status": "ok",
+      "error": null,
+      "items": [
+        {
+          "id": "remote_news-EbFBONUdBOFVMb0RzNTFZZGJ3NGZ2d0o5QW1qbks1TFVHV25pOFU2MFVaX3dBQ0pVNEJ3Ujdic0NJMmc",
+          "source": "remote_news",
+          "title": "Lovense Publishes the Distance Index 2026, a Startling Annual Report on Long-Distance Intimacy - Yahoo Finance",
+          "content": "Lovense Publishes the Distance Index 2026, a Startling Annual Report on Long-Distance Intimacy  Yahoo Finance\n\n[来源 Source] Yahoo Finance",
+          "summary": "",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPc0F0RzludjVMVWVjaUxTd0wxSjJwRm56N3BCZlZDTzQzbDdtZko0b2ZtSThmaG5ZUm9YajZ6TFpiX1Q3UjZoYktackdXNG5zRHNOZWVKU3JUcXJvYmFBSmkxOUVEbFBONUdBOFVMb0RzNTFZZGJ3NGZ2d0o5QW1qbks1TFVHV25pOFU2MFVaX3dBQ0pVNEJ3Ujdic0NJMmc?oc=5",
+          "timestamp": "2026-10-21T19:00:00+08:00",
+          "category": "positive",
+          "score": 0,
+          "num_comments": 0,
+          "replies": [],
+          "meta": {
+            "product": "remote",
+            "news_source": "Yahoo Finance",
+            "topic": "other",
+            "lang": "en",
+            "backfilled": true
+          }
+        },
+        {
+          "id": "remote_news-0enJQUUNpVFZ5ZTBQU3VZRnFVLTR2MlNTWHJDTHRJVExzeDl5dUdGZjNPWW5WckVpLTQtMjA3N3FQMjc",
+          "source": "remote_news",
+          "title": "Lovense Launches Glint, a Touch-Responsive Butt Plug That Syncs Anal Stimulation with a Partner's Thrust During Intercourse - PR Newswire",
+          "content": "Lovense Launches Glint, a Touch-Responsive Butt Plug That Syncs Anal Stimulation with a Partner's Thrust During Intercourse  PR Newswire\n\n[来源 Source] PR Newswire",
+          "summary": "",
+          "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxORlliTlBpSTh3Q3VPYzhsOTlCX0VlMjdxQ280OHpTRExxS3I4WTNOTmNuVFpCME5qZGZTdG9vTHJycmFINGlSdmtsdDdtMzhxU2YtXzdNOWJHVFhRT21LbUJvQTNwMGpoWEstNFczQm40NmRyaWhTTGlkYkVtd2lTTXBFa2s2VDY3Xy02Nk5XamxNN1dzeTIxbXlhcDBVRk5aZW01OXZPRXFXU0ZUUkktMVMwVHJKVkpOeEJHZURnREczbmI3bm80MEx2azE0enJQUUNpVFZ5ZTBQU3VZRnFVLTR2MlNTWHJDTHRJVExzeDl5dUdGZjNPWW5WckVpLTQtMjA3N3FQMjc?oc=5",
+          "timestamp": "2026-10-21T10:57:00+08:00",
+          "category": "positive",
+          "score": 0,
+          "num_comments": 0,
+          "replies": [],
+          "meta": {
+            "product": "remote",
+            "news_source": "PR Newswire",
+            "topic": "remote_control",
+            "lang": "en",
+            "backfilled": true
+          }
+        },
+        {
+          "id": "remote_news-MwLVJqSU9jWF9nbEpsLWlmOEpwS3p1UWI4ZkEwRFR0ekQxUzFNQ01SMDNoMU5ZTlc1MXBfLUlzSzl1dw",
+          "source": "remote_news",
+          "title": "Lovense Launches Glint, a Touch-Responsive Butt Plug That Syncs Anal Stimulation with a Partner's Thrust During Intercourse - Cherokee Tribune",
+          "content": "Lovense Launches Glint, a Touch-Responsive Butt Plug That Syncs Anal Stimulation with a Partner's Thrust During Intercourse  Cherokee Tribune\n\n[来源 Source] Cherokee Tribune",
+          "summary": "",
+          "url": "https://news.google.com/rss/articles/CBMitAJBVV95cUxNMVF0eGFldEJKODZ5aHYzUE1jWGlxdVJEQ3dzSDNyZm9wWFVsUXpyMGdrcFB5djJGbFUwZWQwQzZFd2FqRWtYY1hxYko2RXdlWFFSa2ZrRmFfRl9MY0hUbEdBNFptUjd4Qzludnp5cWs4TDIyRUZ5blE0N0RjN1pwUDZPQ1hQb2pVOGppRXRqZ1BuTm9ORXduSFpJUzYzWFVuT2FyZTlxZ19NWmRRalBJczktQThPX3FDSVBRVmNfb2hFWDlzdjBVZE1Zc3BkUUdFNFBWelgtNU5JNlIzNEVobmYxWnVsSS1MLUxlZ2F2QThSX0JqOXlvR1MwLVJqSU9jWF9nbEpsLWlmOEpwS3p1UWI4ZkEwRFR0ekQxUzFNQ01SMDNoMU5ZTlc1MXBfLUlzSzl1dw?oc=5",
+          "timestamp": "2026-10-21T10:57:00+08:00",
+          "category": "positive",
+          "score": 0,
+          "num_comments": 0,
+          "replies": [],
+          "meta": {
+            "product": "remote",
+            "news_source": "Cherokee Tribune",
+            "topic": "remote_control",
+            "lang": "en",
+            "backfilled": true
+          }
+        }
+      ]
     }
   },
   "summary": {
@@ -277,6 +461,14 @@
     "reddit_vibemate_camgirl_items": 0,
     "cam101_replied": 5,
     "telegram_messages": 0,
-    "x_dm_replied": 1
+    "x_dm_replied": 1,
+    "remote_googleplay_items": 2,
+    "remote_news_items": 3,
+    "remote_appstore_items": 0,
+    "remote_reddit_items": 0,
+    "remote_x_items": 0,
+    "remote_trustpilot_items": 0,
+    "remote_games_items": 0,
+    "remote_qa_items": 0
   }
 }
