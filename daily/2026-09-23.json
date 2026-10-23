@@ -1,0 +1,398 @@
+{
+  "captureDate": "2026-09-23",
+  "date": "2026-09-23",
+  "generatedAt": "2026-09-23T23:00:00+08:00",
+  "generated_at": "2026-09-23 23:00",
+  "exportStatus": "partial",
+  "sourceStatuses": {
+    "reddit": "failed",
+    "handy": "failed",
+    "reddit_vibemate_fam": "failed",
+    "reddit_vibemate_camgirl": "failed",
+    "cam101": "failed",
+    "telegram": "failed",
+    "x_dm": "failed",
+    "remote_googleplay": "ok",
+    "remote_appstore": "failed",
+    "remote_reddit": "failed",
+    "remote_x": "failed",
+    "remote_trustpilot": "failed",
+    "remote_games": "failed",
+    "remote_news": "ok"
+  },
+  "sources": {
+    "reddit": {
+      "items": [],
+      "fetched_at": "2026-10-21T07:00:09.439372+08:00",
+      "search_status": "ok",
+      "rss_status": "ok",
+      "pullpush_status": "disabled",
+      "overall_status": "ok",
+      "status": "failed",
+      "error": "historical data not available"
+    },
+    "handy": {
+      "items": [],
+      "posts": 4,
+      "comments": 0,
+      "fetched_at": "2026-10-21T08:30:08.963401+08:00",
+      "status": "failed",
+      "error": "historical data not available"
+    },
+    "reddit_vibemate_fam": {
+      "date": "2026-10-21",
+      "generated_at": "11:02",
+      "subreddit": "VibeMateFam",
+      "items": [],
+      "_note": "Reddit auth cookies expired (reddit_session: 2026-09-27, token_v2: 2026-04-01). API returned 403. Manual re-login required.",
+      "status": "failed",
+      "error": "historical data not available"
+    },
+    "reddit_vibemate_camgirl": {
+      "date": "2026-10-21",
+      "generated_at": "10:02",
+      "subreddit": "CamGirlProblems",
+      "keyword": "vibemate",
+      "items": [],
+      "_fetch_status": "blocked",
+      "_fetch_note": "Reddit API returned 403 for all requests from this server IP. Token also expired (401 on OAuth). Results may be incomplete.",
+      "status": "failed",
+      "error": "historical data not available"
+    },
+    "cam101": {
+      "slot_09": {
+        "run_time": "2026-10-21 09:00",
+        "slot": "09",
+        "replied": [],
+        "skipped_count": 0,
+        "error": "historical data not available"
+      },
+      "slot_22": {
+        "run_time": "2026-10-19 22:00",
+        "slot": "22",
+        "replied": [],
+        "skipped_count": 0,
+        "error": "historical data not available"
+      },
+      "all_replied": [],
+      "error": "historical data not available"
+    },
+    "telegram": {
+      "date_range": "2026-10-20 ~ 2026-10-21",
+      "generated_at": "2026-10-21 14:00 UTC+08:00",
+      "source": "local_storage_v3",
+      "groups": {
+        "-1001839056771": {
+          "name": "Lovense Better Camming",
+          "type": "模特群"
+        },
+        "-1002451488990": {
+          "name": "VibeMate PC Extension",
+          "type": "用户群"
+        },
+        "-1002866825060": {
+          "name": "Lovense Better Camming 1.0",
+          "type": "模特群"
+        }
+      },
+      "total_messages": 0,
+      "group_stats": {
+        "Lovense Better Camming": {
+          "type": "模特群",
+          "count": 0
+        },
+        "VibeMate PC Extension": {
+          "type": "用户群",
+          "count": 0
+        },
+        "Lovense Better Camming 1.0": {
+          "type": "模特群",
+          "count": 0
+        }
+      },
+      "poller_status": "unknown",
+      "messages": []
+    },
+    "x_dm": {
+      "date": "2026-10-22",
+      "generated_at": "04:17 UTC+8",
+      "accounts": {
+        "vibemate_pc": {
+          "account": "@Vibemate_PC",
+          "status": "ok",
+          "replied_dms": [
+            {
+              "user": "@maexltl",
+              "original": "Do u at least get good stories out of it",
+              "reply": "Oh definitely 😄 Not all stories, but sometimes someone just nails a setup and it's genuinely impressive. That kind of thing makes the day.",
+              "note": "Playful casual DM conversation — user was asking if we get interesting stories from cam creators. Replied in kind with a light, genuine tone. No product info needed."
+            }
+          ],
+          "replied_notifications": [],
+          "skipped_count": 13,
+          "error": null
+        },
+        "vibemate_offical": {
+          "account": "@VibeMateOffical",
+          "status": "empty",
+          "replied_dms": [],
+          "skipped_count": 0,
+          "error": null
+        },
+        "assistant_cam": {
+          "account": "@Assistant_cam",
+          "status": "empty",
+          "replied_dms": [],
+          "skipped_count": 3,
+          "error": null
+        }
+      },
+      "summary": {
+        "total_replied": 1
+      }
+    },
+    "remote_googleplay": {
+      "label": "Remote · Google Play",
+      "source": "remote_googleplay",
+      "fetched_at": "2026-09-23T23:00:00+08:00",
+      "status": "ok",
+      "error": null,
+      "items": [
+        {
+          "id": "remote_googleplay-5ba911e4-15fb-41d7-8017-4ec13bea38e5",
+          "source": "remote_googleplay",
+          "title": "★1 This app has become garbage. videos/ pictures will not send ",
+          "content": "This app has become garbage. videos/ pictures will not send no matter what and texts take 30+ seconds. The company has slowly trickled in AI stuff, but refuses to fix even the basics. It's gotten worse over the years. it's terrible.",
+          "summary": "视频/图片无法发送，消息延迟30秒以上，应用质量持续变差",
+          "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=5ba911e4-15fb-41d7-8017-4ec13bea38e5",
+          "timestamp": "2026-09-23T20:20:52+08:00",
+          "category": "negative",
+          "score": 2,
+          "num_comments": 0,
+          "replies": [
+            {
+              "content": "We’re sorry to hear you’re facing these frustrating issues. We fully understand your disappointment. Please reach out via https://www.lovense.com/contact with details, and our team will look into this for you. Thank you."
+            }
+          ],
+          "meta": {
+            "product": "remote",
+            "rating": 1,
+            "app_version": "8.7.0",
+            "lang": "en",
+            "country": "us",
+            "dev_replied": true,
+            "topic": "other"
+          }
+        },
+        {
+          "id": "remote_googleplay-307b9d6a-5d4b-4ba4-a490-18ffa1e5d97b",
+          "source": "remote_googleplay",
+          "title": "★1 If you want a simple app to control your adult toys, look so",
+          "content": "If you want a simple app to control your adult toys, look somewhere else. This thing here is a social network, even if you don't want it. It is also a bloated half-gigabyte app full of flashy moving icons, ads for more products, and lots of AI content. All of that bloat detracts from from the real objective: control the expensive adult toys to have a more intimate human relationship with your partner.",
+          "summary": "应用臃肿达半GB，充斥社交、广告和AI内容，核心玩具控制功能被严重稀释",
+          "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=307b9d6a-5d4b-4ba4-a490-18ffa1e5d97b",
+          "timestamp": "2026-09-23T06:32:00+08:00",
+          "category": "negative",
+          "score": 2,
+          "num_comments": 0,
+          "replies": [
+            {
+              "content": "We truly understand your frustration and are sorry that your experience has not met your expectations. We listen closely to our users and sincerely appreciate you taking the time to share this valuable feedback with us. Please reach out via https://www.lovense.com/contact with more details so our team can review your concerns.Wish you all the best."
+            }
+          ],
+          "meta": {
+            "product": "remote",
+            "rating": 1,
+            "app_version": "8.7.0",
+            "lang": "en",
+            "country": "us",
+            "dev_replied": true,
+            "topic": "remote_control"
+          }
+        },
+        {
+          "id": "remote_googleplay-88fa6a40-7443-4bbe-b232-aa2e3877bd70",
+          "source": "remote_googleplay",
+          "title": "★1 The AI companion is completely broken. I can no longer send ",
+          "content": "The AI companion is completely broken. I can no longer send messages to it and in the strange occurrence it gets to happen. It doesn't reply at all.",
+          "summary": "AI伴侣功能彻底损坏，无法发送消息，偶发情况下也不回复",
+          "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=88fa6a40-7443-4bbe-b232-aa2e3877bd70",
+          "timestamp": "2026-09-23T06:29:26+08:00",
+          "category": "negative",
+          "score": 5,
+          "num_comments": 0,
+          "replies": [
+            {
+              "content": "We are sorry to hear your AI Companion is not working properly and that you cannot send messages or receive replies. We take this issue seriously and value your feedback. Please reach out via https://www.lovense.com/contact with more details, and our team will investigate and assist you. Thank you so much.\n"
+            }
+          ],
+          "meta": {
+            "product": "remote",
+            "rating": 1,
+            "app_version": "8.7.0",
+            "lang": "en",
+            "country": "us",
+            "dev_replied": true,
+            "topic": "other"
+          }
+        },
+        {
+          "id": "remote_googleplay-29365e1f-0e8f-4afa-a422-aceaff167ddf",
+          "source": "remote_googleplay",
+          "title": "★1 music player sync functionality has stopped working, cant sy",
+          "content": "music player sync functionality has stopped working, cant sync up to my own music or videos anymore will uninstall and find a different toy company if not fixed soon",
+          "summary": "音乐播放器同步功能已失效，无法同步音乐和视频，威胁卸载",
+          "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=29365e1f-0e8f-4afa-a422-aceaff167ddf",
+          "timestamp": "2026-09-23T05:36:55+08:00",
+          "category": "negative",
+          "score": 1,
+          "num_comments": 0,
+          "replies": [
+            {
+              "content": "We are sorry to hear the issue you met. Please contact us at https://www.lovense.com/contact and we will provide further assistance. Thanks."
+            }
+          ],
+          "meta": {
+            "product": "remote",
+            "rating": 1,
+            "app_version": "7.69.1",
+            "lang": "en",
+            "country": "us",
+            "dev_replied": true,
+            "topic": "feature"
+          }
+        },
+        {
+          "id": "remote_googleplay-7f072196-59b6-4c53-808f-529bc224c9ce",
+          "source": "remote_googleplay",
+          "title": "★5 ngl a lot bots",
+          "content": "ngl a lot bots",
+          "summary": "平台上存在大量机器人账号",
+          "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=7f072196-59b6-4c53-808f-529bc224c9ce",
+          "timestamp": "2026-09-23T18:20:52+08:00",
+          "category": "positive",
+          "score": 0,
+          "num_comments": 0,
+          "replies": [],
+          "meta": {
+            "product": "remote",
+            "rating": 5,
+            "app_version": null,
+            "lang": "de",
+            "country": "de",
+            "dev_replied": false,
+            "topic": "other"
+          }
+        },
+        {
+          "id": "remote_googleplay-bb2fb078-73d6-4d82-bfbb-646f10ea7fb9",
+          "source": "remote_googleplay",
+          "title": "★2 Überlaufen von Bots, Scammern und Sexworkern. Es wird offen ",
+          "content": "Überlaufen von Bots, Scammern und Sexworkern. Es wird offen kommuniziert, dass man Geld verlangt. Und das obwohl es eigentlich verboten ist. Hat sich das geändert? Support unternimmt nichts. Freundesanfragen in Control Links funktionieren zur Zeit nicht. Man nimmt sie an, aber es passiert nichts.",
+          "summary": "平台充斥机器人、骗子和性工作者，客服不作为，好友申请功能也失效",
+          "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=bb2fb078-73d6-4d82-bfbb-646f10ea7fb9",
+          "timestamp": "2026-09-23T15:59:58+08:00",
+          "category": "negative",
+          "score": 1,
+          "num_comments": 0,
+          "replies": [
+            {
+              "content": "We are sorry you are experiencing these issues. We are actively fighting bots and scammers and enforcing our platform rules. Please use the report function to flag violations. Also regarding the Control Link issue you mentioned, please contact us athttps://www.lovense.com/contact for our support team to review your case. Thanks."
+            }
+          ],
+          "meta": {
+            "product": "remote",
+            "rating": 2,
+            "app_version": "8.7.0",
+            "lang": "de",
+            "country": "de",
+            "dev_replied": true,
+            "topic": "remote_control"
+          }
+        }
+      ]
+    },
+    "remote_appstore": {
+      "label": "Remote · App Store",
+      "source": "remote_appstore",
+      "fetched_at": "2026-10-21T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: Apple RSS returns empty since 2026",
+      "items": []
+    },
+    "remote_reddit": {
+      "label": "Remote · Reddit",
+      "source": "remote_reddit",
+      "fetched_at": "2026-10-21T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: no backfillable source available",
+      "items": []
+    },
+    "remote_x": {
+      "label": "Remote · X",
+      "source": "remote_x",
+      "fetched_at": "2026-10-21T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: pending GraphQL SearchTimeline",
+      "items": []
+    },
+    "remote_trustpilot": {
+      "label": "Remote · Trustpilot",
+      "source": "remote_trustpilot",
+      "fetched_at": "2026-10-21T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: Trustpilot blocks scraper IP",
+      "items": []
+    },
+    "remote_games": {
+      "label": "Remote · 游戏社区",
+      "source": "remote_games",
+      "fetched_at": "2026-10-21T05:00:00+08:00",
+      "status": "failed",
+      "error": "backfilled placeholder: Steam rate limit",
+      "items": []
+    },
+    "remote_news": {
+      "label": "Remote · 新闻",
+      "source": "remote_news",
+      "fetched_at": "2026-09-23T23:00:00+08:00",
+      "status": "ok",
+      "error": null,
+      "items": [
+        {
+          "id": "remote_news-o2LUxtM3ExXzZTSkJ4MUNPckw0MHJwaXVNTnJ5VHFUVHM2dGV2akZYX3hpMGlFREdTc1FjN1dIendXNA",
+          "source": "remote_news",
+          "title": "NVIDIA AI is coming to Lovense’s next-generation Solace device - TechBullion",
+          "content": "NVIDIA AI is coming to Lovense’s next-generation Solace device  TechBullion\n\n[来源 Source] TechBullion",
+          "summary": "Lovense下一代Solace设备将搭载NVIDIA AI技术",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSUtyRjRKelc2c1V1QVV0ZFZnXzUtSlhjNWc0em9DSzVYN282X3RqcXN1cUdpUjVpSzJJUW91RTFER3FwblVYcjZQRjV0R1g4S3NycXo2LUxtM3ExXzZTSkJ4MUNPckw0MHJwaXVNTnJ5VHFUVHM2dGV2akZYX3hpMGlFREdTc1FjN1dIendXNA?oc=5",
+          "timestamp": "2026-09-23T15:00:00+08:00",
+          "category": "neutral",
+          "score": 0,
+          "num_comments": 0,
+          "replies": [],
+          "meta": {
+            "product": "remote",
+            "news_source": "TechBullion",
+            "topic": "other",
+            "lang": "en"
+          }
+        }
+      ]
+    }
+  },
+  "summary": {
+    "reddit_items": 0,
+    "handy_items": 0,
+    "reddit_vibemate_fam_items": 0,
+    "reddit_vibemate_camgirl_items": 0,
+    "cam101_replied": 0,
+    "remote_googleplay_items": 6,
+    "remote_appstore_items": 0,
+    "remote_reddit_items": 0,
+    "remote_x_items": 0,
+    "remote_trustpilot_items": 0,
+    "remote_games_items": 0,
+    "remote_news_items": 1
+  }
+}
