@@ -293,7 +293,56 @@
       "fetched_at": "2026-10-22",
       "status": "ok",
       "error": null,
-      "items": []
+      "items": [
+        {
+          "id": "remote_googleplay-65914248-c158-4010-898d-2e9d91f8fa30",
+          "source": "remote_googleplay",
+          "title": "★1 Not a big fan of being logged out every time the app has an ",
+          "content": "Not a big fan of being logged out every time the app has an update. Not a fan of the worthless copy paste \"email us for further assistance!\" reply either, there's nothing to email about.",
+          "summary": "每次更新后自动登出，客服仅会复制粘贴模板回复，毫无帮助",
+          "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=65914248-c158-4010-898d-2e9d91f8fa30",
+          "timestamp": "2026-10-22T12:24:53+08:00",
+          "category": "negative",
+          "score": 2,
+          "num_comments": 0,
+          "replies": [
+            {
+              "content": "We’re sorry that the app update has given you a poor experience. Being logged out after the app update can stem from various causes. Please contact us at https://www.lovense.com/contact and describe your issue in detail in your email. Our technical staff will resolve the problem based on your specific situation. We will do our utmost to assist you."
+            }
+          ],
+          "meta": {
+            "product": "remote",
+            "rating": 1,
+            "app_version": "8.3.0",
+            "lang": "en",
+            "country": "us",
+            "dev_replied": true,
+            "topic": "compat"
+          }
+        },
+        {
+          "id": "remote_googleplay-97df84c4-886e-43ba-8e24-7526985f7ef3",
+          "source": "remote_googleplay",
+          "title": "★4 Possibly the worst feature you can have on a sex related app",
+          "content": "Possibly the worst feature you can have on a sex related app: a notification sound that overrides your phone's silence settings. Lovely.",
+          "summary": "性相关应用的通知声音会覆盖手机静音设置，极为不妥",
+          "url": "https://play.google.com/store/apps/details?id=com.lovense.wear&reviewId=97df84c4-886e-43ba-8e24-7526985f7ef3",
+          "timestamp": "2026-10-22T10:21:12+08:00",
+          "category": "positive",
+          "score": 0,
+          "num_comments": 0,
+          "replies": [],
+          "meta": {
+            "product": "remote",
+            "rating": 4,
+            "app_version": "8.11.0",
+            "lang": "en",
+            "country": "us",
+            "dev_replied": false,
+            "topic": "other"
+          }
+        }
+      ]
     },
     "remote_appstore": {
       "label": "Remote · App Store",

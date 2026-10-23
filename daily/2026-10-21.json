@@ -383,7 +383,7 @@
       "error": null,
       "items": [
         {
-          "id": "remote_news-EbFBONUdBOFVMb0RzNTFZZGJ3NGZ2d0o5QW1qbks1TFVHV25pOFU2MFVaX3dBQ0pVNEJ3Ujdic0NJMmc",
+          "id": "remote_news-6e46aeebd6aa3ca3",
           "source": "remote_news",
           "title": "Lovense Publishes the Distance Index 2026, a Startling Annual Report on Long-Distance Intimacy - Yahoo Finance",
           "content": "Lovense Publishes the Distance Index 2026, a Startling Annual Report on Long-Distance Intimacy  Yahoo Finance\n\n[来源 Source] Yahoo Finance",
@@ -399,11 +399,15 @@
             "news_source": "Yahoo Finance",
             "topic": "other",
             "lang": "en",
-            "backfilled": true
+            "backfilled": true,
+            "outlets": [
+              "remote_news"
+            ],
+            "outlet": "remote_news"
           }
         },
         {
-          "id": "remote_news-0enJQUUNpVFZ5ZTBQU3VZRnFVLTR2MlNTWHJDTHRJVExzeDl5dUdGZjNPWW5WckVpLTQtMjA3N3FQMjc",
+          "id": "remote_news-c58b903ec3fd068f",
           "source": "remote_news",
           "title": "Lovense Launches Glint, a Touch-Responsive Butt Plug That Syncs Anal Stimulation with a Partner's Thrust During Intercourse - PR Newswire",
           "content": "Lovense Launches Glint, a Touch-Responsive Butt Plug That Syncs Anal Stimulation with a Partner's Thrust During Intercourse  PR Newswire\n\n[来源 Source] PR Newswire",
@@ -419,11 +423,15 @@
             "news_source": "PR Newswire",
             "topic": "remote_control",
             "lang": "en",
-            "backfilled": true
+            "backfilled": true,
+            "outlets": [
+              "remote_news"
+            ],
+            "outlet": "remote_news"
           }
         },
         {
-          "id": "remote_news-MwLVJqSU9jWF9nbEpsLWlmOEpwS3p1UWI4ZkEwRFR0ekQxUzFNQ01SMDNoMU5ZTlc1MXBfLUlzSzl1dw",
+          "id": "remote_news-6a5e1c2d84c13513",
           "source": "remote_news",
           "title": "Lovense Launches Glint, a Touch-Responsive Butt Plug That Syncs Anal Stimulation with a Partner's Thrust During Intercourse - Cherokee Tribune",
           "content": "Lovense Launches Glint, a Touch-Responsive Butt Plug That Syncs Anal Stimulation with a Partner's Thrust During Intercourse  Cherokee Tribune\n\n[来源 Source] Cherokee Tribune",
@@ -439,11 +447,15 @@
             "news_source": "Cherokee Tribune",
             "topic": "remote_control",
             "lang": "en",
-            "backfilled": true
+            "backfilled": true,
+            "outlets": [
+              "remote_news"
+            ],
+            "outlet": "remote_news"
           }
         },
         {
-          "id": "remote_news-uRTRtNDZycXREOGd0TGVKQ1FMX0hMVHVzelZIZFcwb3FBeVFNNFZHbHFjOWhQVl9UWmJELVVPelJSMHc",
+          "id": "remote_news-825f6d8c93572c8f",
           "source": "remote_news",
           "title": "Lovense Launches Glint, a Touch-Responsive Butt Plug That Syncs Anal Stimulation with a Partner's Thrust During Intercourse - herald-dispatch.com",
           "content": "Lovense Launches Glint, a Touch-Responsive Butt Plug That Syncs Anal Stimulation with a Partner's Thrust During Intercourse  herald-dispatch.com\n\n[来源 Source] herald-dispatch.com",
@@ -458,11 +470,15 @@
             "product": "remote",
             "news_source": "herald-dispatch.com",
             "topic": "remote_control",
-            "lang": "en"
+            "lang": "en",
+            "outlets": [
+              "remote_news"
+            ],
+            "outlet": "remote_news"
           }
         },
         {
-          "id": "remote_news-ZKYzdsZ1dYQVM1UlJ6dER5c3RpN2dWWW1XOHc3eHpCdnVyak45VVJhdk92S0dYUHZta0FjWUZPaXg2MA",
+          "id": "remote_news-198ae7f3c0d7b819",
           "source": "remote_news",
           "title": "Lovense Publishes the Distance Index 2026, a Startling Annual Report on Long-Distance Intimacy - PR Newswire",
           "content": "Lovense Publishes the Distance Index 2026, a Startling Annual Report on Long-Distance Intimacy  PR Newswire\n\n[来源 Source] PR Newswire",
@@ -477,11 +493,15 @@
             "product": "remote",
             "news_source": "PR Newswire",
             "topic": "other",
-            "lang": "en"
+            "lang": "en",
+            "outlets": [
+              "remote_news"
+            ],
+            "outlet": "remote_news"
           }
         },
         {
-          "id": "remote_news-SEpCUzAySFFkMEtNV1d2Y0JaOUU3SVZnRGhEN0cyZkRKV0p4RkJDT0wyZ1UtUTVLUHlTaDhGWXo1U25q",
+          "id": "remote_news-a607aa78fb88424e",
           "source": "remote_news",
           "title": "Lovense Launches Glint, a Touch-Responsive Butt Plug That Syncs Anal Stimulation with a Partner's Thrust During Intercourse - The Conway Daily Sun",
           "content": "Lovense Launches Glint, a Touch-Responsive Butt Plug That Syncs Anal Stimulation with a Partner's Thrust During Intercourse  The Conway Daily Sun\n\n[来源 Source] The Conway Daily Sun",
@@ -496,7 +516,11 @@
             "product": "remote",
             "news_source": "The Conway Daily Sun",
             "topic": "remote_control",
-            "lang": "en"
+            "lang": "en",
+            "outlets": [
+              "remote_news"
+            ],
+            "outlet": "remote_news"
           }
         }
       ]
