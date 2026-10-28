@@ -347,7 +347,7 @@
     "remote_games": {
       "label": "Remote · 游戏社区",
       "source": "remote_games",
-      "fetched_at": "2026-10-21T05:00:00+08:00",
+      "fetched_at": "2026-09-23",
       "status": "failed",
       "error": "backfilled placeholder: Steam rate limit",
       "items": []
